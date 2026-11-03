@@ -1,0 +1,3477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tragedia de Numancia</title>
+            <title key="archivo">C6017_ElCercoDeNumancia</title>
+            <author>Cervantes Saavedra, Miguel de</author>
+            <sponsor>
+               <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+            </sponsor>
+            <funder>
+               <orgName>Dirección General de Investigación y Gestión del Plan Nacional de I+D+I (DGI) http://www.idi.mineco.gob.es</orgName>
+            </funder>
+            <respStmt>
+               <resp>Edición electrónica creada por</resp>
+               <orgName>Fundación Biblioteca Virtual Miguel de Cervantes http://www.cervantesvirtual.com</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Adaptación web por</resp>
+               <orgName>Proyecto TC/12, Patrimonio teatral clásico español. Textos e instrumentos de investigación http://www.tc12.es</orgName>
+            </respStmt>
+            <principal>Joan Oleza Simó</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>Edición electrónica de 'Tragedia de Numancia'</edition>
+            <respStmt>
+               <resp>Edición digital a cargo de</resp>
+               <orgName>Biblioteca Virtual Miguel de Cervantes Saavedra</orgName>
+            </respStmt>
+         </editionStmt>
+         <extent ana="verso"/>
+         <publicationStmt>
+            <publisher>
+               <orgName>Proyecto TC/12, Patrimonio teatral clásico español. Textos e instrumentos de investigación http://www.tc12.es</orgName>
+            </publisher>
+            <authority>
+               <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+            </authority>
+            <idno/>
+            <availability>
+               <p>[Preguntar a Luisma]</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <note>Abraham Madroñal Durán</note>
+               <distributor>ENTREMESES</distributor>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Canon 60 supone la presentación en los portales TC/12 y Biblioteca Virtual Miguel de Cervantes de 50 textos canónicos del teatro español del siglo de Oro. La edición electrónica corre a cargo de la Biblioteca Virtual Miguel de Cervantes y la selección de ediciones de indudable prestigio filológico corre a cargo del proyecto TC/12.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+            <language ident="en">Inglés</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart>
+                  <title>
+				
+                  Tragedia de Numancia</title>
+               </titlePart>
+            </docTitle>
+            <docAuthor>Miguel de Cervantes Saavedra</docAuthor>
+         </titlePage>
+         <div type="elenco">
+            <head>ELENCO</head>
+            <castList>
+               <castItem ana="oculto">
+                  <role xml:id="cipion">CIPIÓN</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="jugurta">JUGURTA</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="soldado">SOLDADO</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="embajador1">EMBAJADOR 1º</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="embajador2">EMBAJADOR 2º</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="quintofabio">QUINTO FABIO</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="espana">ESPAÑA</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="duero">DUERO</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="teogenes">TEÓGENES</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="coravino">CORAVINO</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="numantino1">NUMANTINO 1º</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="numantino2">NUMANTINO 2º</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="numantino3">NUMANTINO 3º</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="numantino4">NUMANTINO 4º</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="marquino">MARQUINO</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="leoncio">LEONCIO</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="marandro">MARANDRO</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="sacerdote1">SACERDOTE 1º</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="sacerdote2">SACERDOTE 2º</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="milvio">MILVIO</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="cuerpo">CUERPO</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="mujer1">MUJER 1ª</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="mujer2">MUJER 2ª</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="mujer3">MUJER 3ª</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="lira">LIRA</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="madre">MADRE</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="hijo">HIJO</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="guerra">GUERRA</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="enfermedad">ENFERMEDAD</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="hambre">HAMBRE</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="variato">VARIATO</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="servio">SERVIO</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="hermilio">HERMILIO</role>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="fama">FAMA</role>
+               </castItem>
+            </castList>
+         </div>
+      </front>
+      <body>
+         <div type="act">
+            <head>Jornada I</head>
+
+            <stage>Interlocutores: CIPIÓN, JUGURTA, GAYO MARIO, dos embajadores de Numancia, soldados romanos, QUINTO FABIO, MÁXIMO, hermano de Cipión.</stage>
+            <stage>Salen primero CIPIÓN y JUGURTA.</stage>
+            <sp who="#CIPION">
+
+               <speaker>CIPIÓN</speaker>
+               <l n="1">Esta difícil y pesada carga</l>
+               <l n="2">que el Senado romano me ha encargado</l>
+               <l n="3">tanto me aprieta, me fatiga y carga,</l>
+               <l n="4">que ya sale de quicio mi cuidado.</l>
+               <l n="5">Guerra de curso tan estraño y larga</l>
+               <l n="6">y que tantos romanos ha costado,</l>
+               <l n="7">¿quién no estará suspenso al acabarla,</l>
+               <l n="8">o quién no temerá de renovarla?</l>
+            </sp>
+            <sp who="#jugurta">
+               <speaker>JUGURTA</speaker>
+               <l n="9">¿Quién, Cipión? Quien tiene la ventura</l>
+               <l n="10">y el valor nunca visto que en ti encierras,</l>
+               <l n="11">pues con ella y con él está sigura</l>
+               <l n="12">la victoria y el triunfo destas guerras.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="13">El esfuerzo regido con cordura</l>
+               <l n="14">allana al suelo las más altas sierras,</l>
+               <l n="15">y la fuerza feroz de loca mano</l>
+               <l n="16">áspero vuelve lo que está más llano.</l>
+               <l n="17">Mas no hay que reprimir, a lo que veo,</l>
+               <l n="18">la furia del ejército presente,</l>
+               <l n="19">que, olvidado de gloria y de trofeo,</l>
+               <l n="20">yace embebido en la lascivia ardiente.</l>
+               <l n="21">Esto solo pretendo, esto deseo:</l>
+               <l n="22">volver a nuevo trato a nuestra gente;</l>
+               <l n="23">que, enmendado primero el que es amigo,</l>
+               <l n="24">sujetaré más presto al enemigo.</l>
+               <l part="I" n="25">¡Mario!</l>
+            </sp> 
+            <sp who="#mario">
+               <speaker>MARIO</speaker>
+               <l part="M">¿Señor?</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l part="F">Haz que a noticia venga</l>
+               <l n="26">de todo nuestro ejército en un punto</l>
+               <l n="27">que, sin que estorbo alguno le detenga,</l>
+               <l n="28">parezca en este sitio todo junto,</l>
+               <l n="29">porque una breve plática o arenga</l>
+               <l part="I" n="30">les quiero hacer.</l>
+            </sp> 
+            <sp who="#mario">
+               <speaker>MARIO</speaker>
+               <l part="F">Harelo en este punto.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="31">Camina, porque es bien que sepan todos</l>
+               <l n="32">mis nuevas trazas y sus viejos modos.</l>
+            </sp> 
+            <stage>(Sale MARIO y dice JUGURTA.)</stage>
+            <sp who="#jugurta">
+               <speaker>JUGURTA</speaker>
+               <l n="33">Sete decir, señor, que no hay soldado</l>
+               <l n="34">que no te tema juntamente y te ame,</l>
+               <l n="35">y porque ese valor tuyo extremado</l>
+               <l n="36">de Antártico a Calisto se derrame,</l>
+               <l n="37">cada cual con feroz ánimo osado,</l>
+               <l n="38">cuando la trompa a la ocasión le llame,</l>
+               <l n="39">piensa de hacer en tu servicio cosas</l>
+               <l n="40">que pasen las hazañas fabulosas.</l>
+            </sp>
+            <sp who="#cipion">
+               <speaker> CIPIÓN</speaker>
+               <l n="41">Primero es menester que se refrene</l>
+               <l n="42">el vicio que entre todos se derrama,</l>
+               <l n="43">que si este no se quita, en nada tiene</l>
+               <l n="44">con ellos que hacer la buena fama.</l>
+               <l n="45">Si este daño común no se previene</l>
+               <l n="46">y [s]e deja arraigar su ardiente llama,</l>
+               <l n="47">el vicio solo puede hacernos guerra</l>
+               <l n="48">más que los enemigos desta tierra.</l>
+           
+            <stage>(Dentro se echa este bando, habiendo primero tocado a recoger el atambor.)</stage>
+            
+               <l n="49">«Manda nuestro general</l>
+               <l n="50">que se recojan armados</l>
+               <l n="51">luego todos los soldados</l>
+               <l n="52">en la plaza principal,</l>
+               <l n="53">y que ninguno no quede</l>
+               <l n="54">de parecer a esta vista,</l>
+               <l n="55">so pena que de la lista</l>
+               <l n="56">al punto borrado quede».</l>
+            </sp> 
+            <sp who="#jugurta">
+               <speaker>JUGURTA</speaker>
+               <l n="57">No dudo yo, señor, sino que importa</l>
+               <l n="58">regir con duro freno la milicia,</l>
+               <l n="59">y que se dé al soldado rienda corta</l>
+               <l n="60">cuando él se precipita en la injusticia;</l>
+               <l n="61">la fuerza del ejército se acorta</l>
+               <l n="62">cuando va sin arrimo de justicia,</l>
+               <l n="63">aunque más le acompañen a montones</l>
+               <l n="64">mil pintadas banderas y escuadrones.</l>
+
+            </sp> 
+            <stage>(A este punto han de entrar los más
+soldados que pudieren armados a la antigua,  y
+CIPIÓN se sube sobre una peñuela que
+está en el tablado y mirando a los soldados dice:)</stage>
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="65">En el fiero ademán, en los lozanos</l>
+               <l n="66">marciales aderezos y vistosos,</l>
+               <l n="67">bien os conozco, amigos, por romanos;</l>
+               <l n="68">romanos, digo, fuertes y animosos.</l>
+               <l n="69">Mas, en las blancas delicadas manos</l>
+               <l n="70">y en las teces de rostros tan lustrosos,</l>
+               <l n="71">allá en Bretaña parecéis criados</l>
+               <l n="72">y de padres flamencos engendrados.</l>
+               <l n="73">El general descuido vuestro, amigos,</l>
+               <l n="74">el no mirar por lo que tanto os toca,</l>
+               <l n="75">levanta los caídos enemigos</l>
+               <l n="76">y vuestro esfuerzo y opinión apoca.</l>
+               <l n="77">Desta ciudad los muros son testigos,</l>
+               <l n="78">que aún hoy están cual bien fundada roca,</l>
+               <l n="79">de vuestras perezosas fuerzas vanas,</l>
+               <l n="80">que solo el nombre tienen de romanas.</l>
+               <l n="81">¿Paréceos, hijos, que es gentil hazaña</l>
+               <l n="82">que tiemble del romano nombre el mundo,</l>
+               <l n="83">y que vosotros solos en España</l>
+               <l n="84">le aniquiléis y echéis en el profundo?</l>
+               <l n="85">¿Qué flojedad es esta tan estraña?</l>
+               <l n="86">¿Qué flojedad? Si mal yo no me fundo,</l>
+               <l n="87">es flojedad nacida de pereza,</l>
+               <l n="88">enemiga mortal de fortaleza.</l>
+               <l n="89">La blanda Venus con el duro Marte</l>
+               <l n="90">jamás hacen durable ayuntamiento:</l>
+               <l n="91">ella regalos sigue, él sigue el arte</l>
+               <l n="92">que incita a daños y a furor sangriento.</l>
+               <l n="93">La cipria diosa estese agora aparte,</l>
+               <l n="94">deje su hijo nuestro alojamiento;</l>
+               <l n="95">que ma[l] se aloja en las marciales tiendas</l>
+               <l n="96">quien gusta de banquetes y meriendas.</l>
+               <l n="97">¿Pensáis que solo atierra la muralla</l>
+               <l n="98">el ariete de ferrada punta</l>
+               <l n="99">y que solo atropella la batalla</l>
+               <l n="100">la multitud de gente y armas junta?</l>
+               <l n="101">Si el esfuerzo y cordura no se halla,</l>
+               <l n="102">que todo lo previene y lo barrunta,</l>
+               <l n="103">poco aprovechan muchos escuadrones,</l>
+               <l n="104">y menos infinitas municiones.</l>
+               <l n="105">Si a militar concierto se reduce</l>
+               <l n="106">cualquier pequeño ejército que sea,</l>
+               <l n="107">veréis que como sol claro reluce</l>
+               <l n="108">y alcanza las victorias que desea;</l>
+               <l n="109">pero si a flojedad él se conduce,</l>
+               <l n="110">aunque abreviado el mundo en él se vea,</l>
+               <l n="111">en un momento quedará deshecho</l>
+               <l n="112">por más reglada mano y fuerte pecho.</l>
+               <l n="113">Avergüénceos, varones esforzados,</l>
+               <l n="114">ver que a nuestro pesar, con arrogancia,</l>
+               <l n="115">tan pocos españoles y encerrados</l>
+               <l n="116">defiendan este nido de Numancia.</l>
+               <l n="117">Dieciséis años son y más pasados,</l>
+               <l n="118">que mantienen la guerra y la jactancia</l>
+               <l n="119">de haber vencido con feroces manos</l>
+               <l n="120">millares de millares de romanos.</l>
+               <l n="121">Vosotros os vencéis, que estáis vencidos</l>
+               <l n="122">del bajo antojo femenil liviano,</l>
+               <l n="123">con Venus y con Baco entretenidos,</l>
+               <l n="124">sin que a las armas estendáis la mano.</l>
+               <l n="125">Correos agora, si no estáis corridos,</l>
+               <l n="126">de ver que este pequeño pueblo hispano</l>
+               <l n="127">contra el poder romano se defienda</l>
+               <l n="128">y cuando más rendido, más ofenda.</l>
+               <l n="129">De nuestro campo quiero en todo caso</l>
+               <l n="130">que salgan las infames meretrices,</l>
+               <l n="131">que de ser reducidos a este paso</l>
+               <l n="132">ellas solas han sido las raíces.</l>
+               <l n="133">Para beber no quede más de un vaso</l>
+               <l n="134">y los lechos, un tiempo ya felices</l>
+               <l n="135">llenos de concubinas, se deshagan</l>
+               <l n="136">y de fajina y en el suelo se hagan.</l>
+               <l n="137">No me huela el soldado a otros olores</l>
+               <l n="138">que al olor de la pez y de resina,</l>
+               <l n="139">ni por gulosidad de los sabores</l>
+               <l n="140">traiga aparato alguno de cocina,</l>
+               <l n="141">que el que busca en la guerra estos primores</l>
+               <l n="142">muy mal podrá sufrir la coracina;</l>
+               <l n="143">no quiero otro primor ni otra fragrancia,</l>
+               <l n="144">en tanto que español viva en Numancia.</l>
+               <l n="145">No os parezca, varones, escabroso</l>
+               <l n="146">ni duro este mi justo mandamiento,</l>
+               <l n="147">que al fin conoceréis ser provechoso,</l>
+               <l n="148">cuando aquel consigáis de vuestro intento.</l>
+               <l n="149">Bien sé se os ha de hacer dificultoso</l>
+               <l n="150">dar a vuestras costumbres nuevo asiento;</l>
+               <l n="151">mas, si no las mudáis, estará firme</l>
+               <l n="152">la guerra, que esta afrenta más confirme.</l>
+               <l n="153">En blandas camas, entre juego y vino,</l>
+               <l n="154">hállase mal el trabajoso Marte;</l>
+               <l n="155">otro aparejo busca, otro camino,</l>
+               <l n="156">otros brazos levantan su estandarte.</l>
+               <l n="157">Cada cual se fabrica su destino,</l>
+               <l n="158">no tiene aquí Fortuna alguna parte:</l>
+               <l n="159">la pereza fortuna baja cría;</l>
+               <l n="160">la diligencia, imperio y monarquía.</l>
+               <l n="161">Estoy con todo esto tan siguro</l>
+               <l n="162">de que al fin mostraréis que sois romanos,</l>
+               <l n="163">que tengo en nada el defendido muro</l>
+               <l n="164">destos rebeldes bárbaros hispanos;</l>
+               <l n="165">y ansí os prometo por mi diestra y juro</l>
+               <l n="166">que si igualáis al ánimo las manos,</l>
+               <l n="167">que las mías se alarguen en pagaros</l>
+               <l n="168">y mi lengua también en alabaros.</l>
+
+
+            </sp> 
+            <stage>(Míranse los soldados unos a otros, y
+hacen señas a uno dellos,
+GAYO MARIO, que responda por todos, y ansí
+dice:)</stage>
+            <sp who="#mario">
+               <speaker>MARIO</speaker>
+               <l n="169">Si con atentos ojos has mirado,</l>
+               <l n="170">ínclito general, en los semblantes</l>
+               <l n="171">que a tus breves razones han mostrado</l>
+               <l n="172">los que tienes agora circunstantes,</l>
+               <l n="173">cual habrás visto sin color, turbado,</l>
+               <l n="174">y cual con ella, indicios bien bastantes</l>
+               <l n="175">de que el temor y la vergüenza a una</l>
+               <l n="176">los aflige, molesta e importuna.</l>
+               <l n="177">Vergüenza de mirarse reducidos</l>
+               <l n="178">a términos tan bajos por su culpa</l>
+               <l n="179">que, viendo ser por ti reprehendidos,</l>
+               <l n="180">no saben a su falta hallar disculpa;</l>
+               <l n="181">temor de tantos yerros cometidos</l>
+               <l n="182">y la torpe pereza que los culpa</l>
+               <l n="183">los tiene de tal modo, que se holgaran</l>
+               <l n="184">antes morir que en esto se hallaran.</l>
+               <l n="185">Pero el lugar y tiempo que les queda</l>
+               <l n="186">para mostrar alguna recompensa</l>
+               <l n="187">es causa que con menos fuerza pueda</l>
+               <l n="188">fatigar el rigor de tal ofensa;</l>
+               <l n="189">de hoy más, con presta voluntad y leda,</l>
+               <l n="190">el más mínimo destos cuida y piensa</l>
+               <l n="191">de ofrecer sin revés a tu servicio</l>
+               <l n="192">la hacienda, vida y honra en sacrificio.</l>
+               <l n="193">Admite, pues, de sus intentos sanos</l>
+               <l n="194">el justo ofrecimiento, señor mío,</l>
+               <l n="195">y considera, al fin, que son romanos,</l>
+               <l n="196">en quien nunca faltó del todo el brío.</l>
+               <l n="197">Vosotros, levantad las diestras manos</l>
+               <l n="198">en señas que aprobáis el voto mío.</l>
+            </sp>
+            <sp who="#soldados">
+               <speaker>SOLDADOS</speaker>
+               <l n="199">Todos lo que aquí has dicho confirmamos</l>
+               <l part="I" n="200">y lo juramos todos.</l>
+            </sp>
+            <sp who="#">
+               <speaker>TODOS</speaker>
+               <l part="F"> Sí juramos.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="201">Pues, arrimada a tal ofrecimiento,</l>
+               <l n="202">crecerá desde hoy más mi confianza,</l>
+               <l n="203">creciendo en vuestros pechos ardimiento</l>
+               <l n="204">y del viejo vivir nueva mudanza.</l>
+               <l n="205">Vuestras promesas no se lleve el viento;</l>
+               <l n="206">hacedlas verdaderas con la lanza,</l>
+               <l n="207">que las mías saldrán tan verdaderas</l>
+               <l n="208">cuanto fuere el valor de vuestras veras.</l>
+            </sp>
+            <sp who="#soldado">
+               <speaker>SOLDADO</speaker>
+               <l n="209">Dos numantinos con siguro vienen</l>
+               <l n="210">a darte, Cipión, una embajada.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="211">¿Por qué no llegan ya? ¿En qué se detienen?</l>
+            </sp>
+            <sp who="#soldado">
+               <speaker>SOLDADO</speaker>
+               <l n="212">Esperan que licencia les sea dada.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="213">Si son embajadores, ya la tienen.</l>
+            </sp>
+            <sp who="#soldado">
+               <speaker>SOLDADO</speaker>
+               <l part="I" n="214">Embajadores son.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l part="F">Dales entrada;</l>
+               <l n="215">que, aunque descubra cierto o falso pecho</l>
+               <l n="216">el enemigo, siempre es de provecho.</l>
+               <l n="217">Jamás la falsedad vino cubierta</l>
+               <l n="218">tanto con la verdad, que no mostrase</l>
+               <l n="219">algún pequeño indicio, alguna puerta</l>
+               <l n="220">por donde su maldad se invistigase;</l>
+               <l n="221">oír al enemigo es cosa cierta</l>
+               <l n="222">que siempre aprovechó, antes que dañase,</l>
+               <l n="223">y en las cosas de guerra la expiriencia</l>
+               <l n="224">muestra que lo que digo es cierta ciencia.</l>
+            </sp>
+            <stage>(Entran dos embajadores numantinos: 1.º, 2.º)</stage>
+            <sp who="#embajador1">
+               <speaker>1.º</speaker>
+               <l n="225">Si nos das, buen señor, grata licencia</l>
+               <l n="226">de decir la embajada que traemos</l>
+               <l n="227">do estamos, o ante sola tu presencia,</l>
+               <l n="228">todo a lo que venimos te diremos.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="229">Decid, que adondequiera doy audiencia.</l>
+            </sp>
+            <sp who="#embajador1">
+               <speaker>1.º</speaker>
+               <l n="230">Pues con ese seguro que tenemos</l>
+               <l n="231">de tu real grandeza concedido,</l>
+               <l n="232">daré principio a lo que soy venido.</l>
+               <l n="233">Numancia, de quien yo soy ciudadano,</l>
+               <l n="234">ínclito general, a ti me invía,</l>
+               <l n="235">como al más fuerte Cipión romano</l>
+               <l n="236">que ha cubierto la noche o visto el día,</l>
+               <l n="237">a pedirte, señor, la amiga mano</l>
+               <l n="238">en señal de que cesa la porfía</l>
+               <l n="239">tan trabada y cruel de tantos años</l>
+               <l n="240">que ha causado sus proprios y tus daños.</l>
+               <l n="241">Dice que nunca de la ley y fueros</l>
+               <l n="242">del romano senado se apartara,</l>
+               <l n="243">si el insufrible mando y desafueros</l>
+               <l n="244">de un cónsul y otro no la fatigara;</l>
+               <l n="245">ellos, con duros estatutos fieros</l>
+               <l n="246">y con su estrecha condición avara,</l>
+               <l n="247">pusieron tan gran yugo a nuestros cuellos,</l>
+               <l n="248">que forzados salimos dél y de ellos;</l>
+               <l n="249">y en todo el largo tiempo que ha durado</l>
+               <l n="250">entre ambas partes la contienda, es cierto</l>
+               <l n="251">que ningún general hemos hallado</l>
+               <l n="252">con quien poder tratar de algún concierto.</l>
+               <l n="253">Empero agora, que ha querido el hado</l>
+               <l n="254">reducir nuestra nave a tan buen puerto,</l>
+               <l n="255">las velas de la guerra recogemos</l>
+               <l n="256">y a cualquiera partido nos ponemos.</l>
+               <l n="257">Y no imagines que temor nos lleva</l>
+               <l n="258">a pedirte las paces con instancia,</l>
+               <l n="259">pues la larga expiriencia ha dado prueba</l>
+               <l n="260">del poder valeroso de Numancia;</l>
+               <l n="261">tu virtud y valor es quien nos ceba</l>
+               <l n="262">y nos declara que será ganancia</l>
+               <l n="263">mayor de cuantas desear podremos,</l>
+               <l n="264">si por señor y amigo te tenemos.</l>
+               <l n="265">A esto ha sido la venida nuestra;</l>
+               <l n="266">respóndenos, señor, lo que te place.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="267">Tarde de arrepentidos dais la muestra,</l>
+               <l n="268">poco vuestra amistad me satisface.</l>
+               <l n="269">De nuevo ejercitad la fuerte diestra,</l>
+               <l n="270">que quiero ver lo que la mía hace,</l>
+               <l n="271">que ya que ha puesto en ella la ventura</l>
+               <l n="272">la gloria mía y vuestra desventura.</l>
+               <l n="273">A desvergüenza de tan largos años</l>
+               <l n="274">es poca recompensa pedir paces;</l>
+               <l n="275">seguid la guerra, renovad los daños,</l>
+               <l n="276">salgan de nuevo las valientes haces.</l>
+            </sp>
+            <sp who="#embajador2">
+               <speaker>EMBAJADOR 2.º</speaker>
+               <l n="277">La falsa confianza mil engaños</l>
+               <l n="278">consigo trae; advierte lo que haces,</l>
+               <l n="279">señor, que esa arrogancia que nos muestras</l>
+               <l n="280">renovará el valor en nuestras diestras.</l>
+               <l n="281">Y, pues niegas la paz, que con buen celo</l>
+               <l n="282">te ha sido por nosotros demandada,</l>
+               <l n="283">de hoy más la causa nuestra con el cielo</l>
+               <l n="284">quedará por mejor calificada</l>
+               <l n="285">y antes que pises de Numancia el suelo</l>
+               <l n="286">probarás dó se extiende la indignada</l>
+               <l n="287">furia de aquel que, siéndote enemigo,</l>
+               <l n="288">quiere serte vasallo y fiel amigo.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l part="I" n="289">¿Tenéis más que decir?</l>
+            </sp>
+            <sp who="#embajador1">
+               <speaker>1.º</speaker>
+               <l part="F">No más tenemos</l>
+               <l n="290">que hacer, pues tú, señor, ansí lo quieres;</l>
+               <l n="291">sin querer la amistad que te ofrecemos,</l>
+               <l n="292">correspondiendo mal a ser quien eres.</l>
+               <l n="293">Pero entonces verás lo que podremos,</l>
+               <l n="294">cuando nos muestres tú lo que pudieres;</l>
+               <l n="295">que es una cosa razonar de paces</l>
+               <l n="296">y otra romper por las armadas haces.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="297">Verdad dices, y ansí, para mostraros</l>
+               <l n="298">si sé tratar en paz y obrar en guerra,</l>
+               <l n="299">no quiero por amigos aceptaros</l>
+               <l n="300">ni lo seré jamás de vuestra tierra.</l>
+               <l n="301">Y con esto podéis luego tornaros.</l>
+            </sp>
+            <sp who="#embajador2">
+               <speaker>2.º</speaker>
+               <l n="302">¿Que en esto tu querer, señor, se encierra?</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l part="I" n="303">Ya he dicho que sí.</l>
+            </sp>
+            <sp who="#embajador2">
+               <speaker>2.º</speaker>
+               <l part="F">Pues, ¡sus, al hecho,</l>
+               <l n="304">que guerras ama el numantino pecho!</l>
+            </sp>
+            <stage>(Sálense los embajadores y QUINTO FABIO, hermano de Cipión, dice.)</stage>
+            <sp who="#quintofabio">
+               <speaker>[QUINTO FABIO]</speaker>
+               <l n="305">El descuido pasado nuestro ha sido</l>
+               <l n="306">el que os hace hablar de aquesa suerte;</l>
+               <l n="307">mas ya ha llegado el tiempo, ya es venido,</l>
+               <l n="308">do veréis nuestra gloria y vuestra muerte.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="309">El vano blasonar no es admitido</l>
+               <l n="310">de pecho valeroso, honrado y fuerte;</l>
+               <l n="311">tiempla las amenazas, Fabio, y calla,</l>
+               <l n="312">y tu valor descubre en la batalla.</l>
+               <l n="313">Aunque yo pienso hacer que el numantino</l>
+               <l n="314">nunca a las manos con nosotros venga,</l>
+               <l n="315">buscando de vencerle tal camino</l>
+               <l n="316">que más a mi provecho le convenga;</l>
+               <l n="317">yo haré que abaje el brío y pierda el tino</l>
+               <l n="318">y que en sí mesmo su furor detenga.</l>
+               <l n="319">Pienso de un hondo foso rodeallos</l>
+               <l n="320">y por hambre insufrible subjetallos.</l>
+               <l n="321">No quiero ya que sangre de romanos</l>
+               <l n="322">coloree más el suelo desta tierra,</l>
+               <l n="323">basta la que han vertido estos hispanos</l>
+               <l n="324">en tan larga, reñida y cruda guerra.</l>
+               <l n="325">Ejercítense agora vuestras manos</l>
+               <l n="326">en romper y cavar la dura tierra</l>
+               <l n="327">y cúbranse de polvo los amigos</l>
+               <l n="328">que no lo están de sangre de enemigos.</l>
+               <l n="329">No quede de este oficio reservado</l>
+               <l n="330">ninguno que le tenga preminente:</l>
+               <l n="331">trabaje el decurión como el soldado</l>
+               <l n="332">y no se muestre en esto diferente.</l>
+               <l n="333">Yo mismo tomaré el hierro pesado</l>
+               <l n="334">y romperé la tierra fácilmente.</l>
+               <l n="335">Haced todos cual yo y veréis que hago</l>
+               <l n="336">tal obra con que a todos satisfago.</l>
+            </sp>
+            <sp who="#quintofabio">
+               <speaker>QUINTO FABIO</speaker>
+               <l n="337">Valeroso señor y hermano mío,</l>
+               <l n="338">bien nos muestras en esto tu cordura,</l>
+               <l n="339">pues fuera conocido desvarío</l>
+               <l n="340">y temeraria muestra de locura</l>
+               <l n="341">pelear contra el loco airado brío</l>
+               <l n="342">destos desesperados sin ventura;</l>
+               <l n="343">mejor será encerrallos, como dices,</l>
+               <l n="344">y quitarles al brío las raíces.</l>
+               <l n="345">Bien puede la ciudad toda cercarse,</l>
+               <l n="346">si no es la parte por do el río la baña.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="347">Vamos, y venga luego a efetuarse</l>
+               <l n="348">esta mi nueva poco usada hazaña,</l>
+               <l n="349">y si en nuestro favor quiere mostrarse</l>
+               <l n="350">el cielo, quedará subjeta España</l>
+               <l n="351">al senado romano, solamente</l>
+               <l n="352">con vencer la soberbia de esta gente.</l>
+            </sp>
+            <stage>Sale una doncella coronada con unas torres y trae un castillo en la mano, la cual significa ESPAÑA, y dice.</stage>
+            <sp who="#espana">
+
+               <speaker>ESPAÑA</speaker>
+               <l n="353">Alto, sereno y espacioso cielo,</l>
+               <l n="354">que con tus influencias enriqueces</l>
+               <l n="355">la parte que es mayor deste mi suelo</l>
+               <l n="356">y sobre muchos otros le engrandeces,</l>
+               <l n="357">muévate a compasión mi amargo duelo</l>
+               <l n="358">y, pues al afligido favoreces,</l>
+               <l n="359">favoréceme a mí en ansia tamaña,</l>
+               <l n="360">que soy la sola desdichada España.</l>
+               <l n="361">Bástete ya que un tiempo me tuviste</l>
+               <l n="362">todos mis flacos miembros abrasados</l>
+               <l n="363">y al sol por mis entrañas descubriste</l>
+               <l n="364">el reino escuro de los condenados.</l>
+               <l n="365">A mil tiranos, mil riquezas diste;</l>
+               <l n="366">a fenices y griegos entregados</l>
+               <l n="367">mis reinos fueron, porque tú has querido</l>
+               <l n="368">o porque mi maldad lo ha merecido.</l>
+               <l n="369">¿Será posible que contino sea</l>
+               <l n="370">esclava de naciones estranjeras,</l>
+               <l n="371">y que un pequeño tiempo yo no vea</l>
+               <l n="372">de libertad tendidas mis banderas?</l>
+               <l n="373">Con justísimo título se emplea</l>
+               <l n="374">en mí el rigor de tantas penas fieras,</l>
+               <l n="375">pues mis famosos hijos y valientes</l>
+               <l n="376">andan entre sí mesmos diferentes.</l>
+               <l n="377">Jamás en su provecho concertaron</l>
+               <l n="378">los divididos ánimos briosos;</l>
+               <l n="379">antes, entonces más los apartaron</l>
+               <l n="380">cuando se vieron más menesterosos,</l>
+               <l n="381">y ansí, con sus discordias convidaron</l>
+               <l n="382">los bárbaros de pechos codiciosos</l>
+               <l n="383">a venir y entregarse en mis riquezas,</l>
+               <l n="384">usando en mí y sin ellos mil cruezas.</l>
+               <l n="385">Sola Numancia es la que sola ha sido</l>
+               <l n="386">quien la luciente espada sacó fuera</l>
+               <l n="387">y a costa de su sangre ha mantenido</l>
+               <l n="388">la amada libertad suya primera.</l>
+               <l n="389">Mas, ay, que veo el término cumplido,</l>
+               <l n="390">y llegada la hora postrimera</l>
+               <l n="391">do acabará su vida y no su fama,</l>
+               <l n="392">cual fénix renovándose en la llama.</l>
+               <l n="393">Estos tan muchos tímidos romanos</l>
+               <l n="394">que buscan de vencer cien mil caminos</l>
+               <l n="395">rehúyen de venir más a las manos</l>
+               <l n="396">con los pocos valientes numantinos.</l>
+               <l n="397">¡Oh, si saliesen sus intentos vanos,</l>
+               <l n="398">y fuesen sus quimeras desatinos,</l>
+               <l n="399">y esta pequeña tierra de Numancia</l>
+               <l n="400">sacase de su pérdida ganancia!</l>
+               <l n="401">Mas, ay, que el enemigo la ha cercado,</l>
+               <l n="402">no solo con las armas contrapuestas</l>
+               <l n="403">al flaco muro suyo; mas ha obrado</l>
+               <l n="404">con diligencia estraña y manos prestas,</l>
+               <l n="405">que un foso, por la margen trincheado,</l>
+               <l n="406">rodea la ciudad por llano y cuestas;</l>
+               <l n="407">sola la parte por do el río se extiende</l>
+               <l n="408">de este ardid nunca visto se defiende.</l>
+               <l n="409">Ansí, están encogidos y encerrados</l>
+               <l n="410">los tristes numantinos en sus muros:</l>
+               <l n="411">ni ellos pueden salir, ni ser entrados,</l>
+               <l n="412">y están de los asaltos bien siguros;</l>
+               <l n="413">pero, en solo mirar que están privados</l>
+               <l n="414">de ejercitar sus fuertes brazos duros,</l>
+               <l n="415">con horrendos acentos y feroces</l>
+               <l n="416">la guerra piden, o la muerte, a voces.</l>
+               <l n="417">Y pues sola la parte por do corre</l>
+               <l n="418">y toca a la ciudad el ancho Duero</l>
+               <l n="419">es aquella que ayuda y que socorre</l>
+               <l n="420">en algo al numantino prisionero,</l>
+               <l n="421">antes que alguna máquina o gran torre</l>
+               <l n="422">en sus aguas se funde, rogar quiero</l>
+               <l n="423">al caudaloso [y] conocido río</l>
+               <l n="424">en lo que puede ayude al pueblo mío.</l>
+               <l n="425">Duero gentil, que con torcidas vueltas</l>
+               <l n="426">humedeces gran parte de mi seno,</l>
+               <l n="427">ansí en tus aguas siempre veas envueltas</l>
+               <l n="428">arenas de oro, cual el Tajo ameno,</l>
+               <l n="429">y ansí las ninfas fugitivas sueltas</l>
+               <l n="430">de que está el verde prado y bosque lleno</l>
+               <l n="431">vengan humildes a tus aguas claras</l>
+               <l n="432">y en prestarte favor no sean avaras,</l>
+               <l n="433">que prestes a mis ásperos lamentos</l>
+               <l n="434">atento oído o que a escucharlos vengas;</l>
+               <l n="435">y, aunque dejes un rato tus contentos,</l>
+               <l n="436">suplícote que en nada te detengas.</l>
+               <l n="437">Si tú con tus continos crecimientos,</l>
+               <l n="438">destos fieros romanos no me vengas,</l>
+               <l n="439">cerrado veo ya cualquier camino</l>
+               <l n="440">a la salud del pueblo numantino.</l>
+            </sp>
+            <stage>(Sale el río
+DUERO con otros muchachos vestidos de río como
+él, que son tres riachuelos que entran en
+DUERO.)</stage>
+            <sp who="#duero">
+               <speaker>DUERO</speaker>
+               <l n="441">Madre y querida España, rato había</l>
+               <l n="442">que hirieron mis oídos tus querellas</l>
+               <l n="443">y si en salir acá me detenía,</l>
+               <l n="444">fue por no poder dar remedio a ellas.</l>
+               <l n="445">El fatal, miserable y triste día,</l>
+               <l n="446">según el disponer de las estrellas,</l>
+               <l n="447">se llega de Numancia y cierto temo</l>
+               <l n="448">que no hay dar medio a su dolor extremo.</l>
+               <l n="449">Con Orbión, Minüesa y también Tera,</l>
+               <l n="450">cuyas aguas las mías acrecientan,</l>
+               <l n="451">ha llenado mi seno en tal manera</l>
+               <l n="452">que lo usado márgenes revientan;</l>
+               <l n="453">mas, sin temor de mi veloz carrera,</l>
+               <l n="454">cual si fuera un arroyo, veo que intentan</l>
+               <l n="455">de hacer lo que tú, España, nunca veas</l>
+               <l n="456">sobre mis aguas, torres y trincheas.</l>
+               <l n="457">Mas, ya que el revolver del duro hado</l>
+               <l n="458">tenga el último fin estatuido</l>
+               <l n="459">deste tu pueblo numantino amado,</l>
+               <l n="460">pues a términos tales ha venido;</l>
+               <l n="461">un consuelo le queda en este estado:</l>
+               <l n="462">que no podrán las sombras del olvido</l>
+               <l n="463">oscurecer el sol de sus hazañas,</l>
+               <l n="464">en toda edad tenidas por estrañas.</l>
+               <l n="465">Y, puesto que el feroz romano tiende</l>
+               <l n="466">el paso agora por tu fértil suelo</l>
+               <l n="467">y que te oprime aquí y allí te ofende,</l>
+               <l n="468">con arrogante y ambicioso celo,</l>
+               <l n="469">tiempo vendrá, según que ansí lo entiende</l>
+               <l n="470">el saber que a Proteo ha dado el cielo,</l>
+               <l n="471">que esos romanos sean oprimidos</l>
+               <l n="472">por los que agora tienen abatidos.</l>
+               <l n="473">De remotas naciones venir veo</l>
+               <l n="474">gentes que habitarán tu dulce seno,</l>
+               <l n="475">después que, como quiere tu deseo,</l>
+               <l n="476">habrán a los romanos puesto freno;</l>
+               <l n="477">godos serán, que con vistoso arreo,</l>
+               <l n="478">dejando de su fama al mundo lleno,</l>
+               <l n="479">vendrán a recogerse en tus entrañas,</l>
+               <l n="480">dando de nuevo vida a sus hazañas.</l>
+               <l n="481">Estas injurias vengará la mano</l>
+               <l n="482">del fiero Atila en tiempos venideros,</l>
+               <l n="483">poniendo al pueblo tan feroz romano</l>
+               <l n="484">subjeto a obedecer todos sus fueros</l>
+               <l n="485">y, portillos abriendo en Vaticano,</l>
+               <l n="486">tus bravos hijos y otros estranjeros,</l>
+               <l n="487">harán que para huir vuelva la planta</l>
+               <l n="488">el gran piloto de la nave santa.</l>
+               <l n="489">Y también vendrá tiempo en que se mire</l>
+               <l n="490">estar blandiendo el español cuchillo</l>
+               <l n="491">sobre el cuello romano, y que respire</l>
+               <l n="492">solo por la bondad de su caudillo.</l>
+               <l n="493">El grande Albano hará que se retire</l>
+               <l n="494">el español ejército, sencillo</l>
+               <l n="495">no de valor, sino de poca gente,</l>
+               <l n="496">que iguala al mayor número en valiente.</l>
+               <l n="497">Y cuando fuere ya más conocido</l>
+               <l n="498">el propio hacedor de tierra y cielo,</l>
+               <l n="499">aquel que ha de quedar estatuido</l>
+               <l n="500">por visorrey de Dios en todo el suelo,</l>
+               <l n="501">a tus reyes dará tal apellido</l>
+               <l n="502">cual viere que más cuadra con su celo;</l>
+               <l n="503">Católicos serán llamados todos,</l>
+               <l n="504">sucesión digna de los fuertes godos.</l>
+               <l n="505">Pero el que más levantará la mano</l>
+               <l n="506">en honra tuya y general contento,</l>
+               <l n="507">haciendo que el valor del nombre hispano</l>
+               <l n="508">tenga entre todos el mijor asiento,</l>
+               <l n="509">un rey será, de cuyo intento sano</l>
+               <l n="510">grandes cosas me muestra el pensamiento:</l>
+               <l n="511">será llamado, siendo suyo el mundo,</l>
+               <l n="512">el segundo Filipo, sin segundo.</l>
+               <l n="513">Debajo deste imperio tan dichoso,</l>
+               <l n="514">serán a una corona reducidos</l>
+               <l n="515">por bien universal y tu reposo</l>
+               <l n="516">tres reinos hasta entonces divididos;</l>
+               <l n="517">el jirón lusitano tan famoso,</l>
+               <l n="518">que un tiempo se cortó de los vestidos</l>
+               <l n="519">de la ilustre Castilla, ha de zurcirse</l>
+               <l n="520">de nuevo y a su estado antiguo uñirse.</l>
+               <l n="521">¡Qué invidia y qué temor, España amada,</l>
+               <l n="522">te tendrán las naciones estranjeras,</l>
+               <l n="523">en quién tú teñirás tu aguda espada</l>
+               <l n="524">y tenderás triunfando tus banderas!</l>
+               <l n="525">Sírvate esto de alivio en la pesada</l>
+               <l n="526">ocasión por quien lloras tan de veras,</l>
+               <l n="527">pues no puede faltar lo que ordenado</l>
+               <l n="528">ya tiene de Numancia el duro hado.</l>
+            </sp>
+            <sp who="#espana">
+               <speaker>ESPAÑA</speaker>
+               <l n="529">Tus razones alivio han dado en parte,</l>
+               <l n="530">famoso Duero, a las pasiones mías,</l>
+               <l n="531">solo porque imagino que no hay parte</l>
+               <l n="532">de engaño alguno en estas profecías.</l>
+            </sp>
+            <sp who="#duero">
+               <speaker>DUERO</speaker>
+               <l n="533">Bien puedes deso, España, asigurarte,</l>
+               <l n="534">puesto que tarden tan dichosos días.</l>
+               <l n="535">Y adiós, porque me esperan ya mis ninfas.</l>
+            </sp>
+            <sp who="#espana">
+               <speaker>ESPAÑA</speaker>
+               <l n="536">El cielo augmente tus sabrosas linfas.</l>
+            </sp>
+         </div>
+         <div type="act">
+            <head>Jornada II</head>
+            <stage>Interlocutores: TEÓGENES y CORAVINO, con otros cuatro numantinos, gobernadores de Numancia, y MARQUINO, hechicero, y un cuerpo muerto, que saldrá a su tiempo. Siéntanse a consejo, y los cuatro numantinos que no tienen nombres se señalan así: 1.º, 2.º, 3.º, 4.º</stage>
+            <sp who="#teogenes">
+               <speaker>TEÓGENES</speaker>
+               <l n="537">Paréceme, varones esforzados,</l>
+               <l n="538">que en nuestros daños con rigor influyen</l>
+               <l n="539">los tristes signos y contrarios hados,</l>
+               <l n="540">pues nuestra fuerza y maña desminuyen.</l>
+               <l n="541">Tiénennos los romanos encerrados</l>
+               <l n="542">y con cobardes mañas nos destruyen;</l>
+               <l n="543">ni con matar muriendo no hay vengarnos,</l>
+               <l n="544">ni podemos sin alas escaparnos.</l>
+               <l n="545">Y no solo a vencernos se despiertan</l>
+               <l n="546">los que habemos vencido veces tantas,</l>
+               <l n="547">que también españoles se conciertan</l>
+               <l n="548">con ellos a segar nuestras gargantas,</l>
+               <l n="549">tan gran maldad los cielos no consientan:</l>
+               <l n="550">con rayos hieran las ligeras plantas</l>
+               <l n="551">que se mueven en daño del amigo,</l>
+               <l n="552">favoreciendo al pérfido enemigo.</l>
+               <l n="553">Mirad si imagináis algún remedio</l>
+               <l n="554">para salir de tanta desventura,</l>
+               <l n="555">porque este largo y trabajoso asedio</l>
+               <l n="556">solo promete presta sepultura;</l>
+               <l n="557">el ancho foso nos estorba el medio</l>
+               <l n="558">de probar con las armas la ventura,</l>
+               <l n="559">aunque a veces valientes, fuertes brazos,</l>
+               <l n="560">rompen mil contrapue[s]tos embarazos.</l>
+            </sp>
+            <sp who="#coravino">
+               <speaker>CORAVINO</speaker>
+               <l n="561">¡A Júpiter pluguiera soberano</l>
+               <l n="562">que nuestra juventud sola se viera</l>
+               <l n="563">con todo el bravo ejército romano</l>
+               <l n="564">adonde el brazo rodear pudiera!</l>
+               <l n="565">Que allí al valor de la española mano</l>
+               <l n="566">la mesma muerte poco estorbo fuera</l>
+               <l n="567">para dejar de abrir ancho camino</l>
+               <l n="568">a la salud del pueblo numantino.</l>
+               <l n="569">Mas, pues en tales términos nos vemos,</l>
+               <l n="570">que estamos como damas encerrados,</l>
+               <l n="571">hagamos todo cuanto hacer podremos</l>
+               <l n="572">para mostrar los ánimos osados:</l>
+               <l n="573">a nuestros enemigos convidemos</l>
+               <l n="574">a singular batalla, que, cansados</l>
+               <l n="575">deste cerco tan largo, ser podría</l>
+               <l n="576">quisiesen acabarle por tal vía.</l>
+               <l n="577">Y cuando este remedio no subceda</l>
+               <l n="578">a la justa medida del deseo,</l>
+               <l n="579">otro camino de intentar nos queda,</l>
+               <l n="580">aunque más trabajoso a lo que creo:</l>
+               <l n="581">este foso y muralla que nos veda</l>
+               <l n="582">el paso al enemigo que allí veo,</l>
+               <l n="583">en un tropel de noche le rompamos</l>
+               <l n="584">y por ayuda a los amigos vamos.</l>
+            </sp>
+            <sp who="#numantino1">
+               <speaker>1.º</speaker>
+               <l n="585">O sea por el foso o por la muerte,</l>
+               <l n="586">de abrir tenemos paso a nuestra vida,</l>
+               <l n="587">que es dolor insufrible el de la muerte</l>
+               <l n="588">si llega cuando más vive la vida;</l>
+               <l n="589">remedio a las miserias es la muerte,</l>
+               <l n="590">si se acrecientan ellas con la vida,</l>
+               <l n="591">y suele tanto más ser excelente,</l>
+               <l n="592">cuanto se muere más honradamente.</l>
+            </sp>
+            <sp who="#numantino2">
+               <speaker>2.º</speaker>
+               <l n="593">¿Con qué más honra pueden apartarse</l>
+               <l n="594">de nuestros cuerpos estas almas nuestras,</l>
+               <l n="595">que en las romanas armas arrojarse</l>
+               <l n="596">y en su daño mover las fuertes diestras?</l>
+               <l n="597">En la ciudad podrá muy bien quedarse</l>
+               <l n="598">quien gusta de cobarde dar las muestras,</l>
+               <l n="599">que yo mi gusto pongo en quedar muerto</l>
+               <l n="600">en el cerrado foso o campo abierto.</l>
+            </sp>
+            <sp who="#numantino3">
+               <speaker>3.º</speaker>
+               <l n="601">Esta insufrible hambre macilenta</l>
+               <l n="602">que tanto nos persigue y nos rodea</l>
+               <l n="603">hace que en vuestro parecer consienta,</l>
+               <l n="604">puesto que temerario y duro sea.</l>
+               <l n="605">Muriendo escusaremos tanta afrenta;</l>
+               <l n="606">mas quien morir de hambre no desea,</l>
+               <l n="607">arrójese conmigo al foso y haga</l>
+               <l n="608">camino a su remedio con la daga.</l>
+            </sp>
+            <sp who="#numantino4">
+               <speaker>4.º</speaker>
+               <l n="609">Primero que vengáis al trance duro</l>
+               <l n="610">desta resolución que habéis tomado,</l>
+               <l n="611">paréceme ser bien que desde el muro</l>
+               <l n="612">nuestro fiero enemigo sea avisado,</l>
+               <l n="613">diciéndole que dé campo seguro</l>
+               <l n="614">a un numantino y otro su soldado</l>
+               <l n="615">y que la muerte de uno sea sentencia</l>
+               <l n="616">que acabe nuestra antigua diferencia.</l>
+               <l n="617">Son los romanos tan soberbia gente</l>
+               <l n="618">que luego aceptarán este partido</l>
+               <l n="619">y si lo aceptan, creo firmemente</l>
+               <l n="620">que nuestro amargo daño ha fenecido,</l>
+               <l n="621">pues esta numantino aquí presente,</l>
+               <l n="622">cuyo valor me tiene persuadido</l>
+               <l n="623">que él solo contra tres bravos romanos</l>
+               <l n="624">quitará la victoria de las manos.</l>
+               <l n="625">También será acertado que Marquino,</l>
+               <l n="626">pues es un agorero tan famoso,</l>
+               <l n="627">mire qué estrella, qué planeta o signo</l>
+               <l n="628">nos amenaza muerte o fin honroso</l>
+               <l n="629">y si puede hallar algún camino</l>
+               <l n="630">que nos pueda mostrar si del dudoso</l>
+               <l n="631">cerco crüel do estamos oprimidos</l>
+               <l n="632">saldremos vencedores o vencidos.</l>
+               <l n="633">También primero encargo que se haga</l>
+               <l n="634">a Júpiter solene sacrificio,</l>
+               <l n="635">de quien podremos esperar la paga</l>
+               <l n="636">harto mayor que nuestro beneficio;</l>
+               <l n="637">cúrese luego la profunda llaga</l>
+               <l n="638">del arraigado acostumbrado vicio,</l>
+               <l n="639">quizá con esto mudará de intento</l>
+               <l n="640">el hado esquivo y nos dará contento.</l>
+               <l n="641">Para morir, jamás le falta tiempo</l>
+               <l n="642">al que quiere morir desesperado;</l>
+               <l n="643">siempre seremos a sazón y a tiempo</l>
+               <l n="644">para mostrar muriendo el pecho osado;</l>
+               <l n="645">mas porque no se pase en balde el tiempo,</l>
+               <l n="646">mirad si os cuadra lo que aquí he ordenado</l>
+               <l n="647">y, si no os pareciere, dad un modo</l>
+               <l n="648">que mejor venga y que convenga a todo.</l>
+            </sp>
+            <sp who="#marquino">
+               <speaker>MARQUINO</speaker>
+               <l n="649">Esa razón que muestran tus razones</l>
+               <l n="650">es aprobada del intento mío.</l>
+               <l n="651">Háganse sacrificios y oblaciones</l>
+               <l n="652">y póngase en efeto el desafío,</l>
+               <l n="653">que yo no perderé las ocasiones</l>
+               <l n="654">de mostrar de mi ciencia el poderío;</l>
+               <l n="655">yo sacaré del hondo centro escuro</l>
+               <l n="656">quien nos declare el bien o el mal futuro.</l>
+            </sp>
+            <sp who="#teogenes">
+               <speaker>TEÓGENES</speaker>
+               <l n="657">Yo desde aquí me ofrezco, si os parece</l>
+               <l n="658">que puede de mi esfuerzo algo fiarse,</l>
+               <l n="659">de salir a este duelo que se ofrece,</l>
+               <l n="660">si por ventura viene a efetuarse.</l>
+            </sp>
+            <sp who="#coravino">
+               <speaker>CORAVINO</speaker>
+               <l n="661">Más honra tu valor raro merece,</l>
+               <l n="662">bien pueden de tu esfuerzo confiarse</l>
+               <l n="663">más difíciles cosas y mayores</l>
+               <l n="664">por ser el que es mejor de los mejores.</l>
+               <l n="665">Y pues tú ocupas el lugar primero</l>
+               <l n="666">de la honra y valor con causa justa,</l>
+               <l n="667">yo, que en todo me cuento por postrero,</l>
+               <l n="668">quiero ser el haraldo desta justa.</l>
+            </sp>
+            <sp who="#numantino1">
+               <speaker>1.º</speaker>
+               <l n="669">Pues yo con todo el pueblo me prefiero</l>
+               <l n="670">hacer de lo que Júpiter más gusta,</l>
+               <l n="671">que son los sacrificios y oraciones,</l>
+               <l n="672">si van con enmendados corazones.</l>
+            </sp>
+            <sp who="#numantino2">
+               <speaker>2.º</speaker>
+               <l n="673">Vámonos, y con presta diligencia</l>
+               <l n="674">hagamos cuanto aquí propuesto habemos,</l>
+               <l n="675">antes que la pestífera dolencia</l>
+               <l n="676">de la hambre nos ponga en los extremos.</l>
+            </sp>
+            <sp who="#numantino3">
+               <speaker>3.º</speaker>
+               <l n="677">Si tiene el cielo dada la sentencia</l>
+               <l n="678">de que en este rigor fiero acabemos,</l>
+               <l n="679">revóquela, si acaso lo merece</l>
+               <l n="680">la justa enmienda que Numancia ofrece.</l>
+            </sp>
+            <stage>Entran primero dos soldados numantinos, MARANDRO y LEONCIO.</stage>
+            <sp who="#leoncio">
+
+               <speaker>LEONCIO</speaker>
+               <l n="681">Marandro, amigo, ¿a dó vas,</l>
+               <l n="682">o hacia dó mueves el pie?</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="683">Si yo mismo no lo sé,</l>
+               <l n="684">tampoco tú lo sabrás.</l>
+            </sp>
+            <sp who="#leoncio">
+               <speaker>LEONCIO</speaker>
+               <l n="685">¡Cómo te saca de seso</l>
+               <l n="686">tu amoroso pensamiento!</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="687">Antes, después que le siento</l>
+               <l n="688">tengo más razón y peso.</l>
+            </sp>
+            <sp who="#leoncio">
+               <speaker>LEONCIO</speaker>
+               <l n="689">Eso ya está averiguado,</l>
+               <l n="690">que el que sirviere al amor</l>
+               <l n="691">ha de ser, por su dolor,</l>
+               <l n="692">con razón muy más pesado.</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="693">De malicia o de agudeza</l>
+               <l n="694">no escapa lo que dijiste.</l>
+            </sp>
+            <sp who="#leoncio">
+               <speaker>LEONCIO</speaker>
+               <l n="695">Tú mi agudeza entendiste;</l>
+               <l n="696">mas yo entiendo tu simpleza.</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="697">¿Que soy simple en querer bien?</l>
+            </sp>
+            <sp who="#leoncio">
+               <speaker>LEONCIO</speaker>
+               <l n="698">Sí, si a el querer no se mide</l>
+               <l n="699">como la razón lo pide,</l>
+               <l n="700">con cuándo, cómo y a quién.</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="701">¿Reglas quies poner a Amor?</l>
+            </sp>
+            <sp who="#leoncio">
+               <speaker>LEONCIO</speaker>
+               <l n="702">La razón puede ponellas.</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="703">Razonables serán ellas,</l>
+               <l n="704">mas no de mucho primor.</l>
+            </sp>
+            <sp who="#leoncio">
+               <speaker>LEONCIO</speaker>
+               <l n="705">En la amorosa porfía,</l>
+               <l n="706">a razón no hay conocella.</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="707">Amor no va contra ella,</l>
+               <l n="708">aunque della se desvía.</l>
+            </sp>
+            <sp who="#leoncio">
+               <speaker>LEONCIO</speaker>
+               <l n="709">¿No es contra la razón,</l>
+               <l n="710">siendo tú tan buen soldado,</l>
+               <l n="711">andar tan enamorado</l>
+               <l n="712">en esta estrecha ocasión?</l>
+               <l n="713">¿Al tiempo que del dios Marte</l>
+               <l n="714">has de pedir el furor,</l>
+               <l n="715">te entretienes con Amor,</l>
+               <l n="716">que mil blanduras reparte?</l>
+               <l n="717">¿Ves la patria consumida</l>
+               <l n="718">y de enemigos cercada,</l>
+               <l n="719">y tu memoria turbada</l>
+               <l n="720">por amor della se olvida?</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="721">En ira mi pecho se arde</l>
+               <l n="722">por verte hablar sin cordura.</l>
+               <l n="723">¿Hizo el Amor, por ventura,</l>
+               <l n="724">a ningún pecho cobarde?</l>
+               <l n="725">¿Dejo yo la centinela</l>
+               <l n="726">por ir donde está mi dama</l>
+               <l n="727">o estoy durmiendo en la cama</l>
+               <l n="728">cuando mi capitán vela?</l>
+               <l n="729">¿Hasme tú visto faltar</l>
+               <l n="730">de lo que debo a mi oficio</l>
+               <l n="731">por algún regalo o vicio,</l>
+               <l n="732">ni menos por bien amar?</l>
+               <l n="733">Y si nada has hallado</l>
+               <l n="734">de que deba dar disculpa,</l>
+               <l n="735">¿por qué me das tanta culpa</l>
+               <l n="736">de que sea enamorado?</l>
+               <l n="737">Y si de conversación</l>
+               <l n="738">me ves que ando siempre ajeno,</l>
+               <l n="739">mete la mano en tu seno:</l>
+               <l n="740">verás si tengo razón.</l>
+               <l n="741">¿No sabes los muchos años</l>
+               <l n="742">que tras Lira ando perdido?</l>
+               <l n="743">¿No sabes que era venido</l>
+               <l n="744">el fin de mis tristes daños,</l>
+               <l n="745">porque su padre ordenaba</l>
+               <l n="746">de dármela por mujer</l>
+               <l n="747">y que Lira su querer</l>
+               <l n="748">con el mío concertaba?</l>
+               <l n="749">También sabes que llegó</l>
+               <l n="750">en tan dulce coyuntura</l>
+               <l n="751">esta fuerte guerra dura,</l>
+               <l n="752">por quien mi gloria cesó.</l>
+               <l n="753">Dilatose el casamiento</l>
+               <l n="754">hasta acabar esta guerra,</l>
+               <l n="755">porque no está nuestra tierra</l>
+               <l n="756">para fiestas y contento.</l>
+               <l n="757">¡Mira cuán poca esperanza</l>
+               <l n="758">puedo tener de mi gloria,</l>
+               <l n="759">pues está nuestra victoria</l>
+               <l n="760">toda en la enemiga lanza.</l>
+               <l n="761">De la hambre fatigados,</l>
+               <l n="762">sin medio de algún remedio,</l>
+               <l n="763">tal muralla y foso en medio,</l>
+               <l n="764">pocos y esos encerrados.</l>
+               <l n="765">Pues como veo llevar</l>
+               <l n="766">mis esperanzas del viento,</l>
+               <l n="767">ando triste y descontento</l>
+               <l n="768">ansí cual me ves andar.</l>
+            </sp>
+            <sp who="#leoncio">
+               <speaker>LEONCIO</speaker>
+               <l n="769">Sosiega, Marandro, el pecho;</l>
+               <l n="770">vuelve al brío que tenías,</l>
+               <l n="771">quizá por ocultas vías</l>
+               <l n="772">se ordena nuestro provecho,</l>
+               <l n="773">que Júpiter soberano</l>
+               <l n="774">nos descubrirá camino</l>
+               <l n="775">por do el pueblo numantino</l>
+               <l n="776">quede libre del romano;</l>
+               <l n="777">y en dulce paz y sosiego</l>
+               <l n="778">de tu esposa gozarás</l>
+               <l n="779">y las llamas templarás</l>
+               <l n="780">deste tu amoroso fuego;</l>
+               <l n="781">que, para tener propicio</l>
+               <l n="782">al gran Júpiter Tonante,</l>
+               <l n="783">hoy Numancia en este instante</l>
+               <l n="784">le quiere hacer sacrificio.</l>
+               <l n="785">Ya el pueblo viene y se muestra</l>
+               <l n="786">con las víctimas e incienso.</l>
+               <l n="787">¡Oh Júpiter, padre imenso,</l>
+               <l n="788">mira la miseria nuestra!</l>
+            </sp>
+            <stage>(Han de salir agora dos numantinos vestidos
+como sacerdotes antiguos, y traen asido de los cuernos en medio de entrambos un
+carnero grande, coronado de oliva o yedra y otras flores, y un
+PAJE con una fuente de plata y una toalla al hombro; otro, con un jarro de plata lleno de agua; otro, con otro lleno de vino; otro, con otro plato de plata con un poco de incienso; otro, con fuego y leña; otro, que ponga una mesa con un tapete, donde se ponga todo esto. Y salgan en esta cena todos los que hubiere en la comedia en hábito de numantinos, y luego los SACERDOTES, y dejando el uno el carnero de la mano, diga.)</stage>
+            <sp who="#sacerdote1">
+               <speaker>SACERDOTE 1.º</speaker>
+               <l n="789">Señales ciertas de dolores ciertos</l>
+               <l n="790">se me han representado en el camino,</l>
+               <l n="791">y los canos cabellos tengo yertos.</l>
+            </sp>
+            <sp who="#sacerdote2">
+               <speaker>SEGUNDO</speaker>
+               <l n="792">Si acaso yo no soy mal adevino,</l>
+               <l n="793">nunca con bien saldremos desta impresa.</l>
+               <l n="794">¡Ay, desdichado pueblo numantino!</l>
+            </sp>
+            <sp who="#sacerdote1">
+               <speaker>1.º</speaker>
+               <l n="795">Hagamos nuestro oficio con la priesa</l>
+               <l n="796">que nos incitan los agüeros tristes.</l>
+            </sp>
+            <sp who="#sacerdote2">
+               <speaker>2.º</speaker>
+               <l n="797">Poned, amigos, hacia aquí esa mesa;</l>
+               <l n="798">el vino, encienso y agua que trujistes</l>
+               <l n="799">poneldo encima y apartaos afuera</l>
+               <l n="800">y arrepentíos de cuanto mal hicistes,</l>
+               <l n="801">que la oblación mejor y la primera</l>
+               <l n="802">que se debe ofrecer al alto cielo,</l>
+               <l n="803">es alma limpia y voluntad sincera.</l>
+            </sp>
+            <sp who="#sacerdote1">
+               <speaker>1.º</speaker>
+               <l n="804">El fuego no le hagáis vos en el suelo,</l>
+               <l n="805">que aquí viene brasero para ello,</l>
+               <l n="806">que ansí lo pide el religioso celo.</l>
+            </sp>
+            <sp who="#sacerdote2">
+               <speaker>2.º</speaker>
+               <l n="807">Lavaos las manos y limpiaos el cuello.</l>
+            </sp>
+            <sp who="#sacerdote1">
+               <speaker>1.º</speaker>
+               <l n="808">Dad acá el agua. ¿El fuego no se enciende?</l>
+            </sp>
+            <sp who="#">
+               <speaker>UNO</speaker>
+               <l n="809">No hay quien pueda, señores, encendello.</l>
+            </sp>
+            <sp who="#sacerdote2">
+               <speaker>2.º</speaker>
+               <l n="810">¡Oh Júpiter! ¿Qué es esto que pretende</l>
+               <l n="811">de hacer en nuestro daño el hado esquivo?</l>
+               <l n="812">¿Cómo el fuego en la tea no se emprende?</l>
+            </sp>
+            <sp who="#">
+               <speaker>UNO</speaker>
+               <l n="813">Ya parece, señor, que está algo vivo.</l>
+            </sp>
+            <sp who="#sacerdote1">
+               <speaker>1.º</speaker>
+               <l n="814">Quítate afuera, oh flaca llama escura,</l>
+               <l n="815">que dolor en mirarte así recibo.</l>
+               <l n="816">¿No miras cómo el humo se apresura</l>
+               <l n="817">a caminar al lado del poniente</l>
+               <l n="818">y la amarilla llama mal sigura</l>
+               <l n="819">sus puntas encamina hacia el oriente?</l>
+               <l n="820">¡Desdichada señal! Señal notoria</l>
+               <l n="821">que nuestro mal y daño está presente.</l>
+            </sp>
+            <sp who="#sacerdote2">
+               <speaker>2.º</speaker>
+               <l n="822">Aunque lleven romanos la victoria</l>
+               <l n="823">de nuestra muerte, en humo ha de tornarse</l>
+               <l n="824">y en llamas vivas nuestra muerte y gloria.</l>
+            </sp>
+            <sp who="#sacerdote1">
+               <speaker>1.º</speaker>
+               <l n="825">Pues debe con el vino rociarse</l>
+               <l n="826">el sacro fuego, dad acá ese vino</l>
+               <l n="827">y el incienso también que ha de quemarse.</l>
+            </sp>
+            <stage>(Rocían el fuego, y a la redonda, con el vino y luego ponen el incienso en el fuego y dice.)</stage>
+            <sp who="#sacerdote2">
+               <speaker>2.º</speaker>
+               <l n="828">Al bien del triste pueblo numantino</l>
+               <l n="829">endereza, ¡oh gran Júpiter!, la fuerza</l>
+               <l n="830">propricia del contrario amargo signo.</l>
+            </sp>
+            <sp who="#sacerdote1">
+               <speaker>1.º</speaker>
+               <l n="831">Ansí como este ardiente fuego fuerza</l>
+               <l n="832">a que en humo se vaya el sacro incienso,</l>
+               <l n="833">ansí se haga al enemigo fuerza</l>
+               <l n="834">para que en humo eterno, padre imenso,</l>
+               <l n="835">todo su bien, toda su gloria vaya,</l>
+               <l n="836">ansí como tú puedes y yo pienso.</l>
+            </sp>
+            <sp who="#sacerdote2">
+               <speaker>2.º</speaker>
+               <l n="837">Tengan los cielos su poder a raya,</l>
+               <l n="838">ansí como esta víctima tenemos,</l>
+               <l n="839">y lo que ella ha de haber, él también haya.</l>
+            </sp>
+            <sp who="#sacerdote1">
+               <speaker>1.º</speaker>
+               <l n="840">¡Mal responde el agüero! Mal podremos</l>
+               <l n="841">ofrecer esperanza al pueblo triste</l>
+               <l n="842">para salir del mal que poseemos.</l>
+            </sp>
+            <stage>(Hágase ruido debajo del tablado con un barril lleno de piedras y dispárese un cohete volador.)</stage>
+            <sp who="#sacerdote2">
+               <speaker>2.º</speaker>
+               <l n="843">¿No oyes un ruido, amigo? ¿Amigo, viste</l>
+               <l n="844">el rayo ardiente que pasó volando?</l>
+               <l n="845">Presago verdadero desto fuiste.</l>
+            </sp>
+            <sp who="#sacerdote1">
+               <speaker>1.º</speaker>
+               <l n="846">Turbado estoy; de miedo estoy temblando.</l>
+               <l n="847">¡Oh, qué señales en el aire veo</l>
+               <l n="848">que amargo fin nos van pronosticando!</l>
+               <l n="849">¿No ves un escuadrón airado y feo</l>
+               <l n="850">de unas águilas fieras que pelean</l>
+               <l n="851">con otras aves en marcial rodeo?</l>
+            </sp>
+            <sp who="#sacerdote2">
+               <speaker>2.º</speaker>
+               <l n="852">Solo su esfuerzo y su rigor emplean</l>
+               <l n="853">en encerrar las aves en un cabo,</l>
+               <l n="854">y con astucia y arte las rodean.</l>
+            </sp>
+            <sp who="#sacerdote1">
+               <speaker>1.º</speaker>
+               <l n="855">Tal señal vitupero y no la alabo.</l>
+               <l n="856">¿Águilas impiriales vencedoras?</l>
+               <l n="857">¡Tú verás de Numancia presto el cabo!</l>
+            </sp>
+            <sp who="#sacerdote2">
+               <speaker>2.º</speaker>
+               <l n="858">¡Águilas de gran mal anunciadoras,</l>
+               <l n="859">partíos, que ya el agüero vuestro entiendo</l>
+               <l n="860">y a el efecto contadas son las horas!</l>
+            </sp>
+            <sp who="#sacerdote2">
+               <speaker>1.º</speaker>
+               <l n="861">Con todo, el sacrificio hacer pretendo</l>
+               <l n="862">desta inocente víctima guardada</l>
+               <l n="863">para aplacar el dios del rostro horrendo.</l>
+               <l n="864">¡Oh gran Plutón, a quien por suerte dada</l>
+               <l n="865">le fue la habitación del reino oscuro</l>
+               <l n="866">y el mando en la infernal triste morada!</l>
+               <l n="867">Ansí vivas en paz, cierto y seguro</l>
+               <l n="868">de que la hija de la sacra Ceres</l>
+               <l n="869">corresponde a tu amor con amor puro,</l>
+               <l n="870">que en todo aquello que en provecho vieres</l>
+               <l n="871">venir del pueblo triste que te invoca</l>
+               <l n="872">lo allegues, cual se espera de quien eres.</l>
+               <l n="873">Atapa la profunda escura boca</l>
+               <l n="874">por do salen las tres fieras hermanas</l>
+               <l n="875">a hacernos el daño que nos toca,</l>
+               <l n="876">y sean de dañarnos tan livianas</l>
+               <l n="877">sus intenciones que las lleve el viento,</l>
+               <l n="878">como se lleva el pelo destas lanas.</l>
+
+               <l n="879">
+                  <stage>(Quite algunos pelos al carnero y échelos al aire.)</stage>Y ansí como yo baño y ensangriento</l>
+               <l n="880">este cuchillo en esta sangre pura,</l>
+               <l n="881">con alma limpia y limpio pensamiento,</l>
+               <l n="882">ansí la tierra de Numancia dura</l>
+               <l n="883">se bañe con la sangre de romanos</l>
+               <l n="884">y aun les sirva también de sepultura.</l>
+            
+               <l n="885">
+                  <stage>(Aquí ha de salir por los huecos del tablado un DEMONIO hasta el medio cuerpo, y ha de arrebatar el carnero y meterle dentro, y tornar luego a salir, y derramar y esparcir el fuego y todos los sacrificios.)</stage>Mas, ¿quién me ha arrebatado de las manos</l>
+               <l n="886">la víctima? ¿Qué es esto, dioses santos?</l>
+               <l n="887">¿Qué prodigios son esos tan insanos?</l>
+               <l n="888">¿No os han enternecido ya los llantos</l>
+               <l n="889">deste pueblo lloroso y afligido</l>
+               <l n="890">ni la sagrada voz de nuestros cantos?</l>
+            </sp>
+            <sp who="#sacerdote2">
+               <speaker>2.º</speaker>
+               <l n="891">Antes creo que se han endurecido,</l>
+               <l n="892">cual se puede inferir de las señales</l>
+               <l n="893">tan fieras como aquí han acontecido.</l>
+               <l n="894">Nuestros vivos remedios son mortales;</l>
+               <l n="895">toda es pereza nuestra diligencia</l>
+               <l n="896">y los bienes ajenos, nuestros males.</l>
+            </sp>
+            <sp who="#">
+               <speaker>UNO DEL PUEBLO</speaker>
+               <l n="897">En fin, dado han los cielos la sentencia</l>
+               <l n="898">de nuestro fin amargo y miserable;</l>
+               <l n="899">no nos quiere valer ya su clemencia.</l>
+            </sp>
+            <sp who="#">
+               <speaker>OTRO</speaker>
+               <l n="900">Lloremos, pues, en son tan lamentable</l>
+               <l n="901">nuestra desdicha que en la edad postrera</l>
+               <l n="902">dél y de nuestro esfuerzo siempre se hable.</l>
+               <l n="903">Marquino haga la espiriencia entera</l>
+               <l n="904">de todo su saber y sepa cuánto</l>
+               <l n="905">nos promete de mal la lastimera</l>
+               <l n="906">suerte, que ha vuelto nuestra risa en llanto.</l>
+            </sp>
+            <stage>(Sálense todos y quedan solos MARANDRO y LEONCIO.)</stage>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="907">Leoncio, ¿qué te parece?</l>
+               <l n="908">¿Tendrán remedio mis males</l>
+               <l n="909">con estas buenas señales</l>
+               <l n="910">que aquí el cielo nos ofrece?</l>
+               <l n="911">¿Tendrá fin mi desventura</l>
+               <l n="912">cuando se acabe la guerra,</l>
+               <l n="913">que será cuando la tierra</l>
+               <l n="914">me sirva de sepultura?</l>
+            </sp>
+            <sp who="#leoncio">
+               <speaker>LEONCIO</speaker>
+               <l n="915">Marandro, al que es buen soldado</l>
+               <l n="916">agüeros no le dan pena,</l>
+               <l n="917">que pone la suerte buena</l>
+               <l n="918">en el ánimo esforzado;</l>
+               <l n="919">y esas vanas apariencias</l>
+               <l n="920">nunca le turban el tino:</l>
+               <l n="921">su brazo es su estrella y signo;</l>
+               <l n="922">su valor, sus influencias.</l>
+               <l n="923">Pero si quieres creer</l>
+               <l n="924">en este notorio engaño,</l>
+               <l n="925">aún quedan, si no me engaño,</l>
+               <l n="926">espiriencias más que hacer;</l>
+               <l n="927">que Marquino las hará,</l>
+               <l n="928">las mejores de su sciencia,</l>
+               <l n="929">y el fin de nuestra dolencia</l>
+               <l n="930">ser bueno o malo sabrá.</l>
+               <l n="931">Paréceme que le veo.</l>
+               <l n="932">¡En qué estraño traje viene!</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="933">Quien con feos se entretiene</l>
+               <l n="934">no es mucho que venga feo.</l>
+               <l n="935">¿Será acertado seguirle?</l>
+            </sp>
+            <sp who="#leoncio">
+               <speaker>LEONCIO</speaker>
+               <l n="936">Acertado me parece,</l>
+               <l n="937">por si acaso se le ofrece</l>
+               <l n="938">algo en que poder servirle.</l>
+            </sp>
+            <stage>(Aquí sale MARQUINO con una ropa negra de bocací ancha y una cabellera negra, y los pies descalzos; y en la cinta traerá, de modo que se le vean, tres redomillas llenas de agua: la una negra, la otra teñida  con azafrán y la otra clara; y en la una mano, una lanza barnizada de negro, y en la otra, un libro; y viene uno con él y así como entran, se ponen a un lado LEONCIO y MARANDRO, MARQUINO y MILVIO.)</stage>
+            <sp who="#marquino">
+               <speaker>MARQUINO</speaker>
+               <l n="939">¿Dó dices, Milvio, que está el joven triste?</l>
+            </sp>
+            <sp who="#milvio">
+               <speaker>MILVIO</speaker>
+               <l n="940">En esta sepultura está enterrado.</l>
+            </sp>
+            <sp who="#marquino">
+               <speaker>MARQUINO</speaker>
+               <l n="941">No yerres el lugar do le pusiste.</l>
+            </sp>
+            <sp who="#milvio">
+               <speaker>MILVIO</speaker>
+               <l n="942">No, que con esta piedra señalado</l>
+               <l n="943">dejé el lugar adonde el mozo tierno</l>
+               <l n="944">fue con lágrimas tiernas sepultado.</l>
+            </sp>
+            <sp who="#marquino">
+               <speaker>MARQUINO</speaker>
+               <l part="I" n="945"> ¿De qué murió?</l>
+            </sp>
+            <sp who="#milvio">
+               <speaker>MILVIO</speaker>
+               <l part="F"> Murió de mal gobierno:</l>
+               <l n="946">la flaca hambre le acabó la vida,</l>
+               <l n="947">peste cruel salida del infierno.</l>
+            </sp>
+            <sp who="#marquino">
+               <speaker>MARQUINO</speaker>
+               <l n="948">En fin, ¿que dices que ninguna herida</l>
+               <l n="949">le cortó el hilo del vital aliento,</l>
+               <l n="950">ni fue cáncer ni llaga su homicida?</l>
+               <l n="951">Esto te digo, porque hace al cuento</l>
+               <l n="952">de mi saber que esté este cuerpo entero,</l>
+               <l n="953">organizado todo y en su asiento.</l>
+            </sp>
+            <sp who="#milvio">
+               <speaker>MILVIO</speaker>
+               <l n="954">Habrá tres horas que le di el postrero</l>
+               <l n="955">reposo y le entregué a la sepultura,</l>
+               <l n="956">y de hambre murió, como refiero.</l>
+            </sp>
+            <sp who="#marquino">
+               <speaker>MARQUINO</speaker>
+               <l n="957">Está muy bien y es buena coyuntura</l>
+               <l n="958">la que me ofrecen los propicios signos</l>
+               <l n="959">para invocar de la región obscura</l>
+               <l n="960">los feroces espíritus malinos.</l>
+               <l n="961">Presta atentos oídos a mis versos,</l>
+               <l n="962">fiero Plutón, que en la región obscura</l>
+               <l n="963">entre ministros de ánimos perversos</l>
+               <l n="964">te cupo de reinar suerte y ventura;</l>
+               <l n="965">haz, aunque sean de tu gusto adversos,</l>
+               <l n="966">cumplidos mis deseos y en la dura</l>
+               <l n="967">ocasión que te invoco no te tardes,</l>
+               <l n="968">ni a ser más oprimido de mí aguardes.</l>
+               <l n="969">Quiero que al cuerpo que aquí está enterrado</l>
+               <l n="970">vuelvas el alma que le daba vida,</l>
+               <l n="971">aunque el fiero Carón del otro lado</l>
+               <l n="972">la tenga en la ribera denegrida</l>
+               <l n="973">y aunque en las tres gargantas del airado</l>
+               <l n="974">Cerbero esté penada y escondida,</l>
+               <l n="975">salga y torne a la luz del mundo nuestro,</l>
+               <l n="976">que luego tornará al escuro vuestro.</l>
+               <l n="977">Y pues ha de salir, salga informada</l>
+               <l n="978">del fin que ha de tener guerra tan cruda,</l>
+               <l n="979">y desto no me encubra o calle nada,</l>
+               <l n="980">ni me deje confuso y con más dubda;</l>
+               <l n="981">la plática desta alma desdichada</l>
+               <l n="982">de toda ambigüidad libre y desnuda</l>
+               <l n="983">tiene de ser. ¡Invíala! ¿Qué esperas?</l>
+               <l n="984">¿Esperas a que hable con más veras?</l>
+               <l n="985">¿No revolvéis la piedra, desleales?</l>
+               <l n="986">Decid, ministros falsos, ¿qué os detiene?</l>
+               <l n="987">¿Cómo no me habéis dado ya señales</l>
+               <l n="988">de que hacéis lo que digo y me conviene?</l>
+               <l n="989">¿Buscáis con deteneros vuestros males,</l>
+               <l n="990">o gustáis de que yo al momento ordene</l>
+               <l n="991">de poner en efecto los conjuros</l>
+               <l n="992">que ablandan vuestros fieros pechos duros?</l>
+               <l n="993">Ea, pues, vil canalla mentirosa,</l>
+               <l n="994">aparejaos a duro sentimiento,</l>
+               <l n="995">pues sabéis que mi voz es poderosa</l>
+               <l n="996">de doblaros la rabia y el tormento.</l>
+               <l n="997">Dime, traidor esposo de la esposa</l>
+               <l n="998">que seis meses del año a su contento</l>
+               <l n="999">está sin ti, haciéndote cornudo,</l>
+               <l n="1000">¿por qué a mis peticiones estás mudo?</l>
+               <l n="1001">Este hierro, bañado en la agua clara</l>
+               <l n="1002">que al suelo no tocó en el mes de mayo</l>
+               <l n="1003">herirá en esta piedra y hará clara</l>
+               <l n="1004">y patente la fuerza deste ensayo.</l>
+               <l n="1005">
+                  <stage>(Con el agua de la redoma clara baña el hierro de la lanza y luego hiere en la tabla, y debajo o suéltense cohetes o hágase el  rumor con el barril de piedras.)</stage>Ya parece, canalla, que a la clara</l>
+               <l n="1006">dais muestras de que os toma cruel desmayo.</l>
+               <l n="1007">¿Qué rumores son estos? ¡Ea, malvados,</l>
+               <l n="1008">que al fin venís, aunque venís forzados!</l>
+               <l n="1009">Levantad esta piedra, fementidos,</l>
+               <l n="1010">y descubridme el cuerpo que aquí yace.</l>
+               <l n="1011">¿Qué es esto? ¿Qué tardáis? ¿A dó sois idos?</l>
+               <l n="1012">¿Cómo mi mandado al punto no se hace?</l>
+               <l n="1013">¿No os curáis de amenazas, descreídos?</l>
+               <l n="1014">Pues no esperéis que más os amenace;</l>
+               <l n="1015">esta agua negra del Estigio lago</l>
+               <l n="1016">dará a vuestra tardanza presto el pago.</l>
+               <l n="1017">Agua de la fatal negra laguna,</l>
+               <l n="1018">cogida en triste noche, escura y negra,</l>
+               <l n="1019">por el poder que en ti junto se aúna,</l>
+               <l n="1020">a quien otro poder ninguno quiebra,</l>
+               <l n="1021">a la banda diabólica importuna</l>
+               <l n="1022">y a quien la primer forma de culebra</l>
+               <l n="1023">tomó, conjuro, apremio, pido y mando</l>
+               <l n="1024">que venga a obedecerme aquí volando.</l>
+               <l n="1025">
+                  <stage>(Rocía con el agua la sepultura y ábrese la sepultura.)</stage>¡Oh, mal logrado mozo!, sal ya fuera</l>
+               <l n="1026">y vuelve a ver el sol claro y sereno;</l>
+               <l n="1027">deja aquella región do no se espera</l>
+               <l n="1028">en ella un día sosegado y bueno.</l>
+               <l n="1029">Dame, pues puedes, relación entera</l>
+               <l n="1030">de lo que has visto en el profundo seno;</l>
+               <l n="1031">digo de aquello a que mandado eres,</l>
+               <l n="1032">y más, si al caso toca y tú pudieres.</l>
+            
+               <l n="1033">
+                  <stage>(Sale EL CUERPO amortajado, con un rostro de máscara descolorido, como de muerto, y va saliendo poco a poco y en saliendo, déjase caer en el teatro, sin mover pie ni mano hasta su tiempo.)</stage>¿Qué es esto? ¿No respondes, no revives?</l>
+               <l n="1034">¿Otra vez has gustado de la muerte?</l>
+               <l n="1035">Pues yo haré que con tu pena  avives</l>
+               <l n="1036">y tengas el hablar a buena suerte.</l>
+               <l n="1037">Pues eres de los nuestros, no te esquives</l>
+               <l n="1038">de hablarme y responderme; mira, advierte</l>
+               <l n="1039">que si callas, haré que con tu mengua</l>
+               <l n="1040">sueltes la atada y encogida lengua.</l>
+
+            
+               <l n="1041">
+                  <stage>(Rocía EL CUERPO con el agua amarilla y luego le azota con un azote.)</stage>Espíritus malinos, ¿no aprovecha?</l>
+               <l n="1042">Pues esperad, saldrá el agua encantada</l>
+               <l n="1043">que hará mi voluntad tan satisfecha</l>
+               <l n="1044">cuanto es la vuestra pérfida y dañada;</l>
+               <l n="1045">y aunque esta carne fuera polvos hecha,</l>
+               <l n="1046">siendo con este azote castigada,</l>
+               <l n="1047">cobrará nueva, aunque ligera vida,</l>
+               <l n="1048">del áspero rigor suyo oprimida.</l>
+               <l n="1049">Alma rebelde, vuelve al aposento</l>
+               <l n="1050">que pocas horas ha desocupaste.</l>
+               <l n="1051">Ya vuelves, ya lo muestras, ya te siento;</l>
+               <l n="1052">que al fin, a tu pesar, en él te entraste.</l>
+            </sp>
+            <stage>(Menéase y estremécese EL CUERPO a este punto.)</stage>
+            <sp who="#cuerpo">
+               <speaker>EL CUERPO</speaker>
+               <l n="1053">Cese la furia del rigor violento</l>
+               <l n="1054">tuyo, Marquino; baste, triste, baste</l>
+               <l n="1055">la que yo paso en la región escura,</l>
+               <l n="1056">sin que tú crezcas más mi desventura.</l>
+               <l n="1057">Engáñaste si piensas que recibo</l>
+               <l n="1058">contento de volver a esta penosa,</l>
+               <l n="1059">mísera y corta vida que ahora vivo,</l>
+               <l n="1060">que ya me va faltando presurosa;</l>
+               <l n="1061">antes me causas un dolor esquivo,</l>
+               <l n="1062">pues otra vez la muerte rigurosa</l>
+               <l n="1063">triunfará de mi vida y de mi alma;</l>
+               <l n="1064">mi enemigo tendrá doblada palma.</l>
+               <l n="1065">El cual, con otros del escuro bando</l>
+               <l n="1066">de los que son sujetos a aguardarte,</l>
+               <l n="1067">está con rabia, en torno aquí esperando</l>
+               <l n="1068">a que acabe, Marquino, de informarte</l>
+               <l n="1069">del lamentable fin, del mal nefando</l>
+               <l n="1070">que de Numancia puedo asegurarte;</l>
+               <l n="1071">la cual acabará a las mismas manos</l>
+               <l n="1072">de los que son a ella más cercanos.</l>
+               <l n="1073">No llevarán romanos la victoria</l>
+               <l n="1074">de la fuerte Numancia ni ella menos</l>
+               <l n="1075">tendrá del enemigo triunfo o gloria,</l>
+               <l n="1076">amigos y enemigos siendo buenos.</l>
+               <l n="1077">No entiendas que de paz habrá memoria,</l>
+               <l n="1078">que rabia alberga en sus contrarios senos;</l>
+               <l n="1079">el amigo cuchillo el homicida</l>
+               <l n="1080">de Numancia será, y será su vida.</l>
+               <l n="1081">
+                  <stage>(Arrójase en la sepultura y dice.)</stage>Y quédate, Marquino, que los hados</l>
+               <l n="1082">no me conceden más hablar contigo;</l>
+               <l n="1083">y aunque mis dichos tengas por trocados,</l>
+               <l n="1084">al fin saldrá verdad lo que te digo.</l>
+            </sp>
+            <sp who="#marquino">
+               <speaker>MARQUINO</speaker>
+               <l n="1085">¡Oh tristes signos, signos desdichados!</l>
+               <l n="1086">¡Si esto ha de subceder del pueblo amigo,</l>
+               <l n="1087">primero que mirar tal desventura,</l>
+               <l n="1088">mi vida acabe en esta sepultura!</l>
+            </sp>
+            <stage>(Arrójase MARQUINO en la sepultura.)</stage>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="1089">¡Mira, Leoncio, si ves</l>
+               <l n="1090">por dó yo pueda decir</l>
+               <l n="1091">que no me haya de salir</l>
+               <l n="1092">todo mi gusto al revés!</l>
+               <l n="1093">De toda nuestra ventura</l>
+               <l n="1094">cerrado está ya el camino;</l>
+               <l n="1095">si no, dígalo Marquino,</l>
+               <l n="1096">el muerto y la sepultura.</l>
+            </sp>
+            <sp who="#leoncio">
+               <speaker>LEONCIO</speaker>
+               <l n="1097">¡Que todas son ilusiones,</l>
+               <l n="1098">quimeras y fantasías,</l>
+               <l n="1099">agüeros y hechicerías,</l>
+               <l n="1100">diabólicas invenciones!</l>
+               <l n="1101">No muestres que tienes poca</l>
+               <l n="1102">ciencia en creer desconciertos,</l>
+               <l n="1103">que poco cuidan los muertos</l>
+               <l n="1104">de lo que a los vivos toca.</l>
+            </sp>
+            <sp who="#milvio">
+               <speaker>MILVIO</speaker>
+               <l n="1105">Nunca Marquino hiciera</l>
+               <l n="1106">desatino tan estraño,</l>
+               <l n="1107">si nuestro futuro daño</l>
+               <l n="1108">como presente no viera.</l>
+               <l n="1109">Avisemos este caso</l>
+               <l n="1110">al pueblo, que está mortal;</l>
+               <l n="1111">mas, para dar nueva tal,</l>
+               <l n="1112">¿quién podrá mover el paso?</l>
+            </sp>
+         </div>
+         <div type="act">
+            <head>Jornada III</head>
+            <stage>Interlocutores: CIPIÓN, JUGURTA y MARIO.</stage> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="1113">En forma estoy contento en mirar cómo</l>
+               <l n="1114">corresponde a mi gusto la ventura</l>
+               <l n="1115">y esta libre nación soberbia domo</l>
+               <l n="1116">sin fuerzas, solamente con cordura.</l>
+               <l n="1117">En viendo la ocasión, luego la tomo,</l>
+               <l n="1118">porque sé que si corre y se apresura</l>
+               <l n="1119">y si se pasa, en cosas de la guerra,</l>
+               <l n="1120">el crédito consume y vida atierra.</l>
+               <l n="1121">¿Juzgábades a loco desvarío</l>
+               <l n="1122">tener los enemigos encerrados</l>
+               <l n="1123">y que era mengua del romano brío</l>
+               <l n="1124">no vencerlos con modos más usados?</l>
+               <l n="1125">Bien sé que lo habrán dicho; mas yo fío</l>
+               <l n="1126">que los que fueren pláticos soldados</l>
+               <l n="1127">dirán que es de tener en mayor cuenta</l>
+               <l n="1128">la victoria que menos es sangrienta.</l>
+               <l n="1129">¿Qué gloria puede haber más levantada</l>
+               <l n="1130">en las cosas de guerra que aquí digo</l>
+               <l n="1131">que, sin quitar de su lugar la espada,</l>
+               <l n="1132">vencer y sujetar al enemigo?</l>
+               <l n="1133">Que cuando la victoria es granjeada</l>
+               <l n="1134">con la sangre vertida del amigo,</l>
+               <l n="1135">el gusto mengua que causar pudiera</l>
+               <l n="1136">la que sin sangre tal ganada fuera.</l>
+            </sp>
+            <stage>(Aquí ha de sonar una trompeta desde el muro de Numancia.)</stage>
+            <sp who="#mario">
+               <speaker>MARIO</speaker>
+               <l n="1137">Oye, señor, que de Numancia suena</l>
+               <l n="1138">el son de una trompeta, y me asiguro</l>
+               <l n="1139">que decirte algo desde allá se ordena,</l>
+               <l n="1140">pues el salir acá lo estorba el muro.</l>
+               <l n="1141">Coravino se ha puesto en una almena,</l>
+               <l n="1142">y una señal ha hecho de seguro;</l>
+               <l part="I" n="1143">lleguémonos más cerca.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l part="F">Sea, lleguemos.</l>
+            </sp> 
+            <sp who="#mario">
+               <speaker>MARIO</speaker>
+               <l n="1144">No más, que dende aquí le entenderemos.</l>
+            </sp>
+            <stage>(Pónese CORAVINO encima de la muralla con una bandera blanca puesta en una lanza.)</stage>
+            <sp who="#coravino">
+               <speaker>CORAVINO</speaker>
+               <l n="1145">¡Romanos, ah romanos! ¿Puede acaso</l>
+               <l n="1146">ser de vosotros esta voz oída?</l>
+
+            </sp> 
+            <sp who="#mario">
+               <speaker>MARIO</speaker>
+               <l n="1147">Puesto que más la bajes y hables paso,</l>
+               <l n="1148">cualquiera tu razón será entendida.</l>
+            </sp>
+            <sp who="#coravino">
+               <speaker>CORAVINO</speaker>
+               <l n="1149">Decid al general que acerque el paso</l>
+               <l n="1150">al foso, porque viene dirigida</l>
+               <l part="I" n="1151">a él una embajada.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l part="F">Dila presto,</l>
+               <l part="I" n="1152">que yo soy Cipión.</l>
+            </sp>
+            <sp who="#coravino">
+               <speaker>CORAVINO</speaker>
+               <l part="F"> Escucha el resto.</l>
+               <l n="1153">Dice Numancia, general prudente,</l>
+               <l n="1154">que consideres bien que ha muchos años</l>
+               <l n="1155">que entre la nuestra y tu romana gente</l>
+               <l n="1156">duran los males de la guerra estraños</l>
+               <l n="1157">y que, por evitar que no se aumente</l>
+               <l n="1158">la dura pestilencia destos daños,</l>
+               <l n="1159">quiere, si tú quisieres, acaballa</l>
+               <l n="1160">con una breve y singular batalla.</l>
+               <l n="1161">Un soldado se ofrece de los nuestros</l>
+               <l n="1162">a combatir, cerrado en estacada,</l>
+               <l n="1163">con cualquiera esforzado de los vuestros,</l>
+               <l n="1164">por acabar contienda tan pesada;</l>
+               <l n="1165">y si los hados fueren tan siniestros</l>
+               <l n="1166">que el uno quede sin la vida amada,</l>
+               <l n="1167">si fuere el nuestro, darse ha la tierra;</l>
+               <l n="1168">si el tuyo fuere, acábese la guerra.</l>
+               <l n="1169">Y por seguridad deste concierto,</l>
+               <l n="1170">daremos a tu gusto los rehenes.</l>
+               <l n="1171">Bien sé que en él vendrás, porque estás cierto</l>
+               <l n="1172">de los soldados que a tu cargo tienes</l>
+               <l n="1173">y sabes que el menor, en campo abierto,</l>
+               <l n="1174">hará sudar el pecho, el rostro y sienes</l>
+               <l n="1175">al más aventajado de Numancia;</l>
+               <l n="1176">ansí que está sigura tu ganancia.</l>
+               <l n="1177">Porque a la ejecución se venga luego,</l>
+               <l n="1178">respóndeme, señor, si estás en ello.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="1179">Donaire es lo que dices, risa, juego,</l>
+               <l n="1180">y loco el que pensase de hacello.</l>
+               <l n="1181">Usad el medio del humilde ruego,</l>
+               <l n="1182">si queréis que se escape vuestro cuello</l>
+               <l n="1183">de probar el vigor y filos diestros</l>
+               <l n="1184">del romano cuchillo y brazos nuestros.</l>
+               <l n="1185">La fiera que en la jaula está encerrada</l>
+               <l n="1186">por su salvatiquez y fuerza dura,</l>
+               <l n="1187">si puede allí con maña ser domada</l>
+               <l n="1188">y con el tiempo y medios de cordura,</l>
+               <l n="1189">quien la dejase ir libre y desatada</l>
+               <l n="1190">daría grandes muestras de locura.</l>
+               <l n="1191">Bestias sois, y por tales encerrados</l>
+               <l n="1192">os tengo donde habéis de ser domados.</l>
+               <l n="1193">Mía será Numancia, a pesar vuestro,</l>
+               <l n="1194">sin que me cueste un mínimo soldado</l>
+               <l n="1195">y el que tenéis vosotros por más diestro</l>
+               <l n="1196">rompa por ese foso trincheado;</l>
+               <l n="1197">y si en esto os parece que yo muestro</l>
+               <l n="1198">un poco mi valor acobardado,</l>
+               <l n="1199">el viento lleve agora esta vergüenza,</l>
+               <l n="1200">y vuélvale la Fama cuando os venza.</l>
+            </sp>
+            <stage>(Vanse CIPIÓN y los suyos.)</stage>
+            <sp who="#coravino">
+               <speaker>CORAVINO</speaker>
+               <l n="1201">¿No escuchas más, cobarde? ¿Ya te escondes?</l>
+               <l n="1202">¿Enfádate la igual justa batalla?</l>
+               <l n="1203">Mal con tu nombradía correspondes,</l>
+               <l n="1204">mal podrás deste modo sustentalla.</l>
+               <l n="1205">En fin, como cobarde me respondes.</l>
+               <l n="1206">Cobardes sois, romanos, vil canalla;</l>
+               <l n="1207">en vuestra muchedumbre confiados</l>
+               <l n="1208">y no en los diestros brazos levantados.</l>
+               <l n="1209">Pérfidos, desleales, fementidos,</l>
+               <l n="1210">crüeles, revoltosos y tiranos,</l>
+               <l n="1211">ingratos, cudiciosos, malnacidos,</l>
+               <l n="1212">pertinaces, feroces y villanos,</l>
+               <l n="1213">adúlteros, infames, conocidos</l>
+               <l n="1214">por de industriosas, mas cobardes manos,</l>
+               <l n="1215">¿qué gloria alcanzaréis en darnos muerte</l>
+               <l n="1216">tendiéndonos atados desta suerte?</l>
+               <l n="1217">En cerrado escuadrón o manga suelta,</l>
+               <l n="1218">en la campaña rasa, do no pueda</l>
+               <l n="1219">estorbar la mortal fiera revuelta</l>
+               <l n="1220">el ancho foso y muro que la veda,</l>
+               <l n="1221">fuera bien que sin dar el pie la vuelta</l>
+               <l n="1222">y sin tener jamás la espada queda,</l>
+               <l n="1223">ese ejército mucho, bravo vuestro</l>
+               <l n="1224">se viera con el poco, flaco nuestro.</l>
+               <l n="1225">Mas como siempre estáis acostumbrados</l>
+               <l n="1226">a vencer con ventajas y con mañas,</l>
+               <l n="1227">estos conciertos, en valor fundados,</l>
+               <l n="1228">no los admiten bien vuestras marañas.</l>
+               <l n="1229">¡Liebres en pieles fieras disfrazados,</l>
+               <l n="1230">load y engrandeced vuestras hazañas,</l>
+               <l n="1231">que espero en el gran Júpiter de veros</l>
+               <l n="1232">sujetos a Numancia y a sus fueros!</l>
+
+            </sp>
+            <stage>(Bájase y torna a salir luego con todos los numantinos que salieron en el principio de la segunda jornada, ecepto MARQUINO, que se arrojó en la sepultura, y sale también MARANDRO.)</stage>
+            <sp who="#teogenes">
+               <speaker>TEÓGENES</speaker>
+               <l n="1233">En términos nos tiene nuestra suerte,</l>
+               <l n="1234">dulces amigos, que será ventura</l>
+               <l n="1235">acabar nuestros daños con la muerte.</l>
+               <l n="1236">Por nuestro mal, por nuestra desventura,</l>
+               <l n="1237">vistes del sacrificio el triste agüero</l>
+               <l n="1238">y a Marquino tragar la sepultura.</l>
+               <l n="1239">El desafío no ha importado un cero.</l>
+               <l n="1240">¿De intentar qué nos queda? No lo siento,</l>
+               <l n="1241">si no es acelerar el fin postrero.</l>
+               <l n="1242">Esta noche se muestre el ardimiento</l>
+               <l n="1243">del numantino acelerado pecho</l>
+               <l n="1244">y póngase por obra nuestro intento:</l>
+               <l n="1245">el enemigo muro sea deshecho,</l>
+               <l n="1246">salgamos a morir a la campaña</l>
+               <l n="1247">y no como cobardes en estrecho.</l>
+               <l n="1248">Bien sé que solo sirve esta hazaña</l>
+               <l n="1249">de que a nuestro morir se mude el modo,</l>
+               <l n="1250">que con ella la muerte se acompaña.</l>
+            </sp>
+            <sp who="#coravino">
+               <speaker>CORAVINO</speaker>
+               <l n="1251">Con ese parecer yo me acomodo;</l>
+               <l n="1252">morir quiero rompiendo el fuerte muro</l>
+               <l n="1253">y deshacelle por mi mano todo.</l>
+               <l n="1254">Mas tiéneme una cosa mal seguro:</l>
+               <l n="1255">que si nuestras mujeres saben esto,</l>
+               <l n="1256">de que no haremos nada os aseguro.</l>
+               <l n="1257">Cuando otra vez tuvimos presupuesto</l>
+               <l n="1258">de salir y dejallas, cada uno</l>
+               <l n="1259">fiado en su caballo y vuelo diestro,</l>
+               <l n="1260">ellas, que el trato a ellas importuno</l>
+               <l n="1261">supieron, al momento nos robaron</l>
+               <l n="1262">los frenos, sin dejarnos solo uno.</l>
+               <l n="1263">Entonces el salir nos estorbaron,</l>
+               <l n="1264">y ansí lo harán agora fácilmente</l>
+               <l n="1265">si las lágrimas muestran que mostraron.</l>
+
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="1266">Nuestro disignio a todas es patente,</l>
+               <l n="1267">todas lo saben; ya no queda alguna</l>
+               <l n="1268">que no se queja dello amargamente,</l>
+               <l n="1269">y dicen que en la buena o ruin fortuna</l>
+               <l n="1270">quieren en vida y muerte acompañarnos,</l>
+               <l n="1271">aunque su compañía os importuna.</l>
+               <l n="1272">
+                  <stage>(Aquí entran cuatro o más mujeres de Numancia y con ellas LIRA. Las mujeres traen unas figuras de niños en los brazos y otros de las manos, ecepto LIRA, que no trae ninguno.)</stage>Veislas aquí do vienen a rogaros</l>
+               <l n="1273">no la dejéis en tantos embarazos;</l>
+               <l n="1274">aunque seáis de acero, han de ablandaros.</l>
+               <l n="1275">Los tiernos hijos vuestros en los brazos</l>
+               <l n="1276">las tristes traen, ¿no veis con qué señales</l>
+               <l n="1277">de amor les dan los últimos abrazos?</l>
+            </sp>
+            <sp who="#mujer1">
+               <speaker>1.ª</speaker>
+               <l n="1278">Dulces señores nuestros, si en los males</l>
+               <l n="1279">hasta aquí de Numancia padecidos,</l>
+               <l n="1280">que son menores los que son mortales,</l>
+               <l n="1281">y en los bienes también, que ya son idos,</l>
+               <l n="1282">siempre mostramos ser mujeres vuestras</l>
+               <l n="1283">y vosotros también nuestros maridos,</l>
+               <l n="1284">¿por qué en las ocasiones tan siniestras</l>
+               <l n="1285">que el cielo airado agora nos ofrece,</l>
+               <l n="1286">nos dais de aquel amor tan cortas muestras?</l>
+               <l n="1287">Hemos sabido, y claro se parece,</l>
+               <l n="1288">que en las romanas armas arrojaros</l>
+               <l n="1289">queréis, pues su rigor menos empece</l>
+               <l n="1290">que no la hambre de que veis cercaros,</l>
+               <l n="1291">de cuyas flacas manos desabridas</l>
+               <l n="1292">por imposible tengo el escaparos.</l>
+               <l n="1293">Peleando queréis dejar las vidas</l>
+               <l n="1294">y dejarnos también desamparadas,</l>
+               <l n="1295">a deshonras y muertes ofrecidas.</l>
+               <l n="1296">Nuestro cuello ofreced a las espadas</l>
+               <l n="1297">vuestras primero, que es mejor partido</l>
+               <l n="1298">que vernos de enemigos deshonradas.</l>
+               <l n="1299">Yo tengo en mi intinción estatuido</l>
+               <l n="1300">que, si puedo, haré cuanto en mí fuere</l>
+               <l n="1301">por morir do muriere mi marido.</l>
+               <l n="1302">Y esto mesmo hará la que quisiere</l>
+               <l n="1303">mostrar que no los miedos de la muerte</l>
+               <l n="1304">le estorban de querer a quien bien quiere,</l>
+               <l n="1305">en buena o en mala, en dulce o amarga suerte.</l>
+            </sp>
+            <sp who="#mujer2">
+               <speaker>OTRA</speaker>
+               <l n="1306">¿Qué pensáis, varones claros?</l>
+               <l n="1307">¿Revolvéis aun todavía</l>
+               <l n="1308">en la triste fantasía</l>
+               <l n="1309">de dejarnos y ausentaros?</l>
+               <l n="1310">¿Queréis dejar por ventura</l>
+               <l n="1311">a la romana arrogancia</l>
+               <l n="1312">las vírgines de Numancia</l>
+               <l n="1313">para mayor desventura?</l>
+               <l n="1314">Y a los libres hijos nuestros</l>
+               <l n="1315">¿queréis esclavos dejallos?</l>
+               <l n="1316">¿No será mejor ahogallos</l>
+               <l n="1317">con los propios brazos vuestros?</l>
+               <l n="1318">¿Queréis hartar el deseo</l>
+               <l n="1319">de la romana cudicia,</l>
+               <l n="1320">y que triunfe su injusticia</l>
+               <l n="1321">de nuestro justo trofeo?</l>
+               <l n="1322">¿Serán por ajenas manos</l>
+               <l n="1323">nuestras casas derribadas?</l>
+               <l n="1324">Y las bodas esperadas,</l>
+               <l n="1325">¿hanlas de gozar romanos?</l>
+               <l n="1326">En salir hacéis error</l>
+               <l n="1327">que acarrea cien mil yerros,</l>
+               <l n="1328">porque dejáis sin los perros</l>
+               <l n="1329">el ganado y sin señor.</l>
+               <l n="1330">Si al foso queréis salir,</l>
+               <l n="1331">llevadnos en tal salida,</l>
+               <l n="1332">porque tendremos por vida</l>
+               <l n="1333">a vuestros lados morir.</l>
+               <l n="1334">No apresuréis el camino</l>
+               <l n="1335">al morir, porque su estambre</l>
+               <l n="1336">cuidado tiene la hambre</l>
+               <l n="1337">de cercenarla contino.</l>
+            </sp>
+            <sp who="#mujer3">
+               <speaker>OTRAS</speaker>
+               <l n="1338">Hijos destas tristes madres,</l>
+               <l n="1339">¿qué es esto?, ¿cómo no habláis,</l>
+               <l n="1340">y con lágrimas rogáis</l>
+               <l n="1341">que no os dejen vuestros padres?</l>
+               <l n="1342">Basta que la hambre insana</l>
+               <l n="1343">os acabe con dolor,</l>
+               <l n="1344">sin esperar el rigor</l>
+               <l n="1345">de la aspereza romana.</l>
+               <l n="1346">Decildes que os engendraron</l>
+               <l n="1347">libres y libres nacistes,</l>
+               <l n="1348">y que vuestras madres tristes</l>
+               <l n="1349">también libres os criaron.</l>
+               <l n="1350">Decildes que, pues la suerte</l>
+               <l n="1351">nuestra va tan de caída,</l>
+               <l n="1352">que, como os dieron la vida,</l>
+               <l n="1353">ansimismo os den la muerte.</l>
+               <l n="1354">Oh, muros desta ciudad;</l>
+               <l n="1355">si podéis hablar, decid,</l>
+               <l n="1356">y mil veces repetid:</l>
+               <l n="1357">«¡Numantinos, libertad!».</l>
+               <l n="1358">Los templos, las casas nuestras,</l>
+               <l n="1359">levantadas en concordia</l>
+               <l n="1360">os piden misericordia,</l>
+               <l n="1361">hijos y mujeres vuestras.</l>
+               <l n="1362">Ablandad, claros varones,</l>
+               <l n="1363">esos pechos diamantinos</l>
+               <l n="1364">y mostrad, cual numantinos,</l>
+               <l n="1365">amorosos corazones;</l>
+               <l n="1366">que no por romper el muro</l>
+               <l n="1367">remediáis un mal tamaño;</l>
+               <l n="1368">antes en ello está el daño</l>
+               <l n="1369">más propincuo y más seguro.</l>
+            </sp>
+            <sp who="#lira">
+               <speaker>LIRA</speaker>
+               <l n="1370">También las tiernas doncellas</l>
+               <l n="1371">ponen en vuestra defensa</l>
+               <l n="1372">el remedio de su ofensa</l>
+               <l n="1373">y el alivio a sus querellas.</l>
+               <l n="1374">No dejéis tan ricos robos</l>
+               <l n="1375">a las codiciosas manos;</l>
+               <l n="1376">mirad que son los romanos</l>
+               <l n="1377">hambrientos y fieros lobos.</l>
+               <l n="1378">Desesperación notoria</l>
+               <l n="1379">es esta que hacer queréis,</l>
+               <l n="1380">adonde sola hallaréis</l>
+               <l n="1381">breve muerte y larga gloria.</l>
+               <l n="1382">Mas ya que salga mejor</l>
+               <l n="1383">que yo pienso esta hazaña,</l>
+               <l n="1384">¿qué ciudad hay en España</l>
+               <l n="1385">que quiera daros favor?</l>
+               <l n="1386">Mi pobre ingenio os advierte</l>
+               <l n="1387">que si hacéis esta salida,</l>
+               <l n="1388">al enemigo dais vida</l>
+               <l n="1389">y a toda Numancia muerte.</l>
+               <l n="1390">De vuestro acuerdo gentil</l>
+               <l n="1391">los romanos burlarán;</l>
+               <l n="1392">porque, decidme: ¿qué harán</l>
+               <l n="1393">tres mil contra ochenta mil?</l>
+               <l n="1394">Aunque estuviesen abiertos</l>
+               <l n="1395">los muros y sin defensa,</l>
+               <l n="1396">seríades con ofensa</l>
+               <l n="1397">mal vengados y bien muertos.</l>
+               <l n="1398">Mejor es que la ventura</l>
+               <l n="1399">o el daño que el cielo ordene</l>
+               <l n="1400">o nos salve o nos condene,</l>
+               <l n="1401">dé la vida o sepoltura.</l>
+            </sp>
+            <sp who="#teogenes">
+               <speaker>TEÓGENES</speaker>
+               <l n="1402">Limpiad los ojos húmidos del llanto,</l>
+               <l n="1403">mujeres tiernas, y tené entendido</l>
+               <l n="1404">que vuestra angustia la sentimos tanto</l>
+               <l n="1405">que responde al amor nuestro subido;</l>
+               <l n="1406">ora crezca el dolor, ora el quebranto</l>
+               <l n="1407">sea por nuestro bien diminuido,</l>
+               <l n="1408">jamás en vida o muerte os dejaremos,</l>
+               <l n="1409">antes en muerte y vida os serviremos.</l>
+               <l n="1410">Pensábamos salir al foso, ciertos</l>
+               <l n="1411">antes de allí morir que de escaparnos,</l>
+               <l n="1412">pues fuera quedar vivos, aunque muertos,</l>
+               <l n="1413">si muriendo pudiéramos vengarnos;</l>
+               <l n="1414">mas, pues nuestros disignios descubiertos</l>
+               <l n="1415">han sido y es locura aventurarnos,</l>
+               <l n="1416">amados hijos y mujeres nuestras,</l>
+               <l n="1417">nuestras vidas serán, de hoy más, las vuestras.</l>
+               <l n="1418">Solo se ha de mirar que el enemigo</l>
+               <l n="1419">no alcance de nosotros triunfo y gloria;</l>
+               <l n="1420">antes ha de servir él de testigo</l>
+               <l n="1421">que apruebe y eternice nuestra historia.</l>
+               <l n="1422">Y si todos venís en lo que digo,</l>
+               <l n="1423">mil siglos durará nuestra memoria:</l>
+               <l n="1424">y es que no quede cosa aquí en Numancia</l>
+               <l n="1425">de do el contrario pueda haber ganancia.</l>
+               <l n="1426">En medio de la plaza se haga un fuego,</l>
+               <l n="1427">en cuya ardiente llama licenciosa</l>
+               <l n="1428">nuestras riquezas todas se echen luego,</l>
+               <l n="1429">desde la pobre a la más rica cosa;</l>
+               <l n="1430">y esto podréis tener a dulce juego,</l>
+               <l n="1431">cuando os declare la intención honrosa</l>
+               <l n="1432">que se ha de efetuar, después que sea</l>
+               <l n="1433">abrasada cualquier rica presea.</l>
+               <l n="1434">Y para entretener por alguna hora</l>
+               <l n="1435">la hambre que ya roe nuestros huesos,</l>
+               <l n="1436">haréis descuartizar luego a la hora</l>
+               <l n="1437">esos tristes romanos que están presos,</l>
+               <l n="1438">y, sin del chico al grande hacer mejora,</l>
+               <l n="1439">repártanse entre todos, que con esos</l>
+               <l n="1440">será nuestra comida celebrada</l>
+               <l n="1441">por estraña, crüel, necesitada.</l>
+               <l n="1442">Amigos, ¿qué os parece? ¿Estáis en esto?</l>
+            </sp>
+            <sp who="#coravino">
+               <speaker>CORAVINO</speaker>
+               <l n="1443">Digo que a mí me tiene satisfecho,</l>
+               <l n="1444">y que a la ejecución se venga presto</l>
+               <l n="1445">de tan estraño y tan honroso hecho.</l>
+            </sp>
+            <sp who="#teogenes">
+               <speaker>TEÓGENES</speaker>
+               <l n="1446">Pues yo de mi intención os diré el resto,</l>
+               <l n="1447">después que sea lo que digo hecho;</l>
+               <l n="1448">vamos a ser ministros todos luego</l>
+               <l n="1449">de encender el ardiente y rico fuego.</l>
+            </sp>
+            <sp who="#muje1">
+               <speaker>MUJER PRIMERA</speaker>
+               <l n="1450">Nosotras desde aquí ya comenzamos</l>
+               <l n="1451">a dar con voluntad nuestros arreos,</l>
+               <l n="1452">y a las vuestras las vidas entregamos,</l>
+               <l n="1453">como se han entregado los deseos.</l>
+            </sp>
+            <sp who="#lira">
+               <speaker>LIRA</speaker>
+               <l n="1454">Ea, pues, caminemos; vamos, vamos,</l>
+               <l n="1455">y abrásense en un punto los trofeos</l>
+               <l n="1456">que pudieran hacer ricas las manos</l>
+               <l n="1457">y aun hartar la cudicia de romanos.</l>
+            </sp>
+            <stage>(Sálense todos y al salir MARANDRO, ase a LIRA por el brazo y detiénela.)</stage>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="1458">No vayas tan de corrida,</l>
+               <l n="1459">Lira, déjame gozar</l>
+               <l n="1460">del bien que me puede dar</l>
+               <l n="1461">en la muerte alegre vida;</l>
+               <l n="1462">deja que miren mis ojos</l>
+               <l n="1463">un rato tu hermosura,</l>
+               <l n="1464">pues tanto mi desventura</l>
+               <l n="1465">se entretiene en mis enojos.</l>
+               <l n="1466">¡Oh dulce lira que sue[n]as</l>
+               <l n="1467">contino en mi fantasía,</l>
+               <l n="1468">con tan süave armonía</l>
+               <l n="1469">que vuelve en gloria mis penas!</l>
+               <l n="1470">¿Qué tienes? ¿Qué estás pensando,</l>
+               <l n="1471">gloria de mi pensamiento?</l>
+            </sp>
+            <sp who="#lira">
+               <speaker>LIRA</speaker>
+               <l n="1472">Pienso cómo mi contento</l>
+               <l n="1473">y el tuyo se va acabando.</l>
+               <l n="1474">Y no será su homicida</l>
+               <l n="1475">el cerco de nuestra tierra,</l>
+               <l n="1476">que primero que la guerra</l>
+               <l n="1477">se me acabará la vida.</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="1478">¿Qué dices, bien de mi alma?</l>
+            </sp>
+            <sp who="#lira">
+               <speaker>LIRA</speaker>
+               <l n="1479">Que me tiene tal la hambre,</l>
+               <l n="1480">que de mi vital estambre</l>
+               <l n="1481">llevará presto la palma.</l>
+               <l n="1482">¿Qué tálamo has de esperar</l>
+               <l n="1483">de quien está en tal estremo,</l>
+               <l n="1484">que te aseguro que temo</l>
+               <l n="1485">antes de una hora espirar?</l>
+               <l n="1486">Mi hermano ayer espiró</l>
+               <l n="1487">de la hambre fatigado;</l>
+               <l n="1488">y mi madre ya ha acabado,</l>
+               <l n="1489">que la hambre la acabó.</l>
+               <l n="1490">Y si la hambre y su fuerza</l>
+               <l n="1491">no ha rendido mi salud,</l>
+               <l n="1492">es porque la juventud</l>
+               <l n="1493">contra su rigor se esfuerza;</l>
+               <l n="1494">pero, como ha tantos días</l>
+               <l n="1495">que no le hago defensa,</l>
+               <l n="1496">no pueden contra su ofensa</l>
+               <l n="1497">las débiles fuerzas mías.</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="1498">Enjuga, Lira, los ojos;</l>
+               <l n="1499">deja que los tristes míos</l>
+               <l n="1500">se vuelvan corrientes ríos</l>
+               <l n="1501">nacidos de tus enojos.</l>
+               <l n="1502">Y aunque la hambre ofendida</l>
+               <l n="1503">te tenga tan sin compás,</l>
+               <l n="1504">de hambre no morirás</l>
+               <l n="1505">mientras yo tuviere vida.</l>
+               <l n="1506">Yo me ofrezco de saltar</l>
+               <l n="1507">el foso y el muro fuerte,</l>
+               <l n="1508">y entrar por la misma muerte,</l>
+               <l n="1509">para la tuya escusar.</l>
+               <l n="1510">El pan que el romano toca,</l>
+               <l n="1511">sin que el temor me destruya,</l>
+               <l n="1512">lo quitaré de la suya</l>
+               <l n="1513">para ponerlo en tu boca.</l>
+               <l n="1514">Con mi brazo haré carrera</l>
+               <l n="1515">a la vida y a mi muerte,</l>
+               <l n="1516">porque más me mata el verte,</l>
+               <l n="1517">señora, desa manera.</l>
+               <l n="1518">Yo te trairé de comer</l>
+               <l n="1519">a pesar de los romanos,</l>
+               <l n="1520">si ya son estas mis manos</l>
+               <l n="1521">las mismas que solían ser.</l>
+            </sp>
+            <sp who="#lira">
+               <speaker>LIRA</speaker>
+               <l n="1522">Hablas como enamorado,</l>
+               <l n="1523">Marandro, pero no es justo</l>
+               <l n="1524">que ya tome gusto el gusto</l>
+               <l n="1525">con tu peligro comprado.</l>
+               <l n="1526">Poco podrá sustentarme</l>
+               <l n="1527">cualquier robo que harás,</l>
+               <l n="1528">aunque más cierto hallarás</l>
+               <l n="1529">el perderte que ganarme.</l>
+               <l n="1530">Goza de tu mocedad</l>
+               <l n="1531">en fresca edad y crecida,</l>
+               <l n="1532">que más importa tu vida</l>
+               <l n="1533">que la mía a la ciudad.</l>
+               <l n="1534">Tú podrás bien defendella</l>
+               <l n="1535">de la enemiga asechanza,</l>
+               <l n="1536">que no la flaca pujanza</l>
+               <l n="1537">desta tan triste doncella.</l>
+               <l n="1538">Ansí que, mi dulce amor,</l>
+               <l n="1539">despide ese pensamiento,</l>
+               <l n="1540">que yo no quiero sustento</l>
+               <l n="1541">ganado con tu sudor;</l>
+               <l n="1542">que, aunque puedas alargar</l>
+               <l n="1543">mi muerte por algún día,</l>
+               <l n="1544">esta hambre que porfía</l>
+               <l n="1545">en fin nos ha de acabar.</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="1546">En vano trabajas, Lira,</l>
+               <l n="1547">de impidirme este camino,</l>
+               <l n="1548">do mi voluntad y signo</l>
+               <l n="1549">allá me convida y tira.</l>
+               <l n="1550">Tú rogarás entretanto</l>
+               <l n="1551">a los dioses que me vuelvan</l>
+               <l n="1552">con despojos que resuelvan</l>
+               <l n="1553">tu miseria y mi quebranto.</l>
+            </sp>
+            <sp who="#lira">
+               <speaker>LIRA</speaker>
+               <l n="1554">Marandro, mi dulce amigo,</l>
+               <l n="1555">no vayas, que se me antoja</l>
+               <l n="1556">que de tu sangre veo roja</l>
+               <l n="1557">la espada del enemigo.</l>
+               <l n="1558">No hagas esta jornada,</l>
+               <l n="1559">Marandro, bien de mi vida;</l>
+               <l n="1560">que si es mala la salida,</l>
+               <l n="1561">es muy peor la tornada.</l>
+               <l n="1562">Si quiero aplacar tu brío,</l>
+               <l n="1563">por testigo pongo al cielo,</l>
+               <l n="1564">que de tu daño recelo,</l>
+               <l n="1565">y no del provecho mío.</l>
+               <l n="1566">Mas si acaso, amado amigo,</l>
+               <l n="1567">prosigues esta contienda,</l>
+               <l n="1568">lleva este abrazo por prenda</l>
+               <l n="1569">de que me llevas contigo.</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="1570">Lira, el cielo te acompañe.</l>
+               <l n="1571">Vete, que a Leoncio veo.</l>
+            </sp>
+            <sp who="#lira">
+               <speaker>LIRA</speaker>
+               <l n="1572">Y a ti te cumpla el deseo</l>
+               <l n="1573">y en ninguna parte dañe.</l>
+            </sp>
+            <stage>(LEONCIO ha de estar escuchando todo lo que ha pasado entre su amigo MARANDRO y LIRA.)</stage>
+            <sp who="#leoncio">
+               <speaker>LEONCIO</speaker>
+               <l n="1574">Terrible ofrecimiento es el que has hecho,</l>
+               <l n="1575">y en él, Marandro, se nos muestra claro</l>
+               <l n="1576">que no hay cobarde enamorado pecho,</l>
+               <l n="1577">aunque de tu virtud y valor raro</l>
+               <l n="1578">debe más esperarse; mas yo temo</l>
+               <l n="1579">que el hado infeliz se [nos] muestre avaro.</l>
+               <l n="1580">He estado atento al miserable estremo</l>
+               <l n="1581">en que te ha dicho Lira que se halla,</l>
+               <l n="1582">indigno, cierto, a su valor supremo,</l>
+               <l n="1583">y que tú has prometido de libralla</l>
+               <l n="1584">deste presente daño y arrojarte</l>
+               <l n="1585">en las armas romanas a batalla.</l>
+               <l n="1586">Yo quiero, buen amigo, acompañarte</l>
+               <l n="1587">y en empresa tan justa y tan forzosa</l>
+               <l n="1588">con mis pequeñas fuerzas ayudarte.</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="1589">¡Oh mitad de mi alma! ¡Oh venturosa</l>
+               <l n="1590">amistad, no en trabajos dividida</l>
+               <l n="1591">ni en la ocasión más próspera y dichosa!</l>
+               <l n="1592">Goza, Leoncio, de la dulce vida;</l>
+               <l n="1593">quédate en la ciudad, que yo no quiero</l>
+               <l n="1594">ser de tus verdes años homicida.</l>
+               <l n="1595">Yo solo tengo de ir, yo solo espero</l>
+               <l n="1596">volver con los despojos merecidos</l>
+               <l n="1597">a mi inviolable fee y amor sincero.</l>
+            </sp>
+            <sp who="#leoncio">
+               <speaker>LEONCIO</speaker>
+               <l n="1598">Pues ya tienes, Marandro, conocidos</l>
+               <l n="1599">mis deseos, que en buena o mala suerte</l>
+               <l n="1600">al sabor de los tuyos van medidos;</l>
+               <l n="1601">sabrás que no los miedos de la muerte</l>
+               <l n="1602">de ti me apartarán un solo punto</l>
+               <l n="1603">ni otra cosa, si la hay, que sea mas fuerte.</l>
+               <l n="1604">Contigo tengo de ir, contigo junto</l>
+               <l n="1605">he de volver, si ya el cielo no ordena</l>
+               <l n="1606">que quede en tu defensa allá difunto.</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="1607">Quédate, amigo, queda en hora buena,</l>
+               <l n="1608">porque si yo acabare aquí la vida,</l>
+               <l n="1609">en esta empresa de peligro llena,</l>
+               <l n="1610">tú puedas a mi madre dolorida</l>
+               <l n="1611">consolar en el trance riguroso</l>
+               <l n="1612">y a la esposa de mí tanto querida.</l>
+            </sp>
+            <sp who="#leoncio">
+               <speaker>LEONCIO</speaker>
+               <l n="1613">Cierto que estás, amigo, muy donoso</l>
+               <l n="1614">en pensar que, tú muerto, quedaría</l>
+               <l n="1615">yo con tal quietud y tal reposo</l>
+               <l n="1616">que de consuelo alguno serviría</l>
+               <l n="1617">a la doliente madre y triste esposa.</l>
+               <l n="1618">Pues en la tuya está la muerte mía,</l>
+               <l n="1619">seguirte tengo en la ocasión dubdosa;</l>
+               <l n="1620">mira cómo ha de ser, Marandro amigo,</l>
+               <l n="1621">y en el quedarme no me hables cosa.</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="1622">Pues no puedo estorbarte el ir conmigo,</l>
+               <l n="1623">en el silencio desta noche obscura</l>
+               <l n="1624">tenemos de asaltar al enemigo.</l>
+               <l n="1625">Lleva ligeras armas, que ventura</l>
+               <l n="1626">es la que ha de ayudar al alto intento,</l>
+               <l n="1627">que no la malla entretejida y dura.</l>
+               <l n="1628">Lleva ansimismo puesto el pensamiento</l>
+               <l n="1629">en robar y traer a buen recado</l>
+               <l n="1630">lo que pudieres más de bastimento.</l>
+            </sp>
+            <sp who="#leoncio">
+               <speaker>LEONCIO</speaker>
+               <l n="1631">Vamos, que no saldré de tu mandado.</l>
+            </sp>
+            <stage>Dos numantinos.</stage>
+            <sp who="#numantino1">
+
+               <speaker>1.º</speaker>
+               <l n="1632">¡Derrama, oh dulce hermano, por los ojos</l>
+               <l n="1633">el alma, en llanto amargo convertida!</l>
+               <l n="1634">Venga la muerte y lleve los despojos</l>
+               <l n="1635">de nuestra miserable y triste vida.</l>
+            </sp>
+            <sp who="#numantino2">
+               <speaker>2.º</speaker>
+               <l n="1636">Bien poco durarán estos enojos,</l>
+               <l n="1637">que ya la muerte viene apercebida</l>
+               <l n="1638">para llevar en presto y breve vuelo</l>
+               <l n="1639">a cuantos pisan de Numancia el suelo.</l>
+               <l n="1640">Principios veo que prometen presto</l>
+               <l n="1641">amargo fin a nuestra dulce tierra,</l>
+               <l n="1642">sin que tengan cuidado de hacer esto</l>
+               <l n="1643">los contrarios ministros de la guerra;</l>
+               <l n="1644">nosotros mismos, a quien ya es molesto</l>
+               <l n="1645">y enfadoso el vivir que nos atierra,</l>
+               <l n="1646">hemos dado sentencia inrevocable</l>
+               <l n="1647">de nuestra muerte, aunque cruel, loable.</l>
+               <l n="1648">En la plaza mayor ya levantada</l>
+               <l n="1649">queda una ardiente cudiciosa hoguera,</l>
+               <l n="1650">que de nuestras riquezas ministrada</l>
+               <l n="1651">sus llamas sube hasta la cuarta esfera.</l>
+               <l n="1652">Allí con triste priesa acelerada</l>
+               <l n="1653">y con mortal y tímida carrera</l>
+               <l n="1654">acuden todos, como a santa ofrenda,</l>
+               <l n="1655">a sustentar sus llamas con su hacienda.</l>
+               <l n="1656">Allí la perla del rosado Oriente</l>
+               <l n="1657">y el oro en mil vasijas fabricado,</l>
+               <l n="1658">y el diamante y rubí más excelente</l>
+               <l n="1659">y la estimada púrpura y brocado,</l>
+               <l n="1660">en medio del rigor fogoso ardiente</l>
+               <l n="1661">de la encendida llama es arrojado;</l>
+               <l n="1662">despojos do pudieran los romanos</l>
+               <l n="1663">henchir los senos y ocupar las manos.</l>
+               <l n="1664">
+                  <stage>(Aquí salen agora algunos cargados de ropa y entran por una puerta y salen por otra.)</stage>Vuelve al triste espectáculo la vista:</l>
+               <l n="1665">verás con cuánta priesa y cuánta gana</l>
+               <l n="1666">toda Numancia en numerosa lista</l>
+               <l n="1667">aguija a sustentar la llama insana;</l>
+               <l n="1668">y no con verde leño y seca arista,</l>
+               <l n="1669">no con materia al consumir liviana,</l>
+               <l n="1670">sino con sus haciendas mal gozadas,</l>
+               <l n="1671">pues se ganaron para ser quemadas.</l>
+            </sp>
+            <sp who="#numantino1">
+               <speaker>1.º</speaker>
+               <l n="1672">Si con esto acabara nuestro daño,</l>
+               <l n="1673">pudiéramos llevallo con paciencia;</l>
+               <l n="1674">mas, ¡ay!, que se ha de dar, si no me engaño,</l>
+               <l n="1675">de que muramos todos cruel sentencia.</l>
+               <l n="1676">Primero que el rigor bárbaro estraño</l>
+               <l n="1677">muestre en nuestras gargantas su inclemencia,</l>
+               <l n="1678">verdugos de nosotros nuestras manos</l>
+               <l n="1679">serán, y no los pérfidos romanos.</l>
+               <l n="1680">Han acordado que no quede alguna</l>
+               <l n="1681">mujer, niño ni viejo con la vida,</l>
+               <l n="1682">pues al fin la cruel hambre importuna</l>
+               <l n="1683">con más fiero rigor es su homicida.</l>
+               <l n="1684">Mas ves allí do asoma, hermano, una</l>
+               <l n="1685">que, como sabes, fue de mí querida</l>
+               <l n="1686">un tiempo con estremo tal de amores,</l>
+               <l n="1687">cual es el que ella tiene de dolores.</l>
+            </sp>
+            <stage>(Sale una mujer con una criatura en los brazos y otra de la mano.)</stage>
+            <sp who="#madre">
+               <speaker>MADRE</speaker>
+               <l n="1688">¡Oh duro vivir molesto,</l>
+               <l n="1689">terrible y triste agonía!</l>
+            </sp>
+            <sp who="#hijo">
+               <speaker>HIJO</speaker>
+               <l n="1690">Madre, ¿por ventura, habría</l>
+               <l n="1691">quien nos diese pan por esto?</l>
+            </sp>
+            <sp who="#madre">
+               <speaker>MADRE</speaker>
+               <l n="1692">¿Pan, hijo? Ni aun otra cosa</l>
+               <l n="1693">que semeje de comer.</l>
+            </sp>
+            <sp who="#hijo">
+               <speaker>HIJO</speaker>
+               <l n="1694">Pues, ¿tengo de perecer</l>
+               <l n="1695">de dura hambre rabiosa?</l>
+               <l n="1696">Con poco pan que me deis,</l>
+               <l n="1697">madre, no os pediré más.</l>
+            </sp>
+            <sp who="#madre">
+               <speaker>MADRE</speaker>
+               <l n="1698">¡Hijo, qué pena me das!</l>
+            </sp>
+            <sp who="#hijo">
+               <speaker>HIJO</speaker>
+               <l n="1699">¿Pues qué, madre, no queréis?</l>
+            </sp>
+            <sp who="#madre">
+               <speaker>MADRE</speaker>
+               <l n="1700">Sí quiero; mas ¿qué haré,</l>
+               <l n="1701">que no sé dónde buscallo?</l>
+            </sp>
+            <sp who="#hijo">
+               <speaker>HIJO</speaker>
+               <l n="1702">Bien podéis, madre, comprallo;</l>
+               <l n="1703">si no, yo lo compraré.</l>
+               <l n="1704">Mas, por quitarme de afán,</l>
+               <l n="1705">si alguno conmigo topa,</l>
+               <l n="1706">le daré toda esta ropa</l>
+               <l n="1707">por un mendrugo de pan.</l>
+            </sp>
+            <sp who="#madre">
+               <speaker>MADRE</speaker>
+               <l n="1708">¿Qué mamas, triste criatura?</l>
+               <l n="1709">¿No sientes que a mi despecho</l>
+               <l n="1710">sacas ya del flaco pecho,</l>
+               <l n="1711">por leche, la sangre pura?</l>
+               <l n="1712">¡Lleva la carne a pedazos</l>
+               <l n="1713">y procura de hartarte,</l>
+               <l n="1714">que no pueden más llevarte</l>
+               <l n="1715">mis flojos cansados brazos!</l>
+               <l n="1716">Hijos del ánima mía,</l>
+               <l n="1717">¿con qué os podré sustentar,</l>
+               <l n="1718">si apenas tengo qué os dar</l>
+               <l n="1719">de la propia carne mía?</l>
+               <l n="1720">¡Oh hambre terrible y fuerte,</l>
+               <l n="1721">cómo me acabas la vida!</l>
+               <l n="1722">¡Oh guerra, solo venida</l>
+               <l n="1723">para causarme la muerte!</l>
+
+            </sp>
+            <sp who="#hijo">
+               <speaker>HIJO</speaker>
+               <l n="1724">¡Madre mía, que me fino!</l>
+               <l n="1725">Aguijemos a do vamos,</l>
+               <l n="1726">que parece que alargamos</l>
+               <l n="1727">la hambre con el camino.</l>
+            </sp>
+            <sp who="#madre">
+               <speaker>MADRE</speaker>
+               <l n="1728">Hijo, cerca está la [plaza]</l>
+               <l n="1729">adonde echaremos luego</l>
+               <l n="1730">en mitad del vivo fuego</l>
+               <l n="1731">el pecho que te embaraza.</l>
+            </sp>
+            <stage>(Éntranse.)</stage>
+         </div>
+         <div type="act">
+            <head>[Cuarta] y última jornada</head>
+            <stage>Tócase al arma con gran priesa y a este rumor sale CIPIÓN con JUGURTA y MARIO al tablado.</stage> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="1732">¿Qué es esto, capitanes? ¿Quién nos toca</l>
+               <l n="1733">al arma en tal sazón? ¿Es por ventura</l>
+               <l n="1734">alguna gente desmandada y loca</l>
+               <l n="1735">que viene a procurar su sepultura?</l>
+               <l n="1736">O no sea algún motín el que provoca</l>
+               <l n="1737">tocar al arma en recia coyuntura,</l>
+               <l n="1738">que tan seguro estoy del enemigo,</l>
+               <l n="1739">que tengo más temor al que es amigo.</l>
+            </sp>
+            <stage>(Sale QUINTO FABIO, con la espada desnuda y dice.)</stage>
+            <sp who="#quintofabio">
+               <speaker>QUINTO FABIO</speaker>
+               <l n="1740">Sosiega el pecho, general prudente,</l>
+               <l n="1741">que ya desta arma la ocasión se sabe</l>
+               <l n="1742">puesto que ha sido a costa de tu gente,</l>
+               <l n="1743">de aquella en quien más brío y fuerza cabe.</l>
+               <l n="1744">Dos numantinos con soberbia frente,</l>
+               <l n="1745">cuyo valor será razón se alabe,</l>
+               <l n="1746">saltando el ancho foso y la muralla</l>
+               <l n="1747">han movido a tu campo cruel batalla.</l>
+               <l n="1748">A las primeras guardias imbistieron</l>
+               <l n="1749">y en medio de mil lanzas se arrojaron,</l>
+               <l n="1750">y con tal furia y rabia arremetieron</l>
+               <l n="1751">que libre paso al campo les dejaron;</l>
+               <l n="1752">las tiendas de Fabricio acometieron</l>
+               <l n="1753">y allí su fuerza y su valor mostraron,</l>
+               <l n="1754">de modo que en un punto seis soldados</l>
+               <l n="1755">fueron de agudas puntas traspasados.</l>
+               <l n="1756">No con tanta presteza el rayo ardiente</l>
+               <l n="1757">pasa rompiendo el aire en presto vuelo</l>
+               <l n="1758">ni tanto la cometa reluciente</l>
+               <l n="1759">se muestra ir presurosa por el cielo,</l>
+               <l n="1760">como estos dos por medio de tu gente</l>
+               <l n="1761">pasaron, colorando el duro suelo</l>
+               <l n="1762">con la sangre romana que sacaban</l>
+               <l n="1763">sus espadas doquiera que llegaban.</l>
+               <l n="1764">Queda Fabricio traspasado el pecho,</l>
+               <l n="1765">abierta la cabeza tiene Horacio,</l>
+               <l n="1766">Olmida ya perdió el brazo derecho</l>
+               <l n="1767">y de vivir le queda poco espacio.</l>
+               <l n="1768">Fuele ansimismo poco de provecho</l>
+               <l n="1769">la ligereza al valeroso Estacio,</l>
+               <l n="1770">pues el correr al numantino fuerte</l>
+               <l n="1771">fue abreviar el camino de su muerte.</l>
+               <l n="1772">Con presta ligereza discurriendo</l>
+               <l n="1773">iban de tienda en tienda hasta que hallaron</l>
+               <l n="1774">un poco de bizcocho, el cual cogieron;</l>
+               <l n="1775">el paso y no el furor atrás tornaron;</l>
+               <l n="1776">el uno dellos se escapó huyendo,</l>
+               <l n="1777">al otro mil espadas le acabaron,</l>
+               <l n="1778">por donde infiero que la hambre ha sido</l>
+               <l n="1779">quien les dio atrevimiento tan subido.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="1780">Si estando deshambridos y encerrados</l>
+               <l n="1781">muestran tan demasiado atrevimiento,</l>
+               <l n="1782">¿qué hicieran siendo libres y enterados</l>
+               <l n="1783">en sus fuerzas primeras y ardimiento?</l>
+               <l n="1784">Indómitos, al fin seréis domados,</l>
+               <l n="1785">porque contra el furor vuestro violento</l>
+               <l n="1786">se tiene de poner la industria nuestra,</l>
+               <l n="1787">que de domar soberbios es maestra.</l>
+            </sp>
+            <stage>(Éntrase CIPIÓN y los suyos y luego tócase al arma en la ciudad, y al rumor sale MARANDRO, herido y lleno de sangre, con una cestilla blanca en el brazo izquierdo con algún poco de bizcocho ensangrentado y dice.)</stage>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="1788">¿No vienes, Leoncio, di?</l>
+               <l n="1789">¿Qué es esto, mi dulce amigo?</l>
+               <l n="1790">¿Si tú no vienes conmigo,</l>
+               <l n="1791">cómo vengo yo sin ti?</l>
+               <l n="1792">Amigo, ¿que te has quedado?;</l>
+               <l n="1793">amigo, ¿que te quedaste?</l>
+               <l n="1794">¡No eres tú el que me dejaste,</l>
+               <l n="1795">sino yo el que te he dejado!</l>
+               <l n="1796">¿Que es posible que ya dan</l>
+               <l n="1797">tus carnes despedazadas</l>
+               <l n="1798">señales averiguadas</l>
+               <l n="1799">de lo que cuesta este pan?</l>
+               <l n="1800">¿Y es posible que la herida,</l>
+               <l n="1801">que a ti te dejó difunto,</l>
+               <l n="1802">en aqueste instante y punto</l>
+               <l n="1803">no me quitó a mí la vida?</l>
+               <l n="1804">No quiso el hado cruel</l>
+               <l n="1805">acabarme en paso tal,</l>
+               <l n="1806">por hacerme a mí más mal</l>
+               <l n="1807">y hacerte a ti más bien.</l>
+               <l n="1808">Tú, en fin, llevarás la palma</l>
+               <l n="1809">de más verdadero amigo;</l>
+               <l n="1810">yo a desculparme contigo</l>
+               <l n="1811">enviaré bien presto el alma</l>
+               <l n="1812">y tan presto, que el afán</l>
+               <l n="1813">a morir me llama y tira,</l>
+               <l n="1814">en dando a mi dulce Lira</l>
+               <l n="1815">este tan amargo pan.</l>
+               <l n="1816">Pan ganado de enemigos;</l>
+               <l n="1817">pero no ha sido ganado,</l>
+               <l n="1818">sino con sangre comprado</l>
+               <l n="1819">de dos sin ventura amigos.</l>
+            </sp>
+            <stage>(Sale LIRA con alguna ropa, como que la lleva a quemar, y dice.)</stage>
+            <sp who="#lira">
+               <speaker>LIRA</speaker>
+               <l n="1820">¿Qué es esto que ven mis ojos?</l>
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="1821">Lo que presto no verán,</l>
+               <l n="1822">según la priesa se dan</l>
+               <l n="1823">de acabarme mis enojos.</l>
+               <l n="1824">Ves aquí, Lira, cumplida</l>
+               <l n="1825">mi palabra y mis porfías</l>
+               <l n="1826">de que tú no morirías</l>
+               <l n="1827">mientras yo tuviese vida.</l>
+               <l n="1828">Y aun podré mejor decir</l>
+               <l n="1829">que presto vendrás a ver</l>
+               <l n="1830">que a ti sobrará el comer</l>
+               <l n="1831">y a mí faltará el vivir.</l>
+            </sp>
+            <sp who="#lira">
+               <speaker>LIRA</speaker>
+               <l n="1832">¿Qué dices, Marandro amado?</l>
+
+            </sp>
+            <sp who="#marandro">
+               <speaker>MARANDRO</speaker>
+               <l n="1833">Lira, que acortes la hambre</l>
+               <l n="1834">entre tanto que la estambre</l>
+               <l n="1835">de mi vida corta el hado.</l>
+               <l n="1836">Pero mi sangre vertida</l>
+               <l n="1837">y con este pan mezclada</l>
+               <l n="1838">te ha de dar, mi dulce amada,</l>
+               <l n="1839">triste y amarga comida.</l>
+               <l n="1840">Ves aquí el pan que guardaban</l>
+               <l n="1841">ochenta mil enemigos,</l>
+               <l n="1842">que cuesta de dos amigos</l>
+               <l n="1843">las vidas que más amaban.</l>
+               <l n="1844">Y porque lo entiendas cierto</l>
+               <l n="1845">y cuánto tu amor merezco,</l>
+               <l n="1846">ya yo, señora, perezco</l>
+               <l n="1847">y Leoncio ya está muerto.</l>
+               <l n="1848">Mi voluntad sana y justa</l>
+               <l n="1849">recíbela con amor,</l>
+               <l n="1850">que es la comida mejor</l>
+               <l n="1851">y de que el alma más gusta.</l>
+               <l n="1852">Y pues en tormenta y calma</l>
+               <l n="1853">siempre has sido mi señora,</l>
+               <l n="1854">recibe este cuerpo ahora</l>
+               <l n="1855">como recibiste el alma.</l>
+            </sp>
+            <stage>(Cáese muerto y cógele en las faldas LIRA.)</stage>
+            <sp who="#lira">
+               <speaker>LIRA</speaker>
+               <l n="1856">Marandro, dulce bien mío,</l>
+               <l n="1857">¿qué sentís o qué tenéis?</l>
+               <l n="1858">¿Cómo tan presto perdéis</l>
+               <l n="1859">vuestro acostumbrado brío?</l>
+               <l n="1860">¡Mas ay triste, sin ventura,</l>
+               <l n="1861">que ya está muerto mi esposo!</l>
+               <l n="1862">¡Oh caso, el más lastimoso</l>
+               <l n="1863">que se vio en la desventura!</l>
+               <l n="1864">¿Quién os hizo, dulce amado</l>
+               <l n="1865">con valor tan excelente,</l>
+               <l n="1866">enamorado valiente</l>
+               <l n="1867">y soldado desdichado?</l>
+               <l n="1868">Hicistes una salida,</l>
+               <l n="1869">esposo mío, de suerte</l>
+               <l n="1870">que por escusar mi muerte</l>
+               <l n="1871">me habéis quitado la vida</l>
+               <l n="1872">¡Oh pan, de la sangre lleno</l>
+               <l n="1873">que por mí se derramó,</l>
+               <l n="1874">no te tengo en cuenta yo</l>
+               <l n="1875">de pan, sino de veneno!</l>
+               <l n="1876">¡No te llegaré a mi boca</l>
+               <l n="1877">por poderme sustentar,</l>
+               <l n="1878">si no es para besar</l>
+               <l n="1879">esta sangre que te toca!</l>
+            </sp>
+            <stage>(A este punto ha de entrar un muchacho hablando desmayadamente, el cual es hermano de LIRA.)</stage>
+            <sp who="#hermano">
+               <speaker>HERMANO</speaker>
+               <l n="1880">Lira, hermana, ya expiró</l>
+               <l n="1881">mi padre y mi madre está</l>
+               <l n="1882">en términos que ya ya</l>
+               <l n="1883">morirá, cual muero yo.</l>
+               <l n="1884">La hambre los ha acabado.</l>
+               <l n="1885">Hermana mía, ¿pan tienes?</l>
+               <l n="1886">¡Oh pan y cuán tarde vienes,</l>
+               <l n="1887">que ya no hay pasar bocado!</l>
+               <l n="1888">Tiene la hambre apretada</l>
+               <l n="1889">mi garganta en tal manera</l>
+               <l n="1890">que, aunque este pan agua fuera,</l>
+               <l n="1891">no pudiera pasar nada.</l>
+               <l n="1892">Tómalo, hermana querida,</l>
+               <l n="1893">que, por más crecer mi afán,</l>
+               <l n="1894">veo que me sobra el pan</l>
+               <l n="1895">cuando me falta la vida.</l>
+            </sp>
+            <stage>(Cáese muerto.)</stage>
+            <sp who="#lira">
+               <speaker>LIRA</speaker>
+               <l n="1896">¿Espiraste, hermano amado?</l>
+               <l n="1897">Ni aliento ni vida tiene.</l>
+               <l n="1898">¡Bien es el mal cuando viene</l>
+               <l n="1899">sin venir acompañado!</l>
+               <l n="1900">Fortuna, ¿por qué me aquejas</l>
+               <l n="1901">con un daño y otro junto</l>
+               <l n="1902">y por qué en un solo punto</l>
+               <l n="1903">huérfana y viuda me dejas?</l>
+               <l n="1904">¡Oh, duro escuadrón romano,</l>
+               <l n="1905">cómo me tiene tu espada</l>
+               <l n="1906">de dos muertos rodeada,</l>
+               <l n="1907">uno esposo y otro hermano!</l>
+               <l n="1908">¿A cuál volveré la cara</l>
+               <l n="1909">en este trance importuno,</l>
+               <l n="1910">si en la vida cada uno</l>
+               <l n="1911">fue prenda del alma cara?</l>
+               <l n="1912">Dulce esposo, hermano tierno,</l>
+               <l n="1913">yo os igualaré en quereros,</l>
+               <l n="1914">porque pienso presto veros</l>
+               <l n="1915">en el cielo o el infierno.</l>
+               <l n="1916">En el modo de morir</l>
+               <l n="1917">a entrambos he de imitar,</l>
+               <l n="1918">porque el hierro ha de acabar</l>
+               <l n="1919">y la hambre mi vivir.</l>
+               <l n="1920">Primero daré a mi pecho</l>
+               <l n="1921">una daga que este pan,</l>
+               <l n="1922">que a quien vive con afán</l>
+               <l n="1923">es la muerte de provecho.</l>
+               <l n="1924">¿Qué aguardo? ¡Cobarde estoy!</l>
+               <l n="1925">Brazo, ¿ya os habéis turbado?</l>
+               <l n="1926">¡Dulce esposo, hermano amado,</l>
+               <l n="1927">esperadme, que ya voy!</l>
+            </sp>
+            <stage>(A este punto, sale una MUJER huyendo y tras ella un SOLDADO numantino con una daga en la mano para matarla.)</stage>
+            <sp who="#mujer1">
+               <speaker>MUJER</speaker>
+               <l n="1928">¡Eterno padre, Júpiter piadoso,</l>
+               <l n="1929">favorecedme en tan adversa suerte!</l>
+            </sp>
+            <sp who="#soldado">
+               <speaker>SOLDADO</speaker>
+               <l n="1930">¡Aunque más lleves vuelo presuroso,</l>
+               <l n="1931">mi dura mano te ha de dar la muerte!</l>
+            </sp>
+            <stage>(Éntrase la mujer adentro y dice LIRA.)</stage>
+            <sp who="#lira">
+               <speaker>LIRA</speaker>
+               <l n="1932">El yerro agudo, el brazo belicoso,</l>
+               <l n="1933">contra mí, buen soldado, le convierte;</l>
+               <l n="1934">deja vivir a quien la vida agrada</l>
+               <l n="1935">y quítame la mía, que me enfada.</l>
+            </sp>
+            <sp who="#soldado">
+               <speaker>SOLDADO</speaker>
+               <l n="1936">Puesto que es el decreto del Senado</l>
+               <l n="1937">que ninguna mujer quede con vida,</l>
+               <l n="1938">¿cuál será el bravo pecho acelerado</l>
+               <l n="1939">que en ese hermoso vuestro dé herida?</l>
+               <l n="1940">Yo, señora, no soy tan mal mirado</l>
+               <l n="1941">que me precie de ser vuestro homicida;</l>
+               <l n="1942">otra mano, otro hierro ha de acabaros,</l>
+               <l n="1943">que yo sólo nací para adoraros.</l>
+            </sp>
+            <sp who="#lira">
+               <speaker>LIRA</speaker>
+               <l n="1944">Esa piedad que quies usar conmigo,</l>
+               <l n="1945">valeroso soldado, yo te juro,</l>
+               <l n="1946">y al alto cielo pongo por testigo,</l>
+               <l n="1947">que yo la estimo por rigor muy duro;</l>
+               <l n="1948">tuviérate yo entonces por amigo</l>
+               <l n="1949">cuando, con pecho y ánimo seguro,</l>
+               <l n="1950">este mío afligido traspasaras</l>
+               <l n="1951">y de la amarga vida me privaras.</l>
+               <l n="1952">Pero, pues quies mostrarte piadoso</l>
+               <l n="1953">tan en daño, señor, de mi contento,</l>
+               <l n="1954">muéstralo agora en que a mi triste esposo</l>
+               <l n="1955">demos el funeral último asiento;</l>
+               <l n="1956">también a este mi hermano que en reposo</l>
+               <l n="1957">yace ya libre del vital aliento.</l>
+               <l n="1958">Mi esposo feneció por darme vida;</l>
+               <l n="1959">de mi hermano, la hambre fue homicida.</l>
+            </sp>
+            <sp who="#soldado">
+               <speaker>SOLDADO</speaker>
+               <l n="1960">Hacer lo que me mandas está llano,</l>
+               <l n="1961">con condición que en el camino cuentes</l>
+               <l n="1962">quién a tu amado esposo y caro hermano</l>
+               <l n="1963">trujo a los postrimeros accidentes.</l>
+            </sp>
+            <sp who="#lira">
+               <speaker>LIRA</speaker>
+               <l n="1964">Amigo, ya el hablar no está en mi mano.</l>
+            </sp>
+            <sp who="#soldado">
+               <speaker>SOLDADO</speaker>
+               <l n="1965">¿Que tan al cabo estás? ¿Que tal te sientes?</l>
+               <l n="1966">Lleva a tu hermano, pues que es menor carga,</l>
+               <l n="1967">y yo a tu esposo, que más pesa y carga.</l>
+
+            </sp>
+            <stage>(Sálense llevando los dos cuerpos.)</stage>
+            <stage>Sale una mujer armada, con un escudo en el brazo izquierdo y una lancilla en la mano, que significa la GUERRA; trae consigo a la ENFERMEDAD, arrimada a una muleta y rodeada de paños la cabeza, con una máscara amarilla, y la HAMBRE saldrá con un desnudo de muerte y encima una ropa de bocací amarillo y una máscara amarilla o descolorida. Pueden estas figuras hacellas hombres, pues llevan máscaras.</stage>
+            <sp who="#guerra">
+
+               <speaker>GUERRA</speaker>
+               <l n="1968">Hambre y Enfermedad, ejecutoras</l>
+               <l n="1969">de mis terribles mandos y severos,</l>
+               <l n="1970">de vidas y salud consumidoras,</l>
+               <l n="1971">con quien no vale ruego, mando o fueros,</l>
+               <l n="1972">pues ya de mi intención sois sabidoras,</l>
+               <l n="1973">no hay para qué de nuevo encareceros</l>
+               <l n="1974">de cuánto gusto me será y contento</l>
+               <l n="1975">que luego luego hagáis mi mandamiento.</l>
+               <l n="1976">La fuerza incontrastable de los hados,</l>
+               <l n="1977">cuyos efectos nunca salen vanos,</l>
+               <l n="1978">me fuerza a que de mí sean ayudados</l>
+               <l n="1979">estos sagaces mílites romanos;</l>
+               <l n="1980">ellos serán un tiempo levantados</l>
+               <l n="1981">y abatidos también estos hispanos;</l>
+               <l n="1982">pero tiempo vendrá en que yo me mude</l>
+               <l n="1983">y dañe al alto y al pequeño ayude.</l>
+               <l n="1984">Que yo, que soy la poderosa Guerra,</l>
+               <l n="1985">de tantas madres detestada en vano,</l>
+               <l n="1986">aunque quien me maldice a veces yerra,</l>
+               <l n="1987">pues no sabe el valor desta mi mano,</l>
+               <l n="1988">sé bien que en todo el orbe de la tierra</l>
+               <l n="1989">seré llevada del valor hispano</l>
+               <l n="1990">en la dulce sazón que estén reinando</l>
+               <l n="1991">un Carlos y un Filipo y un Fernando.</l>
+            </sp>
+            <sp who="#enfermedad">
+               <speaker>ENFERMEDAD</speaker>
+               <l n="1992">Si ya la Hambre, nuestra amiga fida,</l>
+               <l n="1993">no tuviera tomado con instancia</l>
+               <l n="1994">a su cargo de ser fiera homicida</l>
+               <l n="1995">de todos cuantos viven en Numancia,</l>
+               <l n="1996">fuera de mí tu voluntad cumplida,</l>
+               <l n="1997">de modo que se viera la ganancia</l>
+               <l n="1998">fácil y rica que el romano hubiera</l>
+               <l n="1999">harto mejor de aquella que se espera.</l>
+               <l n="2000">Mas ella, en cuanto su poder alcanza,</l>
+               <l n="2001">ya tiene tal al pueblo numantino,</l>
+               <l n="2002">que de esperar alguna buena andanza</l>
+               <l n="2003">le ha tomado las sendas y el camino;</l>
+               <l n="2004">mas del furor la rigurosa lanza</l>
+               <l n="2005">y la influencia del contrario signo</l>
+               <l n="2006">le trata con tan áspera violencia</l>
+               <l n="2007">que no es menester hambre ni dolencia.</l>
+               <l n="2008">El Furor y la Rabia, tus secuaces,</l>
+               <l n="2009">han tomado en sus pechos tal asiento</l>
+               <l n="2010">que, cual si fuese de romanas haces,</l>
+               <l n="2011">cada cual de su sangre está sediento.</l>
+               <l n="2012">Muertes, incendios, iras son sus paces;</l>
+               <l n="2013">en el morir han puesto su contento</l>
+               <l n="2014">y, por quitar el triunfo a los romanos,</l>
+               <l n="2015">ellos mesmos se matan con sus manos.</l>
+            </sp>
+            <sp who="#hambre">
+               <speaker>HAMBRE</speaker>
+               <l n="2016">Volved los ojos y veréis ardiendo</l>
+               <l n="2017">de la ciudad los encumbrados techos;</l>
+               <l n="2018">escuchad los suspiros que saliendo</l>
+               <l n="2019">van de mil tristes lastimados pechos;</l>
+               <l n="2020">oíd la voz y lamentable estruendo</l>
+               <l n="2021">de bellas damas, a quien, ya deshechos</l>
+               <l n="2022">los tiernos miembros en ceniza y fuego,</l>
+               <l n="2023">no valen padre, amigo, amor ni ruego.</l>
+               <l n="2024">Cual suelen las ovejas descuidadas,</l>
+               <l n="2025">siendo del fiero lobo acometidas,</l>
+               <l n="2026">andar aquí y allí descarriadas,</l>
+               <l n="2027">con temor de perder las simples vidas,</l>
+               <l n="2028">tal niños y mujeres delicadas</l>
+               <l n="2029">huyendo las espadas homicidas</l>
+               <l n="2030">andan de calle en calle, ¡oh hado insano!,</l>
+               <l n="2031">su cierta muerte dilatando en vano.</l>
+               <l n="2032">Al pecho de la amada nueva esposa</l>
+               <l n="2033">traspasa del esposo el hierro agudo;</l>
+               <l n="2034">contra la madre, ¡oh nunca vista cosa!,</l>
+               <l n="2035">se muestra el hijo de piedad desnudo</l>
+               <l n="2036">y contra el hijo el padre, con rabiosa</l>
+               <l n="2037">clemencia, levantando el brazo crudo,</l>
+               <l n="2038">rompe aquellas entrañas que ha engendrado,</l>
+               <l n="2039">quedando satisfecho y lastimado.</l>
+               <l n="2040">No hay plaza, no hay rincón, no hay calle o casa</l>
+               <l n="2041">que de sangre y de muertos no esté llena;</l>
+               <l n="2042">el hierro mata, el duro fuego abrasa</l>
+               <l n="2043">y el rigor ferocísimo condena.</l>
+               <l n="2044">Presto veréis que por el suelo rasa</l>
+               <l n="2045">está la más subida y alta almena</l>
+               <l n="2046">y las casas y templos más crecidos</l>
+               <l n="2047">en polvo y en ceniza convertidos.</l>
+               <l n="2048">Venid: veréis que en los amados cuellos</l>
+               <l n="2049">de tiernos hijos y mujer querida</l>
+               <l n="2050">Teógenes afila y prueba en ellos</l>
+               <l n="2051">de su espada el cruel corte homicida</l>
+               <l n="2052">y como ya, después de muertos ellos,</l>
+               <l n="2053">estima en poco la cansada vida,</l>
+               <l n="2054">buscando de morir un modo estraño</l>
+               <l n="2055">que causó, con el suyo, más de un daño.</l>
+            </sp>
+            <sp who="#guerra">
+               <speaker>GUERRA</speaker>
+               <l n="2056">Vamos, pues, y ninguno se descuide</l>
+               <l n="2057">de ejecutar por eso aquí su fuerza</l>
+               <l n="2058">y a lo que digo solo atienda y cuide,</l>
+               <l n="2059">sin que de mi intención un punto tuerza.</l>
+            </sp>
+            <stage>(Vanse.)</stage>
+            <stage>Sale TEÓGENES con dos hijos pequeños y una hija y su mujer.</stage>
+            <sp who="#teogenes">
+               <speaker>TEÓGENES</speaker>
+               <l n="2060">Cuando el paterno amor no me detiene</l>
+               <l n="2061">de ejecutar la furia de mi intento,</l>
+               <l n="2062">considerad, mis hijos, cuál me tiene</l>
+               <l n="2063">el celo de mi honroso pensamiento.</l>
+               <l n="2064">Terrible es el dolor que se previene</l>
+               <l n="2065">con acabar la vida en fin violento</l>
+               <l n="2066">y más el mío, pues al hado plugo</l>
+               <l n="2067">que yo sea de vosotros cruel verdugo.</l>
+               <l n="2068">No quedaréis, ¡oh hijos de mi alma!,</l>
+               <l n="2069">esclavos, ni el romano poderío</l>
+               <l n="2070">llevará de vosotros triunfo o palma,</l>
+               <l n="2071">por más que a sujetarnos alce el brío;</l>
+               <l n="2072">el camino más llano que la palma</l>
+               <l n="2073">de nuestra libertad el cielo pío</l>
+               <l n="2074">nos ofrece, nos muestra y nos advierte</l>
+               <l n="2075">que solo está en las manos de la muerte.</l>
+               <l n="2076">Ni vos, dulce consorte, amada mía,</l>
+               <l n="2077">os veréis en peligro [que] romanos</l>
+               <l n="2078">pongan en vuestro pecho y gallardía</l>
+               <l n="2079">los vanos ojos y las torpes manos.</l>
+               <l n="2080">Mi espada os sacará desta agonía</l>
+               <l n="2081">y hará que sus intentos salgan vanos,</l>
+               <l n="2082">pues por más que codicia los atiza,</l>
+               <l n="2083">triunfarán de Numancia en la ceniza.</l>
+               <l n="2084">Yo soy, consorte amada, el que primero</l>
+               <l n="2085">di el parecer que todos pereciésemos,</l>
+               <l n="2086">antes que al insufrible desafuero</l>
+               <l n="2087">del romano poder sujetos fuésemos,</l>
+               <l n="2088">y en el morir no pienso ser postrero,</l>
+               <l part="I" n="2089">ni lo serán mis hijos.</l>
+            </sp>
+            <sp who="#mujer1">
+               <speaker>MUJER</speaker>
+               <l part="F"> Si pudiésemos</l>
+               <l n="2090">escaparnos, señor, por otra vía,</l>
+               <l n="2091">el cielo sabe si me holgaría.</l>
+               <l n="2092">Mas pues no puede ser, según yo veo,</l>
+               <l n="2093">y está ya mi muerte tan cercana,</l>
+               <l n="2094">lleva de nuestras vidas tú el trofeo</l>
+               <l n="2095">y no la espada pérfida romana.</l>
+               <l n="2096">Mas, pues que he de morir, morir deseo</l>
+               <l n="2097">en el sagrado templo de Dïana;</l>
+               <l n="2098">allá nos lleva, buen señor, y luego</l>
+               <l n="2099">entréganos al hierro, al lazo y fuego.</l>
+            </sp>
+            <sp who="#teogenes">
+               <speaker>TEÓGENES</speaker>
+               <l n="2100">Ansí se haga, y no nos detengamos,</l>
+               <l n="2101">que ya a morir me incita el triste hado.</l>
+            </sp>
+            <sp who="#hijo">
+               <speaker>HIJO</speaker>
+               <l n="2102">Madre, ¿por qué lloráis? ¿Adónde vamos?</l>
+               <l n="2103">Teneos, que andar no puedo de cansado.</l>
+               <l n="2104">Mejor será, mi madre, que comamos,</l>
+               <l n="2105">que la hambre me tiene fatigado.</l>
+
+            </sp>
+            <sp who="#madre">
+               <speaker>MADRE</speaker>
+               <l n="2106">Ven en mis brazos, hijo de mi vida,</l>
+               <l n="2107">do te daré la muerte por comida.</l>
+            </sp>
+            <stage>(Vanse luego y salen dos muchachos huyendo, y el uno dellos ha de ser el que se arroja de la torre, que se llama VARIATO.)</stage>
+            <sp who="#variato">
+               <speaker>VARIATO</speaker>
+               <l n="2108">¿Por dónde quieres que huyamos,</l>
+               <l part="I" n="2109">Servio?</l>
+            </sp>
+            <sp who="#servio">
+               <speaker>SERVIO</speaker>
+               <l part="F"> Yo, por do quisieres.</l>
+            </sp>
+            <sp who="#variato">
+               <speaker>VARIATO</speaker>
+               <l n="2110">Camina, que flojo eres.</l>
+               <l n="2111">¿Tú ordenas que aquí muramos?</l>
+               <l n="2112">¿No ves, triste, que nos siguen</l>
+               <l n="2113">mil yerros para matarnos?</l>
+            </sp>
+            <sp who="#servio">
+               <speaker>SERVIO</speaker>
+               <l n="2114">Imposible de escaparnos</l>
+               <l n="2115">de aquellos que nos persiguen.</l>
+               <l n="2116">Mas di: ¿qué piensas hacer</l>
+               <l n="2117">o qué medio hay que nos cuadre?</l>
+            </sp>
+            <sp who="#variato">
+               <speaker>VARIATO</speaker>
+               <l n="2118">A una torre de mi padre</l>
+               <l n="2119">me pienso ir a esconder.</l>
+            </sp>
+            <sp who="#servio">
+               <speaker>SERVIO</speaker>
+               <l n="2120">Amigo, bien puedes irte,</l>
+               <l n="2121">que yo estoy tan flaco y laso</l>
+               <l n="2122">de hambre, que un solo paso</l>
+               <l n="2123">no puedo dar, ni seguirte.</l>
+            </sp>
+            <sp who="#variato">
+               <speaker>VARIATO</speaker>
+               <l part="I" n="2124"> ¿Que no quies venir?</l>
+            </sp>
+            <sp who="#servio">
+               <speaker>SERVIO</speaker>
+               <l part="F"> ¡No puedo!</l>
+            </sp>
+            <sp who="#variato">
+               <speaker>VARIATO</speaker>
+               <l n="2125">Si no puedes caminar,</l>
+               <l n="2126">ahí te habrá de acabar</l>
+               <l n="2127">la hambre, la espada o miedo.</l>
+               <l n="2128">Y voime, porque ya temo</l>
+               <l n="2129">lo que el vivir desbarata:</l>
+               <l n="2130">o que la espada me mata,</l>
+               <l n="2131">o que en el fuego me quemo.</l>
+            </sp>
+            <stage>(Vase y sale TEÓGENES con dos espadas desnudas y ensangrentadas las manos, y como SERVIO le ve venir, húyese y éntrase dentro.)</stage>
+            <sp who="#teogenes">
+               <speaker>TEÓGENES</speaker>
+               <l n="2132">Sangre de mis entrañas derramada,</l>
+               <l n="2133">pues sois aquella de los hijos míos;</l>
+               <l n="2134">mano contra ti mesma acelerada,</l>
+               <l n="2135">llena de honrosos y crueles bríos;</l>
+               <l n="2136">Fortuna, en daño nuestro conjurada;</l>
+               <l n="2137">cielos, de justa piedad vacíos,</l>
+               <l n="2138">ofrecedme en tan dura amarga suerte</l>
+               <l n="2139">alguna honrosa aunque cercana muerte.</l>
+               <l n="2140">Valientes numantinos, haced cuenta</l>
+               <l n="2141">que yo soy algún pérfido romano</l>
+               <l n="2142">y vengad en mi pecho vuestra afrenta,</l>
+               <l n="2143">ensangrentando en él la espada y mano.</l>
+               <l n="2144">Arroja la una espada de la mano.</l>
+               <l n="2145">Una de estas espadas os presenta</l>
+               <l n="2146">mi airada furia y mi dolor insano;</l>
+               <l n="2147">que muriendo en batalla, no se siente</l>
+               <l n="2148">tanto el rigor del último acidente.</l>
+               <l n="2149">Y el que privare del vital sosiego</l>
+               <l n="2150">al otro, por señal de beneficio,</l>
+               <l n="2151">entregue el desdichado cuerpo al fuego,</l>
+               <l n="2152">que este será bien piadoso oficio.</l>
+               <l n="2153">Venid, ¿qué os detenéis? Acudid luego.</l>
+               <l n="2154">Haced ya de mi vida sacrificio</l>
+               <l n="2155">y esa terneza que tenéis de amigos</l>
+               <l n="2156">volved en rabia fiera de enemigos.</l>
+            </sp>
+            <sp who="#numantino1">
+               <speaker>UN NUMANTINO</speaker>
+               <l n="2157">¿A quién, fuerte Teógenes, invocas?</l>
+               <l n="2158">¿Qué nuevo modo de morir procuras?</l>
+               <l n="2159">¿Para qué nos incitas y provocas</l>
+               <l n="2160">a tantas desiguales desventuras?</l>
+            </sp>
+            <sp who="#teogenes">
+               <speaker>TEÓGENES</speaker>
+               <l n="2161">Valiente numantino, si no apocas</l>
+               <l n="2162">con el miedo tus bravas fuerzas duras,</l>
+               <l n="2163">toma es[a] espada y mátate conmigo</l>
+               <l n="2164">ansí como si fuese tu enemigo;</l>
+               <l n="2165">que esta manera de morir me aplace</l>
+               <l n="2166">en este trance más que [no] otra alguna.</l>
+            </sp>
+            <sp who="#numantino1">
+               <speaker>NUMANTINO</speaker>
+               <l n="2167">También a mí me agrada y satisface,</l>
+               <l n="2168">pues que lo quiere ansí nuestra fortuna;</l>
+               <l n="2169">mas, vamos a la plaza, adonde yace</l>
+               <l n="2170">la hoguera a nuestras vidas importuna,</l>
+               <l n="2171">porque el que allí venciere pueda luego</l>
+               <l n="2172">entregar el vencido al duro fuego.</l>
+            </sp>
+            <sp who="#teogenes">
+               <speaker>TEÓGENES</speaker>
+               <l n="2173">Bien dices, y camina, que se tarda</l>
+               <l n="2174">el tiempo de morir como deseo;</l>
+               <l n="2175">ora me mate el hierro o el fuego me arda,</l>
+               <l n="2176">que gloria nuestra en cualquier muerte veo.</l>
+            </sp>
+            <stage>(Éntranse.)</stage>
+            <stage>CIPIÓN, JUGURTA, QUINTO FABIO y MARIO y algunos soldados romanos.</stage> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="2177">Si no me engaña el pensamiento mío,</l>
+               <l n="2178">o salen mentirosas las señales</l>
+               <l n="2179">que habéis visto en Numancia, del estruendo</l>
+               <l n="2180">y lamentable son y ardientes llamas,</l>
+               <l n="2181">sin dubda alguna que recelo y temo</l>
+               <l n="2182">que el bárbaro furor del enemigo</l>
+               <l n="2183">contra su propio pecho no se vuelva.</l>
+               <l n="2184">Ya no parece gente en la muralla</l>
+               <l n="2185">ni suenan las usadas centinelas;</l>
+               <l n="2186">todo está en calma y en silencio puesto,</l>
+               <l n="2187">como si en paz tranquila y sosegada</l>
+               <l n="2188">estuviesen los fieros numantinos.</l>
+            </sp> 
+            <sp who="#mario">
+               <speaker>MARIO</speaker>
+               <l n="2189">Presto podrás salir de aquesa dubda;</l>
+               <l n="2190">porque, si tú lo quieres, yo me ofrezco</l>
+               <l n="2191">de subir sobre el muro, aunque me ponga</l>
+               <l n="2192">al riguroso trance que se ofrece,</l>
+               <l n="2193">solo por ver aquello que en Numancia</l>
+               <l n="2194">hacen nuestros soberbios enemigos.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="2195">Arrima, pues, oh Mario, alguna escala</l>
+               <l n="2196">a la muralla, y haz lo que prometes.</l>
+            </sp> 
+            <sp who="#mario">
+               <speaker>MARIO</speaker>
+               <l n="2197">Id por la escala luego, y vos, Hermilio,</l>
+               <l n="2198">haced que mi rodela se me traiga</l>
+               <l n="2199">y la celada blanca de las plumas;</l>
+               <l n="2200">que a fee que tengo de perder la vida</l>
+               <l n="2201">o sacar desta dubda al campo todo.</l>
+            </sp>
+            <sp who="#hermilio">
+               <speaker>HERMILIO</speaker>
+               <l n="2202">Ves aquí la rodela y la celada;</l>
+               <l n="2203">la escala vesla allí, la trae Olimpio.</l>
+            </sp> 
+            <sp who="#mario">
+               <speaker>MARIO</speaker>
+               <l n="2204">Encomendadme a Júpiter imenso,</l>
+               <l n="2205">que yo voy a cumplir lo prometido.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="2206">Alza más alta la [rodela], Mario,</l>
+               <l n="2207">y encoge el cuerpo y cubre la cabeza.</l>
+               <l n="2208">¡Ánimo, que ya llegas a lo alto!</l>
+               <l part="I" n="2209">¿Qué ves?</l>
+            </sp> 
+            <sp who="#mario">
+               <speaker>MARIO</speaker>
+               <l part="F">¡Oh, santos dioses, y qué es esto!</l>
+            </sp> 
+            <sp who="#jugurta">
+               <speaker>JUGURTA</speaker>
+               <l part="I" n="2210">¿De qué te admiras?</l>
+
+            </sp> 
+            <sp who="#mario">
+               <speaker>MARIO</speaker>
+               <l part="F">De mirar de sangre</l>
+               <l n="2211">un rojo lago y de ver mil cuerpos</l>
+               <l n="2212">tendidos por las calles de Numancia,</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l part="I" n="2213">¿Que no hay ninguno vivo?</l>
+            </sp> 
+            <sp who="#mario">
+               <speaker>MARIO</speaker>
+               <l part="F">Ni por pienso.</l>
+               <l n="2214">A lo menos, ninguno se me ofrece</l>
+               <l n="2215">en todo cuanto alcanzo con la vista.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="2216">Salta, pues, dentro y míralo bien todo.</l>
+               <l n="2217">
+                  <stage>(Salta MARIO en la ciudad.)</stage>Síguele tú también, Jugurta amigo;</l>
+               <l part="I" n="2218">mas sigámosle todos.</l>
+
+            </sp> 
+            <sp who="#jugurta">
+               <speaker>JUGURTA</speaker>
+               <l part="F">No conviene</l>
+               <l n="2219">al oficio que tienes esta impresa;</l>
+               <l n="2220">sosiega el pecho, buen señor, y espera</l>
+               <l n="2221">que Mario vuelva, o yo, con la respuesta</l>
+               <l n="2222">de lo que pasa en la ciudad soberbia.</l>
+               <l n="2223">Tened bien esa escala. ¡Oh, cielos justos,</l>
+               <l n="2224">y cuán triste espectáculo y horrendo</l>
+               <l n="2225">se me ofrece a la vista! ¡Oh caso estraño!</l>
+               <l n="2226">Caliente sangre baña todo el suelo;</l>
+               <l n="2227">cuerpos muertos ocupan plaza y calles.</l>
+               <l n="2228">Dentro quiero saltar y verlo todo.</l>
+            </sp>
+            <stage>(Salta JUGURTA en la ciudad y dice QUINTO FABIO.)</stage>
+            <sp who="#quintofabio">
+               <speaker>QUINTO FABIO</speaker>
+               <l n="2229">Sin duda que los fieros numantinos,</l>
+               <l n="2230">del bárbaro furor suyo incitados,</l>
+               <l n="2231">viéndose sin remedio de salvarse,</l>
+               <l n="2232">antes quisieron entregar las vidas</l>
+               <l n="2233">al filo agudo de sus propios hierros</l>
+               <l n="2234">que no a las vencedoras manos nuestras,</l>
+               <l n="2235">aborrecidas dellos lo posible.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="2236">Con uno solo que quedase vivo,</l>
+               <l n="2237">no se me negaría el triunfo en Roma</l>
+               <l n="2238">de haber domado esta nación soberbia,</l>
+               <l n="2239">enemiga mortal de nuestro nombre,</l>
+               <l n="2240">constante en su opinión, presta, arrojada</l>
+               <l n="2241">al peligro mayor y duro trance,</l>
+               <l n="2242">de quien jamás se alabará romano</l>
+               <l n="2243">que vio la espalda vuelta al numantino,</l>
+               <l n="2244">cuyo valor, cuya destreza en armas,</l>
+               <l n="2245">me forzó con razón a usar el medio</l>
+               <l n="2246">de encerrarlos cual fieras indomables,</l>
+               <l n="2247">y triunfar dellos con industria y maña,</l>
+               <l n="2248">pues era con las fuerzas imposible.</l>
+               <l n="2249">Pero ya me parece vuelve Mario.</l>
+            </sp> 
+            <stage>(MARIO torna a salir por las murallas y dice.)</stage>
+            <sp who="#mario">
+               <speaker>MARIO</speaker>
+               <l n="2250">En balde, ilustre general prudente,</l>
+               <l n="2251">han sido nuestras fuerzas ocupadas;</l>
+               <l n="2252">en balde te has mostrado diligente,</l>
+               <l n="2253">pues en humo y en viento son tornad[a]s</l>
+               <l n="2254">las ciertas esperanzas de victoria,</l>
+               <l n="2255">de tu industria contino aseguradas.</l>
+               <l n="2256">Del lamentable fin y triste historia</l>
+               <l n="2257">de la ciudad invicta de Numancia</l>
+               <l n="2258">merece ser eterna la memoria.</l>
+               <l n="2259">Sacado han de su pérdida ganancia,</l>
+               <l n="2260">quitado te han el triunfo de las manos,</l>
+               <l n="2261">muriendo con magnánima constancia.</l>
+               <l n="2262">Nuestros disignios han salido vanos,</l>
+               <l n="2263">pues ha podido más su honroso intento</l>
+               <l n="2264">que toda la potencia de romanos.</l>
+               <l n="2265">El fatigado pueblo en fin violento</l>
+               <l n="2266">acabó la miseria de su vida,</l>
+               <l n="2267">dando triste remate al largo cuento.</l>
+               <l n="2268">Numancia está en un lago convertida</l>
+               <l n="2269">de roja sangre y de mil cuerpos llena,</l>
+               <l n="2270">de quien fue su rigor propio homicida;</l>
+               <l n="2271">de la pesada y sin igual cadena</l>
+               <l n="2272">dura de esclavitud se han escapado</l>
+               <l n="2273">con presta audacia de temor ajena.</l>
+               <l n="2274">En medio de la plaza levantado</l>
+               <l n="2275">está un ardiente fuego temeroso,</l>
+               <l n="2276">de sus cuerpos y haciendas sustentado.</l>
+               <l n="2277">A tiempo llegué a verle, que el furioso</l>
+               <l n="2278">Teógenes, valiente numantino,</l>
+               <l n="2279">de fenecer su vida deseoso,</l>
+               <l n="2280">maldiciendo su corto amargo signo,</l>
+               <l n="2281">en medio se arrojaba de la llama,</l>
+               <l n="2282">lleno de temerario desatino,</l>
+               <l n="2283">y al arrojarse dijo: «¡Oh, clara Fama,</l>
+               <l n="2284">ocupa aquí tus lenguas y tus ojos</l>
+               <l n="2285">en esta hazaña, que a cantar te llama!</l>
+               <l n="2286">¡Venid, romanos, ya por los despojos</l>
+               <l n="2287">desta ciudad, en polvo y humo vueltos,</l>
+               <l n="2288">y sus flores y frutos en abrojos!».</l>
+               <l n="2289">De allí con pies y pensamientos sueltos,</l>
+               <l n="2290">gran parte de la tierra he rodeado,</l>
+               <l n="2291">por las calles y pasos mal revueltos</l>
+               <l n="2292">y a un solo numantino no he hallado</l>
+               <l n="2293">que poderte traer vivo, siquiera</l>
+               <l n="2294">para que fueras dél bien informado</l>
+               <l n="2295">por qué ocasión, de qué suerte o manera</l>
+               <l n="2296">cometieron tan grande desvarío,</l>
+               <l n="2297">apresurando la mortal carrera.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="2298">¿Estaba por ventura el pecho mío</l>
+               <l n="2299">de bárbara arrogancia y muertes lleno,</l>
+               <l n="2300">y de [piedad] justísima vacío?</l>
+               <l n="2301">¿Es de mi condición [por dicha] ajeno</l>
+               <l n="2302">usar beninidad con el rendido,</l>
+               <l n="2303">como conviene al vencedor que es bueno?</l>
+               <l n="2304">Mal, por cierto, teníades conocido</l>
+               <l n="2305">el valor en Numancia de mi pecho,</l>
+               <l n="2306">para vencer y perdonar nacido.</l>
+            </sp> 
+            <sp who="#fabio">
+               <speaker>FABIO</speaker>
+               <l n="2307">Jugurta te hará más satisfecho,</l>
+               <l n="2308">señor, de aquello que saber deseas,</l>
+               <l n="2309">que vesle vuelve lleno de despecho.</l>
+            </sp> 
+            <stage>(Torna JUGURTA por la mesma muralla.)</stage>
+            <sp who="#jugurta">
+               <speaker>JUGURTA</speaker>
+               <l n="2310">Prudente general, en vano empleas</l>
+               <l n="2311">más aquí tu valor; vuelve a otra parte</l>
+               <l n="2312">la industria sin igual de que te arreas.</l>
+               <l n="2313">No hay en Numancia cosa en que ocuparte:</l>
+               <l n="2314">todos son muertos ya, solo uno creo</l>
+               <l n="2315">que queda vivo, para el triunfo darte.</l>
+               <l n="2316">Allí, en aquella torre, según veo,</l>
+               <l n="2317">allí denantes un muchacho estaba,</l>
+               <l n="2318">turbado en vista y de gentil arreo.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="2319">Si eso fuese verdad, eso bastaba</l>
+               <l n="2320">para triunfar en Roma de Numancia,</l>
+               <l n="2321">que es lo que más agora deseaba.</l>
+               <l n="2322">Lleguémonos allá y haced instancia</l>
+               <l n="2323">cómo el muchacho vuelva a nuestras manos</l>
+               <l n="2324">vivo, que es lo que agora es de importancia.</l>
+            </sp>
+            <sp who="#variato">
+               <speaker>VARIATO</speaker>
+               <l n="2325">
+                  <stage>(Desde la torre.)</stage>¿Dónde venís o qué buscáis, romanos?</l>
+               <l n="2326">Si en Numancia queréis entrar por suerte,</l>
+               <l n="2327">hareislo sin contraste, a pasos llanos;</l>
+               <l n="2328">pero mi lengua desde aquí os advierte</l>
+               <l n="2329">que yo las llaves mal guardadas tengo</l>
+               <l n="2330">desta ciudad, de quien triunfó la muerte.</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="2331">Por esas, joven, deseoso vengo</l>
+               <l n="2332">y más de que tú hagas expiriencia</l>
+               <l n="2333">si en este pecho piedad sostengo.</l>
+            </sp>
+            <sp who="#variato">
+               <speaker>VARIATO</speaker>
+               <l n="2334">Tarde, cruel, ofreces tu clemencia,</l>
+               <l n="2335">pues no hay en quién usarla; que yo quiero</l>
+               <l n="2336">pasar por el rigor de la sentencia</l>
+               <l n="2337">que con [suceso] amargo, lastimero,</l>
+               <l n="2338">de mis padres y patria tan querida</l>
+               <l n="2339">causó el último fin, terrible y fiero.</l>
+            </sp>
+            <sp who="#quintofabio">
+               <speaker>QUINTO FABIO</speaker>
+               <l n="2340">Dime: ¿tienes, por suerte, aborrecida,</l>
+               <l n="2341">ciego de un temerario desvarío,</l>
+               <l n="2342">tu floreciente edad, tu tierna vida?</l>
+            </sp> 
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="2343">Tiempla, pequeño joven, tiempla el brío</l>
+               <l n="2344">y subjeta el valor tuyo y pequeño,</l>
+               <l n="2345">al mayor de mi honroso poderío;</l>
+               <l n="2346">que desde aquí te doy mi fee y empeño</l>
+               <l n="2347">mi palabra que solo de ti seas</l>
+               <l n="2348">tú mismo el proprio y conocido dueño,</l>
+               <l n="2349">y que de ricas joyas y preseas</l>
+               <l n="2350">vivas lo que vivieres abastado,</l>
+               <l n="2351">como yo podré darte y tú deseas,</l>
+               <l n="2352">si a mí te entregas y te das de grado.</l>
+            </sp>
+            <sp who="#variato">
+               <speaker>VARIATO</speaker>
+               <l n="2353">Todo el furor de cuantos ya son muertos</l>
+               <l n="2354">en este pueblo, en polvo reducido;</l>
+               <l n="2355">todo el huir los pactos y conciertos</l>
+               <l n="2356">ni el dar a sujeción jamás oído,</l>
+               <l n="2357">sus iras y rencores descubiertos,</l>
+               <l n="2358">está en mi pecho, todo junto, unido.</l>
+               <l n="2359">Yo heredé de Numancia todo el brío:</l>
+               <l n="2360">¡ved si pensar vencerme es desvarío!</l>
+               <l n="2361">Patria querida, pueblo desdichado,</l>
+               <l n="2362">no temas ni imagines que [me admire]</l>
+               <l n="2363">de lo que debo ha[c]er en ti engendrado,</l>
+               <l n="2364">ni que promesa o miedo me retire,</l>
+               <l n="2365">ora me falte el suelo, el cielo, el hado;</l>
+               <l n="2366">ora a vencerme todo el mundo aspire;</l>
+               <l n="2367">que imposible será que yo no haga</l>
+               <l n="2368">a tu valor la merecida paga.</l>
+               <l n="2369">Que si a esconderme aquí me trujo el miedo</l>
+               <l n="2370">de la cercana y espantosa muerte,</l>
+               <l n="2371">ella me sacará con más denuedo,</l>
+               <l n="2372">con el deseo de seguir tu suerte;</l>
+               <l n="2373">del vil temor pasado, como puedo,</l>
+               <l n="2374">haré ahora la enmienda, osado y fuerte,</l>
+               <l n="2375">y el error de mi edad tierna inocente</l>
+               <l n="2376">pagaré con morir osadamente.</l>
+               <l n="2377">Yo os aseguro, ¡oh fuertes ciudadanos!,</l>
+               <l n="2378">que no falte por mí la intención vuestra</l>
+               <l n="2379">de que no triunfen pérfidos romanos,</l>
+               <l n="2380">si ya no fuere de ceniza nuestra.</l>
+               <l n="2381">Saldrán conmigo sus intentos vanos,</l>
+               <l n="2382">ora levanten contra mí su diestra,</l>
+               <l n="2383">o me [aseguren] con promesa cierta</l>
+               <l n="2384">a vida y a regalos ancha puerta.</l>
+               <l n="2385">Teneos, romanos, sosegad el brío</l>
+               <l n="2386">y no os canséis en asaltar el muro;</l>
+               <l n="2387">que, aunque fuera mayor el poderío</l>
+               <l n="2388">vuestro, de no vencerme os aseguro.</l>
+               <l n="2389">Pero muéstrese ya el intento mío,</l>
+               <l n="2390">y si ha sido el amor perfeto y puro</l>
+               <l n="2391">que yo tuve a mi patria tan querida,</l>
+               <l n="2392">asegúrelo luego esta caída.</l>
+            </sp> 
+            <stage>(Aquí se arroja de la torre, y dice CIPIÓN.)</stage>
+            <sp who="#CIPION">
+               <speaker>CIPIÓN</speaker>
+               <l n="2393">¡Oh nunca vista, memorable hazaña,</l>
+               <l n="2394">dina de anciano y valeroso pecho,</l>
+               <l n="2395">que no solo a Numancia, mas a España,</l>
+               <l n="2396">has adquerido gloria en este hecho!</l>
+               <l n="2397">¡Con tu viva virtud y heroica, estraña,</l>
+               <l n="2398">queda muerto y perdido mi derecho!</l>
+               <l n="2399">¡Tú con esta caída levantaste</l>
+               <l n="2400">tu fama y mis victorias derribaste!</l>
+               <l n="2401">Que fuera aún viva y en su ser Numancia,</l>
+               <l n="2402">solo porque vivieras, me holgara,</l>
+               <l n="2403">que tú solo has llevado la ganancia</l>
+               <l n="2404">desta larga contienda, ilustre y rara.</l>
+               <l n="2405">¡Lleva, pues, niño, lleva la jatancia</l>
+               <l n="2406">y la gloria que el cielo te prepara,</l>
+               <l n="2407">por haber, derribándote, vencido</l>
+               <l n="2408">al que, subiendo, queda más caído!</l>
+            </sp>
+            <stage>(Suena una trompeta y sale la FAMA.)</stage>
+            <sp who="#fama">
+               <speaker>FAMA</speaker>
+               <l n="2409">Vaya mi clara voz de gente en gente,</l>
+               <l n="2410">y en dulce y süavísimo sonido</l>
+               <l n="2411">llene las almas de un deseo ardiente</l>
+               <l n="2412">de eternizar un hecho tan subido.</l>
+               <l n="2413">Alzad, romanos, la inclinada frente;</l>
+               <l n="2414">llevad de aquí este cuerpo que ha podido</l>
+               <l n="2415">en tan pequeña edad, arrebataros</l>
+               <l n="2416">el triunfo que pudiera tanto honraros;</l>
+               <l n="2417">que yo, que soy la Fama pregonera,</l>
+               <l n="2418">tendré cuidado, en cuanto el alto cielo</l>
+               <l n="2419">moviere el paso en la subida esfera,</l>
+               <l n="2420">dando fuerza y vigor al bajo suelo,</l>
+               <l n="2421">de publicar con lengua verdadera,</l>
+               <l n="2422">con justo intento y presuroso vuelo,</l>
+               <l n="2423">el valor de Numancia, único y solo,</l>
+               <l n="2424">de Bat[r]o a Tile y de uno al otro polo.</l>
+               <l n="2425">Indicio ha dado esta no vista hazaña</l>
+               <l n="2426">del valor que en los siglos venideros</l>
+               <l n="2427">tendrán los hijos de la fuerte España,</l>
+               <l n="2428">hijos de tales padres herederos.</l>
+               <l n="2429">No de la muerte la feroz guadaña</l>
+               <l n="2430">ni los cursos de tiempos tan ligeros</l>
+               <l n="2431">harán que de Numancia yo no cante</l>
+               <l n="2432">el fuerte brazo y ánimo constante.</l>
+               <l n="2433">Hallo sola en Numancia todo cuanto</l>
+               <l n="2434">debe con justo título cantarse</l>
+               <l n="2435">y lo que puede dar materia al canto</l>
+               <l n="2436">para poder mil siglos ocuparse:</l>
+               <l n="2437">la fuerza no vencida, el valor tanto,</l>
+               <l n="2438">dino de en prosa y verso celebrarse;</l>
+               <l n="2439">mas, pues de esto se encarga mi memoria,</l>
+               <l n="2440">dese feliz remate a nuestra historia.</l>
+
+            </sp>
+         </div>
+      </body>
+   </text>
+
+</TEI>

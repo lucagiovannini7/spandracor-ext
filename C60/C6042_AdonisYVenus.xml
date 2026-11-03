@@ -1,0 +1,4060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+	Adonis y Venus</title>
+            <title key="archivo">C6000_</title>
+            <author>Vega, Lope de</author>
+            <sponsor>
+               <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+            </sponsor>
+            <funder>
+               <orgName>Dirección General de Investigación y Gestión del Plan Nacional de I+D+I (DGI) http://www.idi.mineco.gob.es</orgName>
+            </funder>
+            <respStmt>
+               <resp>Edición electrónica creada por</resp>
+               <orgName>Fundación Biblioteca Virtual Miguel de Cervantes http://www.cervantesvirtual.com</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Adaptación web por</resp>
+               <orgName>Proyecto TC/12, Patrimonio teatral clásico español. Textos e instrumentos de investigación http://www.tc12.es</orgName>
+            </respStmt>
+            <principal>Joan Oleza Simó</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>Edición electrónica de '
+	Adonis y Venus'</edition>
+            <respStmt>
+               <resp>Edición digital a cargo de</resp>
+               <orgName>Biblioteca Virtual Miguel de Cervantes Saavedra</orgName>
+            </respStmt>
+         </editionStmt>
+         <extent ana="verso"/>
+         <publicationStmt>
+            <publisher>
+               <orgName>Proyecto TC/12, Patrimonio teatral clásico español. Textos e instrumentos de investigación http://www.tc12.es</orgName>
+            </publisher>
+            <authority>
+               <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+            </authority>
+            <idno/>
+            <availability>
+               <p>[Preguntar a Luisma]</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <note>Joan Oleza</note>
+               <distributor>ARTELOPE</distributor>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Canon 60 supone la presentación en los portales TC/12 y Biblioteca Virtual Miguel de Cervantes de 50 textos canónicos del teatro español del siglo de Oro. La edición electrónica corre a cargo de la Biblioteca Virtual Miguel de Cervantes y la selección de ediciones de indudable prestigio filológico corre a cargo del proyecto TC/12.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">español</language>
+            <language ident="it">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+	  <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart>
+                  <title>
+	Adonis y Venus</title>
+               </titlePart>
+            </docTitle>
+            <docAuthor>Lope de Vega</docAuthor>
+         </titlePage>
+         <div type="elenco">
+            <head>PERSONAS DE LA TRAGEDIA</head>
+            <castList>
+					
+					          <castItem>
+                  <role xml:id="menandro">MENANDRO</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="timbreo">TIMBREO</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="atalanta">ATALANTA</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="camila">CAMILA</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="albania">ALBANIA</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="frondoso">FRONDOSO</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="apolo">APOLO</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="venus">VENUS</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="cupido">CUPIDO</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="adonis">ADONIS</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="hipomenes">HIPÓMENES</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="tebandro">TEBANDRO</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="narciso">NARCISO</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="jacinto">JACINTO</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="ganimedes">GANIMEDES</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="tesifonte">TESIFONTE</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="ninfas">[NINFAS]</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="pastores">[PASTORES]</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="cupidillos">[CUPIDILLOS]</role>
+                  <roleDesc/>
+               </castItem>
+					          <castItem>
+                  <role xml:id="musica">[MÚSICA]</role>
+                  <roleDesc/>
+               </castItem>
+				        </castList>
+         </div>
+      </front>
+      <body>
+         <div type="act">
+            <head>Acto I</head>
+				
+				        <stage>Salen MENANDRO y TIMBREO, pastores.</stage>
+				        <stage>[Quintillas.]</stage>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="1" rend="indent">Prosigue, amigo Timbreo,</l>
+					          <l n="2">la relación de tu mal;</l>
+					          <l n="3">que ya sus desdenes creo.</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l n="4">Ver tu sentimiento igual						</l>
+					          <l n="5">a mis desdichas, deseo.						</l>
+					          <l n="6" rend="indent">Como digo, entró Camila</l>
+					          <l n="7">en el templo de Diana;</l>
+					          <l n="8">seguí sus rayos, y vila</l>
+					          <l n="9">como el alba, entre oro y grana,				</l>
+					          <l n="10">menudo aljófar destila.						</l>
+					          <l n="11" rend="indent">Huyó la noche de ausencia</l>
+					          <l n="12">luego que su luz salió.</l>
+					          <l n="13">Más con esta diferencia:</l>
+					          <l n="14">que el campo reverdeció,						</l>
+					          <l n="15">y me abrasó su presencia.						</l>
+					          <l n="16" rend="indent">Iba con otras, y entre ellas</l>
+					          <l n="17">excedía las más bellas</l>
+					          <l n="18">lo que excede al cuerpo el alma,</l>
+					          <l n="19">al mirto humilde la palma,</l>
+					          <l n="20">y la luna a las estrellas.						</l>
+					          <l n="21" rend="indent">Las colores que tenía,</l>
+					          <l n="22">aunque al rubí y esmeralda,</l>
+					          <l n="23">la rosa y clavel vencía,</l>
+					          <l n="24">envidiaba la guirnalda</l>
+					          <l n="25">que sus cabellos ceñía.						</l>
+					          <l n="26" rend="indent">Cegaba el vellos tan bellos,</l>
+					          <l n="27">que el aire formaba de ellos</l>
+					          <l n="28">ondas, como suele el mar:</l>
+					          <l n="29">pienso que para anegar</l>
+					          <l n="30">mil vidas y almas en ellos.						</l>
+					          <l n="31" rend="indent">Iban los azules velos</l>
+					          <l n="32">de sus ojos, dulce guerra</l>
+					          <l n="33">de amor, vistiendo los cielos;</l>
+					          <l n="34">porque cielos en la tierra,</l>
+					          <l n="35">daban a los cielos celos.						</l>
+					          <l n="36" rend="indent">El vestido pudo hacer</l>
+					          <l n="37">envidia a su compostura;</l>
+					          <l n="38">que el saberse componer</l>
+					          <l n="39">no es la menor hermosura</l>
+					          <l n="40">de una gallarda mujer.						</l>
+					          <l n="41" rend="indent">Las cuatro esferas primeras,</l>
+					          <l n="42">Menandro, en Camila vieras:</l>
+					          <l n="43">la luna en el pie gentil,</l>
+					          <l n="44">de donde el florido abril</l>
+					          <l n="45">sacaba las primaveras.						</l>
+					          <l n="46" rend="indent">La esfera de Venus bella</l>
+					          <l n="47">era el cuerpo, el dulce hablar</l>
+					          <l n="48">Mercurio, el sol en la estrella</l>
+					          <l part="I">del rostro.</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l part="F" n="49">Aprenda a pintar</l>
+					          <l n="50">la naturaleza, de ella.						</l>
+					          <l n="51" rend="indent">si no es arte que te debe.</l>
+					          <l n="52">Pero prosigue, que es breve</l>
+					          <l part="I">el tiempo.</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l part="F" n="53">A la lumbre pura,</l>
+					          <l n="54">Menandro, de su hermosura</l>
+					          <l n="55">llegué, convertido en nieve.					</l>
+					          <l n="56" rend="indent">Fuíla a hablar, pero sentí</l>
+					          <l n="57">asir la lengua al temor,</l>
+					          <l n="58">y quedé fuera de mí:</l>
+					          <l n="59">pero venciendo el amor,</l>
+					          <l n="60">de tres veces, dije así:						</l>
+					          <l n="61" rend="indent">«Pastor a de ojos serenos,</l>
+					          <l n="62">aunque de mil rayos llenos,</l>
+					          <l n="63">¿cuándo vida me darás?»</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l part="I">Prosigue.</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l part="F" n="64">No dije más,</l>
+					          <l n="65">y me entendiera con menos.				</l>
+					          <l n="66" rend="indent">Quedó entonces tan hermosa,</l>
+					          <l n="67">como del alba a la risa</l>
+					          <l n="68">suele salir vergonzosa,</l>
+					          <l n="69">entre su verde camisa,</l>
+					          <l n="70">bañada en sangre, la rosa.					</l>
+					          <l n="71" rend="indent">Cuando quiso responder,</l>
+					          <l n="72">vi que Frondoso llegaba;</l>
+					          <l n="73">y sin hablar, sólo en ver,</l>
+					          <l n="74">vi, Menandro, que la amaba.</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="75">Bien se puede conocer:					</l>
+					          <l n="76" rend="indent">que si a Camila tenías</l>
+					          <l n="77">por espejo, bien verías</l>
+					          <l n="78">si se miraba Frondoso</l>
+					          <l n="79">en la luz del rostro hermoso,</l>
+					          <l n="80">cuando en su cristal te vías.				</l>
+					          <l n="81" rend="indent">Al templo habemos llegado</l>
+					          <l part="I">de Apolo.</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l part="F" n="82">De este cuidado</l>
+					          <l n="83">me sacará su respuesta.</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l part="I">Gente viene.</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l part="F" n="84">Ninfa es ésta</l>
+					          <l n="85">de extranjero monte y prado.				</l>
+				        </sp>
+				        <stage>(Sale ATALANTA, ninfa, con un tocado de muchos velos pendientes con plumas, y el vestido a la traza antigua, con calzadillos o coturnos encintados, y un dardo en la mano.)</stage>
+				        <stage>[Canción (canzone).]</stage>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					          <l n="86" rend="indent">No desdice al estado</l>
+					          <l n="87">de una doncella tierna</l>
+					          <l n="88">querer saber el que tendrá su vida;</l>
+					          <l n="89">que el femenil cuidado</l>
+					          <l n="90">que nuestro ser gobierna,					</l>
+					          <l n="91">no es bien que al varonil valor se mida.</l>
+					          <l n="92">Cuando la edad florida</l>
+					          <l n="93">a su límite llega,</l>
+					          <l n="94">es la igual compañía</l>
+					          <l n="95">lo que es el sol al día,					</l>
+					          <l n="96">y el claro norte al que en el mar navega.</l>
+					          <l n="97">Los hombres fueron hechos</l>
+					          <l n="98">para alivio vital de nuestros pechos;</l>
+					          <l n="99" rend="indent">que, fuera de ser forma</l>
+					          <l n="100">de la materia nuestra,					</l>
+					          <l n="101">y de nuestras potencias y sentidos</l>
+					          <l n="102">alma que los informa,</l>
+					          <l n="103">que los guía y adiestra,</l>
+					          <l n="104">son Argos del honor, siempre advertidos.</l>
+					          <l n="105">Amores atrevidos						</l>
+					          <l n="106">defienden el deseo;</l>
+					          <l n="107">y aun esto no es de suerte</l>
+					          <l n="108">que con temprana muerte</l>
+					          <l n="109">no descendiese la mujer de Orfeo</l>
+					          <l n="110">al centro en que hoy suspira				</l>
+					          <l n="111">contra la fuerza de su dulce lira.</l>
+					          <l n="112" rend="indent">Saber quiero de Apolo,</l>
+					          <l n="113">en su templo divino,</l>
+					          <l n="114">qué esposo quiere darme en casamiento;</l>
+					          <l n="115">que este cuidado solo					</l>
+					          <l n="116">es solo peregrino</l>
+					          <l n="117">de mi primero y casto pensamiento.</l>
+					          <l n="118">Si miro el firmamento,</l>
+					          <l n="119">unas con otras veo</l>
+					          <l n="120">sus esferas casadas,						</l>
+					          <l n="121">con manos argentadas.</l>
+					          <l n="122">La luna abraza al sol, cuyo himeneo</l>
+					          <l n="123">la alumbra y vivifica,</l>
+					          <l n="124">y a su humildad los rayos de oro aplica.</l>
+					          <l n="125" rend="indent">Si contemplo la tierra,					</l>
+					          <l n="126">¿cuál animal no tiene</l>
+					          <l n="127">su semejante, con quien ande y viva?</l>
+					          <l n="128">Cuantas plantas encierra,</l>
+					          <l n="129">amor las entretiene;</l>
+					          <l n="130">que su generación de amor deriva.			</l>
+					          <l n="131">Esta hiedra lasciva,</l>
+					          <l n="132">y esta vid trepadora,</l>
+					          <l n="133">fresnos y olmos enlazan;</l>
+					          <l n="134">los espinos se abrazan,</l>
+					          <l n="135">la tórtola casada gime y llora,				</l>
+					          <l n="136">del caro esposo ausente,</l>
+					          <l n="137">su centro busca el agua de esta fuente.</l>
+					          <l n="138" rend="indent">Dígame, pues, Apolo,</l>
+					          <l n="139">qué esposo será el mío:</l>
+					          <l n="140">Fórmese de dos almas Androgeo.			</l>
+					          <l n="141">Quien nace para solo</l>
+					          <l n="142">(cosa que desconfío),</l>
+					          <l n="143">o es bestia o es deidad; y así deseo</l>
+					          <l n="144">al yugo de Himeneo,</l>
+					          <l n="145">rendir el cuello, a ejemplo					</l>
+					          <l n="146">de cuantas cosas miro.</l>
+					          <l n="147">Pero ¿por qué suspiro,</l>
+					          <l n="148">si aqueste suntuoso y rico templo</l>
+					          <l n="149">es, por lo menos, donde</l>
+					          <l n="150">Apolo por su oráculo responde?				</l>
+				        </sp>
+				        <stage>(Salen CAMILA y ALBANIA, pastoras.)</stage>
+				        <stage>[Redondillas.]</stage>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					
+					          <l n="151" rend="indent">
+                  <stage>[A ALBANIA.]</stage>A buen tiempo hemos llegado,</l>
+					          <l n="152">que aún está Apolo cubierto.</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="153">Más me mata un bien incierto</l>
+					          <l n="154">que un daño determinado.</l>
+					          <l n="155" rend="indent">Pues no pienses que será						</l>
+					          <l n="156">solo aquí nuestro deseo:</l>
+					          <l part="I">Menandro es aquél.</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="F" n="157">Timbreo,</l>
+					          <l n="158">Albania, con él está.</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="159" rend="indent">¿Qué querrán saber de Apolo?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="160">Lo que nosotras también.						</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="161">¿A cuál de ellos quieres bien?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="I">Sábelo Amor.</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l part="F" n="162">¿Amor solo?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="163" rend="indent">Sí, porque no me forzara</l>
+					          <l n="164">a declararme, sin ver</l>
+					          <l n="165">que a quien me inclino a querer,</l>
+					          <l n="166">a quererme se inclinara.</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="167" rend="indent">¿Que ninguno de los dos</l>
+					          <l n="168">te ha dicho amores jamás?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="169">Pienso que celosa estás.</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l part="I">¿Yo celosa?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="F" n="170">Sí, por Dios.					</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l part="I" rend="indent">¿De quién?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="M">De mí.</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l part="F" n="171">Pues ¿tú sabes</l>
+					          <l part="I">lo que yo quiero?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="F" n="172">Imagino,</l>
+					          <l n="173">temo, sospecho, adivino.</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="174">Si son nuestros ojos llaves</l>
+					          <l n="175" rend="indent">de los secretos del alma,					</l>
+					          <l n="176">abre con ellos el pecho.</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="177">Ya lo contemplo, y sospecho</l>
+					          <l n="178">de su tormenta y su calma.</l>
+					          <l n="179" rend="indent">Que como la imán se va</l>
+					          <l n="180">tras el norte, a quien camina,				</l>
+					          <l n="181">así amor la vista inclina</l>
+					          <l n="182">donde el pensamiento está.</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					
+					          <l n="183" rend="indent">
+                  <stage>[A MENANDRO.]</stage>Camila, Menandro, viene</l>
+					          <l n="184">a saber algún secreto.</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="185">Si ella te quiere, ¿a qué efeto				</l>
+					          <l n="186">de tu amor sospechas tiene?</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l n="187" rend="indent">Albania viene con ella,</l>
+					          <l n="188">que presumo que te adora.</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="189">De otro sol parece aurora,</l>
+					          <l n="190">y de otra aurora la estrella.				</l>
+					
+					          <l n="191" rend="indent">
+                  <stage>(Aparte.)</stage>Disimulé por saber</l>
+					          <l n="192">a quién amaba Timbreo.</l>
+					          <l n="193">Tanto a Camila deseo.</l>
+					          <l n="194">cuanto puede un alma arder.</l>
+					          <l n="195" rend="indent">Las sospechas que tenía					</l>
+					          <l n="196">de Timbreo, he descubierto.</l>
+				        </sp>
+				        <stage>(Sale FRONDOSO, pastor gracioso, con un pájaro en la mano.)</stage>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="197">Por saber si Apolo es cierto,</l>
+					          <l n="198">o vana su profecía.</l>
+					          <l n="199" rend="indent">este pájaro he traído</l>
+					          <l n="200">para poderle engañar;					</l>
+					          <l n="201">que se le pienso mostrar,</l>
+					          <l n="202">pero en la mano escondido.</l>
+					          <l n="203" rend="indent">Preguntaréle si está</l>
+					          <l n="204">vivo: si dice que sí,</l>
+					          <l n="205">apretaréle, y así						</l>
+					          <l n="206">le diré que muerto es ya.</l>
+					          <l n="207" rend="indent">Si me dijere que es muerto,</l>
+					          <l n="208">soltaréle entonces yo,</l>
+					          <l n="209">diciendo que no acertó,</l>
+					          <l n="210">y que es su oráculo incierto.				</l>
+					          <l n="211" rend="indent">Con esto, entre los pastores,</l>
+					          <l n="212">desacreditado ya,</l>
+					          <l n="213">ninguno amor mudará</l>
+					          <l n="214">por el fin de sus amores;</l>
+					          <l n="215" rend="indent">que por lo que pronostica</l>
+					          <l n="216">de bien, o mal, las mujeres,</l>
+					          <l n="217">a diversos pareceres</l>
+					          <l n="218">con sus respuestas aplica;</l>
+					          <l n="219" rend="indent">y ellas, que no han menester</l>
+					          <l n="220">achaques para mudarse,					</l>
+					          <l n="221">saben muy bien disculparse</l>
+					          <l n="222">de querer y aborrecer.</l>
+					          <l n="223" rend="indent">Ya corrieron la cortina</l>
+					          <l n="224">de Apolo al sagrado altar.</l>
+					          <l n="225">Quiero primero escuchar</l>
+					          <l n="226">lo que a tantos adivina.</l>
+				        </sp>
+				        <stage>(Descúbrese una cortina, y véase en un altar, sobre una basa, el dios APOLO, con su lira, y resplandor de sol en la cabeza, y vayan después que cese la música diciendo así:)</stage>
+				        <stage>[Liras.]</stage>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l n="227" rend="indent">Dime, sagrado Apolo,</l>
+					          <l n="228">divino autor del día:</l>
+					          <l n="229">¿ama la prenda mía,</l>
+					          <l n="230">o a mí me quiere solo?					</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="231">Lo que tu prenda quiere,</l>
+					          <l n="232">ausente vive, y por su ausencia muere.</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l n="233" rend="indent">¡Ausente! Pues si agora</l>
+					          <l n="234">me tiene aquí presente,</l>
+					          <l n="235">¿cómo dice que ausente,					</l>
+					          <l n="236">y que su ausencia llora?</l>
+					          <l n="237">Mas no soy yo a quien ama.</l>
+					          <l n="238">Erró su centro mi amorosa llama.</l>
+				        </sp>
+				        <stage>(Vase TIMBREO.)</stage>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="239" rend="indent">Apolo, tú, que mides</l>
+					          <l n="240">el tiempo con eterno						</l>
+					          <l n="241">curso, y el frío invierno</l>
+					          <l n="242">del verano divides,</l>
+					          <l n="243">¿veráse mi deseo</l>
+					          <l n="244">a donde el fin de mi esperanza veo?</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="245" rend="indent">Sirve, pretende, espera:					</l>
+					          <l n="246">todo, el amor lo alcanza.</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="247">¡Ay, dichosa esperanza!</l>
+					          <l n="248">Menandro, persevera;</l>
+					          <l n="249">que el fin de un pensamiento</l>
+					          <l n="250">es premio de mil años de tormento.			</l>
+				        </sp>
+				        <stage>(Vase MENANDRO.)</stage>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="251" rend="indent">Febo, cuyo deseo</l>
+					          <l n="252">nos dio el laurel hermoso,</l>
+					          <l n="253">premio del estudioso,</l>
+					          <l n="254">de las armas trofeo,</l>
+					          <l n="255">¿tendré ventura amando?					</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l part="I">En vano esperas.</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="F" n="256">Moriré esperando.</l>
+				        </sp>
+				        <stage>(Vase.)</stage>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="257" rend="indent">Padre de cuanto vive,</l>
+					          <l n="258">artífice del oro,</l>
+					          <l n="259">¿querráme quien adoro?</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="260">A olvidar te apercibe.						</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="261">¿Tú eres Apolo santo?</l>
+					          <l n="262">No en vano Dafnes te aborrece tanto.</l>
+				        </sp>
+				        <stage>(Váyase.)</stage>
+				        <stage>
+ [Romancillo de 7 sílabas
+(endechas italianas).]
+</stage>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="263" rend="indent">A todos les ha dado</l>
+					          <l n="264">su Oráculo fingido</l>
+					          <l n="265">desabrida respuesta.						</l>
+					          <l n="266">El Dios está mohino.</l>
+					          <l n="267">Sospecho que es la causa</l>
+					          <l n="268">que no le han ofrecido</l>
+					          <l n="269">lo que otras veces suelen.</l>
+					          <l n="270">Pues si dioses divinos						</l>
+					          <l n="271">responden a los hombres</l>
+					          <l n="272">con rostro desabrido</l>
+					          <l n="273">cuando no les dan nada,</l>
+					          <l n="274">¿de qué nos afligimos</l>
+					          <l n="275">si oráculos humanos,						</l>
+					          <l n="276">por interés movidos,</l>
+					          <l n="277">responden a la ofrenda</l>
+					          <l n="278">alegres y propicios?</l>
+					          <l n="279">Si aquellas blancas aras,</l>
+					          <l n="280">del sacerdote al filo,						</l>
+					          <l n="281">tiñeran de su sangre</l>
+					          <l n="282">nevados corderillos;</l>
+					          <l n="283">si las espigas rojas</l>
+					          <l n="284">del ofrecido trigo</l>
+					          <l n="285">cubrieran los altares;						</l>
+					          <l n="286">o el oloroso vino;</l>
+					          <l n="287">si perlas, si diamantes,</l>
+					          <l n="288">si púrpura de Tiro,</l>
+					          <l n="289">vistieran su persona...</l>
+					          <l n="290">mirara lo que dijo.						</l>
+					          <l n="291">Sin interés del premio,</l>
+					          <l n="292">acuden siempre tibios,</l>
+					          <l n="293">el soldado a las armas,</l>
+					          <l n="294">el letrado a los libros.</l>
+					          <l n="295">No pienso darle nada,					</l>
+					          <l n="296">supuesto lo que digo,					</l>
+					          <l n="297">porque a engañarle vengo</l>
+					          <l n="298">con este pajarillo.</l>
+					          <l n="299">Diga, señor Apolo,</l>
+					          <l n="300">el que pasa los ríos						</l>
+					          <l n="301">sin mojarse los rayos</l>
+					          <l n="302">de sus cabellos lindos.</l>
+					          <l n="303">Alquimista famoso,</l>
+					          <l n="304">que sin mercurios vivos</l>
+					          <l n="305">sabe hacer oro y plata					</l>
+					          <l n="306">en los crisoles indios.</l>
+					          <l n="307">El que ve cuanto pasa,</l>
+					          <l n="308">pasando los resquicios,</l>
+					          <l n="309">mostrando al cielo a Venus</l>
+					          <l n="310">con el planeta quinto.					</l>
+					          <l n="311">En esta mano tengo</l>
+					          <l n="312">cerrado un jilguerillo:</l>
+					          <l n="313">¿es vivo, o muerto acaso?</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="314">¡Rústico cabrerizo,</l>
+					          <l n="315">en tu imaginación						</l>
+					          <l n="316">y pensamiento mismo!</l>
+					          <l n="317">Conforme a mi respuesta,</l>
+					          <l n="318">le tienes muerto y vivo:</l>
+					          <l n="319">vivo, si digo muerto;</l>
+					          <l n="320">muerto, si vivo digo.						</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="321">¡Vive Júpiter santo,</l>
+					          <l n="322">que la verdad me ha dicho!</l>
+					          <l n="323">¡Tomarse con los dioses,</l>
+					          <l n="324">temerario delito!</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="325">Merecieras, Frondoso,					</l>
+					          <l n="326">como Júpiter hizo,</l>
+					          <l n="327">a los fieros gigantes</l>
+					          <l n="328">fulminarte en castigo.</l>
+					          <l n="329">O que, como Anteón,</l>
+					          <l n="330">en ciervo convertido,						</l>
+					          <l n="331">huyeras de tus perros</l>
+					          <l n="332">por árboles y riscos.</l>
+					          <l n="333">Mas porque no te atrevas</l>
+					          <l n="334">a extranjeros ni a amigos,</l>
+					          <l n="335">parecerás lo que eres						</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="336">¡Qué loco y necio he sido!</l>
+					          <l n="337">Adorno de los cielos,</l>
+					          <l n="338">lámpara de los signos,</l>
+					          <l n="339">corona de los días,</l>
+					          <l n="340">poeta de los siglos,						</l>
+					          <l n="341">medida de los tiempos,</l>
+					          <l n="342">fitonicida altivo,</l>
+					          <l n="343">compás de cielo y tierra,</l>
+					          <l n="344">que desde tu epiciclo</l>
+					          <l n="345">los miras y gobiernas						</l>
+					          <l n="346">desde que Dios te hizo,</l>
+					          <l n="347">¡Ten piedad de Frondoso!</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="348">¡Vete, villano indigno!</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="349">Voyme, que estás airado.</l>
+					          <l n="350">¡Ay, Júpiter Olimpio!						</l>
+					          <l n="351">todo se lo perdono,</l>
+					          <l n="352">como no sea pollino,</l>
+					          <l n="353">porque animal, y necio,</l>
+					          <l n="354">es desdichado oficio.</l>
+				        </sp>
+				        <stage>(Vase.)</stage>
+				        <stage>[Tercetos.]</stage>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					          <l n="355" rend="indent">Pues he quedado sola con Apolo,			</l>
+					          <l n="356">quiero saber qué dice a mi deseo;</l>
+					          <l n="357">que en él espero mi remedio sólo. </l>
+					          <l n="358" rend="indent">Dime, supremo autor de cuanto veo,</l>
+					          <l n="359">filósofo divino, sol hermoso,</l>
+					          <l n="360">Délfico, Delio, Cintio y Didimeo,				</l>
+					          <l n="361" rend="indent">¿será mi casamiento venturoso?</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l part="I">Tarde, Atalanta, y con peligro.</l>
+				        </sp>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					          <l part="F" n="362">¡Tarde,</l>
+					          <l n="363">y con peligro! ¡Ay, cielo riguroso!</l>
+					          <l n="364" rend="indent">¡Peligro en el casarme! Dios me guarde</l>
+					          <l n="365">de casarme jamás. ¡Triste respuesta,			</l>
+					          <l n="366">que me ha dejado el corazón cobarde!</l>
+					          <l n="367" rend="indent">En dura confusión estaba puesta.</l>
+					          <l n="368">No la pienso tener de aquí adelante.</l>
+					          <l n="369">Sola quiero vivir en vida honesta,</l>
+					          <l n="370" rend="indent">Porque si de peligro semejante				</l>
+					          <l n="371">puedo librarme, no es razón que viva</l>
+					          <l n="372">sujeta a esposo ni a fingido amante.</l>
+					          <l n="373" rend="indent">Yo pienso por los montes, fugitiva</l>
+					          <l n="374">de los hombres, vivir entre las fieras,</l>
+					          <l n="375">con ellas mansa, con el hombre altiva.		</l>
+					          <l n="376" rend="indent">No me podrán sus burlas ni sus veras</l>
+					          <l n="377">vencer eternamente, porque venzo</l>
+					          <l n="378">las alas de los vientos más ligeras.</l>
+					          <l n="379" rend="indent">Montes de Arcadia, desde aquí comienzo</l>
+					          <l n="380">(porque del pensamiento que tenía			</l>
+					          <l n="381">de pretender esposo, me avergüenzo)</l>
+					          <l n="382" rend="indent">a vivir en vosotros. Este día,</l>
+					          <l n="383">ninfas de bosques, prados, selvas, fuentes,</l>
+					          <l n="384">me recibid en vuestra compañía.</l>
+					          <l n="385" rend="indent">Con redes, con ardides diferentes,			</l>
+					          <l n="386">los ciervos, osos, jabalíes y gamos,</l>
+					          <l n="387">los toros más selvajes y valientes,</l>
+					
+					          <l n="388" rend="indent">
+                  <stage>[Cuarteto.]</stage>sabré matar, y de sus fuertes ramos</l>
+					          <l n="389">honrar los frontispicios de los templos.</l>
+					          <l n="390">Ninfas de Cintia, vamos juntas, vamos.		</l>
+					          <l n="391">Animen mi valor vuestros ejemplos.</l>
+				        </sp>
+				        <stage>(Váyanse, y salgan VENUS y CUPIDO, con su arco y venda.)</stage>
+				        <stage>[Quintillas.]</stage>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="392" rend="indent">Por estas márgenes hechas</l>
+					          <l n="393">de clavellinas y rosas,</l>
+					          <l n="394">sin cuidado y sin sospechas</l>
+					          <l n="395">podrás matar mariposas,					</l>
+					          <l n="396">Cupido, con esas flechas.</l>
+					          <l n="397" rend="indent">Blancas, pajizas, doradas,</l>
+					          <l n="398">verdes, claras y moradas,</l>
+					          <l n="399">con más ojos que un pavón,</l>
+					          <l n="400">andan, en esta ocasión,					</l>
+					          <l n="401">seguras de ser tiradas. 	</l>
+					          <l n="402" rend="indent">Mátame algunas; que quiero</l>
+					          <l n="403">entre rosas del tocado</l>
+					          <l n="404">ponérmelas, porque espero</l>
+					          <l n="405">aquel sangriento soldado,					</l>
+					          <l n="406">por cuyas hazañas muero.</l>
+					          <l n="407" rend="indent">Parte, que en el traje humano</l>
+					          <l n="408">quiero verle en esta selva,</l>
+					          <l n="409">primero que Apolo indiano</l>
+					          <l n="410">otra vez a verme vuelva,					</l>
+					          <l n="411">y yo en la red de Vulcano.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="412" rend="indent">¡Donaire, madre, tenéis!</l>
+					          <l n="413">¿Mariposas me decís</l>
+					          <l n="414">que mate? Pues ¿no sabéis</l>
+					          <l n="415">que muerta por mí vivís					</l>
+					          <l n="416">de amor del Dios que queréis?</l>
+					          <l n="417" rend="indent">¡Linda caza a quien derriba</l>
+					          <l n="418">a la garza más altiva</l>
+					          <l n="419">y al águila más real!</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="420">Cuando en vuelo celestial					</l>
+					          <l n="421">subes de mi esfera arriba,</l>
+					          <l n="422" rend="indent">muestra el poder que engrandeces;</l>
+					          <l n="423">mas cuando estás en el suelo,</l>
+					          <l n="424">imita lo que pareces.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="425">Siendo primero que el cielo,</l>
+					          <l n="426">¿nombre de niño me ofreces?</l>
+					          <l n="427" rend="indent">¿Háceslo para encubrir</l>
+					          <l part="I">tus años?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="428">Si mariposas</l>
+					          <l n="429">no es caza que ha de servir </l>
+					          <l n="430">a tu gusto, entre estas rosas				</l>
+					          <l n="431">tórtolas siento gemir.</l>
+					          <l n="432" rend="indent">Ellas y otros pajarillos</l>
+					          <l n="433">te podrán entretener,</l>
+					          <l n="434">o de estos verdes junquillos</l>
+					          <l n="435">puedes a esta sombra hacer				</l>
+					          <l n="436">jaulas en que tengas grillos.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="437" rend="indent">Quien los pone de prisión</l>
+					          <l n="438">al más libre corazón,</l>
+					          <l n="439">¿cazará grillos del campo?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="440">Palomas blancas, que al ampo</l>
+					          <l n="441">de la nieve iguales son,</l>
+					          <l n="442" rend="indent">por ser quien mi carro tira,</l>
+					          <l n="443">te mandaba no tirar;</l>
+					          <l part="I">ya te doy licencia.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l part="F" n="444">Admira</l>
+					          <l n="445">que mandes ejecutar						</l>
+					          <l n="446">flechas de amor, armas de ira,</l>
+					          <l n="447" rend="indent">en aves simples, señora;</l>
+					          <l n="448">porque yo a las bravas tiro,</l>
+					          <l n="449">donde la fiereza mora.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="450">Temerosas liebres miro					</l>
+					          <l n="451">por estos bosques agora;</l>
+					          <l n="452" rend="indent">tira a alguna, y del pellejo,</l>
+					          <l n="453">como Hércules, te viste.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="454">Agradézcote el consejo.</l>
+					          <l n="455">¡Niño finalmente hiciste					</l>
+					          <l n="456">al que es más que el tiempo viejo!</l>
+					          <l n="457" rend="indent">Pues ¿no te acuerdas que a Apolo,</l>
+					          <l n="458">que de haber muerto a Fitón</l>
+					          <l n="459">se alababa, vencí solo?</l>
+					          <l n="460">¿Ignoras tú la opinión</l>
+					          <l n="461">que tengo de polo a polo?</l>
+					          <l n="462" rend="indent">¿Es esta la vez primera</l>
+					          <l n="463">que yo te venzo? ¡De mí</l>
+					          <l n="464">te ríes de esa manera!</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="465">Ya te conozco: ¡ay de mí!					</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="466">¡Así me tratas! Espera,</l>
+					          <l n="467" rend="indent">que antes de un hora verás</l>
+					          <l n="468">si mariposas, palomas</l>
+					          <l part="I">o liebres venzo.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="469">Jamás</l>
+					          <l n="470">mis tiernas palabras tomas				</l>
+					          <l n="471">como ellas son. ¿Dónde vas?</l>
+					
+					          <l n="472" rend="indent">
+                  <stage>(Vase [CUPIDO].)</stage>Espera, Cupido, advierte...</l>
+					          <l n="473">Fuése, y enojado parte;</l>
+					          <l n="474">de su venganza me advierte:</l>
+					          <l n="475">o enamora de otra a Marte,				</l>
+					          <l n="476">o de su amor me divierte.</l>
+					          <l n="477" rend="indent">Como es niño, al fin, Amor,</l>
+					          <l n="478">presto se enoja: no sabe</l>
+					          <l part="I">de burlas.</l>
+				        </sp>
+				        <stage>(Sale CAMILA.)</stage>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="F" n="479">¡Con qué rigor</l>
+					          <l n="480">Apolo, a todos süave,						</l>
+					          <l n="481">dio respuesta a mi temor!</l>
+					          <l n="482" rend="indent">Aconséjame que olvide...</l>
+					          <l n="483">Pero ¿qué pastora es ésta</l>
+					          <l n="484">que nuestra ribera mide?</l>
+					          <l n="485">¡Qué hermosa! ¡Qué bien compuesta!			</l>
+					          <l n="486">¡Qué rayos de amor despide!</l>
+					          <l n="487" rend="indent">Quiérola hablar. Si eres diosa,</l>
+					          <l n="488">perdóname, ninfa hermosa,</l>
+					          <l n="489">mas si eres humana prenda,</l>
+					          <l n="490">haz que de tu boca entienda				</l>
+					          <l n="491">tu enigma dificultosa.</l>
+					          <l n="492" rend="indent">¿Eres, dime, de esta sierra,</l>
+					          <l part="I">o extranjera?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="493">De otra soy.</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="494">¿Qué buscas por esta tierra?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="495">Buscando mi manso voy,					</l>
+					          <l n="496">que del redil se destierra.</l>
+					          <l n="497" rend="indent">¿Hasle visto, por ventura?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="I">¿Qué señas?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="498">Una carlanca</l>
+					          <l n="499">y esquila de plata pura.</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="I">¿Qué piel?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="500">Encarnada y blanca,				</l>
+					          <l n="501">con sola una mancha escura.</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="I" rend="indent">¿Hacia dónde?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="502">El remolino</l>
+					          <l n="503">de la frente le cubrió.</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="504">Ayer a este monte vino.</l>
+					          <l n="505">Pero sospechara yo						</l>
+					          <l part="I">que os trajo...</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="506">Ya lo adivino.</l>
+					          <l n="507" rend="indent">Algún amor, decir quieres.</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="508">Bien podemos las mujeres</l>
+					          <l n="509">unas con otras hablar.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="510">Lo mismo vengo a buscar.					</l>
+					          <l n="511">Profeta de amores eres.</l>
+					          <l n="512" rend="indent">Y esto se causa también</l>
+					          <l n="513">de que algún pastor querrás.</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="514">Alguno quiero también.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="I">¿Merécelo?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="F" n="515">Y tanto más,					</l>
+					          <l part="I">que adoro...</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="M">¿Qué?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="F" n="516">su desdén.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="I" rend="indent">¿Su desdén adoras?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="F" n="517">Sí.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="I">¿Tanto merece?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="F" n="518">Quisiera</l>
+					          <l n="519">hablarte de espacio aquí.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="I">Yo escucharte.</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="F" n="520">Pues espera.				</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="I">Comienza.</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="M">Escúchame.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="521">Di.</l>
+				        </sp>
+				        <stage>[Romance.]</stage>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="522" rend="indent">Amor, que a nadie perdona,</l>
+					          <l n="523">porque si pueden sus fuerzas</l>
+					          <l n="524">trastornar el armonía</l>
+					          <l n="525">del cielo, ¿qué hará en la tierra?				</l>
+					          <l n="526">Como se ve, por ejemplo,</l>
+					          <l n="527">de Júpiter, que por ellas</l>
+					          <l n="528">ya fue cisne, ya fue toro,</l>
+					          <l n="529">como sus historias cuentan...</l>
+					          <l n="530">Pues Venus..., con ser su madre,			</l>
+					          <l n="531">mil veces por estas selvas</l>
+					          <l n="532">la vieron seguir pastores,</l>
+					          <l n="533">si Anquises guardaba ovejas.</l>
+					          <l n="534">Diana, con ser tan casta,</l>
+					          <l n="535">bajó de su blanca esfera					</l>
+					          <l n="536">mil veces al monte Lathmo...</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="537">Hartas disculpas son esas.</l>
+					          <l n="538">No digas más: ya sé yo</l>
+					          <l n="539">que tiene amor fuerza extrema.</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="540">Éste, pues, hizo que Mirra,</l>
+					          <l n="541">loca, aunque hermosa doncella,</l>
+					          <l n="542">amase a su mismo padre;</l>
+					          <l n="543">pero teniendo vergüenza,</l>
+					          <l n="544">se descubrió a un ama suya,</l>
+					          <l n="545">que temiendo que se diera					</l>
+					          <l n="546">la muerte, por remedialla,</l>
+					          <l n="547">llevarla a su padre intenta</l>
+					          <l n="548">en forma de otra mujer.</l>
+					          <l n="549">El Rey, sin saber quién era,</l>
+					          <l n="550">ofendió los cielos altos.					</l>
+					          <l n="551">Escondieron las estrellas</l>
+					          <l n="552">sus rayos, de tal maldad.</l>
+					          <l n="553">Pero la noche postrera,</l>
+					          <l n="554">un hacha mandó traer</l>
+					          <l n="555">para poder conocerla.					</l>
+					          <l n="556">Apenas la vio Ciniras,</l>
+					          <l n="557">cuando Mirra, con vergüenza</l>
+					          <l n="558">de su padre y de sí misma,</l>
+					          <l n="559">huyó por montes y selvas.</l>
+					          <l n="560">A la tierra de Sabá						</l>
+					          <l n="561">llegó la triste, y en ella</l>
+					          <l n="562">pidió a los dioses castigo.</l>
+					          <l n="563">Los dioses, porque su ofensa</l>
+					          <l n="564">pudiese llorar mejor,</l>
+					          <l n="565">cubriéndola de corteza,</l>
+					          <l n="566">en árbol la transformaron,</l>
+					          <l n="567">que aquellas aromas tiernas</l>
+					          <l n="568">llora, que se llaman mirra.</l>
+					          <l n="569">Mirra, o lágrimas sabeas.</l>
+					          <l n="570">Mas llegado el día del parto,				</l>
+					          <l n="571">bramaba el tronco, que apenas,</l>
+					          <l n="572">no siendo diosa Lucina,</l>
+					          <l n="573">pudiera entender sus quejas.</l>
+					          <l n="574">Vino y sacó un bello niño,</l>
+					          <l n="575">que dándole a las deesas					</l>
+					          <l n="576">de los ríos, le criaron</l>
+					          <l n="577">con tan alta gentileza,</l>
+					          <l n="578">que no hay náyade en su fuente,</l>
+					          <l n="579">dría en bosque, en monte orea,</l>
+					          <l n="580">amadríade por árbol,						</l>
+					          <l n="581">que no se pierda por ella.</l>
+					          <l n="582">Adonis tiene por nombre,</l>
+					          <l n="583">Amores mejor dijeran,</l>
+					          <l n="584">porque todos los del mundo</l>
+					          <l n="585">se cifran en su belleza.					</l>
+					          <l n="586">Una de las que le adoran,</l>
+					          <l n="587">yo soy; pero no me quieras</l>
+					          <l n="588">más mal, que como es tan niño,</l>
+					          <l n="589">que le hablen de amor le pesa.</l>
+					          <l n="590">Despreciando la hermosura,				</l>
+					          <l n="591">su oficio es cazar las fieras;</l>
+					          <l n="592">mas no ha cazado ninguna</l>
+					          <l n="593">que como su pecho sea.</l>
+					          <l n="594">Mas ¿para qué te le alabo?</l>
+					          <l n="595">Él mismo a esta fuente llega.				</l>
+					          <l n="596">Advierte que es basilisco:</l>
+					          <l n="597">pon a tus ojos defensa.</l>
+				        </sp>
+				        <stage>(Entre ADONIS con un venablo, montera, y vestido antiguo verde, medias blancas y calzadillos dorados con cintas, y CUPIDO detrás de él.)</stage>
+				        <stage>[Quintillas.]</stage>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="598" rend="indent">Selvas y bosques sombríos,</l>
+					          <l n="599">adonde la primavera</l>
+					          <l n="600">se baña en cristales fríos,					</l>
+					          <l n="601">y donde la luz primera</l>
+					          <l n="602">dio vida a los ojos míos.</l>
+					          <l n="603" rend="indent">Árbol divino sabeo,</l>
+					          <l n="604">cárcel de mi triste madre,</l>
+					          <l n="605">por quien agora me veo</l>
+					          <l n="606">hijo y nieto de mi padre,</l>
+					          <l n="607">y monstruo de su deseo:</l>
+					          <l n="608" rend="indent">sabed que, en esta ocasión,</l>
+					          <l n="609">sin estimar sus placeres,</l>
+					          <l n="610">que siempre pesares son,					</l>
+					          <l n="611">aborrecer las mujeres</l>
+					          <l n="612">tengo por justo blasón.</l>
+					          <l n="613" rend="indent">Como en vuestras espesuras,</l>
+					          <l n="614">bosques de mi tierna edad,</l>
+					          <l n="615">paso las horas seguras,					</l>
+					          <l n="616">más precio mi libertad</l>
+					          <l n="617">que todas sus hermosuras.</l>
+					          <l n="618" rend="indent">Cansado de haber seguido</l>
+					          <l n="619">un corcillo volador,</l>
+					          <l n="620">que dejo en el monte herido,				</l>
+					          <l n="621">para templar el calor,</l>
+					          <l n="622">a vuestra sombra he venido.</l>
+					          <l n="623" rend="indent">Por eso, fuente serena,</l>
+					          <l n="624">cuyas aguas cristalinas,</l>
+					          <l n="625">espejos de Filomena,						</l>
+					          <l n="626">vuelven diamantes las chinas</l>
+					          <l n="627">y perlas la blanca arena,</l>
+					          <l n="628" rend="indent">perdonad si os enturbiare;</l>
+					          <l n="629">que quiero bañarme en vos</l>
+					          <l n="630">mientras este sol pasare.					</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="631">Hoy veréis si amor es Dios.</l>
+					          <l n="632">Ya tiro: Venus repare,</l>
+					          <l n="633" rend="indent">que aunque más mi madre sea,</l>
+					          <l n="634">la tengo de herir de amor.</l>
+				        </sp>
+				        <stage>(Tírela una flecha y váyase.)</stage>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="635">¿Qué puede ver quien te vea?				</l>
+					          <l n="636">¡Ay Dios, qué extraño dolor!</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="637">Los ojos, pastora, emplea</l>
+					          <l n="638" rend="indent">en Adonis con recato.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="639">Él es del cielo un retrato;</l>
+					          <l n="640">Pero el que adoro es divino.				</l>
+					
+					          <l n="641">
+                  <stage>(Aparte.)</stage>Cupido a vengarse vino.</l>
+					          <l n="642">¡Mal hijo, rapaz ingrato!</l>
+					
+					          <l n="643" rend="indent">
+                  <stage>(A CAMILA.)</stage>¿Quieres que yo persuada</l>
+					          <l n="644">a este Adonis, y le diga</l>
+					          <l part="I" n="645">tus partes?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="F" n="645">Serrana amada,					</l>
+					          <l n="646">dile que mi amor obliga</l>
+					          <l n="647">a un monte, a una piedra helada.</l>
+					          <l n="648" rend="indent">Mis desatinos le cuenta.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="649">Entre esos lirios te sienta,</l>
+					          <l part="I">que le voy a hablar.						</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="F" n="650">Los cielos					</l>
+					          <l n="651">te libren de amor y celos,</l>
+					          <l n="652">que es el mal que me atormenta.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="I" rend="indent">¿Cómo te llamas?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l part="F" n="653">Camila.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="654">Parte, que le voy a hablar.</l>
+					          <l part="I">Allí me aguarda.</l>
+				        </sp>
+				        <stage>(Váyase CAMILA.)</stage>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="F" n="655">Destila,					</l>
+					          <l n="656">viento, de este cedro, azar,</l>
+					          <l n="657">tus varias alas afila,</l>
+					          <l n="658" rend="indent">anima mi sentimiento,</l>
+					          <l n="659">Favonio aromatizado;</l>
+					          <l n="660">Céfiro, a mi voz atento,					</l>
+					          <l n="661">hurta a las flores del prado</l>
+					          <l n="662">de su boca el dulce aliento.</l>
+					          <l n="663" rend="indent">Mi carcaj, arco y saetas</l>
+					          <l n="664">y venablo, pongo aquí,</l>
+					          <l n="665">hierba, en tus manos secretas.				</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="I">Tente.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="F" n="666">¡Ay, Dios! ¿Quién eres, di,</l>
+					          <l n="667">que mi descanso inquietas?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="668" rend="indent">No huyas, por mil razones.</l>
+					          <l n="669">Por mujer, la principal.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="670">Con eso temor me pones.					</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="671">Si fuera mujer mortal,</l>
+					          <l n="672">Y sujeta a imperfecciones...</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="I" rend="indent">Pues ¿quién eres?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="673">Venus soy,</l>
+					          <l n="674">que sólo a buscarte vengo</l>
+					          <l n="675">de la esfera donde estoy.						</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="676">Respeto a tu nombre tengo.</l>
+					          <l n="677">Mil alabanzas te doy,</l>
+					          <l n="678" rend="indent">y en sacrificio, Señora,</l>
+					          <l n="679">la voluntad que jamás</l>
+					          <l part="I">rendí a mujer.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="680">Desde agora						</l>
+					          <l n="681">sabrás qué es amor, sabrás</l>
+					          <l n="682">querer bien a quien te adora.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="I" rend="indent">¿Qué es amor?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="683">¿Amor?... Deseo.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="I">¿De qué?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="684">De lo que es hermoso.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="685">Luego ¿querré lo que veo?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="I">Si te agrada.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="F" n="686">Eso es forzoso.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="687">Por tu condición lo creo.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="688" rend="indent">Cuéntanme de amor mil males;</l>
+					          <l part="I">pónenme temor.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="689">Amor</l>
+					          <l n="690">es falso entre los mortales.				</l>
+					          <l n="691">No se entiende ese rigor</l>
+					          <l n="692">con los dioses celestiales.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="693" rend="indent">Antes la misma razón</l>
+					          <l n="694">me da a entender tu mudanza.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="695">Los dioses nunca lo son.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="696">Luego en humana esperanza,</l>
+					          <l n="697">¿hay divina posesión?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="698" rend="indent">Cuando la humana hermosura</l>
+					          <l n="699">el cielo baja a la tierra,</l>
+					          <l n="700">¿qué posesión más segura?				</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="701">Dicen que el Dios de la guerra</l>
+					          <l n="702">o la tiene, o la procura.</l>
+					          <l n="703" rend="indent">Pues si amas a Marte, en parte</l>
+					          <l n="704">mujer humana te veo.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="705">Bien dices, que quiero a Marte,</l>
+					          <l n="706">no porque a Marte deseo,</l>
+					          <l n="707">sino porque quiero a-marte.</l>
+					          <l n="708" rend="indent">Ya no quiero aquel soldado</l>
+					          <l n="709">que a mi celoso marido</l>
+					          <l n="710">ha puesto en tanto cuidado.				</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="711">¡En tanto amor, tanto olvido!</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="712">No es amor gusto acabado.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="713" rend="indent">Si la memoria te vuelve,</l>
+					          <l n="714">y de tu pasada historia</l>
+					          <l n="715">tantos amores revuelve...					</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="716">¿Y si olvidó la memoria</l>
+					          <l n="717">quien a olvidar se resuelve?</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="718" rend="indent">Yo, Venus, soy un mancebo</l>
+					          <l n="719">de la manera que ves:</l>
+					          <l n="720">a competir no me atrevo,					</l>
+					          <l n="721">aunque licencia me des,</l>
+					          <l n="722">ni con Marte ni con Febo;</l>
+					          <l n="723" rend="indent">que cuando el fuego consumas,</l>
+					          <l n="724">de las cenizas secretas</l>
+					          <l n="725">saldrá, cuando más presumas,</l>
+					          <l n="726">en oyendo las trompetas,</l>
+					          <l n="727">y en viendo brillar las plumas.</l>
+					          <l n="728" rend="indent">Veo tus ojos divinos</l>
+					          <l n="729">llenos de sol, veo dos cielos;</l>
+					          <l n="730">pero ya son adivinos						</l>
+					          <l n="731">los míos, que por tus celos</l>
+					          <l n="732">vengo a llorar desatinos.</l>
+					          <l n="733" rend="indent">Tu talle, tu bizarría,</l>
+					          <l n="734">y tu deidad, de que arguyo</l>
+					          <l n="735">mi dicha, con osadía						</l>
+					          <l n="736">me fuerzan a ser más tuyo</l>
+					          <l n="737">que tú pretendes ser mía.</l>
+					          <l n="738" rend="indent">Pero si Febo o si Marte,</l>
+					          <l part="I">celosos de mí...</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="739">Detente.</l>
+					          <l n="740">¡Qué es ofenderte ni darte					</l>
+					          <l part="I">disgusto!</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="F" n="741">Febo luciente,</l>
+					          <l n="742">¿no ha de hallarme en cualquier parte?</l>
+					          <l n="743" rend="indent">Marte, ¿no puede también</l>
+					          <l n="744">matarme con tantas armas?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="745">No, mis ojos; no, mi bien.					</l>
+					          <l n="746">Y en vano, Adonis, te armas,</l>
+					          <l n="747">contra amor, dese desdén;</l>
+					          <l n="748" rend="indent">Que así en el alma guardarte,</l>
+					          <l n="749">y en mis ojos esconderte,</l>
+					          <l n="750">sabrá el gusto de gozarte.					</l>
+					          <l n="751">que ni Febo pueda verte.</l>
+					          <l n="752">ni Marte pueda matarte.</l>
+					          <l n="753" rend="indent">Vencido me ha tu hermosura:</l>
+					          <l n="754">si te igualo al ser que soy,</l>
+					          <l part="I">¿pagarásme?</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="F" n="755">Está segura.					</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="756">Adonis, a Chipre voy.</l>
+					          <l n="757">Fíame la nieve pura</l>
+					          <l n="758" rend="indent">de esa blanca, hermosa mano.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="759">¡Dichoso el mortal que vino</l>
+					          <l n="760">desde el ser humilde humano				</l>
+					          <l n="761">a merecer el divino</l>
+					          <l n="762">de tu valor soberano!</l>
+				        </sp>
+				        <stage>(Pónganse los dos en un carro, que se verá en una nube, y desaparézcalos con música, en diciendo lo que se sigue:)</stage>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="763" rend="indent">Tú puedes honrar el suelo.</l>
+					          <l n="764">Palomas, alzad el vuelo.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="765">No querría ser Faetón,					</l>
+					          <l n="766">y caer por ambición</l>
+					          <l n="767">hecho pedazos del cielo.</l>
+				        </sp>
+				        <trailer>FIN DEL PRIMER ACTO</trailer>
+			      </div>
+         <div type="act">
+            <head>Acto II</head>
+				
+				        <stage>Entre HIPÓMENES, mancebo muy galán, y TEBANDRO.</stage>
+				        <stage>[Liras.]</stage>
+				        <sp who="#tebandro">
+					          <speaker>TEBANDRO</speaker>
+					          <l n="768" rend="indent">Deja, por Dios, la caza.</l>
+					          <l n="769">Sepamos qué es aquesto.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="770">En confusión me ha puesto				</l>
+					          <l n="771">ver la campaña y plaza</l>
+					          <l n="772">de este bosque sagrado,</l>
+					          <l n="773">de tan diversas gentes coronado.</l>
+					          <l n="774" rend="indent">Las mudas soledades,</l>
+					          <l n="775">de los pastores nido,						</l>
+					          <l n="776">imitan en ruïdo</l>
+					          <l n="777">las confusas ciudades,</l>
+					          <l n="778">y a sus varios oficios</l>
+					          <l n="779">los árboles se vuelven edificios.</l>
+				        </sp>
+				        <sp who="#tebandro">
+					          <speaker>TEBANDRO</speaker>
+					          <l n="780" rend="indent">El que va navegando,					</l>
+					          <l n="781">el norte va siguiendo;</l>
+					          <l n="782">quien ignora, leyendo;</l>
+					          <l n="783">quien mira, preguntando.</l>
+					          <l n="784">Pregunta, si te admiras,</l>
+					          <l n="785">y no te admirarás de lo que miras.			</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="786" rend="indent">Aquí vienen pastores,</l>
+					          <l n="787">Tebandro: preguntemos</l>
+					          <l n="788">qué gente es la que vemos.</l>
+				        </sp>
+				        <stage>(Entren MENANDRO y TIMBREO.)</stage>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="789">¡Qué triste fin de amores,</l>
+					          <l n="790">oh míseros amantes!						</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l n="791">¡Ay, Menandro!, pues amas, no te espantes.</l>
+				        </sp>
+				        <stage>[Endecasílabos sueltos.]</stage>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="792" rend="indent">Pastores de este monte, selva y prado,</l>
+					          <l n="793">¿qué suceso ha causado aquesta junta?</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="794">Bien muestra esa pregunta ser su dueño</l>
+					          <l part="I">no de aqueste pequeño monte.				</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="F" n="795">Vivo			</l>
+					          <l n="796">donde su extremo altivo alcanza apenas.</l>
+					          <l n="797">Ver las campañas llenas de mil gentes</l>
+					          <l n="798">de partes diferentes, nos admira.</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="799">Toda la que se mira en este prado,</l>
+					          <l n="800">sabed que se ha juntado a la carrera,			</l>
+					          <l n="801">que ¡nunca a Dios pluguiera se inventara!</l>
+					          <l n="802">¿De la hermosura rara nunca oístes</l>
+					          <l n="803">de Atalanta, o supistes este nombre?</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="804">No es justo que te asombre esta ignorancia,</l>
+					          <l n="805">si miras la distancia de la tierra				</l>
+					          <l part="I">nuestra, que este mar cierra.</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l part="F" n="806">Estad atentos:</l>
+					          <l n="807">con dulces pensamientos de casarse</l>
+					          <l n="808">Atalanta a informarse al templo vino</l>
+					          <l n="809">de Apolo, y el divino dios Febeo</l>
+					          <l n="810">respondió a su deseo que se guarde,			</l>
+					          <l n="811">que con peligro y tarde casaría.</l>
+					          <l n="812">Ella, desde este día, por el monte</l>
+					          <l n="813">que todo este horizonte muestra en torno,</l>
+					          <l n="814">con varonil adorno entretenida,</l>
+					          <l n="815">pasaba honesta vida descuidada.			</l>
+					          <l n="816">Mas siendo deseada su hermosura</l>
+					          <l n="817">(que ésta no está segura aun entre fieras),</l>
+					          <l n="818">pensó de mil maneras esconderse,</l>
+					          <l n="819">y vino a resolverse que al fin fuese</l>
+					          <l part="I">de aquel que la venciese...</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="F" n="820">¿En qué? ¿En la lucha	</l>
+					          <l part="I">o en el tirar?</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l part="F" n="821">Escucha: es tan ligera,</l>
+					          <l n="822">que al viento en la carrera se adelanta.</l>
+					          <l n="823">Quiso, pues, Atalanta que corriesen</l>
+					          <l n="824">los que la pretendiesen, y rendida,</l>
+					          <l n="825">entregarse vencida al victorioso.			</l>
+					          <l n="826">¡Oh caso lastimoso, que al vencido,</l>
+					          <l n="827">que le cueste ha querido la cabeza!</l>
+					          <l n="828">Y es tal su ligereza, que los cuellos</l>
+					          <l n="829">de mil mancebos bellos han regado</l>
+					          <l part="I">con su sangre este prado.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="F" n="830">¿Qué me cuentas?		</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="831">Lo que verás si intentas la aventura.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="832">Por mortal hermosura, al fin prestada,</l>
+					          <l n="833">flor, sombra, viento, nada, ¿hay algún loco</l>
+					          <l part="I">que se estime en tan poco?</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l part="F" n="834">Si la vieras,</l>
+					          <l n="835">Yo sé que no dijeras lo que dices.			</l>
+				        </sp>
+				        <sp who="#tebandro">
+					          <speaker>TEBANDRO</speaker>
+					          <l n="836">Por más que solemnices su hermosura,</l>
+					          <l n="837">la vida... es gran locura aventuralla.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="838">No diera por gozalla en casamiento</l>
+					          <l n="839">un cabello. ¡Oh, qué cuento tan donoso!</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="840">Si de su cuerpo hermoso y rostro vieras</l>
+					          <l n="841">el milagro, dijeras lo contrario.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="842">Sé que el pincel es vario en la belleza.</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l n="843">Ésta a naturaleza misma espanta.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="844">Mi vida es mi Atalanta, Dios me guarde.</l>
+					          <l n="845">Pues no soy muy cobarde, que las fieras		</l>
+					          <l n="846">de este monte y riberas de este río,</l>
+					          <l part="I">saben el brazo mío.</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l part="F" n="847">Laureada</l>
+					          <l n="848">de flores viene, honrada y victoriosa,</l>
+					          <l part="I">la bella ninfa hermosa.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="F" n="849">Habrá vencido</l>
+					          <l n="850">algún necio atrevido su hermosura.			</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l part="I">Morir tienen por dicha.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="F" n="851">¡Qué locura!</l>
+				        </sp>
+				        <stage>(Salgan NINFAS y PASTORES con instrumentos; y ATALANTA detrás con una guirnalda de flores.)</stage>
+				        <stage>[Endechas asonantadas, de 5, 6 y 7 sílabas.]</stage>
+				        <sp who="#musica">
+					          <speaker>MÚSICA</speaker>
+					          <l n="852" rend="indent">¡Triunfa la hermosura,</l>
+					          <l n="853">vence Atalanta!</l>
+					
+					          <l n="854">Lo que cuesta se estima:</l>
+					          <l n="855">¡Viva quien mata!						</l>
+					
+					          <l n="856">No estiman los hombres</l>
+					          <l n="857">las empresas llanas.</l>
+					          <l n="858">Todo lo que es fácil,</l>
+					          <l n="859">como fácil pasa.</l>
+					          <l n="860">Las dificultades							</l>
+					          <l n="861">merecen almas.</l>
+					
+					          <l n="862">Lo que cuesta se estima:</l>
+					          <l n="863">¡Viva quien mata!</l>
+					
+					          <l n="864">Siendo la hermosura</l>
+					          <l n="865">prenda tan alta,							</l>
+					          <l n="866">por culpa del dueño</l>
+					          <l n="867">no es estimada.</l>
+					          <l n="868">Atalanta sola</l>
+					          <l n="869">supo estimarla.</l>
+					
+					          <l n="870">Lo que cuesta se estima:					</l>
+					          <l n="871">¡Viva quien mata!</l>
+				        </sp>
+				        <stage>[Quintillas.]</stage>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l part="I" rend="indent">¿Qué te parece?</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="F" n="872">No sé</l>
+					          <l n="873">cómo te diga, pastor,</l>
+					          <l n="874">lo que en sus ojos miré.</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l part="I">¿Qué sientes?</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="F" n="875">Muero de amor:					</l>
+					          <l n="876">rayo en mis sentidos fue.</l>
+					          <l n="877" rend="indent">¡Con qué brevedad entró</l>
+					          <l n="878">por el más noble sentido</l>
+					          <l n="879">al alma que me abrasó!</l>
+				        </sp>
+				        <sp who="#tebandro">
+					          <speaker>TEBANDRO</speaker>
+					          <l part="I">¿Qué dices?</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="F" n="880">Que estoy perdido.				</l>
+					          <l n="881">Otro soy; que no soy yo.</l>
+					          <l n="882" rend="indent">¡Cuan en vano me espantaba</l>
+					          <l n="883">de aquel que por tu belleza</l>
+					          <l n="884">una vida aventuraba,</l>
+					          <l n="885">cifra de naturaleza						</l>
+					          <l n="886">donde su poder se acaba!</l>
+					          <l n="887" rend="indent">Que mil vidas que tuviera,</l>
+					          <l n="888">todas por ti las perdiera.</l>
+					          <l n="889">Tebandro, yo he de correr.</l>
+				        </sp>
+				        <sp who="#tebandro">
+					          <speaker>TEBANDRO</speaker>
+					          <l part="I">¿Búrlaste?</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="F" n="890">Burlé, sin ver</l>
+					          <l n="891">lo que vi ¡Que nunca viera!</l>
+					          <l n="892" rend="indent">¡Ay de mí! ¿Por qué dilato</l>
+					          <l n="893">poner en ejecución</l>
+					          <l n="894">lo que ya en el alma trato?</l>
+				        </sp>
+				        <sp who="#tebandro">
+					          <speaker>TEBANDRO</speaker>
+					          <l n="895">Por tan liviana ocasión,					</l>
+					          <l n="896">¿eres a tu vida ingrato?</l>
+					          <l n="897" rend="indent">Detente: no digas nada</l>
+					          <l n="898">a esta mujer, si es mujer</l>
+					          <l n="899">cosa tan fiera y helada.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="900">Si la pudiese vencer...					</l>
+				        </sp>
+				        <sp who="#tebandro">
+					          <speaker>TEBANDRO</speaker>
+					          <l n="901">Esa esperanza, engañada,</l>
+					          <l n="902" rend="indent">todo este campo ha teñido</l>
+					          <l n="903">de sangre, de mil que han sido</l>
+					          <l n="904">como tú. Mas Dios te guarde.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="905">Y ¿seré yo más cobarde,					</l>
+					          <l n="906">si es mi amor más atrevido?</l>
+					          <l n="907" rend="indent">Si alguno la ha de vencer,</l>
+					          <l n="908">¡Ay cielos! ¿no puede ser</l>
+					          <l n="909">que sea yo? ¿Qué me acobardo?</l>
+				        </sp>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					
+					          <l n="910">
+                  <stage>[Aparte.]</stage>¡Qué mancebo tan gallardo!				</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					
+					          <l n="911">
+                  <stage>[Aparte.]</stage>¡Qué más que humana mujer!</l>
+				        </sp>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					
+					          <l n="912" rend="indent">
+                  <stage>[Aparte.]</stage>
+¡Oh, cuánto me pesaría</l>
+					          <l n="913">que a pretenderme viniese!</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					
+					          <l n="914">
+                  <stage>[Aparte.]</stage>¡Ay, si la llamase mía!</l>
+				        </sp>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					
+					          <l n="915">
+                  <stage>[Aparte.]</stage>¡Ay, si la muerte le diese						</l>
+					          <l n="916">Y qué lástima sería!</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					
+					          <l n="917" rend="indent">
+                  <stage>[Aparte.]</stage>De la sentencia el rigor</l>
+					          <l n="918">me hiela. Abrásame amor.</l>
+					          <l n="919">Temor me está deteniendo.</l>
+					          <l n="920">Pero amor me está diciendo					</l>
+					          <l n="921">que me dará su favor.</l>
+				        </sp>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					
+					          <l n="922" rend="indent">
+                  <stage>[Aparte.]</stage>De cuantos mancebos vi,</l>
+					          <l n="923">ninguno así me agradó.</l>
+					          <l n="924">¡Nunca yo le agrade así!</l>
+					          <l n="925">Que aunque más le quiera yo,					</l>
+					          <l n="926">El jamás me quiera a mí.</l>
+					          <l n="927" rend="indent">¿Quién ha visto no querer</l>
+					          <l n="928">el que quiere ser querido?</l>
+					          <l n="929">Pues en mí se viene a ver,</l>
+					          <l n="930">porque ha de morir vencido,</l>
+					          <l n="931">y no he de ser su mujer.</l>
+					          <l n="932" rend="indent">Pues dejarme vencer yo</l>
+					          <l n="933">y perder mi honor, no puedo.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					
+					          <l n="934">
+                  <stage>[Aparte.]</stage>Si amor se determinó,</l>
+					          <l n="935">¿por qué me detienes, miedo?					</l>
+					          <l n="936">Nunca quien amó, temió.</l>
+					          <l n="937" rend="indent">¿Quiero? Sí. Pues ¿cómo temo?</l>
+					          <l n="938">¿Temo? No. Pues ¿en qué cosa</l>
+					          <l n="939">reparo, si en el extremo</l>
+					          <l n="940">desta luz soy mariposa,</l>
+					          <l n="941">y a cada vuelta me quemo?</l>
+					
+					          <l n="942" rend="indent">
+                  <stage>[A ATALANTA.]</stage>¡Oh tú, que en belleza igualas</l>
+					          <l n="943">el sol, de su luz vestida,</l>
+					          <l n="944">que por los ojos exhalas,</l>
+					          <l n="945">llévame también la vida						</l>
+					          <l n="946">donde me quemas las alas!</l>
+					          <l n="947" rend="indent">Doncella hermosa, o deidad</l>
+					          <l n="948">divina, que en sombra humana</l>
+					          <l n="949">disfrazas tu claridad,</l>
+					          <l n="950">a tu vista soberana							</l>
+					          <l n="951">se presenta mi humildad.</l>
+					          <l n="952" rend="indent">El premio de tu hermosura</l>
+					          <l n="953">me anima a perder la vida,</l>
+					          <l n="954">que por el bien que procura,</l>
+					          <l n="955">es más inmortal, perdida,</l>
+					          <l n="956">que la del alma segura.</l>
+					          <l n="957" rend="indent">Si te venzo y te poseo,</l>
+					          <l n="958">no porque eres celestial</l>
+					          <l n="959">desprecies mi buen deseo;</l>
+					          <l n="960">que soy, aunque soy mortal,					</l>
+					          <l n="961">hijo del rey Megareo.</l>
+					          <l n="962" rend="indent">De mi amor me maravillo,</l>
+					          <l n="963">como aspiro a tanta gloria,</l>
+					          <l n="964">mas ya vencido, me humillo.</l>
+					          <l n="965">Corramos: tú a la victoria,						</l>
+					          <l n="966">y yo, señora, al cuchillo.</l>
+				        </sp>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					          <l n="967" rend="indent">Mancebo, cualquier que seas,</l>
+					          <l n="968">gran lástima tengo en ver</l>
+					          <l n="969">que a ti mismo no te veas,</l>
+					          <l n="970">pues pudiéndote querer,						</l>
+					          <l n="971">otra hermosura deseas.</l>
+					          <l n="972" rend="indent">Si no te dueles de ti,</l>
+					          <l n="973">ten de tus padres dolor;</l>
+					          <l n="974">que ya veo desde aquí</l>
+					          <l n="975">la fuerza de su rigor,							</l>
+					          <l n="976">por el que me das a mí.</l>
+					          <l n="977" rend="indent">Si es mostrar que amor me tienes,</l>
+					          <l n="978">yo le creo, sin probar</l>
+					          <l n="979">el ánimo con que vienes.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="980">Con mostrarme ese pesar,						</l>
+					          <l n="981">más me animas que detienes.</l>
+					          <l n="982" rend="indent">Si primero que supiese</l>
+					          <l n="983">que te agradaba, te di</l>
+					          <l n="984">el corazón, no te pese</l>
+					          <l n="985">de que quien te agrada a ti					</l>
+					          <l n="986">lo que le has dado te diese.</l>
+					          <l n="987" rend="indent">Ya no hay remedio: más quiero</l>
+					          <l n="988">que vivir sin ti, morir.</l>
+					          <l n="989">Si de amor por verte muero,</l>
+					          <l n="990">¿qué más morir que vivir						</l>
+					          <l n="991">adonde la muerte espero?</l>
+					          <l n="992" rend="indent">Corramos, y los despojos</l>
+					          <l n="993">goza, y no te cause enojos,</l>
+					          <l n="994">que yo gusto, y justo es,</l>
+					          <l n="995">de que mates con los pies						</l>
+					          <l n="996">lo que abrasas con los ojos.</l>
+				        </sp>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					          <l n="997" rend="indent">¡Que sea tan desdichada,</l>
+					          <l n="998">y de tan contraria suerte,</l>
+					          <l n="999">que de lo que más me agrada,</l>
+					          <l n="1000">para su temprana muerte						</l>
+					          <l n="1001">sea mi hermosura espada!</l>
+					          <l n="1002" rend="indent">Vete, mancebo, y no quieras</l>
+					          <l n="1003">Pagarme mal este amor.</l>
+					          <l n="1004">Mira que la muerte esperas.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="I">Yo he de morir.</l>
+				        </sp>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					          <l part="F" n="1005">¡Qué dolor!						</l>
+					          <l n="1006">¡Qué mal tu edad consideras!</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="I" rend="indent">Acaba ya.</l>
+				        </sp>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					          <l part="F" n="1007">Yo no quiero.</l>
+					          <l part="I">¡Jueces!...</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="F" n="1008">¿O es ley, o no?</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l part="I">Ley es.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="F" n="1009">Pues si es ley, ¿qué espero?</l>
+					          <l n="1010">Vencida se confesó.							</l>
+				        </sp>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					
+					          <l n="1011">
+                  <stage>[Aparte.]</stage>Hoy le doy la muerte, hoy muero.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="I" rend="indent">¿Qué respondes?</l>
+				        </sp>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					          <l part="F" n="1012">Que a correr</l>
+					          <l n="1013">vamos, pues quieres morir.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="I">Ve adelante.</l>
+				        </sp>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					          <l part="F" n="1014">¿Qué has de hacer?</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="1015">Mi persona prevenir.							</l>
+				        </sp>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					          <l n="1016">¡Cielos, dejalde vencer!</l>
+				        </sp>
+				        <stage>(Todos se vayan, y quede HIPÓMENES.)</stage>
+				        <stage>[Redondillas de 7 sílabas.]</stage>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="1017" rend="indent">Ya parte a la carrera,</l>
+					          <l n="1018">ya con pecho brioso</l>
+					          <l n="1019">desnuda el cuerpo hermoso,</l>
+					          <l n="1020">para quedar ligera.							</l>
+					          <l n="1021" rend="indent">Ya bulle, con los velos,</l>
+					          <l n="1022">enamorado el aire.</l>
+					          <l n="1023">¡Qué gracia! ¡Qué donaire!</l>
+					          <l n="1024">De todos tengo celos.</l>
+					          <l n="1025" rend="indent">¡Oh! ¡Quién cegar pudiera					</l>
+					          <l n="1026">a cuantos han mirado</l>
+					          <l n="1027">el cuerpo delicado</l>
+					          <l n="1028">de aquella hermosa fiera!</l>
+					          <l n="1029" rend="indent">Deidades de los cielos,</l>
+					          <l n="1030">debeisos de reir,							</l>
+					          <l n="1031">que estoy para morir,</l>
+					          <l n="1032">y me muero de celos.</l>
+					          <l n="1033" rend="indent">No dirá amor, si advierte</l>
+					          <l n="1034">lo que estoy esperando,</l>
+					          <l n="1035">que voy de espacio amando,					</l>
+					          <l n="1036">pues corro hasta mi muerte.</l>
+					          <l n="1037" rend="indent">De morir no me pesa,</l>
+					          <l n="1038">que si vencer deseo,</l>
+					          <l n="1039">es por el bien que veo</l>
+					          <l n="1040">de tan gloriosa empresa.						</l>
+					          <l n="1041" rend="indent">Venus, reina divina,</l>
+					          <l n="1042">de amor estrella pura,</l>
+					          <l n="1043">que al sol por su hermosura</l>
+					          <l n="1044">su rayo siempre inclina;</l>
+					          <l n="1045" rend="indent">soberano planeta,							</l>
+					          <l n="1046">que amor al hombre influyes,</l>
+					          <l n="1047">tú que de ingratos huyes,</l>
+					          <l n="1048">mi ruego humilde aceta:</l>
+					          <l n="1049" rend="indent">dos palomas ofrezco</l>
+					          <l n="1050">a tus aras sagradas,							</l>
+					          <l n="1051">de oliva coronadas,</l>
+					          <l n="1052">si tanto bien merezco.</l>
+					          <l n="1053" rend="indent">De mis años te duele</l>
+					          <l n="1054">y de mi padre anciano,</l>
+					          <l n="1055">que no me queda hermano						</l>
+					          <l n="1056">que su vejez consuele.</l>
+					          <l n="1057" rend="indent">Si amaste, Venus bella,</l>
+					          <l n="1058">mira la pena mía,</l>
+					          <l n="1059">y en este mar me guía</l>
+					          <l n="1060">como divina estrella.							</l>
+				        </sp>
+				        <stage>(Baje de un cielo, que estará hecho, una nube cerrada, y ábrase a la mitad con música, saliendo della muchos pajarillos, y véase VENUS dentro con algunos CUPIDILLOS pintados, o de bulto, y diga:)</stage>
+				        <stage>[Octavas.]</stage>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1061" rend="indent">Hipómenes, yo vengo enternecida</l>
+					          <l n="1062">de tus ruegos y lástimas, y quiero</l>
+					          <l n="1063">darte favor y remediar tu vida</l>
+					          <l n="1064">con una industria en que tu bien espero.</l>
+					          <l n="1065">Atalanta no puede ser vencida,					</l>
+					          <l n="1066">porque el viento veloz no es tan ligero.</l>
+					          <l n="1067">Sobre los trigos, con destreza extraña,</l>
+					          <l n="1068">camina sin doblar la débil caña,</l>
+					          <l n="1069" rend="indent">Pero con estas tres manzanas de oro,</l>
+					          <l n="1070">así la vencerás en la carrera.					</l>
+					          <l n="1071">En viendo la ventaja, su decoro</l>
+					          <l n="1072">descompondrás echando la primera;</l>
+					          <l n="1073">si ves que la codicia del tesoro</l>
+					          <l n="1074">la vence, la segunda y la tercera</l>
+					          <l n="1075">podrás echar; que mientras va por ellas,			</l>
+					          <l n="1076">podrás dejar atrás sus plantas bellas.</l>
+					          <l n="1077" rend="indent">Con esto, al palio llegarás primero,</l>
+					          <l n="1078">gozando el premio que mil vidas cuesta.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="1079">¡Reina de las estrellas, y lucero</l>
+					          <l n="1080">que aposentas al sol cuando se acuesta,			</l>
+					          <l n="1081">madre de amor, retrato verdadero</l>
+					          <l n="1082">de la piedad, los cielos hagan fiesta</l>
+					          <l n="1083">a tu nombre divino, y los amores</l>
+					          <l n="1084">siembren sobre la tierra oliva y flores!</l>
+					          <l n="1085" rend="indent">Por ti vive la paz, por ti se aumenta				</l>
+					          <l n="1086">y propaga el linaje de los hombres,</l>
+					          <l n="1087">el ave vuela, el árbol se sustenta,</l>
+					          <l n="1088">y hasta las fieras de temidos nombres.</l>
+					          <l n="1089">Dame licencia, y a mi curso atenta,</l>
+					          <l part="I">turba el suyo ligero.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="1090">No te asombres,			</l>
+					          <l n="1091">que vencerás si mi consejo tomas.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="1092">Tuyas serán dos cándidas palomas.</l>
+				        </sp>
+				        <stage>(La nube se cierre, y suba con música. HIPÓMENES se entre y salga CUPIDO con tres niños: NARCISO, JACINTO y GANIMEDES.)</stage>
+				        <stage>[Redondillas.]</stage>
+				        <sp who="#jacinto">
+					          <speaker>JACINTO</speaker>
+					          <l n="1093" rend="indent">¿A qué habemos de jugar?</l>
+					          <l n="1094">Diga Cupidillo un juego.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1095">Mis juegos todos son fuego,					</l>
+					          <l n="1096">¿para qué os queréis quemar?</l>
+				        </sp>
+				        <sp who="#ganimedes">
+					          <speaker>GANIMEDES</speaker>
+					          <l part="I" rend="indent">Dile tú, Narciso.</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l part="F" n="1097">¿Yo?</l>
+				        </sp>
+				        <sp who="#ganimedes">
+					          <speaker>GANIMEDES</speaker>
+					          <l part="I">Tú, pues...</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l part="F" n="1098">Vaya al esconder.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1099">No soy de ese parecer.</l>
+				        </sp>
+				        <sp who="#jacinto">
+					          <speaker>JACINTO</speaker>
+					          <l n="1100">Al esconder, ¿por qué no?					</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l part="I" rend="indent">¿No soy amor?</l>
+				        </sp>
+				        <sp who="#jacinto">
+					          <speaker>JACINTO</speaker>
+					          <l part="F" n="1101">Es verdad.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1102">Pues cosa imposible ha sido</l>
+					          <l n="1103">estar amor escondido.</l>
+					          <l n="1104">Que el fuego da claridad.</l>
+				        </sp>
+				        <sp who="#jacinto">
+					          <speaker>JACINTO</speaker>
+					          <l n="1105" rend="indent">Ganimedes diga un juego.				</l>
+				        </sp>
+				        <sp who="#ganimedes">
+					          <speaker>GANIMEDES</speaker>
+					          <l n="1106">Juguemos a la gallina</l>
+					          <l part="I">ciega.</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l part="F" n="1107">Bien; echo la china.</l>
+				        </sp>
+				        <sp who="#jacinto">
+					          <speaker>JACINTO</speaker>
+					          <l n="1108">¿Para qué? Cupido es ciego.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1109" rend="indent">Aunque ciego, Dios me guarde.</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l n="1110">¿A quién toca como a ti?</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1111">No me hagáis gallina a mí,</l>
+					          <l n="1112">porque no hay amor cobarde.</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l n="1113" rend="indent">Di tú, Jacinto, algún juego.</l>
+				        </sp>
+				        <sp who="#jacinto">
+					          <speaker>JACINTO</speaker>
+					          <l n="1114">Juguemos a la palmada.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1115">Ninguno desos me agrada.					</l>
+					          <l n="1116">Todos son juegos de ciego,</l>
+					          <l n="1117" rend="indent">y no quiero juego yo</l>
+					          <l n="1118">que tanto imita los celos.</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l part="I">¿Cómo?</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l part="F" n="1119">Todos son desvelos,</l>
+					          <l n="1120">y adivina quién te dio.					</l>
+				        </sp>
+				        <sp who="#jacinto">
+					          <speaker>JACINTO</speaker>
+					          <l n="1121" rend="indent">¿Ningún juego te da aliento?</l>
+					          <l n="1122">Ya es ese mucho rigor,</l>
+					          <l n="1123">pero basta ser tú amor</l>
+					          <l n="1124">para nunca estar contento.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1125" rend="indent">Juguemos al abejón.</l>
+				        </sp>
+				        <sp who="#ganimedes">
+					          <speaker>GANIMEDES</speaker>
+					          <l n="1126">Para ti es de gusto, hermano,</l>
+					          <l n="1127">que al que coges a tu mano</l>
+					          <l n="1128">le das lindo bofetón.</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l n="1129" rend="indent">Juguemos a los señores.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1130">Donde hay amor no hay señor,				</l>
+					          <l n="1131">que todo lo iguala amor:</l>
+					          <l n="1132">por eso, no te enamores.</l>
+				        </sp>
+				        <sp who="#ganimedes">
+					          <speaker>GANIMEDES</speaker>
+					          <l n="1133" rend="indent">Juega al toro de las coces.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1134">Soy amor: no quiero toro,</l>
+					          <l part="I">Y más, coces.</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l part="F" n="1135">Eso ignoro.					</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1136">Es porque no me conoces.</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l n="1137" rend="indent">¿No es mejor ir a coger</l>
+					          <l part="I">fruta a alguna huerta?</l>
+				        </sp>
+				        <sp who="#jacinto">
+					          <speaker>JACINTO</speaker>
+					          <l part="F" n="1138">Sí.</l>
+				        </sp>
+				        <sp who="#ganimedes">
+					          <speaker>GANIMEDES</speaker>
+					          <l n="1139">¿Habrá fruta por aquí?</l>
+				        </sp>
+				        <sp who="#jacinto">
+					          <speaker>JACINTO</speaker>
+					          <l n="1140">En Chipre, ¿no la ha de haber?</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l n="1141" rend="indent">Espérate, Ganimedes,</l>
+					          <l n="1142">que allí he visto una colmena.</l>
+				        </sp>
+				        <sp who="#ganimedes">
+					          <speaker>GANIMEDES</speaker>
+					          <l part="I">¿Tiene miel?</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l part="F" n="1143">Toda está llena.</l>
+				        </sp>
+				        <sp who="#ganimedes">
+					          <speaker>GANIMEDES</speaker>
+					          <l n="1144">¿Saltarás tú las paredes?</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l n="1145" rend="indent">Si tú te pones a gatas,					</l>
+					          <l n="1146">Pondréme de pies en ti.</l>
+				        </sp>
+				        <sp who="#jacinto">
+					          <speaker>JACINTO</speaker>
+					          <l n="1147">Paso: un pastor viene aquí,</l>
+					          <l n="1148">no te entienda lo que tratas.</l>
+				        </sp>
+				        <stage>(Sale FRONDOSO.)</stage>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="1149" rend="indent">Después que el señor Apolo</l>
+					          <l n="1150">estuvo conmigo airado,					</l>
+					          <l n="1151">ando por aqueste prado</l>
+					          <l n="1152">afligido, triste y solo.</l>
+					          <l n="1153" rend="indent">Díjome, por maldición,</l>
+					          <l n="1154">que a nadie parecería</l>
+					          <l n="1155">la forma que antes tenía:					</l>
+					          <l n="1156">¡Bien castigó mi intención!</l>
+					          <l n="1157" rend="indent">Desde entonces no he dejado</l>
+					          <l n="1158">fuente, ni aun arroyo dejo,</l>
+					          <l n="1159">que no me sirva de espejo:</l>
+					          <l n="1160">en su cristal me traslado.					</l>
+					          <l n="1161" rend="indent">Pero en unas me parezco</l>
+					          <l n="1162">elefante, en otras toro...</l>
+					          <l n="1163">Yo ¡triste! aflíjome, lloro,</l>
+					          <l n="1164">y en extremo me entristezco.</l>
+					          <l n="1165" rend="indent">Huyo de mí por no verme;				</l>
+					          <l n="1166">mas viendo que voy conmigo,</l>
+					          <l n="1167">dejo lo mismo que sigo,</l>
+					          <l n="1168">y comienzo a enloquecerme.</l>
+					          <l n="1169" rend="indent">¡Oh Apolo! De tu justicia,</l>
+					          <l n="1170">a tu piedad santa apelo.					</l>
+					          <l n="1171">¡Oh, cuánto castiga el cielo</l>
+					          <l n="1172">un pecado de malicia!</l>
+					          <l n="1173" rend="indent">Confieso que fue maldad;</l>
+					          <l n="1174">mas tú eres Dios, yo soy hombre;</l>
+					          <l n="1175">la diferencia del nombre					</l>
+					          <l n="1176">ha de obligar tu deidad.</l>
+				        </sp>
+				        <sp who="#ganimedes">
+					          <speaker>GANIMEDES</speaker>
+					          <l n="1177" rend="indent">¡Ay, Jacinto! Allí, ¿no estaba</l>
+					          <l part="I">un pastor?</l>
+				        </sp>
+				        <sp who="#jacinto">
+					          <speaker>JACINTO</speaker>
+					          <l part="F" n="1178">Allí le vi.</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l part="I">¿Volvióse culebra?</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l part="F" n="1179">Sí.</l>
+				        </sp>
+				        <sp who="#ganimedes">
+					          <speaker>GANIMEDES</speaker>
+					          <l n="1180">¡Oh, qué culebra tan brava!				</l>
+					          <l part="I" rend="indent">Huye, Cupido.</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l part="F" n="1181">¿Qué es esto?</l>
+					          <l n="1182">Culebra dicen que soy.</l>
+					          <l n="1183">A verme a esta fuente voy.</l>
+				        </sp>
+				        <stage>(Vase FRONDOSO.)</stage>
+				        <sp who="#jacinto">
+					          <speaker>JACINTO</speaker>
+					          <l n="1184">Arma el arco, tira presto.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1185" rend="indent">¡Oh, si esta sierpe matase				</l>
+					          <l part="I">como Apolo!</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l part="F" n="1186">Ya se huyó.</l>
+				        </sp>
+				        <sp who="#jacinto">
+					          <speaker>JACINTO</speaker>
+					          <l part="I">Luego ¿no le tiró?</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l part="F" n="1187">No.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1188">Miedo tuvo que tirase.</l>
+				        </sp>
+				        <sp who="#jacinto">
+					          <speaker>JACINTO</speaker>
+					          <l n="1189" rend="indent">De eso las fuerzas se arguyen</l>
+					          <l n="1190">de tus manos rigurosas,					</l>
+					          <l n="1191">pues las sierpes venenosas,</l>
+					          <l n="1192">Amor, de tus flechas huyen.</l>
+					          <l n="1193" rend="indent">Trepemos a la colmena.</l>
+					          <l n="1194">No hay de qué tener temor.</l>
+				        </sp>
+				        <sp who="#ganimedes">
+					          <speaker>GANIMEDES</speaker>
+					          <l n="1195">Llega desta parte, Amor.					</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l part="I">¡Oh, qué linda miel!</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l part="F" n="1196">¿Es buena?</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l part="I" rend="indent">¡Ay, ay, ay!</l>
+				        </sp>
+				        <sp who="#ganimedes">
+					          <speaker>GANIMEDES</speaker>
+					          <l part="M">¿Qué es eso?</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l part="F" n="1197">¡Ay, madre,</l>
+					          <l n="1198">que una de estas me picó,</l>
+					          <l part="I">que andan en la miel!</l>
+				        </sp>
+				        <sp who="#jacinto">
+					          <speaker>JACINTO</speaker>
+					          <l part="F" n="1199">Pues yo</l>
+					          <l n="1200">Oí decir a mi padre						</l>
+					          <l n="1201" rend="indent">que, sacando lo que deja,</l>
+					          <l part="I">cesa el dolor.</l>
+				        </sp>
+				        <sp who="#ganimedes">
+					          <speaker>GANIMEDES</speaker>
+					          <l part="F" n="1202">¡Ay, Narciso!</l>
+					          <l n="1203">que huigamos de aquí te aviso,</l>
+					          <l n="1204">no te pique alguna abeja.</l>
+				        </sp>
+				        <sp who="#narciso">
+					          <speaker>NARCISO</speaker>
+					          <l part="I" rend="indent">Vamos, Jacinto.</l>
+				        </sp>
+				        <sp who="#ganimedes">
+					          <speaker>GANIMEDES</speaker>
+					          <l part="F" n="1205">También					</l>
+					          <l n="1206">a casa me quiero ir.</l>
+				        </sp>
+				        <stage>(Vanse todos y quede CUPIDO.)</stage>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1207">¡Ay Dios, que me he de morir!</l>
+					          <l n="1208">¡Tanto mal en tanto bien!</l>
+					          <l n="1209" rend="indent">¿Esto es miel? ¿Esto es dulzura?</l>
+					          <l n="1210">¡Qué amarga pena que cuesta!				</l>
+					          <l n="1211">¿Esta es miel? Ponzoña es ésta,</l>
+					          <l n="1212">engaño y traición segura.</l>
+					          <l n="1213" rend="indent">¡Ay! ¿qué haré, triste de mí?</l>
+					          <l n="1214">Hinchado se me ha la palma.</l>
+					          <l n="1215">¡Ay, que si lo sabe el alma,</l>
+					          <l n="1216">se me saldrá por aquí!</l>
+				        </sp>
+				        <stage>(Sale VENUS.)</stage>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1217" rend="indent">Cansada estoy de buscarte.</l>
+					          <l n="1218">Yo juro que he de ponerte</l>
+					          <l n="1219">a la escuela, por hacerte</l>
+					          <l n="1220">bueno a puro castigarte.</l>
+					          <l n="1221" rend="indent">¿Dónde has estado perdido?</l>
+					          <l n="1222">En las espaldas te quiero</l>
+					          <l n="1223">poner, Cupido, un letrero.</l>
+					          <l n="1224">Ya no es Amor conocido:</l>
+					          <l n="1225" rend="indent">como reina el interés,					</l>
+					          <l n="1226">no saben quién es Amor.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1227">¡Ay, qué terrible dolor!</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="I">¿De qué lloras?</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l part="F" n="1228">¿No lo ves?</l>
+					
+					          <l n="1229" rend="indent">
+                  <stage>[Romance.]</stage>Por los jardines de Chipre,</l>
+					          <l n="1230">madre, andaba divertido,					</l>
+					          <l n="1231">entre las flores y rosas</l>
+					          <l n="1232">jugando con otros niños.</l>
+					          <l n="1233">Cuál trepa por algún sauce,</l>
+					          <l n="1234">presumiendo alcanzar nidos,</l>
+					          <l n="1235">cuál hace jaulas de juncos					</l>
+					          <l n="1236">por coger los pajarillos,</l>
+					          <l n="1237">cuál coge verdes almendras,</l>
+					          <l n="1238">cuál blancas flores de espinos,</l>
+					          <l n="1239">cuál entreteje guirnaldas</l>
+					          <l n="1240">de rosas y azules lirios,					</l>
+					          <l n="1241">cuando en unos corchos altos,</l>
+					          <l n="1242">los sabrosos edificios</l>
+					          <l n="1243">de cera y miel nos llamaron</l>
+					          <l n="1244">con sus panales nativos.</l>
+					          <l n="1245">Púsose Jacinto a gatas,					</l>
+					          <l n="1246">comenzó sobre él Narciso</l>
+					          <l n="1247">a ver si sacar podía</l>
+					          <l n="1248">la miel por algún resquicio...</l>
+					          <l n="1249">Yo, ¡triste! que siempre fui</l>
+					          <l n="1250">para mi gusto atrevido,					</l>
+					          <l n="1251">metí la mano en el corcho...</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1252">¡Qué notable desatino!</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1253">Madre mía, una avecilla</l>
+					          <l n="1254">que apenas no tiene pico,</l>
+					          <l n="1255">me ha dado el mayor dolor				</l>
+					          <l n="1256">que pudiera un áspid libio.</l>
+					          <l n="1257">Ves aquí, madre, la mano.</l>
+					          <l n="1258">Ponme un paño. Estoy perdido.</l>
+					          <l n="1259">Cúrame presto, ¡ay de mí!</l>
+					          <l part="I">¡Presto, presto!</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="1260">No des gritos,					</l>
+					          <l n="1261">sino advierte que tú eres</l>
+					          <l n="1262">niño pequeño, Cupido,</l>
+					          <l n="1263">y que, en picando en los ojos</l>
+					          <l n="1264">como fiero basilisco,</l>
+					          <l n="1265">dejas en el alma y pecho</l>
+					          <l n="1266">más fuego que en el abismo.				</l>
+					          <l n="1267">Y eres tan cruel tirano,</l>
+					          <l n="1268">que a mí propia me has herido,</l>
+					          <l n="1269">con ser tu madre. Y así,</l>
+					          <l n="1270">te ha dado el cielo el castigo.</l>
+					          <l n="1271">De Adonis me enamoraste...				</l>
+					          <l n="1272">¡muerta estoy, pierdo el juicio!</l>
+					          <l n="1273">Celos de las ninfas tengo</l>
+					          <l n="1274">de este bosque y de este río.</l>
+					          <l n="1275">A buscarle vengo aquí</l>
+					          <l n="1276">por tu ocasión, enemigo.					</l>
+					          <l n="1277">¡Plegue al cielo que te vea</l>
+					          <l n="1278">puesto en el mismo peligro:</l>
+					          <l n="1279">que, siendo amor, te enamores,</l>
+					          <l n="1280">porque mueras en tu oficio!</l>
+					          <l n="1281">¡y no maldigan los hombres				</l>
+					          <l n="1282">mi vida por tus delitos!</l>
+					          <l n="1283">Que no hay mujer que no diga,</l>
+					          <l n="1284">de las que una vez te han visto,</l>
+					          <l n="1285">que no está por ti sin fama,</l>
+					          <l n="1286">desde Lucrecia hasta Dido.					</l>
+					          <l n="1287">Por ti Roma, España, Troya...</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1288">Quedo, madre, que yo os digo</l>
+					          <l n="1289">que no soy sólo el culpado</l>
+					          <l n="1290">de tus locos desatinos.</l>
+					          <l n="1291">Todos se quejan de amor,					</l>
+					          <l n="1292">¡ya he visto versos y libros!,</l>
+					          <l n="1293">porque todas sus flaquezas</l>
+					          <l n="1294">quieren disculpar conmigo.</l>
+					          <l n="1295">¿Qué importa que yo os provoque,</l>
+					          <l n="1296">si tenéis libre albedrío?					</l>
+					          <l n="1297">Pero no hacéis resistencia</l>
+					          <l n="1298">a vuestro propio apetito.</l>
+					          <l n="1299">Yo iré a vengarme de vos:</l>
+					          <l n="1300">¡sabrá Marte y el Sol mismo</l>
+					          <l n="1301">lo que pasa con Adonis!					</l>
+				        </sp>
+				        <stage>(Vase CUPIDO.)</stage>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1302">Oye, vuelve, espera, niño.</l>
+					          <l n="1303">Fuese. ¿Hay tal atrevimiento?</l>
+					          <l n="1304">Pues ¡por Júpiter divino,</l>
+					          <l n="1305">que te has de acordar de mí</l>
+					          <l n="1306">si otra vez los cielos piso!					</l>
+				        </sp>
+				        <stage>(Sale FRONDOSO.)</stage>
+				        <stage>[Endecasílabos sueltos, esdrújulos.]</stage>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="1307" rend="indent">¿Hay ventura tan alta ni tan célebre?</l>
+					          <l n="1308">En efecto, las cosas más difíciles</l>
+					          <l n="1309">tienen su fin. Que a todo llega un término.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1310">Frondoso, ¿de qué vienes tan atónito?</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="1311">Pastora celestial, belleza angélica,			</l>
+					          <l n="1312">¿quién eres tú que de mi nombre rústico</l>
+					          <l n="1313">te has acordado, cuando aquestos bárbaros</l>
+					          <l n="1314">me tienen por león, por sierpe rígida,</l>
+					          <l n="1315">que unos me llaman toro y otros sátiro?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1316">Una extranjera soy, que de las márgenes		</l>
+					          <l n="1317">del Erimanto vine a vuestros límites.</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="1318">Si no eres Venus o la luna errática,</l>
+					          <l n="1319">Arïadna serás, serás Andrómeda,</l>
+					          <l n="1320">imagen ya de la celeste máquina.</l>
+					          <l n="1321">Mas pues que te disfraza el mortal hábito,		</l>
+					          <l n="1322">oye el suceso en este breve epílogo:</l>
+					          <l n="1323">Atalanta veloz, que huyendo el tálamo</l>
+					          <l n="1324">vino por estos bosques, siempre indómita...</l>
+					          <l n="1325">la que, como has oído, fue tan áspera,</l>
+					          <l n="1326">a cuantos en el curso ligerísimo				</l>
+					          <l n="1327">pudo vencer, dio en pena muerte infelice,</l>
+					          <l n="1328">corrió esta tarde con el bello Hipómenes;</l>
+					          <l n="1329">pero valióse de una industria el príncipe,</l>
+					          <l n="1330">que tres manzanas, más que las Hespérides,</l>
+					          <l n="1331">que Medea guardó con arte mágica,			</l>
+					          <l n="1332">le fue arrojando entre las plantas ágiles;</l>
+					          <l n="1333">con que, mientras la ninfa iba cogiéndolas,</l>
+					          <l n="1334">ganó el laurel tan digno de sus méritos.</l>
+					          <l n="1335">Diéronsela sus padres sin escándalo,</l>
+					          <l n="1336">y celebróse allí la boda espléndida,			</l>
+					          <l n="1337">a que han venido en infinito número</l>
+					          <l n="1338">habitadores de estos campos fértiles.</l>
+					          <l n="1339">Esta es historia digna de corónica.</l>
+					          <l n="1340">Dadme licencia, pues están pacíficos,</l>
+					          <l n="1341">que de esta fuente en el cristal diáfano		</l>
+					          <l n="1342">que corre entre los pies de aquellos árboles,</l>
+					          <l n="1343">pues ya que me llamáis mi nombre y título,</l>
+					          <l n="1344">me vaya a ver con miedo de un oráculo</l>
+					          <l n="1345">que me ha representado en mil imágenes.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="I">Guíete amor.</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l part="F" n="1346">Y cumpla tus propósitos.			</l>
+				        </sp>
+				        <stage>(Vase FRONDOSO.)</stage>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1347">Huélgome que Atalanta, ya doméstica,</l>
+					          <l n="1348">sea de amor por mis ardides víctima.</l>
+					          <l n="1349">Eso me debe Hipómenes solícito.</l>
+					          <l n="1350">Bañen mis aras dos palomas cándidas,</l>
+					          <l n="1351">cante su amor en dulce voz Calíope,			</l>
+					          <l n="1352">desde el blanco alemán al negro etíope.</l>
+				        </sp>
+				        <stage>(Salen HIPÓMENES y ATALANTA.)</stage>
+				        <stage>[Quintillas.]</stage>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="1353" rend="indent">Dulcísima esposa mía,</l>
+					          <l n="1354">que mil años guarde el cielo</l>
+					          <l n="1355">en mi alegre compañía.</l>
+					          <l n="1356">Sol, que has dado en mortal velo			</l>
+					          <l n="1357">envidia al que alumbra el día:</l>
+					          <l n="1358" rend="indent">tan rico de tu hermosura</l>
+					          <l n="1359">voy por aquesta espesura,</l>
+					          <l n="1360">que se para, al ver que llevo</l>
+					          <l n="1361">otro más hermoso Febo,					</l>
+					          <l n="1362">la celeste arquitectura.</l>
+					          <l n="1363" rend="indent">No venció mi ligereza</l>
+					          <l n="1364">la tuya; venció mi amor,</l>
+					          <l n="1365">que siendo igual en grandeza</l>
+					          <l n="1366">al sol, pienso que es mayor</l>
+					          <l n="1367">que tu divina belleza.</l>
+					          <l n="1368" rend="indent">Vencí, Atalanta, vencido:</l>
+					          <l n="1369">victorioso y preso voy.</l>
+				        </sp>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					          <l n="1370">Mi bien, la vencida he sido:</l>
+					          <l n="1371">yo confieso que lo estoy,					</l>
+					          <l n="1372">y que amor lo ha permitido.</l>
+					          <l n="1373" rend="indent">Antes de vencer, venciste,</l>
+					          <l n="1374">porque desde que te vi,</l>
+					          <l n="1375">a tu valor me rendiste.</l>
+					          <l n="1376">A correr vencida fui,						</l>
+					          <l n="1377">y tú victorioso fuiste.</l>
+					          <l n="1378" rend="indent">No fue codicia del oro</l>
+					          <l n="1379">de las manzanas, mi bien;</l>
+					          <l n="1380">de ti sí, que eres tesoro</l>
+					          <l n="1381">de mayor valor, y a quien					</l>
+					          <l n="1382">por oro del alma adoro.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="1383" rend="indent">Pues ¿qué piensas tú que fueron</l>
+					          <l n="1384">las manzanas que la palma</l>
+					          <l n="1385">de la victoria me dieron?</l>
+					          <l n="1386">Las tres potencias del alma,				</l>
+					          <l n="1387">que tus desdenes vencieron.</l>
+					          <l n="1388" rend="indent">La primera que a tu gloria</l>
+					          <l n="1389">ofrecí, sin libertad,</l>
+					          <l n="1390">para tan alta victoria,</l>
+					          <l n="1391">fue mi ciega voluntad.					</l>
+					          <l n="1392">La segunda, mi memoria.</l>
+					          <l n="1393" rend="indent">Pero pienso que hablo a tiento.</l>
+					          <l n="1394">Que creo que la primera</l>
+					          <l n="1395">fue, esposa, mi entendimiento;</l>
+					          <l n="1396">porque si no te entendiera,				</l>
+					          <l n="1397">no amara con fundamento.</l>
+					          <l n="1398" rend="indent">De entenderte nació amarte.</l>
+					          <l n="1399">Pero mira que he de hablarte</l>
+					          <l n="1400">en cosas de amor aquí;</l>
+					          <l n="1401">del cielo, a quien te pedí,					</l>
+					          <l n="1402">vengo, Atalanta, a celarte.</l>
+					          <l n="1403" rend="indent">Estos árboles no son,</l>
+					          <l n="1404">por ser de este monte sendas,</l>
+					          <l n="1405">buenos en esta ocasión.</l>
+					          <l part="I">Aquí hay un templo.</l>
+				        </sp>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					          <l part="F" n="1406">No ofendas			</l>
+					          <l n="1407">su divina religión.</l>
+					          <l n="1408" rend="indent">Mira que de Venus es.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="I">¿Qué es Venus?</l>
+				        </sp>
+				        <sp who="#atalanta">
+					          <speaker>ATALANTA</speaker>
+					          <l part="F" n="1409">Venus es diosa,</l>
+					          <l part="I">y reina de amor.</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l part="F" n="1410">Después</l>
+					          <l n="1411">que yo te vi más hermosa,					</l>
+					          <l n="1412">pongo esa diosa a tus pies.</l>
+					          <l n="1413" rend="indent">No hay Venus ya, ni de amor</l>
+					          <l n="1414">otra diosa que Atalanta.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					
+					          <l n="1415">
+                  <stage>[Aparte.]</stage>¡Qué bien me paga el favor!</l>
+					          <l n="1416">¿Hay descortesía tanta?</l>
+					          <l n="1417">¿Hay ingratitud mayor?					</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="1418" rend="indent">¿Sabes, mi bien, que quisiera</l>
+					          <l n="1419">ver esa Venus aquí,</l>
+					          <l n="1420">porque confesar la hiciera</l>
+					          <l n="1421">que eres más bella, y que a ti</l>
+					          <l n="1422">el arco y flechas te diera?					</l>
+					          <l n="1423" rend="indent">Que tú has de matar de amor;</l>
+					          <l n="1424">porque Venus, que le vende</l>
+					          <l n="1425">por interés, ¿qué valor</l>
+					          <l n="1426">puede tener, pues ofende</l>
+					          <l part="I">su calidad?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					
+					          <l part="F" n="1427">
+                  <stage>[Aparte.]</stage>¡Oh traidor!					</l>
+					          <l n="1428" rend="indent">¡Oh costumbre de los hombres,</l>
+					          <l n="1429">el pagar los beneficios</l>
+					          <l n="1430">con estos ingratos nombres!</l>
+					          <l n="1431">¿Estos son los sacrificios?</l>
+				        </sp>
+				        <sp who="#hipomenes">
+					          <speaker>HIPÓMENES</speaker>
+					          <l n="1432">Vamos, mi bien: no te asombres,			</l>
+					          <l n="1433" rend="indent">que no hay dioses en la tierra</l>
+					          <l n="1434">que puedan hacerme guerra</l>
+					          <l n="1435">donde tengo tu hermosura.</l>
+				        </sp>
+				        <stage>(Éntrense en el templo los dos.)</stage>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1436">¿Hay mayor descompostura?</l>
+					          <l n="1437">A poder decir que yerra					</l>
+					          <l n="1438" rend="indent">en alguna cosa el cielo,</l>
+					          <l n="1439">fuera en no haber destruido</l>
+					          <l n="1440">con agua o con fuego el suelo.</l>
+					          <l n="1441">¡Bien lo tengo merecido,</l>
+					          <l n="1442">pues en su bien me desvelo!				</l>
+					          <l n="1443" rend="indent">¡Traidor, mis manzanas de oro</l>
+					          <l n="1444">te han dado a Atalanta bella,</l>
+					          <l n="1445">y así tratas mi decoro!</l>
+					          <l n="1446">Mas no vivirás con ella,</l>
+					          <l n="1447">por la vida a quien adoro.					</l>
+					          <l n="1448" rend="indent">¡Vive Adonis, que he de daros</l>
+					          <l n="1449">la pena que merecéis,</l>
+					          <l n="1450">y en leones transformaros,</l>
+					          <l n="1451">para que al mundo le deis</l>
+					          <l n="1452">con dos ejemplos tan raros!				</l>
+					          <l n="1453" rend="indent">Salid luego de mi templo,</l>
+					          <l n="1454">dejando la humana forma,</l>
+					          <l n="1455">pues tan fieros os contemplo:</l>
+					          <l n="1456">esa figura os conforma.</l>
+					          <l n="1457">Servid, ingratos, de ejemplo.				</l>
+					
+					          <l n="1458" rend="indent">
+                  <stage>(Salgan dos leones y échense a sus pies.)</stage>No hay que moverme con llanto.</l>
+					          <l n="1459">Por esos montes huid,</l>
+					          <l n="1460">dando a las fieras espanto.</l>
+					          <l n="1461">Entre ellas siempre vivid,</l>
+					          <l n="1462">pues las parecisteis tanto.					</l>
+					          <l n="1463" rend="indent">¡Qué triste estoy! Buscar quiero</l>
+					          <l n="1464">mi sol, que con él confío</l>
+					          <l n="1465">templar este enojo fiero.</l>
+					          <l n="1466">Amanece, Adonis mío,</l>
+					          <l n="1467">si soy tu amado lucero.					</l>
+				        </sp>
+			      </div>
+         <div type="act">
+            <head>Acto III</head>
+				
+				        <stage>Salen APOLO y CUPIDO.</stage>
+				        <stage>[Redondillas.]</stage>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="1468" rend="indent">Mucho me espanto de ti,</l>
+					          <l n="1469">que me digas su afición.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1470">Tu celosa condición,</l>
+					          <l n="1471">dorado Apolo, advertí.</l>
+					          <l n="1472" rend="indent">Tengo tan aborrecida					</l>
+					          <l n="1473">la de mi lasciva madre,</l>
+					          <l n="1474">y el ver que al cielo y mi padre</l>
+					          <l n="1475">ofenda su libre vida,</l>
+					          <l n="1476" rend="indent">que darte aviso intenté,</l>
+					          <l n="1477">para que otra vez tu mano					</l>
+					          <l n="1478">ponga la red de Vulcano.</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="1479">Todo lo he visto y lo sé.</l>
+					          <l n="1480" rend="indent">¿No sabes que soy el sol,</l>
+					          <l n="1481">vida y luz de los vivientes,</l>
+					          <l n="1482">de cuyos rayos ardientes					</l>
+					          <l n="1483">es todo el mundo un crisol?</l>
+					          <l n="1484" rend="indent">¿No sabes que estoy mirando</l>
+					          <l n="1485">desde mi eclíptica bella,</l>
+					          <l n="1486">y por las figuras de ella</l>
+					          <l n="1487">discurriendo y paseando,					</l>
+					          <l n="1488" rend="indent">esta máquina inferior,</l>
+					          <l n="1489">donde nada se me encubre,</l>
+					          <l n="1490">porque todo lo descubre</l>
+					          <l n="1491">mi divino resplandor?</l>
+					          <l n="1492" rend="indent">¿No ves que en mis paralelos,				</l>
+					          <l n="1493">que el año del mundo cuenta</l>
+					          <l n="1494">por trescientos y sesenta</l>
+					          <l n="1495">y cinco, giro los cielos,</l>
+					          <l n="1496" rend="indent">en que reparto los días?</l>
+					          <l n="1497">¿Y que más que el pensamiento				</l>
+					          <l n="1498">el primero movimiento</l>
+					          <l n="1499">recoge las fuerzas mías,</l>
+					          <l n="1500" rend="indent">y desde Oriente a Poniente</l>
+					          <l n="1501">me obliga a ver cuanto encierra</l>
+					          <l n="1502">el círculo de la tierra,</l>
+					          <l n="1503">la blanca y la adusta gente?</l>
+					          <l n="1504" rend="indent">¿No ves que tan presto voy,</l>
+					          <l n="1505">cuando es noche en este polo,</l>
+					          <l part="I">a ver el Ártico?</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l part="F" n="1506">Apolo,</l>
+					          <l n="1507">pues de tus ojos estoy					</l>
+					          <l n="1508" rend="indent">cierto que todo lo ven,</l>
+					          <l n="1509">¿cómo has sufrido que viva</l>
+					          <l n="1510">libre esta Venus lasciva</l>
+					          <l n="1511">con este Adonis también?</l>
+					          <l n="1512" rend="indent">¿No basta el amor de Marte,</l>
+					          <l n="1513">que fue de los dioses risa?</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="1514">Mi luz, que el mundo divisa,</l>
+					          <l n="1515">en dos polos se reparte.</l>
+					          <l n="1516" rend="indent">Mientras iba al de Calixto,</l>
+					          <l n="1517">la Luna, mi hermana, fue					</l>
+					          <l n="1518">la que en mi lugar dejé,</l>
+					          <l n="1519">y ella sin duda lo ha visto.</l>
+					          <l n="1520" rend="indent">No me ha querido decir</l>
+					          <l n="1521">su injusta conversación,</l>
+					          <l n="1522">porque adora a Endimión,</l>
+					          <l n="1523">antes la quiere encubrir.</l>
+					          <l n="1524" rend="indent">Que bien saben las mujeres,</l>
+					          <l n="1525">unas por otras, amando,</l>
+					          <l n="1526">ya callando, y ya negando,</l>
+					          <l n="1527">encubrirse sus placeres.					</l>
+					          <l n="1528" rend="indent">Lo que yo vi por el día</l>
+					          <l n="1529">no fue más de un tierno hablar;</l>
+					          <l n="1530">que a veces no puedo entrar,</l>
+					          <l n="1531">Cupido, donde querría.</l>
+					          <l n="1532" rend="indent">En los bosques se escondieron,			</l>
+					          <l n="1533">cuyos árboles frondosos</l>
+					          <l n="1534">nunca a mis rayos celosos</l>
+					          <l n="1535">entrada a sus plantas dieron;</l>
+					          <l n="1536" rend="indent">mas yo haré venganza en ellos</l>
+					          <l n="1537">luego que el verano llegue,				</l>
+					          <l n="1538">cuando la humedad les niegue</l>
+					          <l n="1539">para sus verdes cabellos.</l>
+					          <l n="1540" rend="indent">Esto vi, mas sospeché</l>
+					          <l n="1541">que era sólo amor, Cupido.</l>
+					          <l n="1542">Pero si tú la has herido,					</l>
+					          <l n="1543">culpa de tus flechas fue,</l>
+					          <l n="1544" rend="indent">¿cómo a Venus se la pones?</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1545">Si va a decir la verdad,</l>
+					          <l n="1546">yo pongo en su voluntad</l>
+					          <l n="1547">estas libres aficiones.						</l>
+					          <l n="1548" rend="indent">Todo es venganza de ver</l>
+					          <l n="1549">que esta loca se desvela</l>
+					          <l n="1550">en que yo vaya al escuela,</l>
+					          <l n="1551">y aprenda, Apolo, a leer.</l>
+					          <l n="1552" rend="indent">Ya leo, ya sé escribir,					</l>
+					          <l n="1553">compongo versos de amor,</l>
+					          <l n="1554">en que digo aquel rigor</l>
+					          <l n="1555">que doy al alma a sentir;</l>
+					          <l n="1556" rend="indent">mas ella, porque el maestro</l>
+					          <l n="1557">me azote, me pone allí;					</l>
+					          <l n="1558">que por lo que toca a mí,</l>
+					          <l n="1559">ya estoy en las letras diestro.</l>
+					          <l n="1560" rend="indent">Haz, por tu vida, venganza</l>
+					          <l n="1561">de este mal nacido amor.</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="1562">Adonis es cazador,					</l>
+					          <l n="1563">que puede darte esperanza.</l>
+					          <l n="1564" rend="indent">Vete, y déjame con él,</l>
+					          <l n="1565">que yo le daré la muerte.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1566">Pues ¿adonde vuelvo a verte?</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="1567">Junto a aquel verde laurel.				</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1568" rend="indent">¡Aun no tienes olvidada</l>
+					          <l n="1569">a Dafnes, que en él suspira!</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="1570">¡Oh, traidor, que flechas de ira</l>
+					          <l n="1571">pusiste en su vida airada!</l>
+					          <l n="1572" rend="indent">Vete, que si de mi historia			</l>
+					          <l n="1573">me renuevas el dolor,</l>
+					          <l n="1574">no haré cosa, niño Amor,</l>
+					          <l n="1575">que no aflija mi memoria.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="1576" rend="indent">Guárdete Júpiter santo.</l>
+				        </sp>
+				        <stage>(Vase CUPIDO.)</stage>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="1577">De Venus me afligen celos				</l>
+					          <l n="1578">desde que ayer, por los cielos,</l>
+					          <l n="1579">enjugué del alba el llanto.</l>
+					          <l n="1580" rend="indent">Pagarme tiene la injusta</l>
+					          <l n="1581">muchas burlas que me ha hecho</l>
+					          <l n="1582">Salga Adonis de su pecho.				</l>
+					          <l n="1583">Cosa de que tanto gusta.</l>
+					          <l n="1584" rend="indent">Bajen mis rayos divinos</l>
+					          <l n="1585">a los centros abrasados,</l>
+					          <l n="1586">aunque no están enseñados</l>
+					          <l n="1587">a tan escuros caminos.				</l>
+					          <l n="1588" rend="indent">A las tinieblas eternas</l>
+					          <l n="1589">demos luz. Oye, Plutón:</l>
+					          <l n="1590">tú, que la vil confusión</l>
+					          <l n="1591">de la escuridad gobiernas,</l>
+					          <l n="1592" rend="indent">a mi claridad camina;				</l>
+					          <l n="1593">y aunque estés en fuertes lazos,</l>
+					          <l n="1594">deja un momento los brazos</l>
+					          <l n="1595">de tu amada Proserpina,</l>
+					
+					          <l n="1596" rend="indent">
+                  <stage>(Levántese un lienzo en que estará pintado un edificio, quedando arriba hecho cielo con sus estrellas, sol, y luna pintados, y descúbrase debajo otro a modo de infierno.)</stage>deja la tiniebla, y ponte</l>
+					          <l n="1597">presto a escuchar la voz mía,			</l>
+					          <l n="1598">o de tus furias me envía</l>
+					          <l n="1599">a la fieras.</l>
+					          <l n="1600" rend="indent">Sal presto: ¿quieres acaso</l>
+					          <l n="1601">que entre mi luz más adentro?</l>
+				        </sp>
+				        <stage>(Salga la furia TESIFONTE vestida de negro, y bordada de llamas, con un cuello de velo negro, y argenterías, el tocado lo mismo, con algunas sierpes de oro.)</stage>
+				        <sp who="#tesifonte">
+					          <speaker>TESIFONTE</speaker>
+					          <l n="1602">Ya desde el escuro centro				</l>
+					          <l n="1603">salgo a detener tu paso.</l>
+					          <l n="1604" rend="indent">Detente, Apolo divino,</l>
+					          <l n="1605">Tesifonte soy: ¿qué mandas?</l>
+					          <l n="1606">Tú, que por los aires andas,</l>
+					          <l n="1607">y es el cielo tu camino,				</l>
+					          <l n="1608" rend="indent">¿cómo descendiste al centro?</l>
+					          <l n="1609">Aquella dorada cinta</l>
+					          <l n="1610">que tu luz adorna y pinta,</l>
+					          <l n="1611">no la has de hallar aquí dentro.</l>
+					          <l n="1612" rend="indent">Las figuras celestiales				</l>
+					          <l n="1613">son aquí tormentos feos,</l>
+					          <l n="1614">Tántalos y Prometeos,</l>
+					          <l n="1615">en sus penas infernales.</l>
+					          <l n="1616" rend="indent">Aquí no hay que repartir</l>
+					          <l n="1617">el año en sus doce meses,				</l>
+					          <l n="1618">ni hay aquí plantas ni mieses,</l>
+					          <l n="1619">ni flores que producir.</l>
+					          <l n="1620" rend="indent">Aquí no hay oro ni plata,</l>
+					          <l n="1621">alquimista celestial.</l>
+					          <l n="1622">De sólo fuego inmortal,				</l>
+					          <l n="1623">Discordia, y rigor, se trata.</l>
+					          <l n="1624" rend="indent">¿Qué es lo que quieres, que así</l>
+					          <l n="1625">con tus rayos nos ofendes,</l>
+					          <l n="1626">pues hacer día pretendes</l>
+					          <l n="1627">la noche que vive aquí?				</l>
+				        </sp>
+				        <stage>[Romancillo de 7 sílabas
+(endechas italianas).]</stage>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="1628" rend="indent">Tesifonte sangrienta,</l>
+					          <l n="1629">señora de las armas.</l>
+					          <l n="1630">que con hachas de fuego</l>
+					          <l n="1631">influyes guerras tantas,</l>
+					          <l n="1632">yo no quiero que al mundo				</l>
+					          <l n="1633">como otras veces vayas,</l>
+					          <l n="1634">ceñida de serpientes,</l>
+					          <l n="1635">y de diamante armada,</l>
+					          <l n="1636">a destruir la Europa,</l>
+					          <l n="1637">a disfamar el Asia,					</l>
+					          <l n="1638">al África desierta,</l>
+					          <l n="1639">ni a las indianas playas.</l>
+					          <l n="1640">Estése queda Grecia;</l>
+					          <l n="1641">y Troya, coronada</l>
+					          <l n="1642">de muros y de olivas,					</l>
+					          <l n="1643">no tiemble de Casandra.</l>
+					          <l n="1644">Duerma el soldado fuerte.</l>
+					          <l n="1645">Los parches de las cajas</l>
+					          <l n="1646">sólo a los dados sirvan,</l>
+					          <l n="1647">y a la fortuna varia.					</l>
+					          <l n="1648">Las trompetas sonoras,</l>
+					          <l n="1649">el bronce por quien hablan,</l>
+					          <l n="1650">para siempre enmudezcan,</l>
+					          <l n="1651">ciegas de poco usadas.</l>
+					          <l n="1652">Estense las banderas					</l>
+					          <l n="1653">dobladas en las astas,</l>
+					          <l n="1654">sin que las haga el viento</l>
+					          <l n="1655">colores de sus alas.</l>
+					          <l n="1656">Las espadas sangrientas</l>
+					          <l n="1657">no salgan de las vainas,				</l>
+					          <l n="1658">ni las pintadas flechas</l>
+					          <l n="1659">de los carcajes salgan.</l>
+					          <l n="1660">No se esmalten de plumas</l>
+					          <l n="1661">las lustrosas celadas,</l>
+					          <l n="1662">ni los fresnos y abetos				</l>
+					          <l n="1663">den ramas a las lanzas.</l>
+					          <l n="1664">Las naves de altos bordes</l>
+					          <l n="1665">embarquen oro y plata,</l>
+					          <l n="1666">no lleven municiones</l>
+					          <l n="1667">ni escuchas en las gavias.				</l>
+					          <l n="1668">Que vayas quiero sólo</l>
+					          <l n="1669">a los bosques de Arcadia,</l>
+					          <l n="1670">y en un jabalí fiero</l>
+					          <l n="1671">embistas tu arrogancia.</l>
+					          <l n="1672">Éntrate, Tesifonte,					</l>
+					          <l n="1673">en sus fieras entrañas,</l>
+					          <l n="1674">para matar a Adonis,</l>
+					          <l n="1675">que ha de salir a caza;</l>
+					          <l n="1676">que yo te le pondré</l>
+					          <l n="1677">donde con furia extraña				</l>
+					          <l n="1678">su verde edad malogres,</l>
+					          <l n="1679">y a Venus su esperanza.</l>
+				        </sp>
+				        <sp who="#tesifonte">
+					          <speaker>TESIFONTE</speaker>
+					          <l n="1680">Apolo soberano,</l>
+					          <l n="1681">que tú lo mandes basta</l>
+					          <l n="1682">para que te obedezca					</l>
+					          <l n="1683">cuanto el infierno abarca.</l>
+					          <l n="1684">Vete ligero al cielo,</l>
+					          <l n="1685">porque después que estampas</l>
+					          <l n="1686">tu luz en mis tinieblas,</l>
+					          <l n="1687">descansan estas almas:				</l>
+					          <l n="1688">ni aquel peñasco duro</l>
+					          <l n="1689">que a Sísifo quebranta,</l>
+					          <l n="1690">ni de Ixïon la rueda,</l>
+					          <l n="1691">ni las cincuenta hermanas...</l>
+					          <l n="1692">Caronte alzó los remos				</l>
+					          <l n="1693">de su mohosa barca,</l>
+					          <l n="1694">Radamanto no juzga,</l>
+					          <l n="1695">ni el Cancerbero ladra.</l>
+					          <l n="1696">Yo voy luego a ese bosque,</l>
+					          <l n="1697">y por la misma traza					</l>
+					          <l n="1698">daré la muerte a Adonis.</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="1699">Si aquella vida acabas,</l>
+					          <l n="1700">te prometo cien libras</l>
+					          <l n="1701">del oro de la Arabia</l>
+					          <l n="1702">para unas armas bellas.				</l>
+				        </sp>
+				        <sp who="#tesifonte">
+					          <speaker>TESIFONTE</speaker>
+					          <l n="1703">Pues cumple tu palabra,</l>
+					          <l n="1704">y vete presto al cielo,</l>
+					          <l n="1705">que su grandeza agravias</l>
+					          <l n="1706">en este escuro limbo.</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="1707">Yo vuelvo a ver mi patria.				</l>
+				        </sp>
+				        <stage>(Vanse, y salen VENUS y ADONIS, VENUS viene deteniéndole.)</stage>
+				        <stage>[Quintillas.]</stage>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1708" rend="indent">Detente, por vida mía,</l>
+					          <l n="1709">si la estimas, prenda amada.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="I">Suelta, acaba.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="1710">			No querría</l>
+					          <l n="1711">que te sucediese nada.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="1712"> En mi destreza confía,				</l>
+					          <l n="1713" rend="indent">que yo suelo al más ardiente,</l>
+					          <l n="1714">fiero jabalí, que baña</l>
+					          <l n="1715">de sangre y de espuma el diente,</l>
+					          <l n="1716">testigo aquesta montaña,</l>
+					          <l n="1717">atravesar el tridente.</l>
+					          <l n="1718" rend="indent">Un oso bajaba ayer,</l>
+					          <l n="1719">todo de abejas pintado,</l>
+					          <l n="1720">a este arroyuelo a beber,</l>
+					          <l n="1721">o porque en su vidro helado</l>
+					          <l n="1722">pensaba su ardor vencer.				</l>
+					          <l n="1723" rend="indent">Y por esos ojos bellos,</l>
+					          <l n="1724">espejos de aquestos míos,</l>
+					          <l n="1725">y esos divinos cabellos,</l>
+					          <l n="1726">pues mis juveniles bríos</l>
+					          <l n="1727">pudiste rendir con ellos,				</l>
+					          <l n="1728" rend="indent">que de errarle con sospecha,</l>
+					          <l n="1729">junté del arco las puntas</l>
+					          <l n="1730">con tal fuerza, que la flecha,</l>
+					          <l n="1731">al acabar de estar juntas,</l>
+					          <l n="1732">rompió los aires derecha,				</l>
+					          <l n="1733" rend="indent">y estando un instante en calma,</l>
+					          <l n="1734">después de muerto vivió</l>
+					          <l n="1735">para darme mayor palma,</l>
+					          <l n="1736">porque la flecha no dio</l>
+					          <l n="1737">lugar que saliese el alma.				</l>
+					          <l n="1738" rend="indent">Pero, en fin, como le toca</l>
+					          <l n="1739">a lo mortal que no impida</l>
+					          <l n="1740">lo mismo que le provoca,</l>
+					          <l n="1741">como le cerró la herida,</l>
+					          <l n="1742">salió el alma por la boca.				</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1743" rend="indent">Mi bien, ya estoy satisfecha</l>
+					          <l n="1744">de tu valor, si por dicha</l>
+					          <l n="1745">piensas que hablé con sospecha.</l>
+					          <l n="1746">Mas suele ser la desdicha</l>
+					          <l n="1747">del arco del cielo flecha.				</l>
+					          <l n="1748" rend="indent">¿Adónde hallará reparo</l>
+					          <l n="1749">el hombre cuando le tira?</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="1750">Si tengo un Dios por amparo</l>
+					          <l n="1751">y escudo para su ira,</l>
+					          <l n="1752">¿qué más divino reparo?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1753" rend="indent">¡Ay, mi bien! En casos tales,</l>
+					          <l n="1754">temor hiela, y amor ciega.</l>
+					          <l n="1755">No sólo entre los mortales</l>
+					          <l n="1756">la envidia vive; que aun llega</l>
+					          <l n="1757">a los dioses celestiales.				</l>
+					          <l n="1758" rend="indent">Siéntate aquí, por mi vida.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="1759">¡Oh, cómo vienes extraña!</l>
+					          <l n="1760">¿Ya mi valor se te olvida?</l>
+					          <l n="1761">Deja que aquesta montaña</l>
+					          <l n="1762">siguiendo las fieras, mida.				</l>
+					          <l n="1763" rend="indent">Si mi rostro y mi cabello</l>
+					          <l n="1764">señas femeniles son,</l>
+					          <l n="1765">mira que un hombre, si es bello,</l>
+					          <l n="1766">tiene más obligación.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="I">¿De qué?</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="F" n="1767">De no parecello.</l>
+					          <l n="1768" rend="indent">Un feo procure ser,</l>
+					          <l n="1769">a puro artificio, hermoso;</l>
+					          <l n="1770">y un hermoso, parecer</l>
+					          <l n="1771">valiente, fuerte, animoso,</l>
+					          <l n="1772">o confiese que es mujer.				</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1773" rend="indent">Ya, mis ojos, que porfías,</l>
+					          <l n="1774">digo que vayas; mas quiero,</l>
+					          <l n="1775">pues son tan grandes los días,</l>
+					          <l n="1776">que pases el sol primero</l>
+					          <l n="1777">al pie destas fuentes frías.				</l>
+					          <l n="1778" rend="indent">Esto no es contra el valor</l>
+					          <l part="I">de tu nombre.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="F" n="1779">			Eso es muy justo.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1780">Y entretanto, mi señor,</l>
+					          <l n="1781">te contaré por mi gusto</l>
+					          <l n="1782">la ocasión de este temor.				</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="1783" rend="indent">Ya te obedezco, y aquí</l>
+					          <l part="I">me siento.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="1784">Espera, que a ti</l>
+					          <l n="1785">que te sirva es justa cosa</l>
+					          <l n="1786">el regazo de una diosa.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="I">Comienza.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="M">Está atento.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="F" n="1787">Di.				</l>
+				        </sp>
+				        <stage>(Siéntese VENUS, y póngase en su regazo ADONIS recostado, y ella diga así:)</stage>
+				        <stage>[Romancillo de 7 sílabas
+(endechas italianas).]</stage>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1788" rend="indent">Hubo, querido Adonis,</l>
+					          <l n="1789">en aquestas montañas,</l>
+					          <l n="1790">una famosa ninfa.</l>
+					          <l n="1791">que se llamó Atalanta.</l>
+					          <l n="1792">Por no casarse, hizo					</l>
+					          <l n="1793">una ley tan extraña,</l>
+					          <l n="1794">que a los que pretendían</l>
+					          <l n="1795">casarse, los forzaba</l>
+					          <l n="1796">a que corriesen juntos;</l>
+					          <l n="1797">pero si no ganaban,					</l>
+					          <l n="1798">cortábales los cuellos.</l>
+					          <l n="1799">¡Qué caras esperanzas!</l>
+					          <l n="1800">Venció treinta mancebos,</l>
+					          <l n="1801">que de provincias varias</l>
+					          <l n="1802">vinieron a la empresa				</l>
+					          <l n="1803">vencidos de su fama.</l>
+					          <l n="1804">Entre los cuales uno,</l>
+					          <l n="1805">que Hipómenes llamaban,</l>
+					          <l n="1806">me ofreció dos palomas</l>
+					          <l n="1807">si mi favor le daba.					</l>
+					          <l n="1808">Movióme el pecho, y díle</l>
+					          <l n="1809">de oro tres manzanas.</l>
+					          <l n="1810">Fue su codicia estorbo</l>
+					          <l n="1811">de sus ligeras plantas,</l>
+					          <l n="1812">y llegando primero,					</l>
+					          <l n="1813">venció la bella ingrata,</l>
+					          <l n="1814">y se casó con ella.</l>
+					          <l n="1815">Que fue notable hazaña.</l>
+					          <l n="1816">Mas donde el beneficio</l>
+					          <l n="1817">sus pies divinos alza.					</l>
+					          <l n="1818">la ingratitud los pone,</l>
+					          <l n="1819">borrando sus estampas.</l>
+					          <l n="1820">Así el mancebo ingrato,</l>
+					          <l n="1821">pasando una mañana</l>
+					          <l n="1822">por un templo de dioses,				</l>
+					          <l n="1823">no sólo degolladas</l>
+					          <l n="1824">firmaron las palomas</l>
+					          <l n="1825">con plumas de sus alas</l>
+					          <l n="1826">la obligación del voto</l>
+					          <l n="1827">sobre las blancas aras,				</l>
+					          <l n="1828">mas infamó mi templo,</l>
+					          <l n="1829">por quien mi mano airada</l>
+					          <l n="1830">los convirtió en leones.</l>
+					          <l n="1831">Que es, Adonis, la causa</l>
+					          <l n="1832">por donde yo te ruego				</l>
+					          <l n="1833">que no vayas a caza:</l>
+					          <l n="1834">no tomen en tu vida</l>
+					          <l n="1835">de este agravio venganza.</l>
+					          <l n="1836">¿Duermes, mis ojos? ¿Duermes?</l>
+					          <l n="1837">Parece que le baña					</l>
+					          <l n="1838">los ojos blando eclipse</l>
+					          <l n="1839">de sus estrellas claras.</l>
+					          <l n="1840">Amadríades verdes</l>
+					          <l n="1841">de estas montañas altas,</l>
+					          <l n="1842">salid a entretener					</l>
+					          <l n="1843">el bien de mi esperanza.</l>
+					          <l n="1844">Tejed alegres coros</l>
+					          <l n="1845">y amorosas guirnaldas</l>
+					          <l n="1846">al nuevo amor dormido,</l>
+					          <l n="1847">incendio de las almas					</l>
+				        </sp>
+				        <stage>(Estando ADONIS durmiendo en las faldas de VENUS, ella cantará lo siguiente, y a la segunda copla saldrá APOLO.)</stage>
+				        <stage>[Romance.]</stage>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1848" rend="indent">Rapacillo lisonjero,</l>
+					          <l n="1849">el de los ojos vendados.</l>
+					          <l n="1850">si no aciertas cuando tiras,</l>
+					          <l n="1851">¿por qué te pintan con arco?</l>
+					          <l n="1852">Niño, que engañas el tiempo,			</l>
+					          <l n="1853">¡un viejo de tantos años!,</l>
+					          <l n="1854">¿por qué le hurtaste las alas,</l>
+					          <l n="1855">pues que te vas tan despacio?</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					
+					          <l n="1856">
+                  <stage>[Aparte.]</stage>Quien llega a tan triste tiempo,</l>
+					          <l n="1857">después de tiempo tan largo,			</l>
+					          <l n="1858">¿para qué pide esperanzas,</l>
+					          <l n="1859">cuando le dan desengaños?</l>
+					          <l n="1860">¿Es posible que mis ojos</l>
+					          <l n="1861">a Adonis están mirando</l>
+					          <l n="1862">en el regazo de Venus?				</l>
+					          <l n="1863">¡Él durmiendo, ella cantando!</l>
+					          <l n="1864">Pero yo soy el que sueño,</l>
+					          <l n="1865">pues mis ojos engañados</l>
+					          <l n="1866">quieren juntar lo divino,</l>
+					          <l n="1867">por lo imposible, a lo humano.			</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					
+					          <l n="1868">
+                  <stage>[Cantando.]</stage>Tú fuiste incendio de Troya,</l>
+					          <l n="1869">de España, Roma y Cartago.</l>
+					          <l n="1870">Ni ha tenido imperio el mundo</l>
+					          <l n="1871">de quien no fueses tirano.</l>
+					          <l n="1872">Yo me estaba en mi sosiego,			</l>
+					          <l n="1873">de mi libertad gozando,</l>
+					          <l n="1874">en la deidad de mi trono.</l>
+					          <l n="1875">sin pensamientos humanos.</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					
+					          <l n="1876">
+                  <stage>[Aparte.]</stage>¡Que sufran celos de Apolo</l>
+					          <l n="1877">tal infamia! ¡Que en sus brazos			</l>
+					          <l n="1878">vean un hombre mortal,</l>
+					          <l n="1879">y no le abrasen mis rayos!</l>
+					          <l n="1880">Cielos, ¿soy el sol? ¿quién soy?</l>
+					          <l n="1881">Cielos, si haberme mirado</l>
+					          <l n="1882">con alas de cera un hombre			</l>
+					          <l n="1883">tuvistes por tanto agravio;</l>
+					          <l n="1884">si Faetón era otro yo,</l>
+					          <l n="1885">y le veis precipitado</l>
+					          <l n="1886">en el mar de su soberbia,</l>
+					          <l n="1887">pudiendo en mi propio llanto,			</l>
+					          <l n="1888">¿cómo sufrís esta fuerza?</l>
+					          <l n="1889">Pero ¿qué espero? ¿Qué aguardo?</l>
+					          <l n="1890">Voy a incitar las tres furias,</l>
+					          <l n="1891">que una es poco en tantos daños.</l>
+					          <l n="1892">Buscar quiero algún pastor				</l>
+					          <l n="1893">que ayude a mi engaño, en tanto</l>
+					          <l n="1894">que Tesifonte se viste</l>
+					          <l n="1895">de aquel animal airado.</l>
+					          <l n="1896">Verán los cielos agora</l>
+					          <l n="1897">qué son celos, pues llegaron			</l>
+					          <l n="1898">a cegarme, si son celos</l>
+					          <l n="1899">los celos averiguados.</l>
+				        </sp>
+				        <stage>(Levántase ADONIS a las voces.)</stage>
+				        <stage>[Quintillas.]</stage>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="1900" rend="indent">¡Válgame el cielo! ¿Qué es esto?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="I">¿Qué tienes, señor?</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="F" n="1901">No sé.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1902">Pues habiéndote aquí puesto			</l>
+					          <l n="1903">desde mis brazos en pie,</l>
+					          <l n="1904">¿te levantas descompuesto?</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="1905" rend="indent">La sangre de aquesta edad,</l>
+					          <l n="1906">como está ardiendo en las venas,</l>
+					          <l n="1907">finge con ferocidad					</l>
+					          <l n="1908">campañas de guerras llenas,</l>
+					          <l n="1909">armas, sangre y novedad.</l>
+					          <l n="1910" rend="indent">Esto soñaba: no quieras</l>
+					          <l n="1911">que con privación tan grande</l>
+					          <l n="1912">intente algunas quimeras.				</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1913">¡Que el sueño en tus ojos ande</l>
+					          <l n="1914">con imágenes tan fieras!</l>
+					          <l n="1915" rend="indent">Yo le haré dar tal castigo,</l>
+					          <l n="1916">que no se burle contigo.</l>
+					          <l n="1917">Mas ¿qué soñabas, mi bien?			</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="I">Déjame.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l part="F" n="1918">¡Tanto desdén,</l>
+					          <l n="1919">querido señor, conmigo!</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="1920" rend="indent">Era todo fantasía.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1921">¿Qué tenías, prenda mía?</l>
+					          <l n="1922">De tan mal sueño me advierte.			</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="1923">Corta vida y triste muerte,</l>
+					          <l n="1924">soñaba yo que tenía.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1925" rend="indent">Pues ¿eso te da pasión?</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="1926">Tanta y con tanta razón,</l>
+					          <l n="1927">que sólo, en este recelo,				</l>
+					          <l n="1928">puede tener tu consuelo</l>
+					          <l n="1929">alegre mi corazón.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1930" rend="indent">No creas lo que se ve</l>
+					          <l n="1931">en ese lienzo imperfeto</l>
+					          <l n="1932">de que el sueño pintor fue.</l>
+					          <l n="1933">Pero advierte que el discreto</l>
+					          <l n="1934">tiene por madre a la fe.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="1935" rend="indent">Por serlo desde este día,</l>
+					          <l n="1936">si por eso lo he de ser,</l>
+					          <l n="1937">al sueño y su fantasía				</l>
+					          <l n="1938">te prometo no creer,</l>
+					          <l n="1939">mas a la fe, madre mía.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="1940" rend="indent">Eso está puesto en razón.</l>
+					          <l part="I">Vete a cazar.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="F" n="1941">Bien podré,</l>
+					          <l n="1942">sin que me cause pasión				</l>
+					          <l n="1943">con su temor; que bien sé</l>
+					          <l n="1944">que los sueños, sueños son.</l>
+				        </sp>
+				        <stage>(Vanse y salgan APOLO y FRONDOSO.)</stage>
+				        <stage>[Redondillas.]</stage>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="1945" rend="indent">Tente, no huyas de mí.</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="1946">Diome el verte mil desmayos:</l>
+					          <l n="1947">detén, Apolo, los rayos,				</l>
+					          <l n="1948">no muestres tu fuerza en mí.</l>
+					          <l n="1949" rend="indent">Yo soy el que te quería</l>
+					          <l n="1950">con el pájaro burlar,</l>
+					          <l n="1951">pero bien vine a pagar</l>
+					          <l n="1952">la loca malicia mía.					</l>
+					          <l n="1953" rend="indent">A ninguno he parecido</l>
+					          <l n="1954">este mismo ser que soy.</l>
+					          <l n="1955">A todos asombros doy,</l>
+					          <l n="1956">ando de mí mismo huido.</l>
+					          <l n="1957" rend="indent">Ya no llego a mi cabaña,				</l>
+					          <l n="1958">mi ganado menosprecio;</l>
+					          <l n="1959">si tuve el cayado en precio,</l>
+					          <l n="1960">ni me ayuda ni acompaña.</l>
+					          <l n="1961" rend="indent">Todo lo dejo olvidado,</l>
+					          <l n="1962">y jamás cobrarlo espero;				</l>
+					          <l n="1963">que, de perdido, no quiero</l>
+					          <l n="1964">mi ganado y mi cayado.</l>
+					          <l n="1965" rend="indent">A tal desesperación</l>
+					          <l n="1966">he venido, que he perdido</l>
+					          <l n="1967">mi sentido, mi vestido,				</l>
+					          <l n="1968">mi cayado y mi zurrón.</l>
+					          <l n="1969" rend="indent">A todos parezco mal.</l>
+					          <l n="1970">Nadie lo que soy arguye.</l>
+					          <l n="1971">Mi propia sombra me huye.</l>
+					          <l n="1972">¿Quién ha visto pena igual?</l>
+					          <l n="1973" rend="indent">Por venganza o compasión</l>
+					          <l n="1974">aun no hay en mi mal testigos:</l>
+					          <l n="1975">los que me eran más amigos,</l>
+					          <l n="1976">ya mis enemigos son.</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="1977" rend="indent">Lástima tengo de ti.					</l>
+					          <l n="1978">Mas yo te perdonaré</l>
+					          <l n="1979">Y a tu forma volveré,</l>
+					          <l n="1980">si una cosa haces por mí.</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="1981" rend="indent">¿Qué puede haber, Delio santo,</l>
+					          <l n="1982">difícil para servirte?					</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="1983">Quiero un secreto decirte:</l>
+					          <l n="1984">mira si te estimo en tanto.</l>
+					          <l n="1985" rend="indent">¿Conoces un cazador</l>
+					          <l n="1986">bellísimo de este monte,</l>
+					          <l n="1987">que por todo su horizonte</l>
+					          <l n="1988">no hay hermosura mayor?</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="1989" rend="indent">¿Es Adonis, por ventura?</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="1990">Por desventura, dirás.</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="1991">Por la mía mucho más,</l>
+					          <l n="1992">que por su mucha hermosura.			</l>
+					          <l n="1993" rend="indent">mi bella Camila adora</l>
+					          <l n="1994">ese monstruo de belleza,</l>
+					          <l n="1995">donde la naturaleza</l>
+					          <l n="1996">sus riquezas atesora.</l>
+					          <l n="1997" rend="indent">¡Nunca yo le conociera!				</l>
+					          <l n="1998">¡Nunca este monte habitara!</l>
+					          <l n="1999">El viento a verle se para,</l>
+					          <l n="2000">fuentes y árboles altera,</l>
+					          <l n="2001" rend="indent">las ninfas que le han criado</l>
+					          <l n="2002">pierden el seso por él,</l>
+					          <l n="2003">hasta un ingrato laurel</l>
+					          <l n="2004">en su tronco ha suspirado.</l>
+					          <l n="2005" rend="indent">Y aun dicen, y ser podría,</l>
+					          <l n="2006">que ha bajado a nuestro suelo,</l>
+					          <l n="2007">desde su tercero cielo,				</l>
+					          <l n="2008">Venus, a verle algún día.</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="2009" rend="indent">Ahora bien: lo que has de hacer</l>
+					          <l n="2010">es no más de irle a buscar,</l>
+					          <l n="2011">y decirle que pasar</l>
+					          <l n="2012">un jabalí viste ayer,					</l>
+					          <l n="2013" rend="indent">y que entiendes que está aquí;</l>
+					          <l n="2014">que con codicia vendrá.</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="2015">Yo voy. Mas decid: ¿será</l>
+					          <l n="2016">verdad que yo vuelva en mí?</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					          <l n="2017" rend="indent">Pues que ya te perdoné,</l>
+					          <l n="2018">no dudes que será cierto.</l>
+					          <l part="I">Busca a Adonis.</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l part="F" n="2019">Hoy le advierto.</l>
+				        </sp>
+				        <sp who="#apolo">
+					          <speaker>APOLO</speaker>
+					
+					          <l n="2020">
+                  <stage>[Aparte.]</stage>Y hoy la muerte le daré.</l>
+				        </sp>
+				        <stage>(Vase APOLO, y FRONDOSO quede.)</stage>
+				        <stage>[Silva.]</stage>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="2021" rend="indent">¡Qué ventura tan grande que he tenido</l>
+					          <l n="2022">en que Apolo, ofendido,				</l>
+					          <l n="2023">perdonase mi culpa!</l>
+					          <l n="2024">Ya no seré de aquestos montes fiera.</l>
+					          <l n="2025">Admitió mi disculpa.</l>
+					          <l n="2026">Mas ¿qué valle, qué prado, qué ribera</l>
+					          <l n="2027">tendrá al hermoso Adonis?				</l>
+					          <l n="2028">Filomela, Coronis,</l>
+					          <l n="2029">Progne y tantas hermosas dulces aves,</l>
+					          <l n="2030">que con voces süaves</l>
+					          <l n="2031">celebráis su hermosura,</l>
+					          <l n="2032">¿qué fuente clara y pura				</l>
+					          <l n="2033">le tiene agora, o qué florido prado?</l>
+					          <l n="2034">Mas ¿no es aqueste? ¡Ay, cielos!</l>
+					          <l n="2035">sí, pues los lirios de este arroyo helado</l>
+					          <l n="2036">se han vestido de celos.</l>
+				        </sp>
+				        <stage>(Salen ADONIS, CAMILA, y ALBANIA.)</stage>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="2037">No desprecies mi amor, deidad divina,		</l>
+					          <l n="2038">aunque en humanos velos</l>
+					          <l part="I">cubres el resplandor.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="F" n="2039">Camila bella,</l>
+					          <l n="2040">a tu Menandro inclina</l>
+					          <l n="2041">los ojos, de piedad y amor vencidos.</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="2042">¡Con qué dichosa estrella					</l>
+					          <l n="2043">nació de estos floridos</l>
+					          <l n="2044">valles la ninfa que gozar espera,</l>
+					          <l n="2045">en dulce matrimonio,</l>
+					          <l n="2046">de tus años la verde primavera!</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="2047">De vuestro amor me basta el testimonio</l>
+					          <l n="2048">de tantas alabanzas.						</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="2049">Qué, ¿ninguna te mueve?</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="2050">Albania, yo no doy mis esperanzas</l>
+					          <l n="2051">como el almendro loco,</l>
+					          <l n="2052">que la rígida nieve</l>
+					          <l n="2053">del Capricornio helado tiene en poco.			</l>
+					          <l n="2054">Como el árbol discreto, el moral sabio,</l>
+					          <l n="2055">procedo en mi temor y en vuestro agravio.</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="2056">Di, cuando burla sea,</l>
+					          <l n="2057">que mi amor agradeces.</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="2058">Di, porque yo lo crea:					</l>
+					          <l n="2059">«Mi voluntad mereces».</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="2060">Digo que mayor daño</l>
+					          <l n="2061">hace un fingido bien que un desengaño.</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="2062">¿A cuál, di, por lo menos.</l>
+					          <l n="2063">te inclinas de las dos?					</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="2064">¿A cuál estiman			</l>
+					          <l n="2065">esos ojos serenos?</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="2066">Vuestros ruegos me fuerzan y me animan.</l>
+					          <l n="2067">¿Queréis que os diga a entrambas lo que siento</l>
+					          <l n="2068">de vuestra pretensión y pensamiento,</l>
+					          <l n="2069">discreción y belleza,</l>
+					          <l n="2070">donde naturaleza</l>
+					          <l n="2071">puso la ciencia del pincel cifrada?</l>
+				        </sp>
+				        <sp who=" #albania #camila">
+					          <speaker>ALBANIA y CAMILA</speaker>
+					          <l part="I">Sí.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="F" n="2072">Pues ninguna de las dos me agrada.</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="2073">¿En qué montañas ásperas naciste?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="2074">¿Qué tigre te dio leche, qué leona?</l>
+					          <l n="2075">¿Qué Cáucaso engendró tu basilisco?</l>
+					          <l n="2076">¿En qué desierta, inhabitable zona,</l>
+					          <l n="2077">en qué Libia aprendiste</l>
+					          <l n="2078">esta crüel dureza?</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="2079">¡Oh, más duro que risco					</l>
+					          <l n="2080">en las ondas del mar inexpugnable!</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="2081">¡Oh, más fiero que el viento embravecido</l>
+					          <l n="2082">en los Euripos, donde brama Scila!</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					
+					          <l n="2083">
+                  <stage>[A ADONIS.]</stage>Por no estorbar que Albania y que Camila</l>
+					          <l n="2084">te dijesen sus celos, me detuve.				</l>
+					          <l n="2085">Por este monte sube</l>
+					          <l n="2086">agora un jabalí cerdoso y fiero:</l>
+					          <l n="2087">si quieres que te sirva de montero,</l>
+					          <l n="2088">sígueme, Adonis, y darásle muerte</l>
+					          <l n="2089">con esta jabalina.						</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l part="I">¡Oh, buen pastor!</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l part="F" n="2090">Agora, Adonis fuerte,</l>
+					          <l n="2091">quiero ver tu valor y gentileza.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="2092">Por la huella camina,</l>
+					          <l part="I">mientras mis perros llamo.</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l part="F" n="2093">Pues empieza.</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="2094">¡To, Melampo! ¡To, Castor! ¡To, Menipo!		</l>
+					          <l part="I">Ya vienen.</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l part="F" n="2095">Pues al paso me anticipo.</l>
+				        </sp>
+				        <stage>(Vanse FRONDOSO y ADONIS, y sale MENANDRO, y TIMBREO.)</stage>
+				        <stage>[Redondillas.]</stage>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="2096" rend="indent">¿Aquí me dices que están?</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l n="2097">Aquí, Menandro, las vi.</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="2098">¿No estaba Adonis aquí?</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="2099">Agora, Menandro, van					</l>
+					          <l n="2100" rend="indent">él y Frondoso ligeros</l>
+					          <l part="I">tras un jabalí.</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l part="F" n="2101">Si busca</l>
+					          <l n="2102">fieras, ¿para qué se ofusca</l>
+					          <l n="2103">en buscar pechos más fieros?</l>
+					          <l n="2104" rend="indent">Aunque pues sois tan de cera				</l>
+					          <l n="2105">en adorar su desdén,</l>
+					          <l n="2106">no os viene este nombre bien:</l>
+					          <l n="2107">¡el que os desprecia es la fiera!</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="2108" rend="indent">Menandro, ¿tan declarado?</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="2109">Antes, Albania, te advierto</l>
+					          <l n="2110">que soy galán encubierto,</l>
+					          <l n="2111">con temor de mal pagado.</l>
+					          <l n="2112" rend="indent">No me querría embarcar</l>
+					          <l n="2113">donde no pueda salir;</l>
+					          <l n="2114">que encubierto puedo huir,				</l>
+					          <l n="2115">y declarado esperar.</l>
+					          <l n="2116" rend="indent">Hasta ver nuestros desvelos,</l>
+					          <l n="2117">lazos del favor hacéis,</l>
+					          <l n="2118">mas cuando en la red nos veis.</l>
+					          <l n="2119">nos matáis A puros celos.</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="2120" rend="indent">De mi error desengañada,</l>
+					          <l n="2121">y el oráculo advertida,</l>
+					          <l n="2122">quiero estimarte ofendida,</l>
+					          <l n="2123">y amarte desengañada.</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					
+					          <l n="2124" rend="indent">
+                  <stage>[A CAMILA.]</stage>Y tú, ¿qué dices de mí?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="2125">Que agradecida a tu amor,</l>
+					          <l n="2126">me ha pesado del rigor</l>
+					          <l n="2127">que te he mostrado hasta aquí.</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l n="2128" rend="indent">Verdad ha venido a ser</l>
+					          <l n="2129">el pronóstico de Apolo.					</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="2130">Tú eres mi amor, y a ti solo,</l>
+					          <l n="2131">Menandro, pienso querer.</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="2132" rend="indent">Y yo a ti solo, Timbreo.</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="2133">¡Gracias a amor soberano</l>
+					          <l n="2134">que vuestro rigor tirano					</l>
+					          <l n="2135">conoció nuestro deseo!</l>
+				        </sp>
+				        <stage>(Diga adentro ADONIS:)</stage>
+				        <stage>[Romancillo de 7 sílabas (endechas italianas).]</stage>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					          <l n="2136" rend="indent">¡Ay cielos!, ¡que me mata!</l>
+					          <l n="2137">¡Socorro, Venus bella!</l>
+					          <l n="2138">¿Adonde estás, señora?</l>
+					          <l n="2139">Pues ¿cómo aquí me dejas?</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="2140">¿Qué voces dolorosas,</l>
+					          <l n="2141">pastores, son aquellas?</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="2142">Adonis me parece,</l>
+					          <l n="2143">¿si le ha muerto la fiera?</l>
+				        </sp>
+				        <sp who="#adonis">
+					          <speaker>ADONIS</speaker>
+					
+					          <l n="2144">
+                  <stage> [Dentro.] </stage>¡Ayúdame, Frondoso!						</l>
+				        </sp>
+				        <stage>(Sale FRONDOSO con ADONIS en brazos.)</stage>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="2145">Pastores de esta selva,</l>
+					          <l n="2146">ayudadme a llorar</l>
+					          <l n="2147">tan mísera tragedia.</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="2148">¿Es muerto el bello Adonis?</l>
+				        </sp>
+				        <sp who="#frondoso">
+					          <speaker>FRONDOSO</speaker>
+					          <l n="2149">Cual cándida azucena,</l>
+					          <l n="2150">del labrador pisada,</l>
+					          <l n="2151">inclina la cabeza.</l>
+					          <l n="2152">Cual oriental jacinto,</l>
+					          <l n="2153">cuando la noche llega,</l>
+					          <l n="2154">las olorosas hojas						</l>
+					          <l n="2155">marchita, humilla y cierra.</l>
+					          <l n="2156">Salió de aquestos robles,</l>
+					          <l n="2157">sobre quien ya descienda,</l>
+					          <l n="2158">de Júpiter tonante,</l>
+					          <l n="2159">la furibunda flecha,						</l>
+					          <l n="2160">un jabalí cerdoso,</l>
+					          <l n="2161">que por la boca abierta,</l>
+					          <l n="2162">en vez de blanca espuma,</l>
+					          <l n="2163">arrojaba centellas;</l>
+					          <l n="2164">yo vi donde tocaban						</l>
+					          <l n="2165">arder la verde hierba,</l>
+					          <l n="2166">cual suelen los rastrojos</l>
+					          <l n="2167">que los pastores queman.</l>
+					          <l n="2168">El animoso mozo,</l>
+					          <l n="2169">(el corazón me tiembla					</l>
+					          <l n="2170">sólo en deciros esto)</l>
+					          <l n="2171">salió de aquella senda,</l>
+					          <l n="2172">y apenas el venablo</l>
+					          <l n="2173">afirmado en la tierra</l>
+					          <l n="2174">le puso al pecho, cuando					</l>
+					          <l n="2175">por él al suyo se entran</l>
+					          <l n="2176">los agudos colmillos,</l>
+					          <l n="2177">¡Ay cielos!, y atraviesan</l>
+					          <l n="2178">la carne delicada.</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l n="2179">Tente: ¿qué ninfa es ésta?</l>
+					          <stage>(Salen VENUS y CUPIDO.)</stage>
+					          <stage>[Liras.]</stage>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="2180" rend="indent">Dejadme ver, pastores,</l>
+					          <l n="2181">la muerta vida de mi Adonis caro.</l>
+				        </sp>
+				        <sp who="#albania">
+					          <speaker>ALBANIA</speaker>
+					          <l n="2182">Venus, de los amores</l>
+					          <l n="2183">diosa, ¿cómo a tu amor no diste amparo?</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="2184">Porque el hado tenía						</l>
+					          <l n="2185">dispuesta la tragedia de este día.</l>
+					          <l n="2186" rend="indent">Ponelde en este suelo.</l>
+					          <l n="2187">¡Ay, mísera de mí! Póngase luto</l>
+					          <l n="2188">en mi tercero cielo</l>
+					          <l n="2189">toda estrella de amor.					</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l part="I">¡Qué triste fruto</l>
+					          <l part="F" n="2190">ha dado tu esperanza!</l>
+					          <l n="2191">Madre, quien siembra amores, viento alcanza.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="2192" rend="indent">Bellísimo mancebo,</l>
+					          <l n="2193">envidia de los hombres y, por dicha,</l>
+					          <l n="2194">del mismo hermoso Febo,					</l>
+					          <l n="2195">bien te pronosticaba esta desdicha.</l>
+					          <l n="2196">Mas ¿qué voz o qué espejo,</l>
+					          <l n="2197">a la primera edad dará consejo?</l>
+					          <l n="2198" rend="indent">Mas pues que los amores</l>
+					          <l n="2199">pocas veces nos rinden mejor fruto			</l>
+					          <l n="2200">de sus hermosas flores,</l>
+					          <l n="2201">memoria de tu muerte y de mi luto</l>
+					          <l n="2202">quedará de esta forma:</l>
+					          <l n="2203">tu cuerpo en flores mi dolor transforma.</l>
+				        </sp>
+				        <stage>(Desaparezca ADONIS, y de allí salga una rama llena de flores y hojas.)</stage>
+				        <stage>[Redondillas.]</stage>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="2204" rend="indent">¡Oh, qué rama tan hermosa,				</l>
+					          <l n="2205">de olorosas flores llena!</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l n="2206">Por memoria de su pena</l>
+					          <l n="2207">la vuelve en ella la Diosa.</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="2208" rend="indent">Parécese al tornasol</l>
+					          <l n="2209">que tras Apolo se viene.					</l>
+				        </sp>
+				        <sp who="#camila">
+					          <speaker>CAMILA</speaker>
+					          <l n="2210">Azul y amarillo. Tiene</l>
+					          <l n="2211">colores de cielo y sol.</l>
+				        </sp>
+				        <stage>[Romance.]</stage>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="2212" rend="indent">Ya que mi Adonis querido</l>
+					          <l n="2213">es muerto, y su roja sangre</l>
+					          <l n="2214">se ha vuelto en aquestas flores,				</l>
+					          <l n="2215">no es justo que de amor trate.</l>
+					          <l n="2216">Yo me quiero recoger</l>
+					          <l n="2217">entre las monjas vestales.</l>
+					          <l n="2218">No me busques más, Cupido.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="2219">¿Vos monja? ¡Qué disparate!				</l>
+					          <l n="2220">Cuando yo fuere fraile, madre;</l>
+					          <l n="2221">madre, cuando yo fuere fraile.</l>
+				        </sp>
+				        <sp who="#menandro">
+					          <speaker>MENANDRO</speaker>
+					          <l n="2222">Sois para monja muy dama:</l>
+					          <l n="2223">Cupido os conoce, y sabe</l>
+					          <l n="2224">que no lo podréis sufrir.					</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="2225">Sí haré, que la causa es grande.</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l n="2226">Que vos os consolaréis,</l>
+					          <l n="2227">como las mujeres hacen;</l>
+					          <l n="2228">que lloran al primer día,</l>
+					          <l n="2229">y al segundo hacen donaire.				</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="2230">No creáis que me consuele,</l>
+					          <l n="2231">ni que deje de encerrarme.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="2232">Callad, madre: no creáis</l>
+					          <l n="2233">que dejaréis los galanes,</l>
+					          <l n="2234">las ventanas, los favores,					</l>
+					          <l n="2235">las joyas, los ricos trajes,</l>
+					          <l n="2236">los billetes y los celos.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="2237">Nadie, del mundo, me trate.</l>
+					          <l n="2238">Al templo de Vesta voy:</l>
+					          <l n="2239">allí no me busque nadie.					</l>
+					          <l n="2240">Monja quiero ser, y quiero</l>
+					          <l n="2241">que treinta rejas me guarden.</l>
+				        </sp>
+				        <sp who="#cupido">
+					          <speaker>CUPIDO</speaker>
+					          <l n="2242">Cuando yo fuere fraile, madre;</l>
+					          <l n="2243">madre, cuando yo fuere fraile.</l>
+				        </sp>
+				        <sp who="#venus">
+					          <speaker>VENUS</speaker>
+					          <l n="2244">Ya para mí murió el mundo,				</l>
+					          <l n="2245">galas, músicas y trajes.</l>
+					          <l n="2246">Todo se acabó en Adonis,</l>
+					          <l n="2247">que muerto a mis ojos yace.</l>
+					          <l n="2248">Con él se acabó mi vida,</l>
+					          <l n="2249">y comienzan mis pesares.					</l>
+				        </sp>
+				        <sp who="#timbreo">
+					          <speaker>TIMBREO</speaker>
+					          <l n="2250">Y aquí la Tragicomedia</l>
+					          <l n="2251">del bello Adonis acabe.</l>
+				        </sp>
+			      </div>
+         <trailer>FIN DE LA FAMOSA TRAGICOMEDIA DE ADONIS Y VENUS</trailer>
+      </body>
+   </text>
+</TEI>

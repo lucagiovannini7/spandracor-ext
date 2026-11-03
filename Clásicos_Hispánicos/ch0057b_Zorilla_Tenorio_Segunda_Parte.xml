@@ -1,0 +1,2978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="CH_3-02.rng" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>
+					<name type="short">Don Juan Tenorio. Segunda Parte</name>
+					<name type="full">Don Juan Tenorio. Segunda Parte</name>
+					<idno type="viaf">185870850</idno>
+					<ref target="http://www.clasicoshispanicos.com/destacados/76-don-juan-tenorio-zorrilla.html"/>
+				</title>
+				<author>
+					<name type="short">Zorilla</name>
+					<name type="full"><name type="firstname">José</name> <name type="part-of-surname"></name> <name type="surname">Zorrilla</name></name>
+					<idno type="viaf">31991713</idno>
+					<ref target="http://www.clasicoshispanicos.com/121-elena-perulero"></ref>
+				</author>
+				<editor>
+					<name type="short">Perulero</name>
+					<name type="full"><name type="firstname">Elena </name> <name type="surname">Perulero</name></name>
+					<idno type="viaf"></idno>
+					<ref target="http://www.clasicoshispanicos.com/120-jose-zorrilla"></ref>
+				</editor>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<graphic url="">
+						<desc>La actriz María Guerrero retratada como <hi rend="italic">Doña Inés</hi> por Raimundo Madrazo (Museo Nacional del Teatro)</desc>
+					</graphic>
+				</edition>
+				<principal xml:id="jct">
+					<name>José Calvo Tello</name>
+				</principal>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Clásicos Hispánicos</publisher>
+				<pubPlace>
+					<name n="1">Würzburg</name>
+					<name n="2">Madrid</name>
+				</pubPlace>
+				<idno type="isbn">
+					<idno type="epub">9783959550567</idno>
+					<idno type="mobi">9783959550062</idno>
+				</idno>
+				<idno xml:id="ch0057b">ch0057b</idno>
+				<idno type="collection">57b</idno>
+				<idno type="version">
+					<idno type="text">1.0</idno>
+					<idno type="structure">3.05</idno>
+				</idno>
+				<availability status="free">
+					<licence  target="http://creativecommons.org/licenses/by-nc/4.0/" >Creative Commons BY-NC</licence>
+					<p>Obra bajo licencia Creative Commons BY-NC</p>
+				</availability>
+				<date when="2015">2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="edition-first">
+					<date when="1844"></date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p><hi rend="italic">Don Juan Tenorio</hi> de Zorrilla es una obra muy popular, la más representada de la literatura española. Todos los aficionados al teatro la habrán visto, al menos, una vez  y habrán celebrado el acierto o afeado el error de tal o cual montaje, de tal o cual actor. Sin embargo, esa misma familiaridad ha ido, muchas veces, en detrimento de una consideración más seria del drama. Lustros después de su creación, El Tenorio sigue representándose y atrayendo la atención de los espectadores, así como dando lugar a nuevas recreaciones (Albert Boadella, Juan Mayorga... los últimos). Esta edición trata de acercarse, en primer lugar, al texto, desentrañando cuestiones que, sorprendentemente, estaban sin resolver; y, en segundo lugar, al contexto en el que don José Zorrilla escribió.</p>
+			</abstract>
+			<textClass>
+				<keywords>
+					<term type="price" subtype="0">normal</term>
+					
+					<term type="keyword" n="1">teatro</term>
+					<term type="keyword" n="2">clásico</term>
+					<term type="keyword" n="3">drama</term>
+					<term type="keyword" n="4">don Juan</term>
+					
+					<term type="genreBISAC" n="1">DRA004040 / DRAMA / European / Spanish &amp; Portuguese</term>
+					<term type="genreBISAC" n="2">FIC027000 / FICTION / Romance / General</term>
+					<term type="genreWGS" n="1">111 / Belles-lettres / Major work pre 1945</term>
+					<term type="genreWGS" n="2">152 / Belles-lettres / Drama</term>
+					<term type="genreTHEMA" n="1">FB / Fiction &amp; Related items / Fiction: general &amp; literary</term>
+					<term type="genreTHEMA" n="2">FR / Fiction &amp; Related items / Romance</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change who="#jct" when="2015-12-08" status="draft">First version of TEI text</change>
+			<change who="#jct" when="2016-02-18" status="published"></change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text type="introduction">
+				<front>
+					<div type="cover"></div>
+				</front>
+				<body>
+					<div type="introduction">
+						<head>Introducción</head>
+						<p>El <hi rend="italic">Don Juan Tenorio</hi> de Zorrilla es una obra tan popular que resulta muy difícil acercarse a ella con ojos limpios. No en vano, se trata de la obra más representada de la literatura española y seguramente también de un ámbito mayor. Todos los aficionados al teatro la hemos visto, al menos, una vez —la mayoría, en más de una ocasión— y hemos celebrado el acierto o afeado el error de tal o cual montaje, de tal o cual actor. Los que, además, nos hemos interesado por lo que la crítica ha escrito desde el mismo momento de su estreno estamos, en este sentido, aún más <hi rend="italic">contaminados</hi>, ya que su popularidad ha atraído la atención de numerosísimos estudiosos y de algunas de las plumas más eminentes, no solo de nuestro país. No es fácil abstraerse de las opiniones vertidas por unos y por otros, con visiones muchas veces interesadas y, en ocasiones, poco atentas a la obra propiamente dicha. Y es que cuando nos acercamos por primera vez a los estudios dedicados a Zorrilla, resulta inevitable sorprenderse al comprobar cómo, salvo honrosas excepciones, la crítica —y no me refiero solo a la coetánea al autor— suele demostrar una extraña tendencia a tratar de restarle mérito, como si fuera necesario buscarle defectos y poner toda una serie de cautelas al análisis de su obra y su figura, casi siempre tratando de contrarrestar el elogio que justifique la atención que se le dedica con algún tipo de ataque, más o menos velado o encarnizado según los casos y las épocas. Se me escapa a qué obedece este fenómeno pero, entrados ya en este siglo XXI, y a pocos años de que se cumpla el bicentenario del nacimiento del poeta —dicho sea esto con toda la humildad de quien no ha hecho más que asomarse tímidamente al universo literario que Zorrilla representa—, quizá haya llegado el momento de olvidarse de cargas ideológicas heredadas, de uno y otro signo, y que poco o nada aportan al conocimiento de un autor, para abordar su extensa y complejísima obra libres de prejuicios y con la vocación de objetividad que debe guiar la investigación literaria, al menos, como punto de partida. Por eso, lo que trataré de hacer aquí será apuntar unas breves pinceladas sobre el contexto que rodeó su composición y su historia textual, dejando la hermenéutica a un lado para que cada cual saque sus propias conclusiones respecto al significado del drama y sobre los motivos por los que, tantos lustros después de su creación, sigue representándose y atrayendo la atención de los espectadores, así como dando lugar a nuevas recreaciones como la que, con tanto éxito, ha estrenado Albert Boadella este mismo año, titulada <hi rend="italic">Ensayando Don Juan</hi>. No es cuestión de descubrir mediterráneos a estas alturas, sino de intentar una lectura ceñida al texto, a su génesis y a lo que su autor fue diciendo a lo largo de los años sobre él. Tampoco pretendo que se trate de la única aproximación posible, ni siquiera la mejor, pero nada perdemos por tratar de ajustarnos a ella y ver qué ocurre… Quizá nos llevemos una sorpresa.<ref n="1" /></p>
+						<p>Lo que propongo es un viaje en el tiempo y, acaso, en el espacio. Situémonos, pues, en el momento de su creación, en el Madrid de los años cuarenta del siglo XIX, en el ambiente de la farándula y de la mano de su autor.</p>
+						<p>Corre el año de 1844. La última década —desde la muerte de Fernando VII (1833) y el establecimiento del Nuevo Régimen— ha sido una de las más convulsas de la historia de España: siete años de guerra civil, dieciocho gobiernos diferentes, tres Constituciones, así como Cortes convocadas y disueltas en innumerables ocasiones. En los primeros años del reinado de la joven Isabel II, Madrid se convierte en el indiscutible centro político y administrativo del país, prevaleciendo sobre las provincias. Precisamente en este momento se consagra el curioso término “provincias”, que designa ‘aquella parte de España que no es Madrid’.</p>
+						<p>La convulsa vida política de la época no obsta para que los madrileños busquen la diversión que el mundo del espectáculo les puede ofrecer. Hay en la Villa dos coliseos importantes que se disputan el favor de los aficionados: el Teatro de la Cruz y el Teatro del Príncipe. Ambos fueron, en sus orígenes, corrales de comedias y algo queda todavía de la antigua rivalidad entre <hi rend="italic">polacos</hi> y <hi rend="italic">chorizos</hi>, sobrenombres que reciben, respectivamente, los partidarios de uno y otro local.<ref n="2" /> Situado en el número 37 de la calle del mismo nombre, el edificio del teatro de la Cruz —así llamado por su emplazamiento en el Cerrillo homónimo y porque era propiedad de la Cofradía del Cristo de la Piedad o de la Cruz— había sido testigo de grandes acontecimientos teatrales y en él se representaban tanto obras dramáticas como líricas. Además de las obras clásicas, se estrenaron allí algunas tan sonadas como <hi rend="italic">El sí de las niñas</hi> (1806), de Fernández de Moratín, objeto de una gran polémica, o <hi rend="italic">La conjuración de Venecia</hi> (1834), de Martínez de la Rosa. Pero su época de mayor esplendor llegaría en la década de 1840, con la compañía de Carlos Latorre.</p>
+						<p>Uno de los autores que surtían de obras este teatro era José Zorrilla y Moral (1817-1893), un poeta y dramaturgo relativamente joven que había llegado a Madrid unos años antes huyendo de los rigores de un padre —don José Zorrilla Caballero— empeñado en hacer de él un jurista a su imagen y semejanza,<ref n="3" /> en contra de los deseos de su hijo que, desde muy joven, manifestó su inclinación hacia las letras.<ref n="4" /> Su huida a la capital —episodio digno de una novela de aventuras y cuyas consecuencias le atormentaron durante gran parte de su vida— respondía, según él mismo cuenta en sus <hi rend="italic">Recuerdos del tiempo viejo</hi>, a su ilusión de triunfar como escritor:</p>
+						<quote>Llevaba yo [en el corazón] dos afanes y dos esperanzas: mi primer amor a una mujer, y la esperanza de conseguirla, y el amor a mi padre y la esperanza de sepultar su enojo bajo una montaña de laureles. Soñaba yo una fama y una gloria tales que obligaran a aquella mujer y a mi padre a tenderme sus brazos a un tiempo, asombrados y deslumbrados por el esplendor de su nombradía<ref n="5" /> (Cortés, 1943, 59).
+						</quote>
+						<p>En la capital, para eludir las pesquisas del padre, se hizo pasar por el hijo de un artista italiano —entre otras peripecias— y se buscó la vida como pudo, colaborando en publicaciones y periódicos con dibujos y textos, ayudado por algunos amigos, hasta el célebre suceso del entierro de Larra, donde Zorrilla se daría a conocer como poeta entre la plana mayor de los escritores madrileños con su poema “A la muerte del joven literato Mariano José de Larra”.<ref n="6" /> La lectura pública de aquellos versos supondrá su entrada en los círculos literarios de Madrid. Desde entonces, se dedicará a escribir en diferentes periódicos y, en octubre de ese mismo año de 1837, aparecerá su primer libro de poemas, con un prólogo firmado por Nicomedes Pastor Díaz, en el que relata cumplidamente lo ocurrido en el entierro. Seguirán a este primero otras siete entregas de sus poesías, labor que alternará con la actividad dramatúrgica.</p>
+						<p>Su primera obra estrenada, escrita en colaboración con García Gutiérrez, será <hi rend="italic">Juan Dandolo</hi>. Dos meses más tarde, y animado por el relativo éxito de la anterior, llevará a las tablas, ya en solitario, <hi rend="italic">Cada cual con su razón</hi>, a la que seguirán algunos dramas más, con los que irá ganando cierta fama.</p>
+						<p>Tal y como el propio Zorrilla cuenta en sus <hi rend="italic">Recuerdos del tiempo viejo</hi>, la escritura de <hi rend="italic">Don Juan Tenorio</hi>, al menos en lo concerniente a su realización material, respondió a la necesidad de entregar, con cierta urgencia, un nuevo drama:</p>
+						<quote>Corría la temporada cómica del 43 al 44: Carlos Latorre había trabajado en Barcelona, y Lombía solo sostenía el teatro de la Cruz con su compañía. […] En febrero del 44 volvió Carlos Latorre a Madrid, y necesitaba una obra nueva: correspondíame de derecho aprontársela, pero yo no tenía nada pensado y urgía el tiempo: el teatro debía cerrarse en abril. No recuerdo quién me indicó el pensamiento de una refundición de <hi rend="italic">El burlador de Sevilla</hi>, o si yo mismo, animado por el poco trabajo que me había costado la de <hi rend="italic">Las travesuras de Pantoja</hi>, [titulada <hi rend="italic">La mejor razón la espada</hi> y también estrenada en La Cruz ese mismo año], di en esta idea registrando la colección de las comedias de Moreto; el hecho es que, sin más datos ni más estudio que <hi rend="italic">El burlador de Sevilla</hi>, de aquel ingenioso fraile, y su mala refundición de Solís, que era la que hasta entonces se había representado bajo el título de <hi rend="italic">No hay plazo que no se cumpla ni deuda que no se pague</hi> o <hi rend="italic">El convidado de piedra</hi>, me obligué yo a escribir en veinte días un <hi rend="italic">Don Juan</hi> de mi confección.<ref n="7" />
+						</quote>
+						<p>Tradicionalmente, se ha venido discutiendo la veracidad de estas palabras, tanto en lo que atañe a las fuentes que dice haber utilizado para confeccionar su drama, como sobre el tiempo que tardó en escribirlo. Sin embargo, poco a poco vamos conociendo datos que sugieren su veracidad respecto de ambas cuestiones,<ref n="8" /> aunque dos de los elementos constitutivos del drama ya hubieran aparecido, con alguna recurrencia, en su obra: la figura del burlador y el relato de perdón.<ref n="9" /> Así, la refundición de una trama conocida le da pie para contar, según su propia confesión, “una historia íntima mía”.<ref n="10" /></p>
+						<p>El 6 de marzo de 1844, el <hi rend="italic">Diario de avisos de Madrid</hi>, incluía <hi rend="italic">Don Juan Tenorio</hi>, de José Zorrilla, entre las obras “en prensa” de la Galería Dramática de Manuel Delgado. En las semanas siguientes, tanto este <hi rend="italic">Diario</hi> como <hi rend="italic">El Heraldo de Madrid</hi> incluyen anuncios del inminente estreno de la obra. El más extenso e interesante es el que recoge <hi rend="italic">Diario de avisos</hi> del día 26, que se repetirá en días sucesivos:</p>
+						<quote>
+							Función para mañana miércoles 27 de marzo de 1844, a las siete y media de la noche, a beneficio del primer actor, don Carlos Latorre.
+
+							<p>Después de una brillante sinfonía, se ejecutará por primera vez el drama religioso fantástico, dividido en dos partes, compuestas de 7 actos, original de don José Zorrilla, bajo el título de <hi rend="italic">Don Juan Tenorio</hi>.</p>
+
+							<p>Este drama escrito para ser puesto en escena en la presente cuaresma, encierra un pensamiento hondamente religioso y su argumento está basado sobre las sólidas creencias de la fe católica.</p>
+
+							<p>El personaje de don Juan Tenorio [es] demasiado conocido para que sea necesario adelantar sobre él explicación alguna, puesto que siglos hace está siendo el héroe de muchos poemas, dramas y leyendas que llevan a su frente nombres de justa y colosal reputación. El público de Madrid acaba de verle no ha muchos días en este mismo teatro aunque más vagamente dibujado que en el gran cuadro en que le presenta hoy el señor Zorrilla.</p>
+
+							<p>El inmoral libertinaje y la incrédula osadía de don Juan están pintados con colores tan vivos, cuanto necesarios son para el desarrollo del pensamiento fundamental, y más necesarios aún para atraer sobre el protagonista la justicia y la misericordia del Cielo: pues si los desórdenes y vicios de la vida de don Juan fueran vicios y desórdenes regulares, y su nobleza y caballerosidad no igualasen en grandeza a sus vicios y libertinaje, quedarían harto mal justificadas la cólera y la misericordia del Supremo Juez, que al castigar airado sus crímenes admite benigno su contrición.</p>
+
+							<p>La pasión del amor está empleada en esta obra del modo más puro y más sublime: pues esta pasión, cuya grosera terrenalidad arrastra a don Juan hasta las puertas del infierno, despojada de su pureza y elevada al más celestial espiritualismo, abre a don Juan las puertas del Paraíso.</p>
+
+							<p>En cuanto a su desempeño, el autor ha querido llevarle a cabo con el mayor esmero y conciencia. La versificación excede en lo general a la de cuantas obras ha presentado hasta el día.</p>
+
+							<p>La empresa no ha perdonado medio para presentar esta obra con el aparato y esmero que requiere.</p>
+
+							<p>Terminará la función con boleras jaleadas sobre un tema de la ópera <hi rend="italic">Il Furioso</hi>.</p>
+						</quote>
+						<p>Desde comienzos de la década de 1830 se ofrecían funciones variadas, en las que se conjugaban las representaciones propiamente teatrales con música y baile, que serían el antecedente directo de los espectáculos de variedades.<ref n="11" /> Tanto el estreno como el resto de las representaciones del <hi rend="italic">Tenorio</hi> que se dieron en aquel momento formarían parte de sesiones de este tipo. La información contenida en este anuncio la proporcionaría la compañía influida —plausiblemente— por la visión del autor, si no redactada por él mismo. De ahí, quizá, la insistencia en el componente religioso del drama por encima del tema del burlador.<ref n="12" /></p>
+						<p>A juzgar por los anuncios de aquellos días, el estreno estaba previsto para el miércoles 27 de marzo a las siete y media de la tarde, pero hubo de posponerse y los billetes, que ya estarían impresos, se utilizarían al día siguiente. Así pues, la obra no se representó más que dos días, antes de finalizar la temporada teatral, que se contaba desde la Pascua de Resurrección de un año hasta la Cuaresma del siguiente: el jueves 28 y el sábado 30 de marzo de 1844. Pasada la Semana Santa, en la segunda semana de abril, volvió a la cartelera y se hicieron unas cuantas representaciones más, los días 7, 8, 9, 10 y 11 de abril en el teatro de la Cruz y el 14 y el 15 en el teatro del Príncipe.</p>
+						<p>Según las normas de la colección <hi rend="italic">Clásicos Hispánicos</hi>, las páginas preliminares no deben sino ocuparse de presentar la obra para facilitar su entendimiento literal. Espero haberlo conseguido razonablemente. Pero no puedo acabar sin recoger las palabras del autor sobre este popular personaje, cuando trata de explicar —en verso, como solo él sabe hacerlo— qué tiene su <hi rend="italic">Don Juan</hi> que lo hace distinto de los demás, en qué radica su éxito:</p>
+						<lg type="poem">
+							<lg type="stanza">
+								<l>Desvergonzado galán</l>
+								<l>siempre atropella por todo</l>
+								<l>y de atajarle no hay modo,</l>
+								<l>¿qué tiene, pues, mi <hi rend="italic">Don Juan</hi>?</l>
+
+							</lg>
+							<lg type="stanza">
+								<l>Del fondo de un monasterio</l>
+								<l>donde le encontré empolvado,</l>
+								<l>yo le planté remozado</l>
+								<l>en mitad de un cementerio;</l>
+
+							</lg>
+							<lg type="stanza">
+								<l>y obra de un chico atrevido</l>
+								<l>que atusaba apenas bozo,</l>
+								<l>os parece tan buen mozo</l>
+								<l>porque va muy bien vestido.</l>
+
+							</lg>
+							<lg type="stanza">
+								<l>Pero sus hechos están</l>
+								<l>en pugna con la razón,</l>
+								<l>para tal reputación,</l>
+								<l>¿qué tiene, pues, mi <hi rend="italic">Don Juan</hi>?</l>
+
+							</lg>
+							<lg type="stanza">
+								<l>Un secreto con que gana</l>
+								<l>la prez entre los Don Juanes;</l>
+								<l>el freno de sus desmanes:</l>
+								<l>que doña Inés es cristiana.</l>
+
+							</lg>
+							<lg type="stanza">
+								<l>Tiene que es de nuestra tierra</l>
+								<l>el tipo tradicional;</l>
+								<l>tiene todo el bien y el mal</l>
+								<l>que el genio español encierra.</l>
+
+							</lg>
+							<lg type="stanza">
+								<l>Que, hijo de la tradición,</l>
+								<l>es impío y es creyente,</l>
+								<l>es balandrón y es valiente,</l>
+								<l>y tiene buen corazón.</l>
+
+							</lg>
+							<lg type="stanza">
+								<l>Tiene que es diestro y es zurdo,</l>
+								<l>que no cree en Dios y le invoca,</l>
+								<l>que lleva el alma en la boca</l>
+								<l>y que es lógico y absurdo.</l>
+
+							</lg>
+							<lg type="stanza">
+								<l>Con defectos tan notorios</l>
+								<l>vivirá aquí diez mil soles</l>
+								<l>pues todos los españoles</l>
+								<l>nos la echamos de Tenorios.</l>
+
+							</lg>
+							<lg type="stanza">
+								<l>Y si en el pueblo le hallé</l>
+								<l>y en español le escribí</l>
+								<l>y su autor el pueblo fue…</l>
+								<l>¿por qué me aplaudís a mí?<ref n="13" /></l>
+							</lg>
+						</lg>
+						<p>Quedémonos con los versos de Zorrilla y prestemos atención al texto. La gente empieza a revolverse en sus asientos y murmura inquieta. ¿No escuchan? En el reloj de la embocadura del teatro están a punto de dar las siete y media. Bajen las luces y hágase el silencio; prepárense a disfrutar del drama y que comience la función…</p>
+					</div>
+					<div type="bibliography">
+						<head>Bibliografía</head>
+						<div>
+							<head>Fuentes</head>
+							<p>Las principales fuentes textuales del <hi rend="italic">Tenorio</hi> son el facsímil del manuscrito autógrafo de Zorrilla, editado por José Luis Varela (Madrid: RAE, 1974) [M]; la edición de Manuel Delgado (Madrid: Imprenta de Repullés, 1844) [R]; la versión recogida en la 2ª ed. de <hi rend="italic">Obras de José Zorrilla</hi> (París: Baudry, 1852) [B]; y la de Manuel Pedro Delgado, a cargo de José Giráldez (Madrid: Tip. de E. Cuesta, 1883) [G].</p>
+							<p>Las ediciones modernas son demasiado numerosas como para citarlas de modo exhaustivo. Sin embargo, creo que habría que destacar las de José Luis Varela (Madrid: Espasa-Calpe, 1975), con una interesante introducción y la primera que hace, me parece, una aproximación seriamente filológica; la de José Luis Gómez (Barcelona: Planeta, 1984), la mejor de las que he visto en lo que al texto se refiere; y las que Luis Fernández Cifuentes ha ido publicando (desde la de Barcelona: Crítica, 1993, hasta la de Madrid: RAE, 2012), que son, en este momento, las más prestigiosas, con un estudio muy completo de la obra pero con inexplicables confusiones en el aparato crítico respecto a las lecturas de R.<ref n="14" /> Y, como para cualquier obra de Zorrilla, me parece fundamental la edición de <hi rend="italic">Obras Completas</hi> de Narciso Alonso Cortés (Santarén: Valladolid, 1943), en dos volúmenes, que ofrece, además, los comentarios sobre las leyendas —interesantes, en mi opinión, para leer <hi rend="italic">Don Juan Tenorio</hi>— que el autor incluyó en el único tomo que se llegó a publicar de sus <hi rend="italic">Obras completas</hi> (Barcelona: Sociedad de Crédito Intelectual, Imprenta de Luis Tasso y Serra, 1884).</p>
+						</div>
+						<div>
+							<head>Estudios críticos</head>
+							<p>Igual que ocurría con las fuentes, para cualquier acercamiento a la obra de José Zorrilla resulta imprescindible tener en cuenta el monumental trabajo de Narciso Alonso Cortés <hi rend="italic">Zorrilla</hi>. <hi rend="italic">Su vida y sus obras</hi> (Valladolid: Santarén, 1943). A partir de ahí, las introducciones de las ediciones anotadas de la obra: junto a las ya mencionadas de Varela, Gómez y Cifuentes, habría que destacar las de Aniano Peña (Madrid: Cátedra, 1970), Jean-Louis Picoche (Madrid: Taurus, 1985 y 1992), la sugerente introducción de Francisco Nieva en la ed. de J. F. Peña (Madrid: Espasa-Calpe, 1990) o la de David T. Gies (Madrid: Castalia, 1994). Junto a ellas, no puedo dejar de recomendar la lectura de las páginas que J. L. Alborg dedica a la obra en el vol. IV de su <hi rend="italic">Historia de la literatura española</hi> (Madrid: Gredos, 1980), en las que se ofrece una visión muy acertada de las cuestiones capitales en torno a la obra.</p>
+							<p>Para un panorama bibliográfico más amplio remito a la bibliografía de Irene Vallejo González y Pedro Ojeda Escudero, <hi rend="italic">José Zorrilla</hi>. <hi rend="italic">Bibliografía con motivo de un centenario</hi> (<hi rend="italic">1893</hi>-<hi rend="italic">1993</hi>) (Valladolid: Fundación Municipal de Cultura del Ayuntamiento, 1994), así como a la de la Biblioteca Virtual Cervantes, a cargo de Salvador García Castañeda.<ref n="15" /></p>
+							<p>Y como de lo que se trata en este apartado no es de ser exhaustivo sino selectivo, he de aconsejar, asimismo, los trabajos que Jorge Manrique Martínez ha publicado en los últimos años —no recogidos en las mencionadas bibliografías—, con propuestas interesantes y novedosas en las que consigue limpiar la obra de ajenas pátinas y de ideas preconcebidas, reconociendo y mostrando su modernidad y su influencia sobre la siguiente generación literaria que, sin embargo, tanto renegó de su autor. Entre ellos destacan, en lo que atañe al <hi rend="italic">Tenorio, José Zorrilla</hi>. <hi rend="italic">Su ser y su hacer</hi>, Colección Personajes Vallisoletanos, Valladolid: El Norte de Castilla, 1996 y, muy especialmente, “Esto no es un <hi rend="italic">tenorio</hi>”, <hi rend="italic">Hibris</hi>. <hi rend="italic">Revista de Bibliofilia</hi>, IX, 50 (2009), 4-25.</p>
+							<p>Otra publicación, interesante por la variedad de los trabajos que acoge, son las actas del único congreso monográfico que, si no me equivoco, se ha celebrado sobre el autor, tituladas <hi rend="italic">José Zorrilla</hi>. <hi rend="italic">Una nueva lectura</hi>, coord. por Javier Blasco, Ricardo de la Fuente y Adolfo Mateos, Valladolid: Universidad / Fundación Jorge Guillén, 1993.</p>
+						</div>
+						<div>
+							<head>Obras citadas</head>
+							<p>Alonso Cortés, Narciso, <hi rend="italic">Zorrilla</hi>. <hi rend="italic">Su vida y sus obras</hi>, Valladolid: Santarén, 1943.</p>
+							<p>Crespo Torraba, Carmen (coord.), <hi rend="italic">Catálogo de manuscritos de la Real Academia Española</hi>, Madrid: Real Academia Española, 1991 (Anejos del <hi rend="italic">Boletín de la Real Academia Española</hi>; anejo 50).</p>
+							<p>Fernández, Luis, <hi rend="italic">Zorrilla y el Real Seminario de Nobles</hi>, prólogo de Narciso Alonso Cortés, Valladolid: Casa Martín, 1945.</p>
+							<p>Manrique Martínez, Jorge, <hi rend="italic">José Zorrilla</hi>. <hi rend="italic">Su ser y su hacer</hi>, Colección Personajes Vallisoletanos, Valladolid: El Norte de Castilla, 1996.</p>
+							<p>Martínez Olmedilla, Augusto, <hi rend="italic">Los teatros de Madrid</hi>. <hi rend="italic">Anecdotario de la farándula madrileña</hi>, Madrid: José Ruiz Alonso, 1947.</p>
+							<p>Vallejo, Irene, "El Don Juan que pudo ver Zorrilla: una refundición de la comedia No hay plazo que no se cumpla ni deuda que no se pague y Convidado de piedra, de Antonio de Zamora", en <hi rend="italic">Estudios de literatura española de los siglos XIX y XX</hi>: <hi rend="italic">Homenaje a Juan María Díez Taboada</hi>, Madrid: Consejo Superior de Investigaciones Científicas, 1998, págs. 415-421.</p>
+							<p>Zorrilla, José, <hi rend="italic">Obras Completas</hi>, ed. de Narciso Alonso Cortés, 2 tomos, Valladolid: Santarén, 1943.</p>
+							<p>Giráldez, José, <hi rend="italic">Tratado de tipografía o Arte de la imprenta</hi>, Madrid: M. P. D, Imprenta de Eduardo Cuesta y Sánchez, 1884.</p>
+							<p>Miranda Valdés, Javier, <hi rend="italic">Aureliano Fernández</hi>-<hi rend="italic">Guerra y Orbe</hi> (<hi rend="italic">1816</hi>-<hi rend="italic">1894</hi>): <hi rend="italic">un romántico, escritor y anticuario</hi>, Madrid: Real Academia de la Historia, 2005.</p>
+							<p>Zorrilla, José, <hi rend="italic">Cada cual con su razón</hi>, edición de Jorge Manrique Martínez, Valladolid: Ayuntamiento, 1997.</p>
+							<p>Zorrilla, José, <hi rend="italic">Don Juan Tenorio</hi>. <hi rend="italic">Edición facsímil del autógrafo propiedad de la Real Academia Española</hi>, prólogo de José Luis Varela, Madrid: RAE, 1974. El manuscrito está disponible en Internet en la web de la Biblioteca Cervantes Virtual: http://bib.cervantesvirtual.com/servlet/SirveObras/12826393119061515209624/index.htm</p>
+						</div>
+					</div>
+					<div type="encodingDesc">
+						<head>Nota de edición</head>
+						<p>Puesto que las normas de la colección impiden que la comparación de variantes se explicite en el estudio previo, la presente no llega a ser una edición crítica. Sin embargo, sí que es el resultado del cotejo de los principales testimonios que de la obra se conservan.</p>
+						<p>La historia textual de <hi rend="italic">Don Juan Tenorio</hi> es, en lo esencial, conocida.<ref n="16" /> Los testimonios que usualmente se consideran —con razón— fundamentales para establecer el texto de son tres: el manuscrito autógrafo que se conserva en la Real Academia Española (M); la primera edición y las sucesivas reediciones realizadas por Manuel Delgado, impresa la primera de ellas en casa de Repullés (R); y la versión de la pieza incluida en la segunda edición de las <hi rend="italic">Obras completas de D</hi>. <hi rend="italic">José Zorrilla</hi>, hechas en París por Baudry (B) y, supuestamente, supervisadas por el autor. Hay, sin embargo, otro testimonio posterior a estos, a partir del cual se introdujeron lecciones que han pasado a formar parte del texto sin que nadie se haya preguntado de dónde procedían o, al menos, sin que las ediciones modernas más autorizadas den cuenta de esta información: la que Manuel Pedro Delgado encargó a José Giráldez (Madrid: Tip. de E. Cuesta, 1883) (G).</p>
+						<p>El manuscrito autógrafo es el primero de los testimonios con los que contamos. Se trata de un borrador —así se refiere a él Zorrilla en la dedicatoria— lleno de tachaduras que, algunas veces, nos permiten reconstruir el proceso de composición, mientras que en otras el autor se ha aplicado tan a conciencia que no hay modo de desvelar lo que esconden. Frente a estos, quedan en el manuscrito otros pasajes que Zorrilla ha decidido copiar en limpio, probablemente porque la versión de composición dificultaba en exceso la lectura. Con todo, el manuscrito muestra que si las obras del vallisoletano son hijas de su intuición dramática y su talento para la versificación —que nadie se ha atrevido a negarle, a pesar de todo—, lo son también del trabajo y del esfuerzo, mucho más que de la inspiración.<ref n="17" /> En la portada aparece el título <hi rend="italic">Don Juan Tenorio</hi> / <hi rend="italic">drama religioso</hi>-<hi rend="italic">fantástico</hi> / <hi rend="italic">en dos partes</hi>, con una tachadura en la que podemos ver que, en un primer momento, el subtítulo decía simplemente <hi rend="italic">drama fantástico</hi>. A continuación, figura la fecha —<hi rend="italic">Madrid</hi>-<hi rend="italic">Fº 21</hi>/<hi rend="italic">44</hi>— y la rúbrica del autor. En el vuelto, se halla la dedicatoria: “A su buen amigo el Sr. D. Aureliano Fernández-Guerra ofreció este borrador en muestra de franco aprecio José Zorrilla. Madrid. Abril 27/44”. Al final del facsímil editado por J. L. Varela, que es lo que voy describiendo porque en estos momentos resulta imposible consultar el original —prestado por la RAE a la Biblioteca Nacional como parte de la exposición <hi rend="italic">300 años de la Real Academia Española</hi>—, figura una <hi rend="italic">Nota al manuscrito original autógrafo del Don Juan Tenorio, de Zorrilla</hi>, también escrita a mano pero con letra posterior y distinta a la del poeta. Tras una hoja en blanco, los nueve folios que siguen —de la misma mano que la <hi rend="italic">Nota</hi>, escritos a una sola cara y numerados— recogen el final del acto IV, en el que se introduce un par de variantes de interés. En el manuscrito no figura el nombre de quien lo completó, copiando lo que faltaba de una de las ediciones, pero —tal y como afirma su nieto, Javier Miranda Valdés, en la biografía de don Aureliano— debe de tratarse de Luis Valdés, que se casó con Carmen, la hija de Luis Fernández-Guerra, única heredera de su padre y de su tío Aureliano (Miranda Valdés, 2005), el mismo Luis Valdés por cuyas manos pasaron tantos papeles de Quevedo, por cierto. En cuanto a la “impresión” de la que copia, tampoco se hace explícita en esa nota, aunque, a juzgar por el cotejo de las variantes que introduce con las diferentes ediciones, tiene que ser una de las posteriores a la de 1883, si no esta misma; quizá la de 1892.</p>
+						<p>Era costumbre en la época que los textos se editasen de manera prácticamente simultánea al estreno de la obra. Tras la lectura, y una vez acordada la puesta en escena, era lo común que se sacaran varias copias a partir del original del autor, copias que se harían con cierta rapidez, destinadas a los actores, el director de escena, el apuntador, el traspunte, etc., y también para la imprenta. Es de suponer —con cierto grado de seguridad si se consideran algunos de los cambios introducidos en el <hi rend="italic">Tenorio</hi> en el paso del manuscrito (M) a la primera edición (R)— que en ese trasvase pudieran deslizarse erratas o errores, pero también que sería el momento de introducir cambios relacionados con el montaje para el que se realizaban dichas copias y quizá algunos otros de estilo.</p>
+						<p><hi rend="italic">Don Juan Tenorio</hi> se puso por primera vez en letras de molde en marzo de 1844, editada por Manuel Delgado, cuyo hermoso emblema figura en la portada, e impresa en el establecimiento tipográfico de Repullés. Esta primera edición aparecía como parte de la <hi rend="italic">Galería dramática</hi> de Delgado,<ref n="18" /> coincidiendo con el estreno, y con una dedicatoria “Al señor don Francisco Luis de Vallejo, en prenda de buena memoria, su mejor amigo, José Zorrilla”. No se trata de una edición especialmente cuidada, ni es probable que el autor se preocupase de supervisarla, más interesado, seguramente, en aquellos días, en los ensayos y los preparativos del montaje, en los que solía implicarse de manera muy activa.<ref n="19" /></p>
+						<p>La primera edición de las <hi rend="italic">Obras de don José Zorrilla</hi>, con su biografía por Ildefonso de Ovejas, en dos tomos —dedicado el primero a las <hi rend="italic">Obras poéticas</hi> y el segundo a las <hi rend="italic">Obras dramáticas</hi>, como volúmenes XXXIX y XL de la <hi rend="italic">Colección de los mejores autores españoles</hi>— se publicó con un pie de imprenta que reza: “París, Baudry, Librería Europea, nº 3, Quai Malaquais, au premier étagé, cerca del Puente des Arts, 1847”. La versión de <hi rend="italic">Don Juan Tenorio</hi> que encontramos en esta primera edición de obras completas de 1847 es prácticamente igual a la de Delgado, por eso no es esta la que nos interesa como testimonio autorizado, sino la segunda, publicada en 1852 (B), y en cuya portada se añade el siguiente reclamo: “Nueva edición corregida, y la sola reconocida por el autor”. En el prólogo insiste:</p>
+						<quote>Esta segunda edición de mis obras, hecha por M. Baudry, es la única completa corregida y reconocida por mí. […] Me he limitado a revisar en su totalidad y a corregir en esta segunda edición los defectos tipográficos de la primera, añadiéndola un suplemento o tercer tomo, el cual contendrá todas mis obras posteriores al año 1847, época en la cual las coleccionó Baudry. […] París, 1º de agosto de 1851. J. Zorrilla.
+						</quote>
+						<p>La forma de redactar estas palabras es ciertamente vaga y, cuando menciona la revisión, no se refiere más que a los “defectos tipográficos” pero, a la vista de las variantes introducidas con respecto a las ediciones anteriores —al menos en lo concerniente al texto del <hi rend="italic">Tenorio</hi>—, comprobamos, por un lado, que algunas de ellas exceden claramente lo que entenderíamos como simples erratas. Por otra parte, resulta difícil creer que la corrección ortotipográfica a la que alude la haya llevado a cabo él mismo. Pero es que, además, hay otros indicios que, sumados al estudio detenido de las variantes, sugieren que, muy probablemente, Zorrilla no estaba, en el verano de 1951 —que es cuando se preparó esta segunda edición de sus <hi rend="italic">Obras</hi>…— en condiciones de revisarla o que, en todo caso, no lo hizo con el cuidado que semejante tarea requiere.<ref n="20" /> Con todo, si no una revisión exhaustiva —de la que no creo que se encargase Zorrilla— alguna de las variantes que se introducen en el <hi rend="italic">Tenorio</hi> recogido en esta edición hace pensar, por su importancia, en una intervención del autor. Me doy cuenta de que lo que planteo es una contradicción, que, sin embargo, podría explicarse del siguiente modo: es posible que el encargado de la edición, alguno de los colaboradores de Baudry, tuviera contacto con Zorrilla y, por tanto, la posibilidad de consultarle algunas de las correcciones de mayor entidad; aunque también podría haberse dado ese intercambio en sentido contrario, es decir, que Zorrilla, consciente de algunos de los errores más llamativos de la edición madrileña, indicase a quien estuviese al cuidado de la edición el mejor modo de solventarlos. De ahí que esos cambios, supuestamente <hi rend="italic">autorizados</hi>, sean muy escasos y no se refieran más que a errores evidentes. Se trata de una conjetura, pero apoyada en las variantes que aparecen en esta edición, las cuales sugieren la existencia de dos tipos de correcciones, que se corresponderían con ese supuesto editor y con el propio Zorrilla, cuya participación sería, pues, indirecta.<ref n="21" /> Hay otros casos —la mayoría— en los que parece bastante improbable que el poeta fuera el responsable de las modificaciones del texto.<ref n="22" /> Si bien no son de gran entidad, consideradas en su conjunto, estas otras rectificaciones del texto apuntan a la intervención de un editor que estaría tratando de subsanar defectos —o supuestos defectos— de la edición de 1844.</p>
+						<p>Esta segunda edición de las <hi rend="italic">Obras</hi>… publicada por Baudry en 1852 es la que suele considerarse como el testimonio más autorizado y, aunque resulta muy difícil negar o afirmar tajantemente que los cambios en ella introducidos obedezcan al autor, parece, al menos, que hay indicios suficientes para plantearse una duda razonable respecto a que sea el testimonio que muestra de manera más fidedigna la voluntad de Zorrilla, excepto en lo que se refiere a ese verso añadido y quizá algún detalle más, como ciertas acotaciones que añade y que, al contrario de lo que sucedía con las que se introducían en R, casi siempre redundantes, suelen aludir a acciones no implícitas en el texto —o no de manera tan evidente—, pero coherentes con él. Estas son las únicas variantes de B que recojo en la presente edición. Aunque las acotaciones no aportan gran cosa, ciertamente tampoco le causan daño alguno y, en el caso del añadido del v. 348, además de solventar una clara irregularidad métrica, se evita la alteración en la numeración de los versos que la tradición textual ha consolidado.</p>
+						<p>Como he adelantado, junto a estos tres testimonios, habría que considerar uno más, cuyas soluciones en un par de pasajes se han tenido en cuenta en la mayoría de las ediciones anotadas —al menos desde que Varela publicó el facsímil del autógrafo—, aunque no siempre de modo explícito y, en ocasiones, incluso sin que los modernos editores se muestren conscientes de ello. En 1883 se publica la primera edición de <hi rend="italic">Don Juan Tenorio</hi> que se hace una vez que la obra ha alcanzado una popularidad considerable y —muerto ya Delgado padre— cuando la <hi rend="italic">Galería dramática</hi> está en manos de Manuel Pedro Delgado, hijo del editor al que Zorrilla le vendió la propiedad de su obra (G). Es también la primera “a cargo de” alguien, en este caso José Giráldez Errasti, que muy poco después publicaría —también en la editorial M. P. Delgado— su <hi rend="italic">Tratado de tipografía o Arte de la imprenta</hi>. Resulta curioso comprobar que las intervenciones que se hacen en el texto del <hi rend="italic">Tenorio</hi> en esta edición de 1883 responden, justamente, a los criterios expuestos por Giráldez en su <hi rend="italic">Tratado</hi> (Giráldez, 1884, 44-45), ya que se ocupa de corregir errores evidentes que las ediciones españolas habían mantenido, unas veces relacionadas con cuestiones gramaticales y otras con asuntos formales, como exigencias de la rima, por ejemplo. Junto a estos, hay en G otros cambios que tienen que ver con el sentido del texto. De hecho, algunas de las soluciones que adopta muestran que la copia con la que está trabajando difiere del autógrafo y hace suponer que podría tratarse de aquella primera que se llevó a la imprenta en el momento del estreno, conservada —quizá— en el archivo de la editorial y que contendría errores o erratas que no serían responsabilidad del autor ni tampoco del tipógrafo, sino del copista.</p>
+						<p>Pero, además de estas variantes, que podrían obedecer al simple criterio del corrector o al cotejo de la edición con una copia manuscrita distinta del autógrafo, hay en la edición de Giráldez dos aportaciones fundamentales, aunque no sea más que en la medida en que se han incorporado —sin que nadie se haya cuestionado su procedencia exacta— a la tradición textual de <hi rend="italic">Don Juan Tenorio</hi>. En primer lugar, el añadido, al final del acto cuarto, de las siguientes palabras: “Esta escena puede suprimirse en la representación, terminando el acto con el último verso de la anterior”. Esta acotación, que aparece por vez primera en G, ha sido atendida por muchos directores de escena, pues, de esta manera, el acto y la primera parte de la obra concluyen con los rotundos y desgarrados versos de don Juan, que todo el mundo recuerda:</p>
+						<lg type="poem">
+							<lg type="stanza">
+								<l>Llamé al cielo y no me oyó;</l>
+								<l>y pues sus puertas me cierra,</l>
+								<l>de mis pasos en la tierra</l>
+								<l>responda el cielo y no yo.</l>
+							</lg>
+						</lg>
+						<p>Es posible que lo que esté haciendo aquí el editor sea recoger lo que, a la altura de 1883, podría haberse convertido ya en la costumbre de no representar esa última escena. Otra posibilidad es que, como parece que ocurre en otros casos, la tome de esa supuesta copia manuscrita que podría conservar Delgado en sus archivos y que no habría pasado al texto impreso por entender que se trataba de algo propio del montaje pero no de la edición. Una vez más, no podemos sino plantear conjeturas, apoyadas en unos pocos indicios textuales.</p>
+						<p>La segunda intervención decisiva de Giráldez es la del v. 3332, en la primera escena, acto 2º, II parte. Don Juan cena con Avellaneda y el capitán Centellas, mientras Ciutti les sirve, cuando se empiezan a escuchar golpes, primero en la puerta y, enseguida, cada vez más cerca:</p>
+						<lg type="poem">
+							<lg type="stanza">
+								<l><hi rend="small-caps">Don</hi> <hi rend="small-caps">Juan</hi>.- […] ¿Otra vez?</l>
+								<l><hi rend="small-caps">Ciutti</hi>.- 	 ¡Cielos!</l>
+								<l><hi rend="small-caps">Avellaneda</hi> y 	<hi rend="small-caps">Centellas</hi>.- ¿Qué pasa?</l>
+								<l>CIUTTI.- Que esa aldabada postrera</l>
+								<l n="3330">ha sonado en la escalera,</l>
+								<l>no en la puerta de la casa.</l>
+								<l><hi rend="small-caps">Avellaneda</hi> y 	<hi rend="small-caps">Centellas</hi>.- ¿Qué dices?</l>
+								<stage>(Levantándose asombrados)</stage>
+								<l>CIUTTI.- <hi rend="italic">Digo lo cierto</hi></l>
+								<l>nada más: dentro han llamado</l>
+								<l>de la casa.</l>
+								<l><hi rend="small-caps">Don</hi> <hi rend="small-caps">Juan</hi>.- 	¿Qué os ha dado?</l>
+								<l n="3335">¿Pensáis que sea ya el muerto?</l>
+							</lg>
+						</lg>
+						<p>Originalmente —es decir, en M, R y B—, el v. 3332 terminaba <hi rend="italic">Lo cierto digo</hi>, con lo que se rompía la rima con el v. 3335. También en este caso los editores posteriores, con razón, suelen respetar esta alteración en el orden del verso.</p>
+						<p>Si estas dos variantes se han incorporado a la tradición textual del <hi rend="italic">Tenorio</hi>, ha sido, seguramente, a partir de las páginas copiadas por Luis Valdés de esta “impresión” o de la de 1892, que la tomaba como referencia.<ref n="23" /></p>
+						<p>Independientemente de la pertinencia de las correcciones, lo que parece quedar claro es que Giráldez está interviniendo sobre la obra con un criterio de editor literario, tratando fijar el texto más correcto posible y según unos criterios determinados, asumiendo decisiones que, en ocasiones, exceden con mucho la sencilla labor del corrector, o quizá lo que hoy entendemos por tal. Ya en la segunda edición de Baudry vemos algunos cambios de cierta consideración, no siempre achacables a la mano de Zorrilla, a pesar del reclamo de la portada y las palabras del prólogo. Sin embargo, Giráldez es el primero que se responsabiliza de esos cambios, alguno de los cuales ha pasado, por su acierto y por su inclusión en el manuscrito, a la tradición de <hi rend="italic">Don Juan Tenorio</hi>, pues la mayoría de los editores modernos los acatan.</p>
+						<p>Así pues, por todo lo expuesto, creo que el original autógrafo es el testimonio al que deberíamos prestar mayor atención, toda vez que se trata del único que muestra inequívocamente la voluntad del autor, al menos en el momento de su composición. Y, si bien no recoge absolutamente todas las lecciones que Zorrilla pudo dar como definitivas, hay indicios suficientes para pensar que sí lo hace en lo que respecta al conjunto de la obra.</p>
+						<p>El texto que aquí se ofrece parte del autógrafo (M), aunque está matizado con algunas de las soluciones adoptadas en la primera edición (R), en la segunda de las ediciones de <hi rend="italic">Obras completas de José Zorrilla</hi> realizada en París por Baudry (B) y, en las ocasiones señaladas, en la reedición de la obra que M. P. Delgado encargó, en 1883, a José Giráldez (G).</p>
+						<p>Las notas al pie se refieren, las más de las veces, a cuestiones ecdóticas, para señalar las desviaciones sobre las lecturas de M, es decir, aquellas modificaciones posteriores que parecen responder a la voluntad del autor y no a deslices o ultracorrecciones del copista, el tipógrafo o el editor. En todos los demás casos respeto las lecturas del autógrafo.</p>
+						<p>La intervención sobre el texto es, pues, mínima. Me limito a acomodar la puntuación y la ortografía a la norma actual en aquellas cuestiones que no afectan al tejido fonético o fonológico del texto: eses que aparecen por equis, formas <hi rend="italic">a Dios</hi> por <hi rend="italic">adiós, de el</hi> por <hi rend="italic">del</hi> o el uso de las mayúsculas. Asimismo, adapto la acentuación al uso convencional actual, salvo en aquellos casos en los que Zorrilla modifica la pronunciación no marcada por exigencias del verso o por usos de época. Es el caso de <hi rend="italic">órgias</hi> (v. 261), que lee con acento en la primera sílaba; <hi rend="italic">homilia</hi> (v. 801), que el poeta escribe como <hi rend="italic">homília</hi> para marcar la sístole requerida por la rima con <hi rend="italic">familia</hi>, dejando clara la pronunciación frente a <hi rend="italic">homilía</hi>;<ref n="24" /> en el v. 943, “y reñís bien, ¡voto a <hi rend="italic">brios</hi>!”, que debe rimar con el <hi rend="italic">vos</hi>, M coloca la tilde en <hi rend="italic">briós</hi>, para marcar, esta vez, la diástole; en el v. 962, “…y un hidalgo me <hi rend="italic">fió</hi>”, nos encontramos con un clarísimo bisílabo, lo mismo que en <hi rend="italic">truhán</hi> (v. 1140) “¿Mas si el truhán se resiste?” o en <hi rend="italic">fiáis</hi> (v. 3593) “Reñiremos, si os <hi rend="italic">fiáis</hi>”; en el v. 1233, encontramos la forma verbal <hi rend="italic">creoló</hi>, en la que es necesario colocar esa tilde para señalar la lectura como aguda o con doble acentuación en 5ª y 7ª, así como en el v. 1824, donde encontramos un <hi rend="italic">abralé</hi>, también con tilde. En todos estos casos respeto la pronunciación original, marcando con criterios actuales la desviación de la norma ortográfica.</p>
+						<p>Otras intervenciones menores son la del comienzo de la escena 12 del primer acto, en la que añado en la lista de personajes a Ciutti y Gastón, que aparecen al final de la escena, a la llamada de sus amos; y, en las acotaciones del v. 3116, combino las diferentes versiones para que no se pierda la información de ninguna de ellas, cambiándolas de lugar respecto a M para mayor claridad.</p>
+						<p>Marco las acotaciones con cursiva, incluidas las que están entre los versos —que van, además, entre paréntesis—, para diferenciarlas de los apartes. Uso la cursiva, asimismo, para los fragmentos en italiano, en el Acto I.</p>
+					</div>
+				</body>
+				<back>
+					<div type="footnotes">
+						<note n="1"> Prescindamos, a modo de experimento si se quiere, de interpretaciones posteriores, así como de la discusión sobre las fuentes, en que la crítica se ha venido recreando durante años, o del estudio del mito de Don Juan, que ha dado lugar a docenas de estudios, entre otras cuestiones de las que, por lo demás, tampoco sería posible dar cuenta en tan breve espacio.</note>
+						<note n="2"> “Fue característica la pugna que existió entre los espectadores asiduos del Príncipe y de la Cruz. Llamábanse aquellos <hi rend="italic">chorizos</hi> y estos <hi rend="italic">polacos</hi>. La razón de estas denominaciones parece ser la siguiente: el actor Manuel Palomino, que representaba en el corral del Príncipe, hacía las delicias del público en un entremés donde tenía que comerse unos chorizos; faltáronle estos un día, por olvido del traspunte, y tales y tan graciosas ocurrencias hubo de decir contra él, que los espectadores salieron entusiasmados y, desde entonces, se les llamó <hi rend="italic">chorizos</hi>. Los de la Cruz llamáronme <hi rend="italic">polacos</hi> por un religioso trinitario, el Padre Polaco, que tenía gran influjo como ‘catador’ de obras y consejero de la Empresa. Usaban los <hi rend="italic">chorizos</hi> una cinta dorada como distintivo y los <hi rend="italic">polacos</hi> otra azul celeste. Dábanse cita unos y otros en los estrenos de ambos corrales, para defender y atacar la obra nueva, siendo frecuente que llegasen a las manos en aras de su gran entusiasmo farandulero” (Martínez Olmedilla, 1947, 11).</note>
+						<note n="3"> Absolutista convencido, Zorrilla Caballero desempeñó varios cargos de importancia durante el reinado de Fernando VII, motivo por el cual hubo de exiliarse cuando los liberales llegaron al poder. Para un estudio biográfico pormenorizado sobre la figura de Zorrilla, consúltese el monumental y minucioso trabajo de Alonso Cortés (1943); para un rápido pero ajustado panorama, con interesantes matices sobre lo consabido, véase Manrique (1996)</note>
+						<note n="4"> Ya en los años que pasó en Madrid en el Seminario de Nobles de los jesuitas, donde escribió sus primeros poemas con solo doce años, había entrado en contacto con el mundo del teatro. Véase el capítulo correspondiente en Alonso Cortés (1943, 44-45). Sobre sus años en el colegio existe una monografía de Luis Fernández (1945). Uno de los aspectos del joven Zorrilla y Moral es su desempeño —y excelentes calificaciones— en los estudios de griego y latín, importante a la hora de considerar el léxico de su obra.</note>
+						<note n="5"> La mujer a la que se refiere era una joven de Lerma que había conocido en las vacaciones de verano y de la que se había enamorado. Zorrilla pone en verso toda esta aventura, reflejando los sentimientos que entonces lo asaltaban (véase el poema recogido por Alonso Cortés (1943, 82-86), perteneciente a <hi rend="italic">Cuentos de un loco</hi>. <hi rend="italic">Episodios de mi vida</hi>, 1853).</note>
+						<note n="6"> “Un día, estando con Miguel de los Santos Álvarez en la Biblioteca Nacional [donde acudían más por su buena calefacción que por su afán de estudio], el italiano [Joaquín] Massard apareció con la noticia: Larra acababa de suicidarse. Durante aquella noche de febrero de 1837 Zorrilla escribió los versos que le lanzarían a tan deseado triunfo. Todo el Madrid literario, a la salida del cementerio de Fuencarral, proclamaba entusiasmado el nombre de Zorrilla” (Manrique, 1996, 7).</note>
+						<note n="7"> “Cuatro palabras sobre mi <hi rend="italic">Don Juan Tenorio</hi>”, <hi rend="italic">Recuerdos del tiempo viejo</hi>, cap. XVIII (Zorrilla, 1943, 1799).</note>
+						<note n="8"> No hay espacio en estas páginas para explicar satisfactoriamente esta afirmación. Sin embargo, no puedo dejar de aludir al trabajo de Irene Vallejo, en el que señala que no está tan claro, a pesar de lo que comúnmente se ha dicho, que Zorrilla mintiera o se equivocara cuando se refería a esa “mala refundición de Solís”. En efecto, poco antes, en ese mismo teatro de la Cruz, se había puesto en escena <hi rend="italic">No hay plazo que no se cumpla</hi>…, en una versión en cinco actos, que muy probablemente no se correspondía con la versión de Antonio Zamora, sino con la de Solís. Véase Irene Vallejo (1998). Además de lo que ella explica, en la prensa de la época hay indicios que apuntan a que la atribución que hace de la obra a Solís es algo más que una mera conjetura.</note>
+						<note n="9"> El propio Zorrilla admite, en sendas declaraciones, que dos de sus leyendas, <hi rend="italic">El capitán Montoya</hi> (Zorrilla, 1943, I, 2203) y <hi rend="italic">Margarita la tornera</hi> son el “embrión” de su <hi rend="italic">Tenorio</hi> (Zorrilla, 1943, I, 2209). Lo cierto es que un rápido recorrido por sus textos permite reconocer el tema del perdón como motivo casi obsesivo. Por otra parte, en su nota a la leyenda <hi rend="italic">Recuerdos de Valladolid</hi>, incluida en el volumen de <hi rend="italic">Obras completas</hi> (1884) con el nuevo título —y significativo— de <hi rend="italic">Justicia de Dios</hi>, escribe: “Encerrada sistemáticamente mi inspiración en el estrecho círculo de mis recuerdos, y dirigidas todas mis poesías escritas desde 1837 al 45 por una misma senda y a un mismo fin, a borrar de la memoria de mi padre el crimen de mi fuga del paterno hogar, y a alcanzarme de él su perdón y el derecho de volver a vivir y morir en su compañía bajo el techo de mi solariega casa, en todos los argumentos de mis leyendas hay algo <hi rend="italic">destinado no más</hi> que a herir en mi favor los sentimientos de mi padre, y a ser <hi rend="italic">no más</hi> por él bien comprendido y tenido en cuenta” (Zorrilla, 1943, I, 2197).</note>
+						<note n="10"> “Cuatro palabras sobre mi Don Juan”, (Zorrilla, 1943, II, 1805).</note>
+						<note n="11"> Martínez Olmedilla (1947, 11).</note>
+						<note n="12"> En la mencionada nota a <hi rend="italic">Justicia de Dios</hi>, un poco más adelante, recordaba cómo para su padre solo resultaban de provecho las obras de contenido religioso o legal: “Las poesías contaban entre los libros inútiles; y hoy tengo para mí que no iban en semejante juicio descaminados” (Zorrilla, 1943, I, 2198).</note>
+						<note n="13"> “Cuatro palabras sobre mi <hi rend="italic">Don Juan Tenorio</hi>”, <hi rend="italic">Recuerdos del tiempo viejo</hi>, capítulo XVIII (Zorrilla, 1943, II, 1807).</note>
+						<note n="14"> Me pregunto, a este respecto, si habrá más de una versión de la edición de Repullés, porque el texto que describe no siempre se corresponde con el de la que yo he manejado.</note>
+						<note n="15"> Accesible en http://www.cervantesvirtual.com/bib_autor/zorrilla/pcuartonivel.jsp?conten=bibliografia_autor</note>
+						<note n="16"> Las páginas que siguen son una síntesis de un trabajo titulado “Un par de apuntes en torno a la tradición textual del <hi rend="italic">Tenorio</hi> de Zorrilla”, de próxima publicación.</note>
+						<note n="17"> El ejemplar, Ms. 393 de la Biblioteca de la Real Academia Española, lo componen 91 folios en papel de 23 x 17 cm., precedidos de 3 hojas y seguidos de otras 4, solo parcialmente numerados, y encuadernados en piel, según informa la entrada correspondiente al <hi rend="italic">Catálogo de manuscritos de la Real Academia Española</hi>, coordinado por Carmen Crespo Tobarra (1991), donde se describen otros detalles, como la nota que figura en la primera hoja de guarda: “Nº 2002 Índice. Don Juan Tenorio. Zorrilla, Don José. Manuscrito original de puño y letra del autor, regalo del mismo, con dedicatoria, a D. Aureliano Fernández-Guerra. Fecha del manuscrito: Madrid, 21 de febrero 1844. Íd. de la dedicatoria: 27 Abril 1844”.</note>
+						<note n="18"> La advertencia del colofón dice así: “Este drama, que pertenece a la Galería Dramática, es propiedad del Editor de los teatros moderno, antiguo, español y extranjero, quien perseguirá ante la ley al que le imprima o represente en algún teatro del reino sin recibir para ello su autorización, según previene la Real Orden inserta en la <hi rend="italic">Gaceta</hi> de 8 de mayo de 1837, y la de 16 de abril de 1839, relativas a la propiedad de las obras dramáticas”.</note>
+						<note n="19"> Véase <hi rend="italic">Recuerdos del tiempo viejo</hi> (Zorrilla, 1943), donde se recogen numerosas anécdotas al respecto, especialmente en la parte que Zorrilla titula “De cómo se escribieron y representaron algunas de mis obras dramáticas”.</note>
+						<note n="20"> En su edición de <hi rend="italic">Cada cual con su razón</hi>, que incluye la reproducción facsimilar del autógrafo, Manrique apunta ya en esta dirección y, al referirse a B, explica: “Es la que más ha interesado a la crítica, dado que fue preparada durante la estancia de Zorrilla en la capital francesa y fue autentificada y legitimada el 1 de agosto de 1851 por el mismo autor. Alonso Cortés consignará en la suya, en 1943, que ‘a su texto nos atenemos, pues el propio Zorrilla, que estaba en París, pudo hacer correcciones y enmiendas respecto a las primeras ediciones de Madrid’. Prudentemente, Alonso Cortés ha utilizado un verbo de posibilidad (pudo). Por mi parte, sospecho que la magnífica edición parisina tuvo mucha menos atención personal del autor de lo que a menudo pueda suponerse. O, de otro modo, que si la tuvo, fue de manera perfunctoria, dado el ‘trato poco lucrativo’ hecho con Baudry y que la principal razón —‘que mi padre leyera mi nombre en el catálogo de los primeros escritores de Europa’ (Zorrilla, 1943, II, pág. 1833)— se había extinguido el 16 de octubre de 1849, tras lo cual —dice— ‘mi cerebro se entenebró y no volví a tener rumbo ni a proponerme fin en el camino de la vida’ (Zorrilla, 1943, II, pág. 1875). […] El propio Zorrilla, abriendo el tomo I parisino por la primera página, declara que ‘me he limitado a revisar en su totalidad y a corregir defectos tipográficos de la primera’. No hay razón para entender más, aunque sí para entender menos. En más de una ocasión ha insistido en que no corrige sus obras impresas (Zorrilla, 1943, I, pág. 2201) o en que lleva sin leerlas ‘cuarenta y pico de años’ (Zorrilla, 1943, I, 2216). En el mismo año de 1852 está viajando por Bélgica y en la imprenta de Pillet Fils Ainé están a punto ya los dos tomos de Granada. Zorrilla se siente, por otro lado, sumamente abatido y confiesa que le asaltan pertinaces pensamientos de alejarse definitivamente de todo y arrojarse a las cenagosas aguas del Sena (Zorrilla, 1943, II, pág. 1875). No parecen las circunstancias más adecuadas para una labor de corrección matizada que requiere un máximo de atención, interés y sosiego” (Zorrilla, 1997, págs. 14-15).</note>
+						<note n="21"> Cuando aludo a intervenciones demasiado importantes como para proceder de mano distinta de la del autor, me refiero a casos como el añadido de nada menos que un verso completo, el 348 <hi rend="italic">así, como a la deshecha</hi>, necesario para no romper la rima <hi rend="italic">e</hi>-<hi rend="italic">a</hi> del romance, pero que faltaba en las dos ediciones anteriores; quizá Zorrilla, consciente de esa ruptura de la rima, podría haber tenido un interés especial en hacer que ese cambio concreto se introdujera en B. Menos importante, pero igualmente necesaria por una cuestión formal, es la variante que encontramos en el v. 3663: en M no había problema, ya que era un octosílabo correcto <hi rend="italic">está llegándose ya</hi>; R, seguramente por descuido del copista, lee <hi rend="italic">está llegando ya</hi>, convirtiéndolo en un heptasílabo, es decir, rompiendo la métrica del pasaje; B corregirá con <hi rend="italic">está cumpliéndose ya</hi>.</note>
+						<note n="22"> El ejemplo más claro es el del v. 1239, en el que se convierte en exclamación la respuesta de Brígida a don Juan, que le ha preguntado, en el verso anterior, ¿<hi rend="italic">Qué hiciste</hi>?, a lo que ella responde <hi rend="italic">Cuanto me ha dicho vuestro paje</hi>, es decir, ‘lo que me ha dicho vuestro paje’, pero en ningún caso puede tratarse de una exclamación ¡<hi rend="italic">Cuánto me ha dicho vuestro paje</hi>!; es posible que esta única variante sea prueba suficiente de que el corrector no es, al menos en este caso, Zorrilla, pues traiciona claramente el sentido del texto, revelando un evidente fallo en la comprensión del mismo.</note>
+						<note n="23"> Ésa fue la última que se editó en vida de Zorrilla, si bien ello no tiene mayor relevancia, pues que, seguramente, nada tuvo que ver con ella el autor. En general, sigue al pie de la letra la de 1883, con la excepción de la acotación al v. 2617, donde dice (<hi rend="italic">Asomándose al balcón</hi>.) —por cierto, igual que lo copiado por Luis Valdés—, en lugar de (<hi rend="italic">Asomando al balcón</hi>).</note>
+						<note n="24"> En estos dos casos —<hi rend="italic">orgia</hi> y <hi rend="italic">homilia</hi>— se trata de pronunciaciones apegadas a la acentuación original del griego, todavía en uso en la primera mitad del s. XIX.</note>
+					</div>
+				</back>
+			</text>
+			<text type="pictures">
+				<front>
+					<div type="cover"></div>
+				</front>
+				<body>
+					<div></div>
+				</body>
+			</text>
+			<text type="literary-text">
+				<front>
+					<div type="cover">
+						<head>Don Juan Tenorio </head>
+
+						<head>Drama religioso—fantástico en dos partes</head>
+
+						<head>José Zorrilla</head>
+
+						<p>Madrid, 21 de febrero de 1844</p>
+					</div>
+					<div>
+						<castList>
+							<head>Personajes de todo el drama</head>
+
+							<castItem>Don Juan Tenorio</castItem>
+							<castItem>Don Luis Mejía</castItem>
+							<castItem>Don Gonzalo de Ulloa, comendador de Calatrava</castItem>
+							<castItem>Don Diego Tenorio</castItem>
+							<castItem>Doña Inés de Ulloa</castItem>
+							<castItem>Doña Ana de Pantoja</castItem>
+							<castItem>Cristófano Buttarelli</castItem>
+							<castItem>Marcos Ciutti</castItem>
+							<castItem>Brígida</castItem>
+							<castItem>Pascual</castItem>
+							<castItem>El Capitán Centellas</castItem>
+							<castItem>Don Rafael Avellaneda</castItem>
+							<castItem>Lucía</castItem>
+							<castItem>La abadesa de las Calatravas de Sevilla</castItem>
+							<castItem>La tornera de ídem</castItem>
+							<castItem>Gastón</castItem>
+							<castItem>Miguel</castItem>
+							<castItem>Un escultor</castItem>
+							<castItem>Alguacil</castItem>
+							<castItem>1ºAlguacil</castItem>
+							<castItem>2ºUn paje (que no habla)</castItem>
+							<castItem>La estatua de don Gonzalo (el mismo don Gonzalo)</castItem>
+							<castItem>La sombra de doña Inés (la misma doña Inés)</castItem>
+
+							<castItem>Caballeros, sevillanos, encubiertos, curiosos, esqueletos, estatuas, ángeles, sombras, justicia y pueblo.</castItem>
+						</castList>
+						<stage>La acción en Sevilla, por los años de 1545, últimos del emperador Carlos V. Los cuatro primeros actos pasan en una sola noche. Los tres restantes, cinco años después y en otra noche.<ref n="1" /></stage>
+					</div>
+				</front>
+				<body rend="theater">
+						<div type="act">
+							<head>Acto I. La sombra de doña Inés</head>
+							<stage>Don Juan, el Capitán Centellas, don Rafael de Avellaneda, un Escultor, la Sombra de doña Inés.</stage>
+
+							<stage>Panteón de la familia Tenorio. El teatro representa un magnífico cementerio, hermoseado a manera de jardín. En primer término, aislados y de bulto, los sepulcros de don Gonzalo de Ulloa, de doña Inés y de don Luis Mejía, sobre los cuales se ven sus estatuas de piedra. El sepulcro de don Gonzalo, a la derecha, y su estatua de rodillas; el de don Luis, a la izquierda, y su estatua también de rodillas; el de doña Inés, en el centro, y su estatua de pie. En segundo término, otros dos sepulcros en la forma que convenga. Y, en tercer término y en puesto elevado, el sepulcro y la estatua del fundador, don Diego Tenorio, en cuya figura remata la perspectiva de los sepulcros. Una pared llena de nichos y lápidas circuye el cuadro hasta el horizonte. Dos llorones a cada lado de la tumba de doña Inés, dispuestos a servir de la manera que a su tiempo exige el juego escénico. Cipreses y flores de todas clases embellecen la decoración, que no debe tener nada de horrible. La acción se supone en una tranquila noche de verano y alumbrada por una clarísima luna.</stage>
+
+							<div type="scene">
+								<head>Escena 1ª </head>
+								<stage>El escultor, disponiéndose a marchar.</stage>
+
+								<sp>
+									<speaker>Escultor</speaker>
+									<l n="2640">Pues señor, es cosa hecha.</l>
+									<l>El alma del buen don Diego</l>
+									<l>puede, a mi ver, con sosiego</l>
+									<l>reposar muy satisfecha.</l>
+									<l>La obra está ya rematada</l>
+									<l n="2645">con cuanta suntuosidad</l>
+									<l>su postrera voluntad</l>
+									<l>dejó al mundo encomendada.</l>
+									<l>Y ya quisieran —¡pardiez!—</l>
+									<l>todos los ricos que mueren</l>
+									<l n="2650">que su voluntad cumplieren</l>
+									<l>los vivos como esta vez.</l>
+									<l>Mas ya de marcharme es hora.</l>
+									<l>Todo corriente lo dejo</l>
+									<l>y de Sevilla me alejo</l>
+									<l n="2655">al despuntar de la aurora.</l>
+									<l>Ah, mármoles que mis manos</l>
+									<l>pulieron con tanto afán, </l>
+									<l>mañana os contemplarán</l>
+									<l>los absortos sevillanos</l>
+									<l n="2660">y, al mirar de este panteón</l>
+									<l>las gigantes proporciones,</l>
+									<l>tendrán las generaciones</l>
+									<l>la nuestra en veneración.</l>
+									<l>Mas, yendo y viniendo días,</l>
+									<l n="2665">se hundirán unas tras otras</l>
+									<l>mientra en pie estaréis vosotras,</l>
+									<l>póstumas memorias mías.</l>
+									<l>Oh, frutos de mis desvelos,</l>
+									<l>peñas a quien yo animé	</l>
+									<l n="2670">y por quienes arrostré</l>
+									<l>la intemperie de los cielos,</l>
+									<l>el que forma y ser os dio</l>
+									<l>va ya a perderos de vista;</l>
+									<l>velad mi gloria de artista,</l>
+									<l n="2675">pues viviréis más que yo.</l>
+									<l>Mas, ¿quién llega? </l>
+								</sp>
+							</div>
+							<div type="scene">
+								<head>Escena 2ª </head>
+								<stage>El escultor y don Juan, que entra embozado.</stage>
+
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ns" rend="ws-4">Caballero…</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">Dios le guarde.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ns" rend="ws-4">Perdonad,</l>
+									<l part="y-ne">mas ya es tarde y…</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Aguardad</l>
+									<l>un instante, porque quiero</l>
+									<l part="y-ne">que me expliquéis…</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ns" rend="ws-4" n="2680">¿Por acaso</l>
+									<l part="y-ne">sois forastero?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Años ha</l>
+									<l>que falto de España ya</l>
+									<l>y me chocó el ver al paso,</l>
+									<l>cuando a esas verjas llegué,</l>
+									<l n="2685">que encontraba este recinto</l>
+									<l>enteramente distinto</l>
+									<l>de cuando yo lo dejé.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>¡Ya lo creo! Como que esto</l>
+									<l>era entonces un palacio</l>
+									<l n="2690">y hoy es panteón el espacio</l>
+									<l>donde aquel estuvo puesto.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¡El palacio hecho panteón!</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>Tal fue de su antiguo dueño</l>
+									<l>la voluntad y fue empeño</l>
+									<l n="2695">que dio al mundo admiración.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¡Y por Dios que es de admirar!</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>Es una famosa historia</l>
+									<l>a la cual debo mi gloria.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¿Me la podéis relatar?</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l n="2700">Sí, aunque muy sucintamente,</l>
+									<l part="y-ne">pues me aguardan.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Sea.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ns" rend="ws-7">Oíd</l>
+									<l part="y-ne">la verdad pura.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Decid,</l>
+									<l>que me tenéis impaciente.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>Pues habitó esta ciudad</l>
+									<l n="2705">y este palacio heredado</l>
+									<l>un varón muy estimado</l>
+									<l>por su noble calidad.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">Don Diego Tenorio.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ns" rend="ws-4">El mismo.</l>
+									<l>Tuvo un hijo este don Diego</l>
+									<l n="2710">peor mil veces que el fuego,</l>
+									<l>un aborto del abismo;</l>
+									<l>un mozo sangriento y cruel,</l>
+									<l>que con tierra y cielo en guerra,</l>
+									<l>dicen que nada en la tierra</l>
+									<l n="2715">fue respetado por él;</l>
+									<l>quimerista, seductor</l>
+									<l>y jugador con ventura,</l>
+									<l>no hubo para él segura</l>
+									<l>vida ni hacienda ni honor.</l>
+									<l n="2720">Así le pinta la historia	</l>
+									<l>y, si tal era, por cierto</l>
+									<l>que obró cuerdamente el muerto</l>
+									<l>para ganarse la gloria.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">¿Pues cómo obró?</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ns" rend="ws-4">Dejó entera</l>
+									<l n="2725">su hacienda al que la empleara</l>
+									<l>en un panteón que asombrara</l>
+									<l>a la gente venidera.</l>
+									<l>Mas con condición que dijo</l>
+									<l>que se enterraran en él</l>
+									<l n="2730">los que a la mano crüel</l>
+									<l>sucumbieron de su hijo.</l>
+									<l>Y mirad en derredor</l>
+									<l>los sepulcros de los más</l>
+									<l part="y-ne">de ellos.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">¿Y vos sois, quizás,</l>
+									<l part="y-ne">el conserje?</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ns" rend="ws-4" n="2735">El escultor</l>
+									<l>de estas obras encargado.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Ah, ¿y las habéis concluido?</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>Ha un mes, mas me he detenido</l>
+									<l>hasta ver ese enverjado</l>
+									<l n="2740">colocado en su lugar,</l>
+									<l>pues he querido impedir</l>
+									<l>que pueda el vulgo venir</l>
+									<l>este sitio a profanar.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<stage>(Mirando.)</stage>
+									<l>¡Bien empleó sus riquezas</l>
+									<l part="y-ne">el difunto!</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ns" rend="ws-4" n="2745">¡Yo lo creo!</l>
+									<l part="y-ne">Miradle allí.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Ya le veo.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ne">¿Le conocisteis?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Sí.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ns" rend="ws-7">Piezas</l>
+									<l>son todas muy parecidas</l>
+									<l>y a conciencia trabajadas.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="2750">¡Cierto que son extremadas!</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>¿Os han sido conocidas</l>
+									<l part="y-ne">las personas?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Todas ellas.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ne">¿Y os parecen bien?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Sin duda,</l>
+									<l>según lo que a ver me ayuda</l>
+									<l n="2755">el fulgor de las estrellas.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>Oh, se ven como de día</l>
+									<l>con esta luna tan clara.</l>
+									<l>Esta es mármol de Carrara.</l>
+									<stage>(Señalando a la de don Luis.)</stage>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¡Buen busto es el de Mejía!</l>
+									<stage>(Contempla las estatuas, unas tras otras.)<ref n="51" /></stage>
+									<l n="2760">¡Hola! Aquí el Comendador</l>
+									<l>se representa muy bien.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>Yo quise poner también</l>
+									<l>la estatua del matador</l>
+									<l>entre sus víctimas pero</l>
+									<l n="2765">no pude a manos haber</l>
+									<l>su retrato… Un Lucifer</l>
+									<l>dicen que era el caballero</l>
+									<l part="y-ne">don Juan Tenorio.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">¡Muy malo!</l>
+									<l>Mas, como pudiera hablar,</l>
+									<l n="2770">le había algo de abonar</l>
+									<l>la estatua de don Gonzalo.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>¿También habéis conocido</l>
+									<l part="y-ne">a don Juan?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Mucho.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ns" rend="ws-7">Don Diego</l>
+									<l>le abandonó, desde luego,</l>
+									<l part="y-ne">desheredándole.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4" n="2775">Ha sido</l>
+									<l>para don Juan poco daño</l>
+									<l>ese, porque la fortuna</l>
+									<l>va tras él desde la cuna.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ne">Dicen que ha muerto.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-3">Es engaño. </l>
+									<l part="y-ne">Vive.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ns" rend="ws-4">¿Y dónde?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-7" n="2780">Aquí, en Sevilla.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>¿Y no teme que el furor</l>
+									<l part="y-ne">popular…?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">En su valor</l>
+									<l>no ha echado el miedo semilla.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>Mas, cuando vea el lugar</l>
+									<l n="2785">en que está ya convertido</l>
+									<l>el solar que suyo ha sido,</l>
+									<l>no osará en Sevilla estar.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Antes ver tendrá a fortuna</l>
+									<l>en su casa reunidas</l>
+									<l n="2790">personas de él conocidas,</l>
+									<l>puesto que no odia a ninguna.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>¿Creéis que ose aquí venir?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¿Por qué no? Pienso, a mi ver,</l>
+									<l>que donde vino a nacer</l>
+									<l n="2795">justo es que venga a morir.</l>
+									<l>Y, pues le quitan su herencia</l>
+									<l>para enterrar a estos bien,</l>
+									<l>a él es muy justo también</l>
+									<l>que le entierren con decencia.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l n="2800">Solo a él le está prohibida</l>
+									<l>en este panteón la entrada.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Trae don Juan muy buena espada</l>
+									<l>y no sé quién se lo impida.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>¡Jesús! ¡Tal profanación!</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="2805">Hombre es don Juan que, a querer,</l>
+									<l>volverá el palacio a hacer</l>
+									<l>encima del panteón.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>¿Tan audaz ese hombre es</l>
+									<l>que aún a los muertos se atreve?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="2810">¿Qué respetos gastar debe</l>
+									<l>con los que tendió a sus pies?</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>¿Pero no tiene conciencia</l>
+									<l part="y-ne">ni alma ese hombre?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Tal vez no;</l>
+									<l>que al cielo una vez llamó</l>
+									<l n="2815">con voces de penitencia</l>
+									<l>y el cielo, en trance tan fuerte</l>
+									<l>allí mismo le metió,</l>
+									<l>que a dos inocentes dio,</l>
+									<l>para salvarse, la muerte.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l n="2820">¡Qué monstruo, supremo Dios!</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Podéis estar convencido</l>
+									<l>de que Dios no le ha querido.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ne">Tal será.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Mejor que vos.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>(¿Y quién será el que a don Juan</l>
+									<l n="2825">abona con tanto brío?)</l>
+									<l>Caballero, a pesar mío,</l>
+									<l>como aguardándome están…</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Idos, pues, enhorabuena.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ne">He de cerrar.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">No cerréis,</l>
+									<l part="y-ne">y marchaos.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ns" rend="ws-4" n="2830">¿Mas no veis…?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Veo una noche serena</l>
+									<l>y un lugar que me acomoda</l>
+									<l>para gozar su frescura</l>
+									<l>y aquí he de estar a mi holgura,	</l>
+									<l n="2835">si pesa a Sevilla toda.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>(¿Si acaso padecerá</l>
+									<l>de locura desvaríos?)</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<stage>(irigiéndose a las estatuas.)<ref n="52" /></stage>
+									<l>Ya estoy aquí, amigos míos.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>¿No lo dije? Loco está.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="2840">Mas —¡cielos!—, ¿qué es lo que veo?</l>
+									<l>¡O es ilusión de mi vista</l>
+									<l>o a doña Inés el artista</l>
+									<l>aquí representa creo!</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ne">Sin duda.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">¿También murió?</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l n="2845">Dicen que de sentimiento</l>
+									<l>cuando, de nuevo, al convento</l>
+									<l>abandonada volvió</l>
+									<l part="y-ne">por don Juan.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">¿Y yace aquí?</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ne">Sí.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">¿La visteis muerta vos?</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ne">Sí.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">¿Cómo estaba?</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ns" rend="ws-7" n="2850">¡Por Dios</l>
+									<l>que dormida la creí!</l>
+									<l>La muerte fue tan piadosa</l>
+									<l>con su cándida hermosura</l>
+									<l>que la envió con la frescura</l>
+									<l n="2855">y las tintas de la rosa.	</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Ah, mal la muerte podría</l>
+									<l>deshacer con torpe mano</l>
+									<l>el semblante soberano</l>
+									<l>que un ángel envidiaría.</l>
+									<l n="2860">¡Cuán bella y cuán parecida</l>
+									<l>su efigie en el mármol es!</l>
+									<l>¡Quién pudiera, doña Inés,</l>
+									<l>volver a darte la vida!</l>
+									<l>¿Es obra del cincel vuestro?</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l n="2865">Como todas las demás.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Pues bien merece algo más</l>
+									<l>un retrato tan maestro.</l>
+									<l part="y-ne">Tomad.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ns" rend="ws-4">¿Qué me dais aquí?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">¿No lo veis?</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ns" rend="ws-4">Mas, caballero,</l>
+									<l part="y-ne">¿por qué razón…?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4" n="2870">Porque quiero</l>
+									<l>yo que os acordéis de mí.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>Mirad que están bien pagadas.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Así lo estarán mejor.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>Mas vamos de aquí, señor,</l>
+									<l n="2875">que aún las llaves entregadas</l>
+									<l>no están y, al salir la aurora,</l>
+									<l>tengo que partir de aquí.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Entregádmelas a mí</l>
+									<l>y marchaos desde ahora.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ne">¿A vos?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4" n="2880">A mí. ¿Qué dudáis?</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>Como no tengo el honor…</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Ea, acabad, escultor.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l>Si el nombre, al menos, que usáis</l>
+									<l part="y-ne">supiera…</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">¡Viven los cielos!,</l>
+									<l n="2885">dejad a don Juan Tenorio</l>
+									<l>velar el lecho mortuorio</l>
+									<l>en que duermen sus abuelos.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<l part="y-ne">¡Don Juan Tenorio!</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Yo soy</l>
+									<l>y, si no me satisfaces,</l>
+									<l n="2890">compañía juro que haces</l>
+									<l>a tus estatuas desde hoy.</l>
+								</sp>
+								<sp>
+									<speaker>Escultor</speaker>
+									<stage>(Alargándole las llaves.)</stage>
+									<l>Tomad. (No quiero la piel</l>
+									<l>dejar aquí entre sus manos.</l>
+									<l>Ahora que los sevillanos</l>
+									<l n="2895">se las compongan con él.)</l>
+									<stage>(Vase.)</stage>
+								</sp>
+							</div>
+							<div type="scene">
+								<head>Escena 3ª </head>
+								<stage>Don Juan.</stage>
+
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Mi buen padre empleó en esto</l>
+									<l>entera la hacienda mía.</l>
+									<l>Hizo bien: yo, al otro día,</l>
+									<l>la hubiera a una carta puesto.</l>
+									<stage>(Pausa.)</stage>
+									<l n="2900">No os podréis quejar de mí,</l>
+									<l>vosotros a quien maté:</l>
+									<l>si buena vida os quité,</l>
+									<l>buena sepultura os di.</l>
+									<l>¡Magnífica es, en verdad,</l>
+									<l n="2905">la idea de tal panteón!</l>
+									<l>Y siento que el corazón</l>
+									<l>me halaga esta soledad.</l>
+									<l>¡Hermosa noche, ay de mí!</l>
+									<l>¡Cuántas, como esta, tan puras</l>
+									<l n="2910">en infames aventuras</l>
+									<l>desatinado perdí!</l>
+									<l>¡Cuántas, al mismo fulgor</l>
+									<l>de esa luna transparente,</l>
+									<l>arranqué a algún inocente</l>
+									<l n="2915">la existencia o el honor!</l>
+									<l>Sí, después de tantos años,</l>
+									<l>cuyos recuerdos espantan,</l>
+									<l>siento que en mí se levantan</l>
+									<l>pensamientos en mí extraños.</l>
+									<l n="2920">Oh, acaso me los inspira,</l>
+									<l>desde el cielo en donde mora,</l>
+									<l>esa sombra protectora</l>
+									<l>que por mi mal no respira.</l>
+									<stage>(Se dirige a la estatua de doña Inés, hablándola con respeto.)</stage>
+									<l>¡Mármol en quien doña Inés</l>
+									<l n="2925">en cuerpo sin alma existe,</l>
+									<l>deja que el alma de un triste</l>
+									<l>llore un momento a tus pies!</l>
+									<l>De azares mil a través</l>
+									<l>conservé tu imagen pura</l>
+									<l n="2930">y, pues la mala ventura</l>
+									<l>te asesinó de don Juan,</l>
+									<l>contempla con cuánto afán</l>
+									<l>vendrá hoy a tu sepultura.</l>
+									<l>En ti nada más pensó</l>
+									<l n="2935">desde que se fue de ti;</l>
+									<l>y, desde que huyó de aquí,</l>
+									<l>solo en volver meditó.</l>
+									<l>Don Juan tan solo esperó</l>
+									<l>de doña Inés su ventura</l>
+									<l n="2940">y, hoy que en pos de tu hermosura</l>
+									<l>vuelve el infeliz don Juan,</l>
+									<l>mira cuál será su afán</l>
+									<l>al dar con tu sepultura.</l>
+									<l>Inocente doña Inés,</l>
+									<l n="2945">cuya hermosa juventud</l>
+									<l>encerró en el ataúd</l>
+									<l>quien llorando está a tus pies,</l>
+									<l>si, de esa piedra a través,	</l>
+									<l>puedes mirar la amargura</l>
+									<l n="2950">del alma que tu hermosura</l>
+									<l>adoró con tanto afán,</l>
+									<l>prepara un lado a don Juan</l>
+									<l>en tu misma sepultura.</l>
+									<l>Dios te crió por mi bien,</l>
+									<l n="2955">por ti pensé en la virtud,</l>
+									<l>adoré su excelsitud</l>
+									<l>y anhelé su santo Edén.</l>
+									<l>Sí, aún hoy mismo, en ti también</l>
+									<l>mi esperanza se asegura</l>
+									<l n="2960">y oigo una voz que murmura</l>
+									<l>en derredor de don Juan</l>
+									<l>palabras con que su afán</l>
+									<l>se calma en tu sepultura.</l>
+									<l>Oh, doña Inés de mi vida,</l>
+									<l n="2965">si esa voz con quien deliro</l>
+									<l>es el postrimer suspiro</l>
+									<l>de tu eterna despedida,</l>
+									<l>si es que de ti desprendida</l>
+									<l>llega esa voz a la altura</l>
+									<l n="2970">y hay un Dios tras de esa anchura</l>
+									<l>por donde los astros van,</l>
+									<l>dile que mire a don Juan</l>
+									<l>llorando en tu sepultura.</l>
+									<stage>(Se apoya en el sepulcro ocultando el rostro y, mientras se conserva en esta postura, un vapor que se levanta del sepulcro oculta la estatua de doña Inés. Cuando el vapor se desvanece, la estatua ha desaparecido. Don Juan sale de su enajenamiento.)</stage>
+									<l>Este mármol sepulcral</l>
+									<l n="2975">adormece mi vigor</l>
+									<l>y sentir creo en redor</l>
+									<l>un ser sobrenatural.</l>
+									<l>Mas —¡cielos!— el pedestal</l>
+									<l>no mantiene su escultura…</l>
+									<l n="2980">¿Qué es esto? ¿Aquella figura</l>
+									<l>fue creación de mi afán?</l>
+								</sp>
+							</div>
+							<div type="scene">
+								<head>Escena 4ª </head>
+								<stage>Don Juan y la sombra de doña Inés .</stage>
+
+								<stage>El llorón y las flores de la izquierda del sepulcro de doña Inés se cambian en una apariencia, dejando ver, dentro de ella y en medio de resplandores, la sombra de doña Inés.</stage>
+
+								<sp>
+									<speaker>Sombra</speaker>
+									<l>No, mi espíritu, don Juan,</l>
+									<l>te aguardó en mi sepultura.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<stage>(De rodillas.)</stage>
+									<l>¡Doña Inés! ¡Sombra querida,</l>
+									<l n="2985">alma de mi corazón, </l>
+									<l>no me quites la razón</l>
+									<l>si me has de dejar la vida!</l>
+									<l>Si eres imagen fingida,</l>
+									<l>solo hija de mi locura,</l>
+									<l n="2990">no aumentes mi desventura</l>
+									<l>burlando mi loco afán.</l>
+								</sp>
+								<sp>
+									<speaker>Sombra</speaker>
+									<l>Yo soy doña Inés, don Juan,</l>
+									<l>que te oyó en su sepultura.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">¿Conque vives?</l>
+								</sp>
+								<sp>
+									<speaker>Sombra</speaker>
+									<l part="y-ns" rend="ws-4">Para ti.</l>
+									<l n="2995">Mas tengo mi purgatorio</l>
+									<l>en ese mármol mortuorio</l>
+									<l>que labraron para mí.</l>
+									<l>Yo a Dios mi alma ofrecí</l>
+									<l>en precio de tu alma impura</l>
+									<l n="3000">y Dios, al ver la ternura</l>
+									<l>con que te amaba mi afán,</l>
+									<l>me dijo: “Espera a don Juan</l>
+									<l>en tu misma sepultura.</l>
+									<l>Y pues quieres ser tan fiel</l>
+									<l n="3005">a un amor de Satanás, </l>
+									<l>con don Juan te salvarás</l>
+									<l>o te perderás con él.</l>
+									<l>Por él vela, mas si cruel</l>
+									<l>te desprecia tu ternura</l>
+									<l n="3010">y en su torpeza y locura</l>
+									<l>sigue con bárbaro afán,</l>
+									<l>llévese tu alma don Juan</l>
+									<l>de tu misma sepultura”.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<stage>(Fascinado.)</stage>
+									<l>¡Yo estoy soñando quizás</l>
+									<l n="3015">con las sombras de un Edén!</l>
+								</sp>
+								<sp>
+									<speaker>Sombra</speaker>
+									<l>No. Y ve que, si piensas bien,</l>
+									<l>a tu lado me tendrás; </l>
+									<l>mas, si obras mal, causarás</l>
+									<l>nuestra eterna desventura.</l>
+									<l n="3020">Y medita con cordura </l>
+									<l>que es esta noche, don Juan,</l>
+									<l>el espacio que nos dan</l>
+									<l>para buscar sepultura.</l>
+									<l>Adiós, pues. Y, en la ardua lucha</l>
+									<l n="3025">en que va a entrar tu existencia,</l>
+									<l>de tu dormida conciencia</l>
+									<l>la voz que va a alzarse escucha,</l>
+									<l>porque es de importancia mucha</l>
+									<l>meditar con sumo tiento</l>
+									<l n="3030">la elección de aquel momento</l>
+									<l>que, sin poder evadirnos,</l>
+									<l>al mal o al bien ha de abrirnos</l>
+									<l>la losa del monumento.</l>
+									<stage>(Se cierra la apariencia, desaparece doña Inés y todo queda como al principio del acto, menos la estatua de doña Inés, que no vuelve a su lugar. Don Juan queda atónito.)</stage>
+
+
+								</sp>
+							</div>
+							<div type="scene">
+								<head>Escena 5ª </head>
+								<stage>Don Juan.</stage>
+
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¡Cielos! ¿Qué es lo que escuché?</l>
+									<l n="3035">¡Hasta los muertos así</l>
+									<l>dejan sus tumbas por mí!</l>
+									<l>Mas sombra, delirio fue;</l>
+									<l>yo en mi mente lo forjé;</l>
+									<l>la imaginación le dio</l>
+									<l n="3040">la forma en que se mostró</l>
+									<l>y, ciego, vine a creer</l>
+									<l>en la realidad de un ser</l>
+									<l>que mi mente fabricó.</l>
+									<l>Mas nunca de modo tal</l>
+									<l n="3045">fanatizó mi razón</l>
+									<l>mi loca imaginación</l>
+									<l>con su poder ideal.</l>
+									<l>Sí, algo sobrenatural</l>
+									<l>vi en aquella doña Inés</l>
+									<l n="3050">tan vaporosa a través</l>
+									<l>aun de esa enramada espesa.</l>
+									<l>Mas —¡bah!— circunstancia es esa</l>
+									<l>que propia de sombra es.</l>
+									<l>¿Qué más diáfano y sutil</l>
+									<l n="3055">que las quimeras de un sueño?</l>
+									<l>¿Dónde hay nada más risueño,</l>
+									<l>más flexible y más gentil?</l>
+									<l>¿Y no pasa veces mil</l>
+									<l>que, en febril exaltación,</l>
+									<l n="3060">ve nuestra imaginación</l>
+									<l>como ser y realidad</l>
+									<l>la vacía vanidad</l>
+									<l>de una anhelada ilusión?</l>
+									<l>Sí —¡por Dios!— delirio fue…</l>
+									<l n="3065">Mas su estatua estaba aquí.</l>
+									<l>Sí, yo la vi y la toqué</l>
+									<l>y aun en albricias le di</l>
+									<l>al escultor no sé qué.</l>
+									<l>Y ahora solo el pedestal</l>
+									<l n="3070">veo en la urna funeral. </l>
+									<l>¡Cielos! ¿La mente me falta</l>
+									<l>o de improviso me asalta</l>
+									<l>algún vértigo infernal?</l>
+									<l>¿Qué dijo aquella visión?</l>
+									<l n="3075">¡Oh! Yo la oí claramente</l>
+									<l>y su voz triste y doliente</l>
+									<l>resonó en mi corazón.</l>
+									<l>Ah, y breves las horas son</l>
+									<l>del plazo que nos augura…</l>
+									<l n="3080">No, no, de mi calentura</l>
+									<l>delirio insensato es…</l>
+									<l>Mi fiebre fue a doña Inés</l>
+									<l>quien abrió la sepultura.</l>
+									<l>¡Pasad y desvaneceos;</l>
+									<l n="3085">pasad, siniestros vapores</l>
+									<l>de mis perdidos amores	</l>
+									<l>y mis fallidos deseos!</l>
+									<l>¡Pasad, vanos devaneos	</l>
+									<l>de un amor muerto al nacer!</l>
+									<l n="3090">¡No me volváis a traer</l>
+									<l>entre vuestro torbellino</l>
+									<l>ese fantasma divino</l>
+									<l>que recuerda a una mujer!</l>
+									<l>Ah, estos sueños me aniquilan,</l>
+									<l n="3095">mi cerebro se enloquece…</l>
+									<l>y esos mármoles parece</l>
+									<l>que estremecidos vacilan… </l>
+									<stage>(Las estatuas se mueven lentamente y vuelven la cabeza hacia él.)</stage>
+									<l>Sí, sí, sus bustos oscilan,</l>
+									<l>su vago contorno medra…</l>
+									<l n="3100">Pero don Juan no se arredra.</l>
+									<l>¡Alzaos, fantasmas vanos,</l>
+									<l>y os volveré con mis manos</l>
+									<l>a vuestros lechos de piedra!</l>
+									<l>No, no me causan pavor</l>
+									<l n="3105">vuestros semblantes esquivos;</l>
+									<l>jamás, ni muertos ni vivos,</l>
+									<l>humillaréis mi valor;</l>
+									<l>yo soy vuestro matador,</l>
+									<l>como al mundo es bien notorio.</l>
+									<l n="3110">Si en vuestro alcázar mortuorio</l>
+									<l>me aprestáis venganza fiera,</l>
+									<l>daos prisa, aquí os espera</l>
+									<l>otra vez don Juan Tenorio.</l>
+
+
+								</sp>
+							</div>
+							<div type="scene">
+								<head>Escena 6ª </head>
+								<stage>Don Juan, el Capitán Centellas y Avellaneda.</stage>
+
+								<sp>
+									<speaker>Centellas</speaker>
+									<stage>(Dentro.)<ref n="53" /></stage>
+									<l>¿Don Juan Tenorio?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<stage>(Volviendo en sí.)</stage>
+									<l>	¿Qué es eso?</l>
+									<l n="3115">¿Quién me repite mi nombre?</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<stage>(Saliendo<ref n="54" />, a Centellas.)</stage>
+									<l>¿Veis a alguien?</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<stage>(Idem<ref n="55" />, a Avellaneda)</stage>
+									<l>	Sí, allí hay un hombre.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">¿Quién va?</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l part="y-ns" rend="ws-4">Él es.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<stage>(Yéndose a don Juan.)</stage>
+									<l>		Yo pierdo el seso</l>
+									<l>con la alegría. ¡Don Juan!</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l part="y-ne">¡Señor Tenorio!</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">¡Apartaos,</l>
+									<l part="y-ne">vanas sombras!</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ns" rend="ws-4" n="3120">Reportaos,</l>
+									<l>señor don Juan, los que están</l>
+									<l>en vuestra presencia ahora<ref n="56" /></l>
+									<l>no son sombras, hombres son</l>
+									<l>y hombres cuyo corazón</l>
+									<l n="3125">vuestra amistad atesora.</l>
+									<l>A la luz de las estrellas</l>
+									<l>os hemos reconocido</l>
+									<l>y un abrazo hemos venido</l>
+									<l part="y-ne">a daros.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Gracias, Centellas.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l n="3130">Mas, ¿qué tenéis? Por mi vida</l>
+									<l>que os tiembla el brazo y está</l>
+									<l>vuestra faz descolorida.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<stage>(Recobrando su aplomo.)</stage>
+									<l>La luna tal vez lo hará.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l>Mas, don Juan, ¿qué hacéis aquí?</l>
+									<l n="3135">¿Este sitio conocéis?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">¿No es un panteón?</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ns" rend="ws-4">¿Y sabéis</l>
+									<l part="y-ne">a quién pertenece?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">A mí. </l>
+									<l>Mirad a mi alrededor</l>
+									<l>y no veréis más que amigos</l>
+									<l n="3140">de mi niñez o testigos</l>
+									<l>de mi audacia y mi valor.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>Pero os oímos hablar,</l>
+									<l part="y-ne">¿con quién estabais?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Con ellos.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>¿Venís aún a escarnecellos?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="3145">No, los vengo a visitar.</l>
+									<l>Mas un vértigo insensato</l>
+									<l>que la mente me asaltó,</l>
+									<l>un momento me turbó</l>
+									<l>y a fe que me dio un mal rato.</l>
+									<l n="3150">Esos fantasmas de piedra</l>
+									<l>me amenazaban tan fieros,</l>
+									<l>que a mí acercado a no haberos</l>
+									<l part="y-ne">pronto…</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ns" rend="ws-4">¡Ja, ja, ¡ja! ¿Os arredra,</l>
+									<l>don Juan, como a los villanos,</l>
+									<l n="3155">el temor de los difuntos?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>No a fe. Contra todos juntos</l>
+									<l>tengo aliento y tengo manos.</l>
+									<l>Si volvieran a salir</l>
+									<l>de las tumbas en que están,</l>
+									<l n="3160">a las manos de don Juan</l>
+									<l>volverían a morir.</l>
+									<l>Y desde aquí en adelante</l>
+									<l>sabed, señor capitán,</l>
+									<l>que yo soy siempre don Juan</l>
+									<l n="3165">y no hay cosa que me espante.</l>
+									<l>Un vapor calenturiento</l>
+									<l>un punto me fascinó,</l>
+									<l>Centellas, mas ya pasó…</l>
+									<l>cualquiera duda un momento.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda y Centellas</speaker>
+									<l part="y-ne">Es verdad.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4" n="3170">Vamos de aquí.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>Vamos y nos contaréis</l>
+									<l>cómo a Sevilla volvéis</l>
+									<l part="y-ne">tercera vez.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Lo haré así, </l>
+									<l>si mi historia os interesa.</l>
+									<l n="3175">A fe que oírse merece, </l>
+									<l>aunque mejor me parece</l>
+									<l>que la oigáis de sobremesa,</l>
+									<l part="y-ne">¿no opináis…?</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda y Centellas</speaker>
+									<l part="y-ns" rend="ws-4">Como gustéis.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Pues bien, cenaréis conmigo</l>
+									<l part="y-ne">y en mi casa.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ns" rend="ws-4" n="3180">Pero digo, </l>
+									<l>¿es cosa de que dejéis</l>
+									<l>algún huésped por nosotros?</l>
+									<l>¿No tenéis gato encerrado?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¡Bah!, si apenas he llegado.</l>
+									<l n="3185">No habrá allí más que vosotros</l>
+									<l part="y-ne">esta noche.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ns" rend="ws-4">¿Y no hay tapada</l>
+									<l>a quien algún plantón demos?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Los tres solos cenaremos.</l>
+									<l>Digo, si de esta jornada</l>
+									<l n="3190">no quiere igualmente ser</l>
+									<l part="y-ne">alguno de estos…</l>
+									<stage>(Señalando a las estatuas de los sepulcros.)</stage>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ns" rend="ws-4">Don Juan,</l>
+									<l>dejad tranquilos yacer</l>
+									<l>a los que con Dios están.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¡Hola! Parece que vos</l>
+									<l n="3195">sois ahora el que teméis</l>
+									<l>y mala cara ponéis</l>
+									<l>a los muertos; mas, por Dios,</l>
+									<l>que, ya que de mí os burlasteis</l>
+									<l>cuando me visteis así,</l>
+									<l n="3200">en lo que penda de mí	</l>
+									<l>os mostraré cuánto errasteis.</l>
+									<l>Por mí, pues, no ha de quedar.</l>
+									<l>Y, a poder ser, estad ciertos</l>
+									<l>que cenaréis con los muertos</l>
+									<l n="3205">y os los voy a convidar.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l>Dejaos de esas quimeras.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¿Duda en mi valor ponerme</l>
+									<l>cuando hombre soy para hacerme</l>
+									<l>platos de sus calaveras?</l>
+									<l n="3210">Yo a nada tengo pavor.</l>
+									<stage>(Dirigiéndose a la estatua de don Gonzalo, que es la que tiene más cerca.)</stage>
+									<l>Tú eres el más ofendido,</l>
+									<l>mas, si quieres, te convido</l>
+									<l>a cenar, Comendador.</l>
+									<l>Que no lo puedas hacer</l>
+									<l n="3215">creo y es lo que me pesa, </l>
+									<l>mas, por mi parte, en la mesa</l>
+									<l>te haré un cubierto poner.</l>
+									<l>Y a fe que favor me harás,</l>
+									<l>pues podré saber de ti</l>
+									<l n="3220">si hay más mundo que el de aquí</l>
+									<l>y otra vida en que jamás,</l>
+									<l>a decir verdad, creí.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>Don Juan, eso no es valor:</l>
+									<l>locura, delirio es.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="3225">Como lo juzguéis mejor.</l>
+									<l>Yo cumplo así. Vamos, pues.</l>
+									<l>Lo dicho, Comendador. </l>
+
+								</sp>
+							</div>
+						</div>
+						<div type="act">
+							<head>Acto II. La estatua de don Gonzalo</head>
+							<stage>Don Juan, Centellas, Avellaneda, Ciutti, la Sombra de doña Inés, la Estatua de don Gonzalo.</stage>
+
+							<stage>Aposento de don Juan Tenorio. Dos puertas en el fondo, a derecha e izquierda, preparadas para el juego escénico del acto. Otra puerta en el bastidor que cierra la decoración por la izquierda. Ventana en el de la derecha<ref n="57" />. Al alzarse el telón están sentados a la mesa don Juan, Centellas y Avellaneda. La mesa, ricamente servida; el mantel cogido con guirnaldas de flores, etc. Enfrente del espectador, don Juan y, a su izquierda, Avellaneda; en el lado izquierdo de la mesa, Centellas y, en<ref n="58" /> el de enfrente de este, una silla y un cubierto desocupado.</stage>
+
+							<div type="scene">
+								<head>Escena 1ª </head>
+								<stage>Don Juan, el Capitán Centellas, Avellaneda, Ciutti y un paje.</stage>
+
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Tal es mi historia, señores:</l>
+									<l>pagado de mi valor,</l>
+									<l n="3230">quiso el mismo emperador</l>
+									<l>dispensarme sus favores.</l>
+									<l>Y, aunque oyó mi historia entera,</l>
+									<l>dijo: “Hombre de tanto brío</l>
+									<l>merece el amparo mío;</l>
+									<l n="3235">vuelva a España cuando quiera”.</l>
+									<l>Y heme aquí en Sevilla ya.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>¡Y con qué lujo y riqueza!</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Siempre vive con grandeza</l>
+									<l>quien hecho a grandeza está.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ne">¡A vuestra vuelta!</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4" n="3240">Bebamos.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>Lo que no acierto a creer</l>
+									<l>es cómo, llegando ayer,</l>
+									<l>ya establecido os hallamos.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Fue el adquirirme, señores,</l>
+									<l n="3245">tal casa con tal boato</l>
+									<l>porque se vendió a barato</l>
+									<l>para pago de acreedores.</l>
+									<l>Y, como al llegar aquí</l>
+									<l>desheredado me hallé,	</l>
+									<l n="3250">tal como está la compré.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ne">¿Amueblada y todo?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Sí.</l>
+									<l>Un necio que se arruinó</l>
+									<l>por una mujer vendiola.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>¿Y vendió la hacienda sola?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">Y el alma al diablo.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ns" rend="ws-4" n="3255">¿Murió?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>De repente. Y la justicia,</l>
+									<l>que iba a hacer de cualquier modo</l>
+									<l>pronto despacho de todo,</l>
+									<l>viendo que yo su codicia</l>
+									<l n="3260">saciaba, pues los dineros</l>
+									<l>ofrecía dar al punto,</l>
+									<l>cediome el caudal por junto</l>
+									<l>y estafó a los usureros.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>Y la mujer, ¿qué fue de ella?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="3265">Un escribano la pista</l>
+									<l>la siguió, pero fue lista</l>
+									<l part="y-ne">y escapó.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ns" rend="ws-4">¿Moza?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>.		Y muy bella.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>Entrar hubiera debido</l>
+									<l>en los muebles de la casa.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="3270">Don Juan Tenorio no pasa</l>
+									<l>moneda que se ha perdido.</l>
+									<l>Casa y bodega he comprado,</l>
+									<l>dos cosas que, no os asombre,</l>
+									<l>pueden bien hacer a un hombre</l>
+									<l n="3275">vivir siempre acompañado,</l>
+									<l>como lo puede mostrar</l>
+									<l>vuestra agradable presencia,</l>
+									<l>que espero que con frecuencia</l>
+									<l>me hagáis ambos disfrutar.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l n="3280">Y nos haréis honra inmensa.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">Y a mí vos. ¡Ciutti!</l>
+								</sp>
+								<sp>
+									<speaker>Ciutti</speaker>
+									<l part="y-ns" rend="ws-4">Señor.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Pon vino al Comendador.</l>
+									<stage>(Señalando al vaso del puesto vacío.)<ref n="59" /></stage>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>Don Juan, ¿aún en eso piensa</l>
+									<l part="y-ne">vuestra locura?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">¡Sí, a fe!</l>
+									<l n="3285">Que si él no puede venir</l>
+									<l>de mí no podréis decir</l>
+									<l>que en ausencia no le honré.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>¡Ja, ja, ja!, señor Tenorio,</l>
+									<l>creo que vuestra cabeza</l>
+									<l n="3290">va menguando en fortaleza.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Fuera en mí contradictorio</l>
+									<l>y ajeno de mi hidalguía</l>
+									<l>a un amigo convidar</l>
+									<l>y no guardarle el lugar</l>
+									<l n="3295">mientras que llegar podría.<ref n="60" />	</l>
+									<l>Tal ha sido mi costumbre</l>
+									<l>siempre y siempre ha de ser esa.</l>
+									<l>Y, al mirar sin él la mesa,</l>
+									<l>me da en verdad pesadumbre.</l>
+									<l n="3300">Porque, si el Comendador</l>
+									<l>es difunto tan tenaz</l>
+									<l>como vivo, es muy capaz</l>
+									<l>de seguirnos el humor.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>Brindemos a su memoria</l>
+									<l n="3305">y más en él no pensemos.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">Sea.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ns" rend="ws-4">Brindemos.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda y Don Juan</speaker>
+									<l part="y-ns" rend="ws-7">Brindemos.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>A que Dios le dé su gloria.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Mas yo, que no creo que haya</l>
+									<l>más gloria que esta mortal,</l>
+									<l n="3310">no hago mucho en brindis tal;</l>
+									<l>mas, por complaceros, ¡vaya!</l>
+									<l>Y brindo a que Dios te dé</l>
+									<l>la gloria, Comendador.</l>
+									<stage>(Mientras beben se oye lejos un aldabonazo, que se supone dado en la puerta de la calle.)</stage>
+									<l part="y-ne">Mas, ¿llamaron?</l>
+								</sp>
+								<sp>
+									<speaker>Ciutti</speaker>
+									<l part="y-ns" rend="ws-4">Sí, señor.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Ve quién.</l>
+								</sp>
+								<sp>
+									<speaker>Ciutti</speaker>
+									<stage>(Asomando por la ventana.)</stage>
+									<l n="3315">	A nadie se ve…</l>
+									<l>¿Quién va allá? Nadie responde.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ne">Algún chusco.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l part="y-ns" rend="ws-4">Algún menguado</l>
+									<l>que al pasar habrá llamado</l>
+									<l>sin mirar siquiera dónde.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<stage>(A Ciutti.)</stage>
+									<l n="3320">Pues cierra y sirve licor.</l>
+									<stage>(Llaman otra vez, más recio.)</stage>
+									<l>Mas llamaron otra vez.</l>
+								</sp>
+								<sp>
+									<speaker>Ciutti</speaker>
+									<l part="y-ne">Sí.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Vuelve a mirar.</l>
+								</sp>
+								<sp>
+									<speaker>Ciutti</speaker>
+									<l part="y-ns" rend="ws-7">¡Pardiez!</l>
+									<l>A nadie veo, señor.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Pues, por Dios, que del bromazo</l>
+									<l n="3325">quien es no se ha de<ref n="61" /> alabar.</l>
+									<l>Ciutti, si vuelve a llamar,</l>
+									<l>suéltale un pistoletazo.</l>
+									<stage>(Llaman otra vez y se oye un poco más cerca.)</stage>
+									<l part="y-ne">¿Otra vez?</l>
+								</sp>
+								<sp>
+									<speaker>Ciutti</speaker>
+									<l part="y-ns" rend="ws-4">¡Cielos!</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda y Centellas</speaker>
+									<l part="y-ns" rend="ws-7">¿Qué pasa?</l>
+								</sp>
+								<sp>
+									<speaker>Ciutti</speaker>
+									<l>Que esa aldabada postrera</l>
+									<l n="3330">ha sonado en la escalera,</l>
+									<l>no en la puerta de la casa.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda y Centellas</speaker>
+									<l part="y-ne">¿Qué dices?</l>
+									<stage>(Levantándose asombrados.)<ref n="62" /></stage>
+								</sp>
+								<sp>
+									<speaker>Ciutti</speaker>
+									<l part="y-ns" rend="ws-4">Digo lo cierto,<ref n="63" /></l>
+									<l>nada más: dentro han llamado</l>
+									<l part="y-ne">de la casa.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">¿Qué os ha dado?</l>
+									<l n="3335">¿Pensáis que sea ya el muerto?</l>
+									<l>Mis armas cargué con bala.</l>
+									<l>Ciutti, sal a ver quién es.</l>
+									<stage>(Vuelven a llamar más cerca.)</stage>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l part="y-ne">¿Oísteis?</l>
+								</sp>
+								<sp>
+									<speaker>Ciutti</speaker>
+									<l part="y-ns" rend="ws-4">Por San Ginés,</l>
+									<l>que eso ha sido en la antesala.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="3340">Ah, ya lo entiendo: me habéis</l>
+									<l>vosotros mismos dispuesto</l>
+									<l>esta comedia, supuesto</l>
+									<l>que lo del muerto sabéis.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l part="y-ne">Yo os juro, don Juan…</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ns" rend="ws-4">Y yo.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="3345">Bah, diera en ello el más topo</l>
+									<l>y apuesto a que ese galopo</l>
+									<l>los medios para ello os dio.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l>Señor don Juan, escondido</l>
+									<l>algún misterio hay aquí.</l>
+									<stage>(Vuelven a llamar más cerca.)</stage>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ne">¡Llamaron otra vez!</l>
+								</sp>
+								<sp>
+									<speaker>Ciutti.— </speaker>
+									<l part="y-ns" rend="ws-4" n="3350">Sí.</l>
+									<l>Y ya en el salón ha sido.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¡Ya! Mis llaves en manojo</l>
+									<l>habréis dado a la fantasma</l>
+									<l>y que entre así no me pasma,</l>
+									<l n="3355">mas no saldrá a vuestro antojo</l>
+									<l>ni me han de impedir cenar</l>
+									<l>vuestras farsas desdichadas.</l>
+									<stage>(Se levanta y corre los cerrojos de las puertas del fondo, volviendo a su lugar.)</stage>
+									<l>Ya están las puertas cerradas.</l>
+									<l>Ahora el coco, para entrar,</l>
+									<l n="3360">tendrá que echarlas al suelo</l>
+									<l>y, en el punto que lo intente,</l>
+									<l>que con los muertos se cuente</l>
+									<l>y apele después al cielo.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>¡Qué diablos, tenéis razón!</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">¿Pues no temblabais?</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ns" rend="ws-4" n="3365">Confieso</l>
+									<l>Que, en tanto que no di en eso,</l>
+									<l>tuve un poco de aprensión.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¿Declaráis, pues, vuestro enredo?</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l>Por mi parte nada sé.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ne">Ni yo.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4" n="3370">Pues yo volveré</l>
+									<l>contra el inventor el miedo.</l>
+									<l>Mas sigamos con la cena;</l>
+									<l>vuelva cada uno a su puesto,</l>
+									<l>que luego sabremos de esto.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l>Tenéis razón.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<stage>(Sirviendo a Centellas)</stage>
+									<l n="3375">	Cariñena:</l>
+									<l>sé que os gusta, capitán.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>Como que somos paisanos.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<stage>(A Avellaneda, sirviéndole de otra botella.)</stage>
+									<l>Jerez a los sevillanos,</l>
+									<l part="y-ne">don Rafael.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l part="y-ns" rend="ws-4">Habéis, don Juan,	</l>
+									<l n="3380">dado a entrambos por el gusto.</l>
+									<l>Mas, ¿con cuál brindaréis vos?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Yo haré justicia a los dos.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>Vos siempre estáis en lo justo.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">Sí, a fe. Bebamos.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda y Centellas</speaker>
+									<l part="y-ns" rend="ws-4">Bebamos.</l>
+									<stage>(Llaman a la misma puerta de la escena, fondo, derecha.)</stage>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="3385">Pesada me es ya la broma, </l>
+									<l>mas veremos quién asoma</l>
+									<l>mientras en la mesa estamos.</l>
+									<stage>(A Ciutti, que se manifiesta asombrado.)</stage>
+									<l>¿Y qué haces tú ahí, bergante?</l>
+									<l>¡Listo!, trae otro manjar.</l>
+									<l><stage>(Vase Ciutti)</stage></l>
+									<l n="3390">Mas me ocurre en este instante</l>
+									<l>que nos podemos mofar</l>
+									<l>de los de afuera invitándoles</l>
+									<l>a probar su sutileza</l>
+									<l>entrándose hasta esta pieza</l>
+									<l n="3395">y sus puertas no franqueándoles.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l part="y-ne">Bien dicho.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ns" rend="ws-4">Idea brillante.</l>
+									<stage>(Llaman fuerte, fondo derecha.)</stage>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Señores, ¿a qué llamar?</l>
+									<l>Los muertos se han de filtrar</l>
+									<l>por la pared. ¡Adelante!</l>
+									<stage>(La estatua de don Gonzalo pasa por la puerta, sin abrirla y sin hacer ruido.)</stage>
+								</sp>
+							</div>
+							<div type="scene">
+								<head>Escena 2ª </head>
+								<stage>Don Juan, Centellas, Avellaneda y la Estatua de don Gonzalo.</stage>
+
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ne">¡Jesús!</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l part="y-ns" rend="ws-4">¡Dios mío!</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-7" n="3400">¿Qué es esto?</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l part="y-ne">Yo desfallezco.</l>
+									<stage>(Cae desvanecido.)</stage>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ns" rend="ws-4">Yo expiro.</l>
+									<stage>(Cae lo mismo.)</stage>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¿Es realidad o deliro?</l>
+									<l>Es su figura, su gesto…</l>
+								</sp>
+								<sp>
+									<speaker>Estatua<ref n="64" /></speaker>
+									<l>¿Por qué te causa pavor</l>
+									<l n="3405">quien convidado a tu mesa </l>
+									<l part="y-ne">viene por ti?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">¡Dios! ¿No es esa</l>
+									<l>la voz del Comendador?</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l>Siempre supuse que aquí</l>
+									<l>no me habías de esperar.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="3410">Mientes, porque hice arrimar	</l>
+									<l>esa silla para ti.</l>
+									<l>Llega, pues, para que veas</l>
+									<l>que, aunque dudé en un extremo</l>
+									<l>de sorpresa, no te temo,</l>
+									<l n="3415">aunque el mismo Ulloa seas.</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l part="y-ne">¿Aún lo dudas?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">No lo sé.</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l>Pon, si quieres, hombre impío,</l>
+									<l>tu mano en el mármol frío</l>
+									<l part="y-ne">de mi efigie.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">¿Para qué?</l>
+									<l n="3420">Me basta oírlo de ti. </l>
+									<l>Cenemos, pues. Mas te advierto…</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l part="y-ne">¿Qué?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Que si no eres el muerto,</l>
+									<l>lo vas a salir de aquí.</l>
+									<l part="y-ne">¡Eh, alzad!</l>
+									<stage>(A Centellas y a Avellaneda)<ref n="65" /></stage>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l part="y-ns" rend="ws-4">No pienses, no,</l>
+									<l n="3425">que se levanten, don Juan, </l>
+									<l>porque en sí no volverán</l>
+									<l>hasta que me ausente yo.</l>
+									<l>Que la divina clemencia</l>
+									<l>del Señor para contigo</l>
+									<l n="3430">no requiere más testigo</l>
+									<l>que tu juicio y tu conciencia.</l>
+									<l>Al sacrílego convite</l>
+									<l>que me has hecho en el panteón,</l>
+									<l>para alumbrar tu razón,</l>
+									<l n="3435">Dios asistir me permite.</l>
+									<l>Y heme que vengo en su nombre</l>
+									<l>a enseñarte la verdad:</l>
+									<l>y es que hay una eternidad</l>
+									<l>tras de la vida del hombre;</l>
+									<l n="3440">que numerados están	</l>
+									<l>los días que has de vivir</l>
+									<l>y que tienes que morir</l>
+									<l>mañana mismo, don Juan.</l>
+									<l>Mas, como esto que a tus ojos</l>
+									<l n="3445">está pasando supones	</l>
+									<l>ser del alma aberraciones</l>
+									<l>y de la aprensión antojos,</l>
+									<l>Dios, en su santa clemencia,</l>
+									<l>te concede todavía</l>
+									<l n="3450">un plazo hasta el nuevo día</l>
+									<l>para ordenar tu conciencia.</l>
+									<l>Y su justicia infinita</l>
+									<l>por que conozcas mejor</l>
+									<l>espero de tu valor</l>
+									<l n="3455">que me pagues la visita.</l>
+									<l part="y-ne">¿Irás, don Juan?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Iré, sí;</l>
+									<l>mas me quiero convencer</l>
+									<l>de lo vago de tu ser</l>
+									<l>antes que salgas de aquí.</l>
+									<stage>(Coge una pistola.)</stage>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l n="3460">Tu necio orgullo delira,</l>
+									<l>don Juan. Los hierros más gruesos</l>
+									<l>y los muros más espesos</l>
+									<l>se abren a mi paso: mira.</l>
+									<stage>(Desaparece la estatua sumiéndose por la pared.)</stage>
+								</sp>
+							</div>
+							<div type="scene">
+								<head>Escena 3ª </head>
+								<stage>Don Juan, Avellaneda y Centellas.</stage>
+
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¡Cielos! ¡Su esencia se trueca</l>
+									<l n="3465">el muro hasta penetrar</l>
+									<l>cual mancha de agua que seca</l>
+									<l>el ardor canicular!</l>
+									<l>¿No me dijo: “El mármol toca</l>
+									<l>de mi efigie”? ¿Cómo, pues,</l>
+									<l n="3470">se desvanece una roca?</l>
+									<l>¡Imposible! Ilusión es.</l>
+									<l>Acaso su antiguo dueño</l>
+									<l>mis cubas envenenó</l>
+									<l>y el licor tan vano ensueño</l>
+									<l n="3475">en mi mente levantó.</l>
+									<l>Mas si estas que sombras creo</l>
+									<l>espíritus reales son</l>
+									<l>que, por celestial empleo,</l>
+									<l>llaman a mi corazón,</l>
+									<l n="3480">entonces, para que iguale</l>
+									<l>su penitencia don Juan</l>
+									<l>con sus delitos, ¿qué vale</l>
+									<l>el plazo ruin que le dan…?</l>
+									<l>¡Dios me da tan<ref n="66" /> solo un día…!</l>
+									<l n="3485">Si fuese Dios en verdad,</l>
+									<l>a más distancia pondría</l>
+									<l>su aviso a mi eternidad.</l>
+									<l>“Piensa bien que al lado tuyo</l>
+									<l>me tendrás…”, dijo de Inés</l>
+									<l n="3490">la sombra. Y, si bien arguyo,</l>
+									<l>pues no la veo, sueño es.</l>
+									<stage>(Transparéntase en la pared la sombra de doña Inés.)<ref n="67" /></stage>
+								</sp>
+							</div>
+							<div type="scene">
+								<head>Escena 4ª </head>
+								<stage>Don Juan, la sombra de doña Inés, Centellas y Avellaneda, dormidos.</stage>
+
+								<sp>
+									<speaker>Sombra</speaker>
+									<l part="y-ne">Aquí estoy.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">¡Cielos!</l>
+								</sp>
+								<sp>
+									<speaker>Sombra</speaker>
+									<l part="y-ns" rend="ws-7">Medita</l>
+									<l>lo que al buen Comendador</l>
+									<l>has oído y ten valor</l>
+									<l n="3495">para acudir a su cita.</l>
+									<l>Un punto se necesita</l>
+									<l>para morir con ventura:</l>
+									<l>elígele con cordura,</l>
+									<l>porque mañana, don Juan,</l>
+									<l n="3500">nuestros cuerpos dormirán</l>
+									<l>en la misma sepultura.</l>
+									<stage>(Desaparece la sombra)<ref n="68" /></stage>
+								</sp>
+							</div>
+							<div type="scene">
+								<head>Escena 5ª </head>
+								<stage>Don Juan, Centellas y Avellaneda)</stage>
+
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Tente, doña Inés, espera;</l>
+									<l>y, si me amas en verdad,</l>
+									<l>hazme al fin la realidad	</l>
+									<l n="3505">distinguir de la quimera.</l>
+									<l>Alguna más duradera</l>
+									<l>señal dame, que segura</l>
+									<l>me pruebe que no es locura</l>
+									<l>lo que imagina mi afán,	</l>
+									<l n="3510">para que baje don Juan</l>
+									<l>tranquilo a la sepultura.</l>
+									<l>Mas ya me irrita, por Dios,</l>
+									<l>el verme siempre burlado,</l>
+									<l>corriendo desatentado</l>
+									<l n="3515">de varias sombras en pos.</l>
+									<l>Oh, tal vez todo esto ha sido</l>
+									<l>por estos dos preparado</l>
+									<l>y, mientras se ha ejecutado,</l>
+									<l>su privación han fingido.</l>
+									<l n="3520">Mas, por Dios, que, si es así,</l>
+									<l>se han de acordar de don Juan.</l>
+									<l>¡Eh, don Rafael, capitán,</l>
+									<l>ya basta, alzaos de ahí!</l>
+									<stage>(Don Juan mueve a Centellas y a Avellaneda, que se levantan como quien vuelve de un profundo sueño.)</stage>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ne">¿Quién va?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Levantad.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l part="y-ns" rend="ws-7">¿Qué pasa?</l>
+									<l part="y-ne">¡Hola, sois vos!	</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ns" rend="ws-4" n="3525">¿Dónde estamos?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Caballeros, claros vamos.</l>
+									<l>Yo os he traído a mi casa</l>
+									<l>y temo que a ella al venir</l>
+									<l>con artificio apostado</l>
+									<l n="3530">habéis sin duda pensado</l>
+									<l>a costa mía reír.</l>
+									<l>Mas basta ya de ficción	</l>
+									<l>y concluid de una vez.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ne">Yo no os entiendo.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l part="y-ns" rend="ws-4">¡Pardiez!</l>
+									<l part="y-ne">Tampoco yo.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4" n="3535">En conclusión:</l>
+									<l>¿nada habéis visto ni oído?</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda y Centellas</speaker>
+									<l part="y-ne">¿De qué?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">No finjáis ya más.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>Yo no he fingido jamás,</l>
+									<l part="y-ne">señor don Juan.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">¡Habrá sido</l>
+									<l n="3540">realidad! ¿Contra Tenorio</l>
+									<l>las piedras se han animado</l>
+									<l>y su vida han acortado</l>
+									<l>con plazo tan perentorio?</l>
+									<l>Hablad, pues, por compasión.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l n="3545">¡Voto va Dios! Ya comprendo</l>
+									<l part="y-ne">lo que pretendéis…</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Pretendo</l>
+									<l>que me deis una razón</l>
+									<l>de lo que ha pasado aquí,</l>
+									<l>señores, o juro a Dios</l>
+									<l n="3550">que os haré ver a los dos</l>
+									<l>que no hay quien me burle a mí.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>Pues ya que os formalizáis,</l>
+									<l>don Juan, sabed que sospecho</l>
+									<l>que vos la burla habéis hecho</l>
+									<l part="y-ne">de nosotros.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4" n="3555">¡Me insultáis!</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>No, por Dios. Mas si cerrado</l>
+									<l>seguís en que aquí han venido</l>
+									<l>fantasmas, lo sucedido</l>
+									<l>oíd cómo me he explicado:</l>
+									<l n="3560">Yo he perdido aquí del todo</l>
+									<l>los sentidos, sin exceso</l>
+									<l>de ninguna especie y eso</l>
+									<l>lo entiendo yo de este modo…</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>A ver, decídmelo, pues.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l n="3565">Vos habéis compuesto el vino,</l>
+									<l>semejante desatino</l>
+									<l>para encajarnos después.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">¡Centellas!</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ns" rend="ws-4">Vuestro valor</l>
+									<l>al extremo por mostrar,</l>
+									<l n="3570">convidasteis a cenar</l>
+									<l>con vos al Comendador.</l>
+									<l>Y para poder decir</l>
+									<l>que a vuestro convite exótico</l>
+									<l>asistió, con un narcótico</l>
+									<l n="3575">nos habéis hecho dormir.</l>
+									<l>Si es broma, puede pasar; </l>
+									<l>mas, a ese extremo llevada,</l>
+									<l>ni puede probarnos nada</l>
+									<l>ni os la hemos de tolerar.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l n="3580">Soy de la misma opinión.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">¡Mentís!</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ns" rend="ws-4">Vos.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-7">Vos, capitán.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>Esa palabra, don Juan…</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>La he dicho de corazón.</l>
+									<l>Mentís. No son a mis bríos</l>
+									<l n="3585">menester falsos portentos </l>
+									<l>porque tienen mis alientos</l>
+									<l>su mejor prueba en ser míos.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda y Centellas</speaker>
+									<l part="y-ne">Veamos.</l>
+									<stage>(Ponen mano a las espadas.)</stage>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Poned a tasa</l>
+									<l>vuestra furia y vamos fuera,</l>
+									<l n="3590">no piense después cualquiera</l>
+									<l>que os asesiné en mi casa.</l>
+								</sp>
+								<sp>
+									<speaker>Avellaneda</speaker>
+									<l>Decís bien… Mas somos dos.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>Reñiremos, si os fiáis,</l>
+									<l>el uno del otro en pos.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="3595">O los dos, como queráis.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l>¡Villano fuera, por Dios!</l>
+									<l>Elegid uno, don Juan,</l>
+									<l part="y-ne">por primero.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Sedlo vos.</l>
+								</sp>
+								<sp>
+									<speaker>Centellas</speaker>
+									<l part="y-ne">Vamos.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Vamos, capitán.</l>
+
+								</sp>
+							</div>
+						</div>
+						<div type="act">
+							<head>Acto III Misericordia de Dios y apoteosis del amor<ref n="69" /> </head>
+							<stage>Don Juan, la Estatua de don Gonzalo, Doña Inés. Sombras, estatuas, espectros, ángeles.<ref n="70" /></stage>
+
+							<stage>Panteón de la familia Tenorio. Como estaba en el acto primero de la segunda parte, menos las estatuas de doña Inés y don Gonzalo, que no están en su lugar.</stage>
+
+							<div type="scene">
+								<head>Escena 1ª </head>
+								<stage>Don Juan, embozado y distraído, entra en la escena lentamente.</stage>
+
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="3600">Culpa mía no fue. Delirio insano</l>
+									<l>me enajenó la mente acalorada.</l>
+									<l>Necesitaba víctimas mi mano</l>
+									<l>que inmolar a mi fe desesperada</l>
+									<l>y, al verlos en mitad de mi camino,</l>
+									<l n="3605">presa les hice allí de mi locura.</l>
+									<l>No fui yo —¡vive Dios!—, fue su destino;</l>
+									<l>sabían mi destreza y mi ventura…</l>
+									<l>Oh, arrebatado el corazón me siento</l>
+									<l>por vértigo infernal… Mi alma perdida</l>
+									<l n="3610">va cruzando el desierto de la vida </l>
+									<l>cual hoja seca que arrebata el viento.</l>
+									<l>Dudo, temo, vacilo… En mi cabeza</l>
+									<l>siento arder un volcán… Muevo la planta</l>
+									<l>sin voluntad y humilla mi grandeza</l>
+									<l n="3615">un no sé qué de grande que me espanta.</l>
+									<stage>(Un momento de pausa.)</stage>
+									<l>Jamás mi orgullo concibió que hubiere</l>
+									<l>nada más que el valor… Que se aniquila</l>
+									<l>el alma con el cuerpo cuando muere</l>
+									<l>creí… Mas hoy mi corazón vacila.</l>
+									<l n="3620">Jamás creí en fantasmas, ¡desvaríos! </l>
+									<l>Mas del fantasma aquel, pese a mi aliento,</l>
+									<l>los pies de piedra caminando siento,</l>
+									<l>por doquiera que voy, tras de los míos.</l>
+									<l>Oh, y me trae a este sitio irresistible</l>
+									<l>misterioso poder…</l>
+									<stage>(Levanta la cabeza y ve que no está en su pedestal la estatua de don Gonzalo.)</stage>
+									<l n="3625">	Pero, ¿qué veo?</l>
+									<l>Falta de allí su estatua… Sueño horrible,</l>
+									<l>déjame de una vez… No, no te creo…</l>
+									<l>Sal, huye de mi mente fascinada,</l>
+									<l>fatídica ilusión… Estás en vano</l>
+									<l n="3630">con pueriles asombros empeñada </l>
+									<l>en agotar mi aliento sobrehumano.</l>
+									<l>Si todo es ilusión, mentido sueño,</l>
+									<l>nadie me ha de aterrar con trampantojos;</l>
+									<l>si es realidad, querer es necio empeño</l>
+									<l n="3635">aplacar de los cielos los enojos.</l>
+									<l>No: sueño o realidad, del todo anhelo</l>
+									<l>vencerle o que me venza; y si piadoso</l>
+									<l>busca tal vez mi corazón el cielo,</l>
+									<l>que le busque más franco y generoso.</l>
+									<l n="3640">La efigie de esa tumba me ha invitado</l>
+									<l>a venir a buscar prueba más cierta</l>
+									<l>de la verdad en que dudé obstinado…</l>
+									<l>Heme aquí, pues, Comendador, despierta.</l>
+
+									<stage>(Llama al sepulcro del Comendador. Este sepulcro se cambia en una mesa que parodia horriblemente la mesa en que comieron, en el acto anterior, don Juan, Centellas y Avellaneda. En vez de las guirnaldas que cogían en pabellones sus manteles, de sus flores y lujoso servicio, culebras, huesos y fuego, etc., a gusto del pintor. Encima de esta mesa aparece un plato de ceniza, una copa de fuego y un reloj de arena. Al cambiarse este sepulcro, todos los demás se abren y dejan paso a las osamentas de las personas que se suponen enterradas en ellos, envueltas en sus sudarios. Sombras, espectros y espíritus pueblan el fondo de la escena. La tumba de doña Inés permanece.)</stage>
+								</sp>
+							</div>
+							<div type="scene">
+								<head>Escena 2ª </head>
+								<stage>Don Juan, la estatua de don Gonzalo y las sombras.</stage>
+
+								<sp>
+									<speaker>Estatua<ref n="71" /></speaker>
+									<l>Aquí me tienes, don Juan,</l>
+									<l n="3645">y he aquí que vienen conmigo</l>
+									<l>los que tu eterno castigo</l>
+									<l>de Dios reclamando están.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">¡Jesús!</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l part="y-ns" rend="ws-4">¿Y de qué te alteras,</l>
+									<l>si nada hay que a ti te asombre</l>
+									<l n="3650">y para hacerte eres hombre</l>
+									<l>platos con sus calaveras?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">¡Ay de mí!</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l part="y-ns" rend="ws-4">¿Qué? ¿El corazón</l>
+									<l part="y-ne">te desmaya?</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">No lo sé.</l>
+									<l>Concibo que me engañé:</l>
+									<l n="3655">no son sueños, ¡ellos son! </l>
+									<stage>(Mirando a los espectros.)<ref n="72" /></stage>
+									<l>Pavor jamás conocido</l>
+									<l>el alma fiera me asalta</l>
+									<l>y, aunque el valor no me falta,</l>
+									<l>me va faltando el sentido.</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l n="3660">Eso es, don Juan, que se va</l>
+									<l>concluyendo tu existencia</l>
+									<l>y el plazo de tu sentencia</l>
+									<l>está llegándose ya.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">¿Qué dices?</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l part="y-ns" rend="ws-4">Lo que hace poco</l>
+									<l n="3665">que doña Inés te avisó,</l>
+									<l>lo que te he avisado yo,</l>
+									<l>y lo que olvidaste loco.</l>
+									<l>Mas el festín que me has dado</l>
+									<l>debo volverte y, así,</l>
+									<l n="3670">llega, don Juan, que yo aquí</l>
+									<l>cubierto te he preparado.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¿Y qué es lo que ahí me das?</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l>Aquí fuego, allí ceniza.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>El cabello se me eriza.</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l n="3675">Te doy lo que tú serás..</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¿Fuego y ceniza he de ser?</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l>Cual los que ves en redor;</l>
+									<l>en eso para el valor,</l>
+									<l>la juventud y el poder.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="3680">Ceniza, bien, pero ¿fuego?</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l>El de la ira omnipotente,</l>
+									<l>do arderás eternamente</l>
+									<l>por tu desenfreno ciego.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¿Conque hay otra vida más</l>
+									<l n="3685">y otro mundo que el de aquí?	</l>
+									<l>¿Conque es verdad —¡ay de mí!—</l>
+									<l>lo que no creí jamás?</l>
+									<l>¡Fatal verdad que me hiela</l>
+									<l>la sangre en el corazón!	</l>
+									<l n="3690">¡Verdad que mi perdición</l>
+									<l>solamente me revela!</l>
+									<l part="y-ne">¿Y ese reló?</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l part="y-ns" rend="ws-4">Es la medida</l>
+									<l part="y-ne">de tu tiempo.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">¿Expira ya?</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l>Sí, en cada grano se va</l>
+									<l n="3695">un instante de tu vida.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¿Y esos me quedan no más?</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l part="y-ne">Sí.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">Injusto Dios, tu poder</l>
+									<l>me haces ahora conocer,</l>
+									<l>cuando tiempo no me das</l>
+									<l part="y-ne">de arrepentirme…</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l part="y-ns" rend="ws-4" n="3700">Don Juan, </l>
+									<l>un punto de contrición</l>
+									<l>da a un alma la salvación</l>
+									<l>y ese punto aún te le dan.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Imposible, en un momento,</l>
+									<l n="3705">borrar treinta años malditos</l>
+									<l>de crímenes y delitos…</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l>Aprovéchale con tiento</l>
+									<stage>(Tocan a muerto.)</stage>
+									<l>porque el plazo va a expirar</l>
+									<l>y las campanas doblando</l>
+									<l n="3710">por ti están y están cavando</l>
+									<l>la fosa en que te han de echar.</l>
+									<stage>(Se oye a lo lejos el oficio de difuntos.)</stage>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">¿Conque por mí doblan?</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l part="y-ns" rend="ws-4">Sí.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¿Y esos cantos funerales?</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l>Los salmos penitenciales</l>
+									<l n="3715">que están cantando por ti.</l>
+									<stage>(Se ve pasar por la izquierda luz de hachones y rezan dentro.)</stage>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¿Y aquel entierro que pasa?</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l part="y-ne">Es el tuyo.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ns" rend="ws-4">¿Muerto yo?</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l>El capitán te mató</l>
+									<l>a la puerta de tu casa.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="3720">Tarde la luz de la fe</l>
+									<l>penetra en mi corazón,</l>
+									<l>pues crímenes mi razón	</l>
+									<l>a su luz tan solo ve.</l>
+									<l>Los ve y con horrible afán</l>
+									<l n="3725">porque, al ver su multitud,</l>
+									<l>ve a Dios en la plenitud</l>
+									<l>de su ira contra don Juan.</l>
+									<l>Ah, por doquiera que fui,</l>
+									<l>la razón atropellé,</l>
+									<l n="3730">la virtud escarnecí</l>
+									<l>y a la justicia burlé</l>
+									<l>y emponzoñé cuanto vi;</l>
+									<l>y a las cabañas bajé</l>
+									<l>y a los palacios subí</l>
+									<l n="3735">y los claustros escalé</l>
+									<l>y, pues tal mi vida fue,</l>
+									<l>no, no hay perdón para mí.</l>
+									<l>¡Mas ahí estáis todavía</l>
+									<stage>(A los fantasmas.)</stage>
+									<l>con quietud tan pertinaz!</l>
+									<l n="3740">¡Dejadme morir en paz</l>
+									<l>a solas con mi agonía!</l>
+									<l>Mas, con esa horrenda calma,</l>
+									<l>¿qué me auguráis, sombras fieras?,</l>
+									<l part="y-ne">¿qué esperáis de mí?</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l part="y-ns" rend="ws-4">Que mueras</l>
+									<l n="3745">para llevarse tu alma.</l>
+									<l>Y adiós, don Juan. Ya tu vida</l>
+									<l>toca a su fin y, pues vano</l>
+									<l>todo fue, dame la mano</l>
+									<l>en señal de despedida.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l n="3750">¿Muéstrasme ahora amistad?</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l>Sí, que injusto fui contigo</l>
+									<l>y Dios me manda tu amigo</l>
+									<l>volver a la eternidad.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l part="y-ne">Toma, pues.</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l part="y-ns" rend="ws-4">Ahora, don Juan,</l>
+									<l n="3755">pues desperdicias también </l>
+									<l>el momento que te dan,</l>
+									<l>conmigo al infierno ven.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¡Aparta, piedra fingida!</l>
+									<l>¡Suelta, suéltame esa mano,</l>
+									<l n="3760">que aún queda el último grano</l>
+									<l>en el reló de mi vida!</l>
+									<l>¡Suéltala!, que si es verdad</l>
+									<l>que un punto de contrición</l>
+									<l>da a un alma la salvación</l>
+									<l n="3765">de toda una eternidad, </l>
+									<l>yo, santo Dios, creo en ti.</l>
+									<l>Si es mi maldad inaudita,</l>
+									<l>tu piedad es infinita…</l>
+									<l>¡Señor, ten piedad de mí!</l>
+								</sp>
+								<sp>
+									<speaker>Estatua</speaker>
+									<l>Ya es tarde.</l>
+									<stage>(Don Juan se hinca de rodillas tendiendo al cielo la mano que le deja libre la estatua. Las sombras, esqueletos, etc., van a abalanzarse sobre él, en cuyo momento se abre la tumba de doña Inés y aparece esta. Doña Inés toma la mano que don Juan tiende al cielo.)</stage>
+								</sp>
+							</div>
+							<div type="scene">
+								<head>Escena 3ª </head>
+								<stage>Don Juan, la estatua de don Gonzalo, doña Inés, sombras, etc.</stage>
+
+								<sp>
+									<speaker>Doña Inés</speaker>
+									<l part="y-ns" rend="ws-4" n="3770">No, heme ya aquí,</l>
+									<l>don Juan. Mi mano asegura</l>
+									<l>esta mano que a la altura</l>
+									<l>tendió tu contrito afán</l>
+									<l>y Dios perdona a don Juan</l>
+									<l n="3775">al pie de mi sepultura.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¡Dios clemente! Doña Inés…</l>
+								</sp>
+								<sp>
+									<speaker>Doña Inés</speaker>
+									<l>Fantasmas, desvaneceos.</l>
+									<l>Su fe nos salva: volveos</l>
+									<l>a vuestros sepulcros, pues.</l>
+									<l n="3780">La voluntad de Dios es:</l>
+									<l>de mi alma con la amargura</l>
+									<l>purifiqué su alma impura</l>
+									<l>y Dios concedió a mi afán</l>
+									<l>la salvación de don Juan</l>
+									<l n="3785">al pie de la sepultura.</l>
+								</sp>
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>¡Inés de mi corazón!</l>
+								</sp>
+								<sp>
+									<speaker>Doña Inés</speaker>
+									<l>Yo mi alma he dado por ti</l>
+									<l>y Dios te otorga por mí</l>
+									<l>tu dudosa salvación.</l>
+									<l n="3790">Misterio es que en comprensión</l>
+									<l>no cabe de criatura</l>
+									<l>y, solo en vida más pura,</l>
+									<l>los justos comprenderán</l>
+									<l>que el amor salvó a don Juan</l>
+									<l n="3795">al pie de la sepultura.</l>
+									<l>Cesad, cantos funerales;</l>
+									<stage>(Calla la música de salmos)</stage>
+									<l>callad, mortuorias campanas;</l>
+									<stage>(Dejan de tocar a muerto.)</stage>
+									<l>ocupad, sombras livianas,</l>
+									<l>vuestras urnas sepulcrales;</l>
+									<stage>(Vuelven los esqueletos a sus tumbas, que se cierran.)</stage>
+									<l n="3800">volved a los pedestales,</l>
+									<l>animadas esculturas;</l>
+									<stage>(Vuelven las estatuas a sus lugares.)<ref n="73" /></stage>
+									<l>y las celestes venturas</l>
+									<l>en que los justos están,</l>
+									<l>empiecen para don Juan</l>
+									<l n="3805">en las mismas sepulturas.</l>
+									<stage>(Las flores se abren y dan paso a varios angelitos que rodean a doña Inés y a don Juan, derramando sobre ellos flores y perfumes, y al son de una música dulce y lejana, se ilumina el teatro con luz de aurora. Doña Inés cae sobre un lecho de flores, que quedará a la vista, en lugar de su tumba, que desaparece.)<ref n="74" /> </stage>
+								</sp>
+							</div>
+							<div type="scene">
+								<head>Escena 4ª </head>
+								<stage>Doña Inés, don Juan y los ángeles.</stage>
+
+								<sp>
+									<speaker>Don Juan</speaker>
+									<l>Clemente Dios, ¡gloria a Ti!</l>
+									<l>Mañana a los sevillanos</l>
+									<l>aterrará el ver que a manos</l>
+									<l>de mis víctimas caí.</l>
+									<l n="3810">Mas es justo: quede aquí</l>
+									<l>al universo notorio</l>
+									<l>que, pues me abre el purgatorio</l>
+									<l>un punto de penitencia,</l>
+									<l>es el Dios de la clemencia</l>
+									<l n="3815">el Dios de don Juan Tenorio.</l>
+								</sp>
+							</div>
+						</div>
+				</body>
+				<back>
+					<div>
+					<stage>Cae don Juan a los pies de doña Inés, y mueren ambos. De sus bocas salen sus almas, representadas en dos brillantes llamas que se pierden en el espacio al son de la música. Cae el telón<ref n="75" />. </stage>
+					</div>
+				</back>
+			</text>
+			<text type="footnotes">
+				<body>
+					<div type="footnotes">
+						<note n="1"> RB; M <hi rend="italic">La acción en Sevilla por los años de 1545, últimos del emperador Carlos V</hi>. <hi rend="italic">La de la segunda parte cinco años después</hi>. <hi rend="italic">Los cuatro actos primeros pasan en una sola noche</hi>. <hi rend="italic">Los tres de la segunda parte en otra noche</hi>.</note>
+						<note n="2"> En M no está la interjección, que fuerza el triptongo en corre ahora, modificando el acento. A no ser que, tras la exclamación, se haga una pausa, sacándola del octosílabo. No sería extraño porque la aparición de una exclamación que no forma parte de la secuencia métrica vuelve a producirse entre los vv. 154—155 y en el v. 1412.</note>
+						<note n="3"> RB; M <hi rend="italic">eso</hi>. Se trata de un cambio que atañe a la métrica, pues <hi rend="italic">eso</hi> forzaba la sinalefa con <hi rend="italic">nombre</hi>, algo imposible en la representación, ya que son intervenciones de diferentes personajes. Podría ser que Zorrilla se percatase al escuchar el texto en los ensayos y corrigiera en la copia de la compañía, pero no en la suya. No es, sin embargo, el único caso a lo largo de la obra en que los versos piden la sinalefa entre los parlamentos de personajes distintos. </note>
+						<note n="4"> Acotación añadida en RB.</note>
+						<note n="5"> MRB <hi rend="italic">orario</hi>. Corrijo porque en los vv. 1577 y 1688, en los que vuelve a aparecer la palabra, lo hace con hache y entiendo que se refiere al mismo objeto.</note>
+						<note n="6"> Acotación añadida en B. </note>
+						<note n="7"> RB; M Sevilla, pero la palabra aparece cruzada con una línea muy fina, que no se sabe si es tachadura porque no se parece al resto de las correcciones. </note>
+						<note n="8"> RB; M <hi rend="italic">Sevilla</hi> pero debajo parece tachar <hi rend="italic">Castilla</hi>. Lo que queda visible, pues, en M, en posición de rima en este verso y el anterior es, en ambos casos, <hi rend="italic">Sevilla</hi>.</note>
+						<note n="9"> Acotación añadida en RB. </note>
+						<note n="10"> Acotación añadida en B. </note>
+						<note n="11"> Verso añadido en B y necesario porque en MR se rompía el esquema de rima del romance. Mantengo esta corrección que sí parece del autor o por él sugerida.</note>
+						<note n="12"> Acotación añadida en RB. </note>
+						<note n="13"> Fragmento de acotación añadido aquí.</note>
+						<note n="14"> Acotación añadida en RB. </note>
+						<note n="15"> Acotación añadida en RB.</note>
+						<note n="16"> RB; M <hi rend="italic">conquistas</hi>. Parece un cambio de suficiente entidad como para responder a la voluntad del autor. </note>
+						<note n="17"> RB ¡<hi rend="italic">Oh</hi>! <hi rend="italic">Ha recorrido mi amor</hi>. Cualquiera de los dos monosílabos del comienzo sobra pero mantengo la lectura del original, que supongo más correcta porque depende de lo dicho en el v. 660: <hi rend="italic">testificarán</hi> […] <hi rend="italic">que</hi>. Quizá el copista o tipógrafo, al no entenderlo, modificó el <hi rend="italic">que</hi> por la exclamación ¡<hi rend="italic">Oh</hi>!, que tampoco queda bien, ya que repite el del v. 661. </note>
+						<note n="18"> Acotación añadida en B.</note>
+						<note n="19"> Acotación añadida en B. </note>
+						<note n="20"> Esta acotación falta en M.</note>
+						<note n="21"> En M no aparece <hi rend="italic">y riéndose</hi>, que se añadirá en RB. </note>
+						<note n="22"> En M el pasaje comprendido entre los vv. 896—955 está marcado en al margen con una línea que lo abarca y la indicación <hi rend="italic">Suprimido en la representación</hi>. A lo largo de la obra hay varios fragmentos señalados de esta misma manera, aunque ya sin la indicación escrita. </note>
+						<note n="23"> En M, sugiere Zorrilla texto alternativo con una llamada al margen pero sin tachar los versos a los que sustituirían los propuestos: <hi rend="italic">Perdiendo está la inocente</hi> / <hi rend="italic">sus mejores primaveras</hi>. Tanto en este caso como en el del v. 1280, el texto alternativo que ofrece tiene como objetivo evitar que se haga explícita la edad de doña Inés, quizá porque Bárbara Lamadrid, la actriz que había de interpretarla en el montaje del estreno, era bastante mayor, según las críticas de la época. </note>
+						<note n="24"> Nuevamente ofrece aquí M texto alternativo: <hi rend="italic">pasó sus bellos abriles</hi>. La intención es idéntica a la de los vv. 1258—9. Parecen anotaciones posteriores y hechas con diferente pluma, de trazo más grueso que el resto. </note>
+						<note n="25"> Acotación añadida en R.</note>
+						<note n="26"> En M este pasaje (vv. 1446—1489) está señalado con una línea al margen como indicación de que deben obviarse en la representación.</note>
+						<note n="27"> En M hay una anotación manuscrita, posterior, y de mano distinta a la de Zorrilla, que dice “muy alto y en mala y difícil posición pisó”. Los editores modernos dan por hecho que se trata de un error cometido por Zorrilla. Sin embargo, Jorge Manrique apunta que no se trata de una equivocación del autor sino de un uso de origen culto. En efecto, Corominas señala —en su <hi rend="italic">Diccionario crítico etimológico de la lengua castellana</hi>— que la voz <hi rend="italic">dintel</hi> es una deformación del francés antiguo <hi rend="italic">lintel</hi> (hoy <hi rend="italic">linteau</hi>), que procede del latín <hi rend="italic">limitalis</hi>, alteración de <hi rend="italic">liminaris</hi> ‘perteneciente a la puerta de entrada’, derivado, a su vez, de <hi rend="italic">limen</hi>, -<hi rend="italic">inis</hi>, ‘umbral, puerta de entrada’, por influjo de <hi rend="italic">limes</hi>, .<hi rend="italic">itis</hi>, ‘linde o límite’. </note>
+						<note n="28"> M ofrece, al margen, texto alternativo, sin tachar nada: <hi rend="italic">complacida en otras noches</hi>, seguramente para evitar la consonancia entre <hi rend="italic">complacida</hi> y <hi rend="italic">distraída</hi> que se produciría al suprimirse los vv. 1516-1523, que alteraría la cadencia del romance. </note>
+						<note n="29"> En M una línea recoge en el margen izquierdo, sin más indicación, los vv. 1516-1523, señalando que se suprimirá en la representación. </note>
+						<note n="30"> Este verso falta en M, donde la escena comienza con la pregunta de doña Inés. Puede ser que se haya añadido para suavizar la transición —incluida la de la rima— entre esta escena y la anterior, pues este verso es parte del romance con rima en –<hi rend="italic">é</hi>. Si incluyo aquí este verso es, en primer lugar, porque la corrección parece de suficiente entidad como para que sea una modificación debida al autor, además de que, de este modo, evito alterar la numeración de los versos consagrada en las ediciones modernas. </note>
+						<note n="31"> Acotación añadida en R.</note>
+						<note n="32"> Acotación añadida en R. </note>
+						<note n="33"> B; la acotación falta en MR. </note>
+						<note n="34"> Acotación añadida en R.</note>
+						<note n="35"> La lista de Personas solo aparece en R.</note>
+						<note n="36"> Nueva marca de supresión para la representación en los vv. 1922-1929.</note>
+						<note n="37"> M da una lectura alternativa, sin tachar: <hi rend="italic">tendréis</hi>. </note>
+						<note n="38"> Nueva marca para suprimir en la representación los vv. 1944-1965.</note>
+						<note n="39"> En el manuscrito este pasaje (vv. 1982—1995) está en un trozo de papel pegado, con una llamada (<hi rend="italic">1</hi>) que indica dónde van los versos que contiene. Ha reutilizado Zorrilla un papel de sucio que contiene, en el vuelto, un fragmento de la escena con el Comendador, muy tachado. </note>
+						<note n="40"> En M, este verso dice <hi rend="italic">Brígida</hi>.— ¿<hi rend="italic">De veras</hi>? <hi rend="italic">Ciutti</hi>.— <hi rend="italic">Y no temáis</hi>… Para evitar la repetición de la expresión ¿<hi rend="italic">De veras</hi>? (v. 1984), prefiero la lectura de RB, en este caso, porque se trata de una variante motivada y de cierta consideración.</note>
+						<note n="41"> Otro pasaje marcado para ser suprimido en la representación: vv. 2022-2067.</note>
+						<note n="42"> Para reponer la información eliminada en el relato de Brígida, Zorrilla propone en M unos versos alternativos tras el v. 2068: <hi rend="italic">Doña Inés</hi>.— ¿<hi rend="italic">Y el convento</hi>? <hi rend="italic">Brígida</hi>.— <hi rend="italic">Se quemó</hi> / <hi rend="italic">y él del fuego nos sacó</hi>. / <hi rend="italic">Él mismo nos trajo aquí</hi>.</note>
+						<note n="43"> M señala este y los tres versos que le siguen (2224-2227), quizá para suprimirlos en la representación. </note>
+						<note n="44"> Acotación añadida en B. </note>
+						<note n="45"> RB; M decía <hi rend="italic">que de él nos de luz</hi>. Parece que se trata de una corrección demasiado importante como para que otra mano intervenga hasta ese punto. </note>
+						<note n="46"> RB; en M no aparece el artículo <hi rend="italic">los</hi>, supongo que por error del autor al pasar a limpio. </note>
+						<note n="47"> En M el final de este acto no figura ya copiado de mano de Zorrilla, que dejó, eso sí, varias hojas en blanco destinadas a ese fin. Sigo, por tanto, las versiones de RB en estas últimas escenas, en las que no hay discrepancias.</note>
+						<note n="48"> Acotación añadida en B. </note>
+						<note n="49"> Acotación añadida en B.</note>
+						<note n="50"> Acotación añadida en G. </note>
+						<note n="51"> Acotación añadida en B. </note>
+						<note n="52"> Acotación añadida en R. </note>
+						<note n="53"> Acotación añadida en R.</note>
+						<note n="54"> Gerundio añadido en R.</note>
+						<note n="55"> Añadido en R.</note>
+						<note n="56"> RB; M <hi rend="italic">con vos en este momento</hi>. Este verso se salía del esquema de rima, por lo que se trata de un cambio necesario y que podría responder, razonablemente, a la voluntad del autor. </note>
+						<note n="57"> Aquí M añade <hi rend="italic">En medio un mueble destinado a contener multitud de tiestos y jarrones de flores en forma piramidal</hi>. Estas palabras se relacionan con la acotación que Zorrilla coloca tras el v. 3491. El autor concibió la aparición de doña Inés en el aposento de don Juan de una manera y después hubo de adaptarse a las posibilidades reales del montaje. </note>
+						<note n="58"> En M falta la preposición <hi rend="italic">en</hi>.</note>
+						<note n="59"> Acotación añadida en RB.</note>
+						<note n="60"> RB; M por si al fin llegar podía.</note>
+						<note n="61"> M, supongo que por despiste al corregir sobre lo ya escrito, olvida la preposición <hi rend="italic">de</hi>.</note>
+						<note n="62"> Acotación añadida en R.</note>
+						<note n="63"> G; MRB <hi rend="italic">lo cierto digo</hi>. Esta que recojo es una de las correcciones de mayor entidad que, con razón, se han introducido en la tradición textual del Tenorio desde la edición de 1883, a cargo de José Giráldez, a partir de lo copiado en M por Luis de Valdés. </note>
+						<note n="64"> En M <hi rend="italic">La estatua</hi>, en toda la escena.</note>
+						<note n="65"> Acotación añadida en R.</note>
+						<note n="66"> RB; M tacha <hi rend="italic">tan</hi> y lo sustituye por <hi rend="italic">este</hi>, pero entonces sobraría el <hi rend="italic">un</hi>, que no tacha, seguramente por descuido.</note>
+						<note n="67"> Relacionada con la acotación del comienzo del acto, en M esta acotación decía (<hi rend="italic">Ábrese el tiestero y deja ver la sombra de doña Inés dentro de un ramo de flores</hi>.) </note>
+						<note n="68"> RB; M (<hi rend="italic">Ciérrase el tiestero ocultando la sombra de doña Inés</hi>.)</note>
+						<note n="69"> En M el último acto no lleva título; se introduce en R.</note>
+						<note n="70"> Como en otros casos, solo en R aparece la lista de <hi rend="italic">Personas</hi>.</note>
+						<note n="71"> En esta escena, una vez más, M dice <hi rend="italic">La Estatua</hi> para introducir las intervenciones del Comendador.</note>
+						<note n="72"> Esta acotación se añade en R.</note>
+						<note n="73"> Acotación añadida en R.</note>
+						<note n="74"> RB; M (<hi rend="italic">Las flores se abren y aparecen varios ángeles que rodean a doña Inés y a don Juan</hi>. <hi rend="italic">Las estatuas y esqueletos vuelven a sus lugares y, al son de una música dulce y lejana, se ilumina la escena con luz de aurora</hi>. <hi rend="italic">Los angelitos los rodean con guirnaldas de flores</hi>.)</note>
+						<note n="75"> RB; M <hi rend="italic">Mueren don Juan y doña Inés</hi>. <hi rend="italic">De sus bocas salen sus dos almas representadas en dos brillantes llamas que se pierden en el espacio al compás de la música</hi>. <hi rend="italic">Fin de todo el drama</hi>. </note>
+
+					</div>
+				</body>
+			</text>
+			<text type="postparatext">
+				<body>
+					<div type="editor">
+						<p>Elena Perulero es doctora en Filología Hispánica por la Universidad Autónoma de Madrid, con una tesis titulada <hi rend="italic">La poesía histórica de Blas de Otero</hi>, que se centra en un proyecto de libro que no llegó a publicar: <hi rend="italic">En el nombre de España</hi>. Actualmente, es profesora de enseñanza secundaria en la Comunidad de Madrid. Aunque se ha asomado a otras épocas, sus trabajos de investigación se han centrado principalmente en el área de la literatura española contemporánea. Ha dedicado los dos últimos años al estudio de José Zorrilla y, muy especialmente, del drama <hi rend="italic">Don Juan Tenorio</hi>.</p>
+					</div>
+					<div type="autor">
+					</div>
+					<div type="colophon">
+						<div type="dedicatory">
+							<p>La edición de Don Juan Tenorio, de Zorrilla, se terminó de preparar para su edición en febrero del año 2015, y dedicada va a todos los que se rinden a la pasión amorosa, como siempre.</p>
+							<div type="quote">
+								<quote>«Vísteme de hermosura el pensamiento»</quote>
+								<p>Blas de Otero</p>
+							</div>
+						</div>
+					</div>
+				</body>
+			</text>
+		</group>
+	</text>
+</TEI>

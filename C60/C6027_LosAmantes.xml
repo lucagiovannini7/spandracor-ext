@@ -1,0 +1,3298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Los amantes</title>
+            <title key="archivo">C6027_LosAmantes</title>
+            <author>Rey de Artieda, Micer Andrés</author>
+            <sponsor>
+               <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+            </sponsor>
+            <funder>
+               <orgName>Dirección General de Investigación y Gestión del Plan Nacional de I+D+I (DGI) http://www.idi.mineco.gob.es</orgName>
+            </funder>
+            <respStmt>
+               <resp>Edición electrónica creada por</resp>
+               <orgName>Fundación Biblioteca Virtual Miguel de Cervantes http://www.cervantesvirtual.com</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Adaptación web por</resp>
+               <orgName>Proyecto TC/12, Patrimonio teatral clásico español. Textos e instrumentos de investigación http://www.tc12.es</orgName>
+            </respStmt>
+            <principal>Joan Oleza Simó</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>Edición electrónica de 'Los amantes'</edition>
+            <respStmt>
+               <resp>Edición digital a cargo de</resp>
+               <orgName>Biblioteca Virtual Miguel de Cervantes Saavedra</orgName>
+            </respStmt>
+         </editionStmt>
+         <extent ana="verso"/>
+         <publicationStmt>
+            <publisher>
+               <orgName>Proyecto TC/12, Patrimonio teatral clásico español. Textos e instrumentos de investigación http://www.tc12.es</orgName>
+            </publisher>
+            <authority>
+               <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+            </authority>
+            <idno/>
+            <availability>
+               <p>[Preguntar a Luisma]</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <note>Teresa Ferrer Valls</note>
+               <distributor>DICAT</distributor>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Canon 60 supone la presentación en los portales TC/12 y Biblioteca Virtual Miguel de Cervantes de 50 textos canónicos del teatro español del siglo de Oro. La edición electrónica corre a cargo de la Biblioteca Virtual Miguel de Cervantes y la selección de ediciones de indudable prestigio filológico corre a cargo del proyecto TC/12.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+            <language ident="la">Latín</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+  
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart>
+                  <title>Los amantes</title>
+               </titlePart>
+            </docTitle>
+            <docAuthor>Micer Andrés Rey de Artieda</docAuthor>
+         </titlePage>
+         <div type="dedicatoria">
+            <head>				[Dedicatoria]</head>
+            <p>Al ilustre señor don Tomás de Vilanova</p>
+            <lg type="poem">
+               <l rend="indent" n="1">Escauro edificó el primer teatro,			</l>
+               <l n="2">	y con el de Marcelo y de Pompeyo</l>
+               <l n="3">	y Balbo, los primeros fueron cuatro.</l>
+               <l rend="indent" n="4">El mejor de ellos fue cabe Tarpeyo,</l>
+               <l n="5">	do a ver los juegos scénicos venía			</l>
+               <l n="6">	el senador ecuestre y el plebeyo.</l>
+               <l rend="indent" n="7">La scena, como verse puede hoy día, </l>
+               <l n="8">	servía de aparejo y vestuario,</l>
+               <l n="9">	do las gradas y asiento fenecía.</l>
+               <l rend="indent" n="10">Con zuecos, pues, y un hábito ordinario		</l>
+               <l n="11">	se recitaba al pueblo una comedia</l>
+               <l n="12">	en una fiesta o caso funerario.</l>
+               <l rend="indent" n="13">Y una bota, no entera, sino media,</l>
+               <l n="14">	calzaba, y lo demás pomposo y rico,</l>
+               <l n="15">	el que representaba la tragedia;			</l>
+               <l rend="indent" n="16">la cual ni sufre estado humilde o chico,</l>
+               <l n="17">	ni habla jamás de cosa que no sea </l>
+               <l n="18">	verdad, o no lo llegue a ser tantico.</l>
+               <l rend="indent" n="19">Y así ni en la tragedia de Medea,</l>
+               <l n="20">	ni en las demás, guardándose el decoro,		</l>
+               <l n="21">	añadir o quitar fue cosa fea.</l>
+               <l rend="indent" n="22">Había entre los autos coro y coro,</l>
+               <l n="23">	el cual, hablando al pueblo, despertaba</l>
+               <l n="24">	el sentimiento, lágrimas y lloro.</l>
+               <l n="25">Pero como l[o] antiguo al fin se acaba,		</l>
+               <l n="26">	diez tablas, dos tapices y una alhombra</l>
+               <l n="27">	hinchen aquella fábrica tan brava.</l>
+               <l rend="indent" n="28">Ya de los coros ni hay rastro, ni sombra,</l>
+               <l n="29">	aunque impresos los vi, no ha muchos meses,</l>
+               <l n="30">	en dos <emph>Nises</emph>, que así el autor las nombra.		</l>
+               <l rend="indent" n="31">Mas como lo que montan, señor, peses, </l>
+               <l n="32">	volvernos a los coros es volvernos</l>
+               <l n="33">	los graves y antiquísimos arneses.</l>
+               <l rend="indent" n="34">Ya no queremos tanta hebilla y pernos;</l>
+               <l n="35">	bastan los que nos sirven a la justa,			</l>
+               <l n="36">	más bien garbados, llanos y modernos.</l>
+               <l rend="indent" n="37">Digo que España está en su edad robusta,</l>
+               <l n="38">	y como en lengua y armas valga y pueda,</l>
+               <l n="39">	me parece gustar de lo que gusta.</l>
+               <l rend="indent" n="40">Visto, pues, que un estado sube y rueda,		</l>
+               <l n="41">	o si por el contrario baja, sube,</l>
+               <l n="42">	y que en un punto firme apenas queda;</l>
+               <l rend="indent" n="43">por ello, y porque mil ejemplos tuve,</l>
+               <l n="44">	siguiendo el uso y plática española,</l>
+               <l n="45">	de mi tragedia hacer dos partes hube.		</l>
+               <l rend="indent" n="46">Pero porque cualquiera de ellas sola</l>
+               <l n="47">	cansar pudiera, la razón y el uso</l>
+               <l n="48">	(digo español) en otras dos partiola.</l>
+               <l rend="indent" n="49">Con esto, si me emprenden, pues, me escuso.</l>
+               <l n="50">	En lo demás, si algún descuido o falta,		</l>
+               <l n="51">	ruin lenguaje, término confuso,</l>
+               <l rend="indent" n="52">si la materia dicen que no es alta</l>
+               <l n="53">	-pues para hablar de príncipes y reyes</l>
+               <l n="54">	el nombre y reino a <emph>Los Amantes</emph> falta-</l>
+               <l rend="indent" n="55">miren los que ordenaron esas leyes			</l>
+               <l n="56">	que sacar al teatro un Minotauro</l>
+               <l n="57">	fue mandarnos tratar con semibueyes.</l>
+               <l rend="indent" n="58">Aquí no hay hidra, furia, ni centauro,</l>
+               <l n="59">	solo hay un caballero y una dama,</l>
+               <l n="60">	que pretenden ganar a Laura el lauro.		</l>
+               <l rend="indent" n="61">Allí si el amor triunfa de quien ama,</l>
+               <l n="62">	y después Laura de él, de ella la muerte,</l>
+               <l n="63">	y de la muerte al fin triunfa la fama.</l>
+               <l rend="indent" n="64">Es la fuerza de amor encarecerte,</l>
+               <l n="65">	y fuerzas que a cualquiera de estos hace,		</l>
+               <l n="66">	pues por vencerle mueren de una suerte;</l>
+               <l rend="indent" n="67">y mostrar lo que importa y satisface</l>
+               <l n="68">	a la fama triunfar hoy de la Parca,</l>
+               <l n="69">	que este ñudo castísimo deshace.</l>
+               <l rend="indent" n="70">Pasando por <emph>Los Triunfos</emph> de Petrarca,		</l>
+               <l n="71">	con estos dos hidalgos de quien trato,</l>
+               <l n="72">	hidalgos antes de Íñigo y Abarca,</l>
+               <l rend="indent" n="73">hasta el cielo tercero me arrebato,</l>
+               <l n="74">	cuando amor los emprende y acomete.</l>
+               <l n="75">	Pero, visto su término y recato,			</l>
+               <l rend="indent" n="76">vuelvo al cielo más bajo de los siete,</l>
+               <l n="77">	do la que lleva el arco, aljaba y cinto,</l>
+               <l n="78">	el triunfo a manos llenas les promete.</l>
+               <l rend="indent" n="79">Voyme de allí a Saturno, donde pinto </l>
+               <l n="80">	el triunfo de la muerte y, en pintallo,			</l>
+               <l n="81">	bajo otra vez hacia el planeta quinto.</l>
+               <l rend="indent" n="82">Veo la fama estar allí a caballo,</l>
+               <l n="83">	a quien rendir procura el primer cielo,</l>
+               <l n="84">	do el año, meses, días y horas hallo.</l>
+               <l rend="indent" n="85">Pues de allí, cuando al cielo empíreo vuelo,		</l>
+               <l n="86">	do suele Dios lo bueno eternizarlo,</l>
+               <l n="87">	lo que siente mi espíritu, ¿direlo?</l>
+               <l rend="indent" n="88">A ti en efeto quiero dedicarlo,</l>
+               <l n="89">	Barón, que del marqués de Trans deciendes,</l>
+               <l n="90">	tan favorido de Pipino y Carlo.			</l>
+               <l rend="indent" n="91">Por tanto, si de sátiros y duendes</l>
+               <l n="92">	silvestres y domésticos me escapo,</l>
+               <l n="93">	crean que con el sapo me defiendes.</l>
+               <l rend="indent" n="94">¿Hubo corneta, estandarillo o trapo,</l>
+               <l n="95">	al principio que Francia y Austria pudo,		</l>
+               <l n="96">	que por un lirio no pintase un sapo?</l>
+               <l rend="indent" n="97">Por empresa lo llevas, no lo dudo,</l>
+               <l n="98">	y así lo que de veras me asigura</l>
+               <l n="99">	es ver tantos escudos en tu escudo,</l>
+               <l rend="indent" n="100">y la letra que dice: <emph>In uno plura</emph>.</l>
+            </lg>
+            <p rend="center">Ilustre señor.</p>
+            <p rend="center">Mayor servidor de V. M.</p>
+            <p rend="center">Andrés Rey de Artieda.</p>
+         </div>
+         <div type="elenco">
+            <head>INTERLOCUTORES</head>
+            <castList>
+               <castItem>
+                  <role xml:id="marcilla">MARCILLA</role>
+                  <roleDesc>caballero</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="heredia">HEREDIA</role>
+                  <roleDesc>camarada de Marcilla</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="perafan">PERAFÁN</role>
+                  <roleDesc>criado de Marcilla poeta y músico</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="lain">LAÍN</role>
+                  <roleDesc>paje de Marcilla</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="sigura">SIGURA</role>
+                  <roleDesc>dama</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="eufrasia">EUFRASIA</role>
+                  <roleDesc>prima de Sigura</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="marido">MARIDO DE SIGURA</role>
+                  <roleDesc/>
+               </castItem>
+               <castItem>
+                  <role xml:id="juan">DON JUAN</role>
+                  <roleDesc>primo del marido de Sigura servidor de doña Elvira</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="paje">PAJE DE DON JUAN</role>
+                  <roleDesc/>
+               </castItem>
+               <castItem>
+                  <role xml:id="conde">CONDE DE FUENTES</role>
+                  <roleDesc>servidor de doña Inés</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="elvira">DOÑA ELVIRA</role>
+                  <roleDesc/>
+               </castItem>
+               <castItem>
+                  <role xml:id="ines">DOÑA INÉS</role>
+                  <roleDesc>hermana de doña Elvira</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="munyoz">MUÑOZ</role>
+                  <roleDesc>servidor de doña Inés</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="gonzalo">DON GONZALO</role>
+                  <roleDesc>servidor de Eufrasia</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="padre">PADRE DE MARCILLA</role>
+                  <roleDesc/>
+               </castItem>
+               <castItem>
+                  <role xml:id="gobernador">GOBERNADOR DE TERUEL</role>
+                  <roleDesc/>
+               </castItem>
+               <castItem>
+                  <role xml:id="imaginacion">[LA IMAGINACIÓN]</role>
+                  <roleDesc/>
+               </castItem>
+               <castItem>
+                  <role xml:id="fama">[LA FAMA]</role>
+                  <roleDesc/>
+               </castItem>
+               <castItem ana="oculto">
+                  <role xml:id="espejo">ESPEJO</role>
+                  <roleDesc/>
+               </castItem>
+            </castList>
+         </div>
+      </front>
+      <body>
+         <div type="act">
+            <head>Auto I</head>
+            
+            
+            
+            
+            <div type="scene">
+               <head>Scena I</head>
+               <castList>
+                  <castItem>
+                     <role>MARCILLA</role>
+                  </castItem>
+                  <castItem>
+                     <role>HEREDIA</role>
+                  </castItem>
+                  <castItem>
+                     <role>PERAFÁN</role>
+                  </castItem>
+                  <castItem>
+                     <role>LAÍN</role>
+                  </castItem>
+                  <castItem>
+                     <role>CONDE DE FUENTES</role>
+                  </castItem>
+               </castList>
+               <stage>[Salen MARCILLLA, HEREDIA, PERAFÁN, LAÍN.]</stage>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="1" rend="indent">		Pues que de aquí a Teruel no hay media milla,		</l>
+                  <l n="2">	y pretendo hacer alto, cuando menos</l>
+                  <l n="3">	no me quite a caballo hombre la silla;</l>
+                  <l n="4">	basta que del arzón cuelguen los frenos.</l>
+                  <l part="I">	¿Vienes cansado, Heredia?</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l part="F" n="5">						  No, Marcilla.			</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="6">	Con todo, quien lo tiene a cargo, denos.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l n="7">	Ni lo dé, ni lo pidas por tu vida:</l>
+                  <l n="8">	gozaremos mejor de la comida.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="9" rend="indent">		Ea, pues, Perafán, ve por la posta</l>
+                  <l n="10">	y, en llegando, echarás por el callizo.				</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l n="11">	¿Cómo callizo? Antes quiero aposta</l>
+                  <l n="12">	-y no será mostrarme antojadizo-</l>
+                  <l n="13">	huir de barrio y callejuela angosta,</l>
+                  <l n="14">	y en público mostrar lo que Dios hizo</l>
+                  <l part="I">	en tu favor y suyo.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="F" n="15">				      Pica y vuela.					</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l n="16">	Fíate de mi ánimo y espuela.</l>
+               </sp>
+               <stage>[Vase PERAFÁN.]</stage>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="17" rend="indent">Entre tanto, Laín, mientras empiezo</l>
+                  <l n="18">	a ponerme en pretina, abre y saca</l>
+                  <l n="19">	aquella banda, plumas y aderezo</l>
+                  <l part="I">	que hice en Milán.  Toma la llave.</l>
+               </sp>
+               <sp who="#lain">
+                  <speaker>LAÍN</speaker>
+                  <l part="F" n="20">Daca.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l n="21">Digo, viendo tus galas, que me avezo</l>
+                  <l part="I">	a ser galán de veras.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="F" n="22">			  Si es matraca,</l>
+                  <l n="23">	dímelo y callaré, pero no quieras</l>
+                  <l n="24">	darme el primer lugar, si hablas de veras.</l>
+                  <l n="25" rend="indent">Adórnome porque podría ser visto				</l>
+                  <l n="26">	de quien fue la ocasión de mi destierro.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l n="27">	Días ha, con razón, que me resisto,</l>
+                  <l n="28">	pero agora perdóname si yerro.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="29">	Tu amistad y valor tengo previsto,</l>
+                  <l n="30">	y pues sé que debajo llave encierro				</l>
+                  <l n="31">	lo que con brevedad quiero contarte,</l>
+                  <l n="32">	hagámonos, si mandas, a una parte.</l>
+                  <l n="33" rend="indent">Vive junto a las casas de mi padre</l>
+                  <l n="34">	Isabel de Sigura y, si hay alguna</l>
+                  <l n="35">	a quien enteramente el nombre cuadre				</l>
+                  <l n="36">	entre cuantas nacieron de hembra, es una;</l>
+                  <l n="37">	porque ni los regalos de su madre,</l>
+                  <l n="38">	ni el padre que en estremo la importuna</l>
+                  <l n="39">	aplicando el regalo con la fuerza,</l>
+                  <l n="40">	harán que de lo justo un dedo tuerza.				</l>
+                  <l n="41" rend="indent">Quisímonos los dos niños de teta.</l>
+                  <l n="42">	Fue la ocasión vivir pared en medio,</l>
+                  <l n="43">	 y ser, o parecerme, tan perfeta</l>
+                  <l n="44">	que para encarecerlo no hallo medio.</l>
+                  <l n="45">	En la niñez la cosa fue secreta, 					</l>
+                  <l n="46">	pero en tener edad no hobo remedio.</l>
+                  <l n="47">	Entendiolo su padre y retirola,</l>
+                  <l n="48">	por no tener más hijos de ella sola.</l>
+                  <l n="49" rend="indent">Imagina la pena que sentimos</l>
+                  <l n="50">	cuando se descubrió la cosa clara,				</l>
+                  <l n="51">	que debajo de título de primos</l>
+                  <l n="52">	disimulé hasta allí, y disimulara.</l>
+                  <l n="53">	Al fin, como mejor pude, o podimos,</l>
+                  <l n="54">	hurtando y descubriéndole la cara</l>
+                  <l n="55">	al viejo avaro, lleno de dobleces,					</l>
+                  <l n="56">	nos pudimos hablar dos o tres veces;</l>
+                  <l n="57" rend="indent">donde, tratando de la edad pasada,</l>
+                  <l n="58">	lo que alcanzamos siendo niña y niño,</l>
+                  <l n="59">	lo que vine a perder cuando la espada</l>
+                  <l n="60">	me ceñí -esta propria que me ciño-,				</l>
+                  <l n="61">	un fuego que arde, siendo nieve helada,</l>
+                  <l n="62">	soledad, que Aragón llama cariño, </l>
+                  <l n="63">	en brasas me dejara, a no ser fría,</l>
+                  <l n="64">	cuando me helaba junto y encendía.</l>
+                  <l n="65" rend="indent">Al cabo resolvímonos en esto:				</l>
+                  <l n="66">	que ella, pues con razón, siendo quien era,</l>
+                  <l n="67">	no había de escuchar más de lo honesto,</l>
+                  <l n="68">	cuando acaso otra cosa le pidiera,</l>
+                  <l n="69">	mi padre se pusiese luego a gesto,</l>
+                  <l n="70">	y viniese a pedírsela por nuera,					</l>
+                  <l n="71">	como en efecto la pidió al avaro,</l>
+                  <l n="72">	que un «no» le respondió redondo y claro.</l>
+                  <l n="73" rend="indent">Miento, que sigún finge y disimula,</l>
+                  <l n="74">	 y con gentiles medios y crianza,</l>
+                  <l n="75"> 	un alma la entretiene y atribula,					</l>
+                  <l n="76">	diciéndole de «no», le dio esperanza;</l>
+                  <l n="77">	y porque veas cuán bien lo adorne y pula</l>
+                  <l n="78">	mi padre, que algo de ello se le alcanza,</l>
+                  <l n="79">	mostró -sobre tener otro en el pecho-</l>
+                  <l n="80">	quedar con la respuesta satisfecho.				</l>
+                  <l n="81" rend="indent">Mostraba al parecer tan grande gusto</l>
+                  <l n="82">	como si por mujer se la pidieran</l>
+                  <l n="83">	en Roma Antonio, Lépido y Augusto.</l>
+                  <l n="84">	Pero, como aparencias solas eran,</l>
+                  <l n="85">	al cabo díjole que no era justo					</l>
+                  <l n="86">	casar, aunque lo valgan y se quieran,</l>
+                  <l n="87">	dos niños sin prudencia ni consejo.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l n="88">	Respuesta fue sagaz, pero de viejo.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>[MARCILLA]</speaker>
+                  <l n="89" rend="indent">Mi padre, como vio que era la falta</l>
+                  <l n="90">	que a la edad aplicó el poco dinero,				</l>
+                  <l n="91">	que, como ya en Teruel saben, le falta</l>
+                  <l n="92">	para el hijo segundo y al tercero,</l>
+                  <l n="93">	tiniendo su intención fundada y alta, </l>
+                  <l n="94">	ni se le mostró blando ni severo:</l>
+                  <l n="95">	fuese y calló, pues no esperaba fruto				</l>
+                  <l n="96">	del viejo melancólico y enjuto.</l>
+                  <l n="97" rend="indent">Lo que sentimos ella y yo, sabido</l>
+                  <l n="98"> 	lo que por los dos viejos fue resuelto,</l>
+                  <l n="99">	ni lo vio la de Sesto ni el de Abido</l>
+                  <l n="100">	cuando el cielo y el mar vieron revuelto.				</l>
+                  <l n="101">	Perderé, no lo dudes, el sentido</l>
+                  <l n="102">	si a la imaginación la rienda suelto,</l>
+                  <l n="103">	y mira si llegué al postrer estremo,</l>
+                  <l n="104">	que de solo pensarlo agora temo.</l>
+                  <l n="105" rend="indent">Visto que era el estorbo mi pobreza,				</l>
+                  <l n="106">	y la fe de Sigura al ojo vista,</l>
+                  <l n="107">	no digo en lo aparente o la corteza,</l>
+                  <l n="108">	pero do no se llega con la vista,</l>
+                  <l n="109">	y que estaba por orden de su Alteza</l>
+                  <l n="110">	en Palamós la armada y gente lista,				</l>
+                  <l n="111">	determiné, por más valer, partirme,</l>
+                  <l n="112">	dejando el corazón siguro y firme;</l>
+                  <l n="113" rend="indent">aunque primero me ofreció Sigura</l>
+                  <l n="114">	de no casarse hasta pasar siete años.</l>
+                  <l n="115">	Con esta fe partí a probar ventura					</l>
+                  <l n="116">	do sabes, si entre bárbaros y estraños</l>
+                  <l n="117">	mi nombre, aunque merece poco, tura;</l>
+                  <l n="118">	tras que de perlas, oro, seda y paños</l>
+                  <l n="119">	traigo cincuenta acémilas o cargas.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l n="120">	Ya sé que ni te encoges ni te alargas.				</l>
+                  <l n="121" rend="indent">Pero vienes a tiempo, ¿qué te rascas?</l>
+                  <l n="122">	Dime, ¿no me dirás de qué suspiras?</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="123">	¡Ay!, que de mis suspiros y mis bascas</l>
+                  <l n="124">	la causa principal, que al ojo miras,</l>
+                  <l n="125">	han sido las maretas y borrascas,					</l>
+                  <l n="126">	por las cuales, cayendo en mil mentiras,</l>
+                  <l n="127">	un hora o dos pasado el plazo llego.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l part="I">	¿Pues qué es un hora?</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="F" n="128">			   Mucho para luego.</l>
+                  <l n="129" rend="indent">Tras eso, aunque es gran burla creer en sueños,</l>
+                  <l n="130">	bajo esta corrección te diré, y salva,				</l>
+                  <l n="131">	lo que soñé anteayer casi entre sueños,</l>
+                  <l n="132">	hecha la digistión, rompiendo la alba:</l>
+                  <l n="133">	que un viejo, de estos viejos zahareños,</l>
+                  <l n="134">	a quien crédito dan la barba y calva,</l>
+                  <l n="135">	me sacaba un anillo de este dedo.					</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l n="136">	¿Y estabas tú, sacándotele, quedo?</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="137" rend="indent">Estábalo y, doliéndome infinito</l>
+                  <l n="138">	ver al que se le dio estar muy ufano</l>
+                  <l n="139">	 y reírse de mí el viejo maldito,</l>
+                  <l n="140">	ni osaba rebollirme, ni echar mano.				</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l n="141">	Pues la razón mandaba al apetito,</l>
+                  <l n="142">	por culpa tuya el tiempo, calvo y cano,</l>
+                  <l n="143">	la sortija le dio: digo, tu dama.</l>
+                  <l n="144">	Pero, ¿qué es lo que sueña un hombre que ama?</l>
+                  <l n="145" rend="indent">¿Cuánto ha que no has tenido de ella nuevas?		</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="I">	Un mes.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l part="F" n="146">    Pues ni lo pienses ni presumas.</l>
+                  <l n="147">	¡Bueno es que a un sueño dar crédito debas!,</l>
+                  <l n="148">	pues, aunque fuese oráculo de Cumas,</l>
+                  <l n="149">	mueva el fausto y recámara que llevas.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="150">	Ea, pues, tráiganme la banda y plumas.				</l>
+               </sp>
+               <sp who="#lain">
+                  <speaker>LAÍN</speaker>
+                  <l n="151">	Helas. ¿De qué, señor, te maravillas?</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="152">	¿Pues banda negra y plumas amarillas?</l>
+                  <l n="153" rend="indent">Las plumas blancas pido y banda roja.</l>
+               </sp>
+               <sp who="#lain">
+                  <speaker>LAÍN</speaker>
+                  <l n="154">	Si en el mar, do cayeron, no las pesco...</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="155">	A no ser presunción ligera y floja,					</l>
+                  <l n="156">	y que con sueños tiene parentesco,</l>
+                  <l n="157">	de nuevo acrecentaran mi congoja</l>
+                  <l part="I">	la banda y plumas.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l part="F" n="158">		       Digo que estás fresco.</l>
+                  <l n="159">	Si los sueños y agüeros te dan prisa, </l>
+                  <l n="160">	parecerte ha mortaja la camisa.					</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="161" rend="indent">Pero ¿qué gente es esta que ha apeado?</l>
+                  <l part="I">	¿Es el de Fuentes?</l>
+               </sp>
+               <sp who="#lain">
+                  <speaker>LAÍN</speaker>
+                  <l part="F" n="162">		      Sí, señor, el conde.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="I">	¿Cómo lo sabes?</l>
+               </sp>
+               <sp who="#lain">
+                  <speaker>LAÍN</speaker>
+                  <l part="F" n="163">		     Hame preguntado</l>
+                  <l n="164">	cómo venís los dos, a qué y de dónde.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="I">	Y él, ¿sabes a qué viene?</l>
+               </sp>
+               <sp who="#lain">
+                  <speaker>LAÍN</speaker>
+                  <l part="F" n="165">			      Hase casado				</l>
+                  <l part="I">	una dama en Teruel.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="F" n="166">			  ¿Quién es? Responde.</l>
+               </sp>
+               <sp who="#lain">
+                  <speaker>LAÍN</speaker>
+                  <l n="167">	No lo sé, el conde mesmo a veros viene.</l>
+                  <l part="I">	Pregúntaselo al conde.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l part="F" n="168">Razón tiene.</l>
+               </sp>
+               <stage>[Sale el CONDE.]</stage>
+               <sp who="#conde">
+                  <speaker>CONDE</speaker>
+                  <l part="I" rend="indent">¿Venís buenos los dos?</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="F" n="169">Y a lo que mandes.</l>
+               </sp>
+               <sp who="#conde">
+                  <speaker>CONDE</speaker>
+                  <l n="170">	Pero, ¿venís tan prósperos y ricos					</l>
+                  <l part="I">	que es bien serviros?</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="F" n="171">			  Ánimo es de grandes</l>
+                  <l n="172">	levantar a los débiles y chicos.</l>
+               </sp>
+               <sp who="#conde">
+                  <speaker>CONDE</speaker>
+                  <l n="173">	Ahora, señores, aunque Italia y Flandes</l>
+                  <l n="174">	andéis, España y Francia, certifícoos	</l>
+                  <l n="175">	que no descubriréis cómo son estas				</l>
+                  <l n="176">	fiestas, que las podamos llamar fiestas.</l>
+                  <l n="177" rend="indent">Si un hombre como yo, viejo, se atreve</l>
+                  <l n="178">	 a esto, y en la edad que veis remoza,</l>
+                  <l n="179">	¿qué es lo que hará la mocedad que llueve</l>
+                  <l n="180"> 	de Lérida, Valencia y Zaragoza?					</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="181">	¿Por quién se hacen las fiestas? ¿Quién las mueve?</l>
+               </sp>
+               <sp who="#conde">
+                  <speaker>CONDE</speaker>
+                  <l n="182">	Por una hermosa dama rica y moza:</l>
+                  <l part="I">Isabel...</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="M">¿Qué me cuentas?</l>
+               </sp>
+               <sp who="#conde">
+                  <speaker>CONDE</speaker>
+                  <l part="F" n="183">...de Sigura,</l>
+                  <l n="184">	a quien hasta el menor servir procura.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="185" rend="indent">A placer tan común partamos luego.				</l>
+               </sp>
+               <sp who="#conde">
+                  <speaker>CONDE</speaker>
+                  <l n="186">	Sí, mas pues vuestra edad a ello se aplica,</l>
+                  <l n="187">	habéis de aventurar hoy en el juego</l>
+                  <l n="188">	los cinco de la espada y tres de pica.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l n="189">	Aunque yo de mi parte no lo niego,</l>
+                  <l n="190">	oye lo que Marcilla te suplica.					</l>
+               </sp>
+               <sp who="#conde">
+                  <speaker>CONDE</speaker>
+                  <l part="I">	No faltará por él.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l part="F" n="191">		      Pues calla, callo.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="I">	¡Sus!, tóquese el clarín.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l part="F" n="192">			     Presto, a caballo.		</l>
+               </sp>
+               <stage>[Vanse.]</stage>
+            </div>
+            <div type="scene">
+               <head>Scena II</head>
+               
+               <castList>
+                  <castItem>
+                     <role>SIGURA</role>
+                  </castItem>
+                  <castItem>
+                     <role>PERAFÁN</role>
+                  </castItem>
+                  <castItem>
+                     <role>EUFRASIA</role>
+                  </castItem>
+                  <castItem>
+                     <role>MARIDO DE SIGURA</role>
+                  </castItem>
+               </castList>
+               <stage>[Salen EUFRASIA y SIGURA.]</stage>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="193" rend="indent">Si es la voz de este clarín</l>
+                  <l n="194">	la luz que vio faltar Hero,</l>
+                  <l n="195">	hoy el mesmo trance espero,					</l>
+                  <l n="196">	pues pronostica mi fin,</l>
+                  <l n="197">	según nos dijo el romero.</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="198" rend="indent">No dijo el romero tal.</l>
+                  <l n="199">	«Cuando el cetro de metal</l>
+                  <l n="200">	-dijo-, oyeres de la Fama»;					</l>
+                  <l n="201">	y si no es que al clarín llama</l>
+                  <l n="202">	cetro, entendístele mal.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="203" rend="indent">Hablábanos por figuras,</l>
+                  <l n="204">	pero debajo esa letra,</l>
+                  <l n="205">	quien la alma de ella penetra...					</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="206">	...descubrirá vaciaduras,</l>
+                  <l n="207">	pues que ni es cetro ni cetra.</l>
+                  <l n="208" rend="indent">¡Qué rey don Alonso el Sabio</l>
+                  <l n="209">	para tablas y astrolabio!</l>
+               </sp>
+               <stage>[Sale PERAFÁN.]</stage>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l part="I">Ce, ce.</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l part="M">¿Quién nos llama?</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l part="F" n="210">Un hombre				</l>
+                  <l n="211">	que por no acertarle el nombre</l>
+                  <l n="212">	le hago notable agravio.</l>
+                  <l n="213" rend="indent">Corre, amiga, y dile que entre,</l>
+                  <l n="214">	porque yo estoy como un hielo.</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="215">	Y él muestra tener recelo						</l>
+                  <l n="216">	de que a los de casa encuentre.</l>
+                  <l n="217">	Pero espérate y verelo.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="218" rend="indent">Si es este Perafanico,</l>
+                  <l n="219">	el que a Marcilla de chico</l>
+                  <l n="220">	sirve, Marcilla es venido;						</l>
+                  <l n="221">	digo que por el zumbido</l>
+                  <l n="222">	y señas me certifico.</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l n="223" rend="indent">En este punto ha llegado.</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="224">	¿Qué nos cuentas Perafán?</l>
+                  <l part="I">¿Viene próspero?</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l part="F" n="225">Galán,</l>
+                  <l n="226" rend="indent">								y el más bien afortunado</l>
+                  <l n="227">	de cuantos de allá vernán.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l part="I" rend="indent">¡Jesús!</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l part="F" n="228">      ¿De qué te santiguas?</l>
+                  <l n="229">	Mátenme si no averiguas,</l>
+                  <l n="230">	tras ser empresas de ayer,						</l>
+                  <l n="231">	que tienen de escurecer</l>
+                  <l n="232">	las suyas a las antiguas.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="233" rend="indent">Cuéntannos que le dio el rey</l>
+                  <l n="234">	cierto cargo en las fronteras.</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l n="235">	Pues mostrando allí de veras					</l>
+                  <l n="236">	ser hidalgo a toda ley,</l>
+                  <l n="237">	le encomendó sus galeras;</l>
+                  <l n="238" rend="indent">que pintando agora vaya</l>
+                  <l n="239">	de África el término y raya,</l>
+                  <l n="240">	las sirtes o los bajíos,						</l>
+                  <l n="241">	puertos y bocas de ríos,</l>
+                  <l n="242">	los promontorios y playa.</l>
+                  <l n="243" rend="indent">Tras que no está en su lugar,</l>
+                  <l n="244">	es vanidad que presuma</l>
+                  <l n="245">	reducirte a breve suma						</l>
+                  <l n="246">	lo que no puedo contar</l>
+                  <l n="247">	bien sin alargar la pluma;</l>
+                  <l n="248" rend="indent">solo en esto no repares,</l>
+                  <l n="249">	que alarbe en los aduares,</l>
+                  <l n="250">	en toda la costa moro,						</l>
+                  <l n="251">	piedras, plata, perlas, oro,</l>
+                  <l n="252">	alcujacas y almaizares,</l>
+                  <l n="253" rend="indent">cosa, al fin, que valer pueda</l>
+                  <l n="254">	de oro, plata, estambre o seda,</l>
+                  <l n="255">	hasta adargas y albornoces,					</l>
+                  <l n="256">	sino es algazara y voces,</l>
+                  <l n="257">	otro en África no queda.</l>
+                  <l n="258" rend="indent">Lo demás te diré cuando</l>
+                  <l n="259">	no me ponga orden ni tasa</l>
+                  <l n="260">	quien para ver lo que pasa						</l>
+                  <l n="261">	me mandó, y está aguardando</l>
+                  <l n="262">	en el camino o en casa.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="263" rend="indent">¿Y sabes que soy casada?</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l n="264">	¡Como quien no dice nada!</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="265">	¡Ah, Perafán, ve con Dios!					</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l n="266">	Y él os dé aliento a los dos</l>
+                  <l n="267">	en tan amarga jornada.	</l>
+               </sp>
+               <stage>[Vase PERAFÁN.]</stage>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="268" rend="indent">Dime, por tu vida, Eufrasia,</l>
+                  <l n="269">	¿quién hay que iguale a Marcilla</l>
+                  <l n="270">	en Aragón y Castilla,						</l>
+                  <l n="271">	si hasta los términos de Asia</l>
+                  <l n="272">	o fronteras maravilla?</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="273" rend="indent">No sé yo que haya persona</l>
+                  <l n="274">	en toda nuestra corona,</l>
+                  <l n="275">	dejada aparte esa tierra,						</l>
+                  <l n="276">	que le iguale en paz o en guerra.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="277">	Óyeme, Eufrasia, y perdona.</l>
+                  <l n="278" rend="indent">Si a los romanos y godos</l>
+                  <l n="279">	sobrepuja, aunque te nombre</l>
+                  <l n="280">	César y los de su nombre						</l>
+                  <l n="281">	y, hablando en común a todos,</l>
+                  <l n="282">	en lo que toca a ser hombre,</l>
+                  <l n="283" rend="indent">¿qué sentirá quien lo pierde,</l>
+                  <l n="284">	cuando piense o se le acuerde</l>
+                  <l n="285">	lo que pudo alguna vez						</l>
+                  <l n="286">	niña, y tras de la niñez,</l>
+                  <l n="287">	en su edad florida y verde?</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="288" rend="indent">Si no lo espera cobrar</l>
+                  <l n="289">	por más que revuelva y ande,</l>
+                  <l n="290">	y a su pasión propria mande,					</l>
+                  <l n="291">	creo que ha de reventar,</l>
+                  <l n="292">	porque la pérdida es grande.</l>
+                  <l n="293" rend="indent">Pero di, ¿quién es la dama</l>
+                  <l n="294">	que tanto le aprecia y ama</l>
+                  <l n="295">	y le viene a perder hoy?						</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="296">
+                     <stage>[Aparte.]</stage> 	(A decirle que yo soy...)			
+            </l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l part="I">
+                     <stage>[Dentro.]</stage>¡Hola!</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l part="M">Responde.</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l part="F" n="297">¿Quién llama?</l>
+               </sp>
+               <stage>[Sale el MARIDO DE SIGURA.]</stage>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="298" rend="indent">Mi señora, ¿qué haces? Mira</l>
+                  <l n="299">	que de la sala te quitas,						</l>
+                  <l n="300">	donde acuden las visitas.						</l>
+                  <l n="301">	Ven, que sube doña Elvira</l>
+                  <l n="302">	y otras damas infinitas.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="303" rend="indent">¿Oyes? Teodor, adereza</l>
+                  <l n="304">	en un momento esa pieza.</l>
+                  <l n="305">	Di Eufrasia, ¿estoy a tu gusto?					</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="306">	Ponte ese cuello más justo</l>
+                  <l n="307">	y alza un poco la cabeza.</l>
+               </sp>
+               <stage>[Vanse.]</stage>
+            </div>
+            <div type="scene">
+               <head>Scena III</head>
+               <castList>
+                  <castItem><role>MARIDO DE SIGURA</role></castItem>
+                  <castItem><role>DON JUAN</role></castItem>
+                  <castItem><role>SIGURA</role></castItem>
+                  <castItem><role>EUFRASIA</role></castItem>
+                  <castItem><role>DOÑA ELVIRA</role></castItem>
+                  <castItem><role>ATAMBORES</role></castItem>
+                  <castItem><role>DOÑA INÉS</role></castItem>
+               </castList>
+               <stage>[Salen el MARIDO DE SIGURA, SIGURA, EUFRASIA, DOÑA ELVIRA y DOÑA INÉS.]</stage>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l part="I" rend="indent">Hermosa viene.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l part="F" n="308">Gallarda.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="309">	¿Don Juan todavía porfía</l>
+                  <l part="I">	en servirla?</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l part="F" n="310">	 Todavía.						</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="311">	Eso, pues, que espera y tarda</l>
+                  <l n="312">	le dará gusto algún día.</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l n="313" rend="indent">Bésote los pies mil veces.</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="314">	A mucha cosa te ofreces.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="315">	Otras tantas te los beso.						</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="316">	Digo que es notable exceso,</l>
+                  <l n="317">	porque en mil hay muchos dieces.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="318" rend="indent">Diestramente contrapuntas.</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="319">	Pues, señora, doña Inés,</l>
+                  <l n="320">	sobre un pie, no digo pies,						</l>
+                  <l n="321">	dirá más que las dos juntas.</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="322">	Y quizá más que las tres.</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="323" rend="indent">Ya que en ello nos la ganes,</l>
+                  <l n="324">	para que todo lo allanes,</l>
+                  <l n="325">	haz como a don Juan le rindas.					</l>
+                  <l n="326">	Aunque él pídelas muy lindas,</l>
+                  <l n="327">	y con menos ademanes.</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="328" rend="indent">Pero ¿quién sigue de rastro</l>
+                  <l n="329">	a una discreta, si es fea,</l>
+                  <l n="330">	y quién hay que no desea						</l>
+                  <l n="331">	una imagen de alabastro,</l>
+                  <l n="332">	por necia y torpe que sea?</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="333" rend="indent">¿Quién? Los que abomina Dante,</l>
+                  <l n="334">	que a ponérseles delante</l>
+                  <l n="335">	lo que excede al cuerpo la alma,					</l>
+                  <l n="336">	dando a quien deben la palma,</l>
+                  <l n="337">	en viéndote, seguirante.</l>
+                  <l n="338" rend="indent">Cuantimás que si tú quieres,</l>
+                  <l n="339">	tras la discreción y ser,</l>
+                  <l n="340">	puedes muy bien parecer,						</l>
+                  <l n="341">	añadiéndote alfileres.</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="342">	¿Añadirme yo alfi[leres]?</l>
+               </sp>
+               <stage>[Sale DON JUAN.]</stage>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="343" rend="indent"> 		Debe hacerlo sobre aviso</l>
+                  <l n="344">	por no querer lo que quiso,</l>
+                  <l n="345">	quien sin prudencia y consejo					</l>
+                  <l n="346">	por mirarse hoy al espejo</l>
+                  <l n="347">	hará la fin de Narciso.</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="348" rend="indent">¿Que puede ser que peligre</l>
+                  <l n="349">	tanto esa dama, don Juan?</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="350">	Peligra y peligrarán						</l>
+                  <l n="351">	las que emprenden como tigre</l>
+                  <l n="352">	despedazar un galán.</l>
+                  <l n="353" rend="indent">¿Riese? Pues no se ría,</l>
+                  <l n="354">	que bajo de ser poesía,</l>
+                  <l n="355">	puede ver cuán poco medra					</l>
+                  <l n="356">	la que se convirtió en piedra,</l>
+                  <l n="357">	por ser encogida y fría.</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l n="358" rend="indent">No sé, por muy grande alivio</l>
+                  <l n="359">	pidió la que huyó de Apolo</l>
+                  <l part="I">	ser árbol.</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l part="F" n="360">	        Por ello solo,						</l>
+                  <l n="361">	digo, por su pecho tibio,</l>
+                  <l n="362">	si lo pidió, recaudolo.</l>
+                  <l n="363" rend="indent">Y esa que nombraste, y cuantas</l>
+                  <l n="364">	engrandesces y levantas,</l>
+                  <l n="365">	por no usar de la razón						</l>
+                  <l n="366">	con quien lo debieran, son</l>
+                  <l n="367">	menos que piedras y plantas.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="368" rend="indent">¿Es posible que tal oya</l>
+                  <l n="369">	doña Elvira y no se guarde?</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="370">	Espera el castigo tarde.						</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="371">	¡Ah, si ardiese como Troya!</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="372">	Pero como don Juan arde,</l>
+                  <l n="373" rend="indent">porque es tanto y más esquivo</l>
+                  <l n="374">	que ese otro imaginativo</l>
+                  <l n="375">	el fuego que me consume,					</l>
+                  <l n="376">	que se engaña quien presume</l>
+                  <l n="377">	que haya otro fuego más vivo.</l>
+               
+               <stage>[Salen]
+        ATAMBORES que publican un cartel:</stage>
+               
+                  <l n="378" rend="indent">Aunque tarde a servir el conde empieza,</l>
+                  <l n="379">	por lo que la tardanza le remuerde</l>
+                  <l n="380">	y espera en breve hacer, sale de verde,				</l>
+                  <l n="381">	esmaltada su dama en la cabeza;</l>
+                  <l n="382" rend="indent">do el que sus flacos ojos endereza,</l>
+                  <l n="383">	porque si bien lo hiciere, o mal, se acuerde</l>
+                  <l n="384">	de su arnés, perderá, si acaso pierde,</l>
+                  <l n="385">	o al conde ganará la mejor pieza;					</l>
+                  <l n="386" rend="indent">lo mesmo al caballero que se atreve</l>
+                  <l n="387">	alabar otra dama, se publica,</l>
+                  <l n="388">	pues no hace en su presencia lo que debe;</l>
+                  <l n="389" rend="indent">a más de que dará una prenda rica</l>
+                  <l n="390">	al que mejor emplee, y mejor cebe,				</l>
+                  <l n="391">	en el arnés contrario espada y pica.</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="392" rend="indent">¡Que por doña Inés afije</l>
+                  <l n="393">	un cartel como este el conde!</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l n="394">	Si a lo que veis no responde,</l>
+                  <l n="395">	responderá a lo que dije						</l>
+                  <l n="396">	que nos encubre y esconde.</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="397" rend="indent">Sobre ese particular,</l>
+                  <l n="398">	me pienso en tu nombre armar,</l>
+                  <l n="399">	aunque al cartel contradiga.</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l n="400">	Tiente solo el que se obliga					</l>
+                  <l n="401">	lo que puede averiguar.</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="402" rend="indent">Pero denle el parabién,</l>
+                  <l n="403">	si le das aliento y brío.</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="404">	Y aun porque de ello confío, </l>
+                  <l n="405">	será el precio que me den						</l>
+                  <l n="406">	suyo, aunque se nombre mío.</l>
+                  <l n="407" rend="indent">Con tu licencia me voy.</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l n="408">	Ni te la niego, ni doy.</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="409">	Para dármela, eso basta.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="410">	Vete, que el tiempo se gasta					</l>
+                  <l n="411">	que dejas de emplear hoy.</l>
+                  <l n="412" rend="indent">
+                     <stage>[Vase DON JUAN.]</stage>Doña Elvira, entrémonos.</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l n="413">	La ventaja de entrar dala</l>
+                  <l part="I">	a Inés.</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l part="F" n="414">   No entraré en la sala,</l>
+                  <l n="415">	si no es que paséis las dos,						</l>
+                  <l n="416">	o entremos las cuatro en ala.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="417" rend="indent">Fuera gentil corte y medio,</l>
+                  <l n="418">	si hubiera de entrar remedio,</l>
+                  <l n="419">	pero juntas no podremos.</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="420">	Pasen las de los estremos 						</l>
+                  <l n="421">	y sigan las dos de en medio.</l>
+               </sp>
+               <stage>[Vanse.]</stage>
+            </div>				
+            </div>
+         <div type="act">
+            <head>Auto II</head>
+				        <div type="scene">
+               <head>Scena I</head>
+				
+				           <castList>
+				              <castItem>
+				                 <role>EUFRASIA</role>
+				              </castItem>
+				              <castItem>
+				                 <role>MARCILLA</role>
+				              </castItem>
+				              <castItem>
+				                 <role>DOÑA INÉS</role>
+				              </castItem>
+				              <castItem>
+				                 <role>MARIDO DE SIGURA</role>
+				              </castItem>
+				              <castItem>
+				                 <role>DOÑA ELVIRA</role>
+				              </castItem>
+				              <castItem>
+				                 <role>UN PAJE DE DON JUAN</role>
+				              </castItem>
+				           </castList>
+               <stage>   [Salen EUFRASIA, DOÑA INÉS y ELVIRA.] </stage>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="422" rend="indent">No ha de ser, pues, danzar todo,</l>
+                  <l n="423">	salgamos un poco al aire.</l>
+                  <l n="424">	Pero, doña Inés, el modo</l>
+                  <l n="425">	con que Muñoz, por desgaire, 					</l>
+                  <l n="426">	te asió con la mano el codo,</l>
+                  <l n="427" rend="indent">por mi vida, ¿fue mudanza</l>
+                  <l n="428">	a las que obliga la danza,</l>
+                  <l n="429">	o por dicha llegar quiso</l>
+                  <l n="430">	con la mano al paraíso						</l>
+                  <l n="431">	que con el ánimo alcanza?</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="432" rend="indent">La cuenta que hicieres, haz,</l>
+                  <l n="433">	que si la danza no obliga</l>
+                  <l n="434">	a tanta unión y paz,</l>
+                  <l n="435">	disculparse ha cuando siga					</l>
+                  <l n="436">	con otros mil un rapaz</l>
+                  <l n="437" rend="indent">que, aunque ciego, rige al cuerdo,</l>
+                  <l n="438">	y mueve los pies al lerdo.</l>
+                  <l n="439">	Así que si añade o deja,</l>
+                  <l n="440">	cargando al guión la queja,					</l>
+                  <l n="441">	ni él por mí, ni por él pierdo.</l>
+               </sp>
+               <sp who=" #eufrasia">
+                  <speaker>[EUFRASIA]</speaker>
+                  <l n="442" rend="indent">En efecto, fue cordura,</l>
+                  <l n="443">	pues siendo osado el galán,</l>
+                  <l n="444">	tiene la prenda sigura,</l>
+                  <l n="445">	si es verdad que juntos van					</l>
+                  <l n="446">	atrevimiento y ventura.</l>
+               </sp>
+               <sp who=" #ines">
+                  <speaker>[DOÑA INÉS]</speaker>
+                  <l n="447" rend="indent">Di tú que el ánimo y brío</l>
+                  <l n="448">	de ese galán, si lo es mío,</l>
+                  <l n="449">	te mueve y provoca a envidia,</l>
+                  <l n="450">	pues el que contigo lidia						</l>
+                  <l n="451">	pierde un poquito por frío.</l>
+                  <l n="452" rend="indent">Cayote un guante en el suelo,</l>
+                  <l n="453">	él, sin ventura, fue a alzalle,</l>
+                  <l n="454">	quiso dártele... ¿Dirélo? </l>
+                  <l n="455">	Pero mejor es que calle.						</l>
+                  <l n="456">	¡En tanto amor tan gran hielo!</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="457" rend="indent">Término tan singular</l>
+                  <l n="458">	nadie le pudiera usar,</l>
+                  <l n="459">	sino es quien trazada fuera</l>
+                  <l n="460">	dentro la tercer esfera,						</l>
+                  <l n="461">	o entre fuego elementar.</l>
+                  <l n="462" rend="indent">Porque a mi galán el tuyo</l>
+                  <l n="463"> 	en desenvoltura venza,</l>
+                  <l n="464">	que es de lo que yo más huyo,</l>
+                  <l n="465">	¿atribuyes a vergüenza						</l>
+                  <l n="466">	lo que a buen seso atribuyo?</l>
+                  <l n="467" rend="indent">Si amor consiste en las manos,</l>
+                  <l n="468">	por tu fe, doña Inés, danos</l>
+                  <l n="469">	las tuyas, y llevaremos</l>
+                  <l n="470">	quizá, por esos estremos,						</l>
+                  <l n="471">	lo que por términos llanos.</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="472" rend="indent">Sí, que el asiento y mesura</l>
+                  <l n="473">	aprovecha y vale mucho.</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="474">	Pero la desenvoltura...</l>
+                  <l n="475">	que es lo que dicen, y escucho.					</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="476">	¿Y quién lo averigua y jura?</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l n="477" rend="indent">Ce, la plática entretén,</l>
+                  <l n="478">	que viene acá no sé quién.</l>
+               </sp>
+               <stage>[Salen MARCILLA, SIGURA y el MARIDO DE SIGURA.]</stage>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l part="I">	¡Marcilla es!</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l part="F" n="479">	  ¡Válame Dios!</l>
+                  <l n="480">	¿Y son los novios los dos						</l>
+                  <l n="481">	a quien les da el parabién?</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="482" rend="indent">...Y en particular me alegro</l>
+                  <l n="483">	de que este día le veas</l>
+                  <l n="484">	tan a gusto de tu suegro.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="485">	Y a ti cuanto bien deseas.						</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="486">
+                     <stage>[Aparte.]</stage>	(Negro, bien negro y bien negro.)     	 
+            </l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="487" rend="indent">¿Qué es lo que dices, Marcilla?</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="488">	Digo que me maravilla</l>
+                  <l n="489">	ver estas damas a punto</l>
+                  <l n="490"> 	de rendir el mundo junto,						</l>
+                  <l n="491">	si ante sus pies no se humilla.</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="492" rend="indent">Bien es que el trabajo ahorre</l>
+                  <l n="493">	quien tan hermosas nos pinta,</l>
+                  <l n="494">	pues por lo mesmo nos corre,</l>
+                  <l n="495">	si el color sobrado o tinta						</l>
+                  <l n="496">	causan que, al pintar, nos borre.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="497" rend="indent">Pero mandaisme estar quedo,</l>
+                  <l n="498">	pues menos servir os puedo</l>
+                  <l n="499">	con mi artificio y pintura,</l>
+                  <l n="500">	que llegar, quien lo procura,					</l>
+                  <l n="501">	hasta el cielo con el dedo.</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="502" rend="indent">¡Será, a dicha, el cielo onceno,</l>
+                  <l n="503">	según tu encarecimiento!</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="504">	El tuyo a la fe es muy bueno,</l>
+                  <l n="505">	si no más de nueve cuento,					</l>
+                  <l n="506">	y diez con el más sereno.</l>
+               </sp>
+               <stage>[Sale un PAJE.]</stage>
+               <sp who="#paje">
+                  <speaker>PAJE</speaker>
+                  <l n="507" rend="indent">		Señor, don Juan te suplica</l>
+                  <l n="508">	que por señas de la pica</l>
+                  <l n="509">	le prestes hoy la celada,</l>
+                  <l n="510">	porque está desenchodada						</l>
+                  <l n="511">	la suya, y le viene chica.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="512" rend="indent">Muy bien. Marcilla, entretente,</l>
+                  <l n="513">	que luego al momento vuelvo.</l>
+               </sp>
+               <stage>[Vanse el MARIDO DE SIGURA y el PAJE.]</stage>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="514">	Así que siguramente,</l>
+                  <l n="515">	señoras, yo me resuelvo:						</l>
+                  <l n="516">	que lo bueno, lo ecelente,</l>
+                  <l n="517" rend="indent">de dos cosas que hizo Dios,</l>
+                  <l n="518">	ángeles y hombres, las dos,</l>
+                  <l n="519">	quien os considera y mira...</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="520">	¿Que esperamos, doña Elvira?					</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l n="521">	¿Esperalle? Entrémonos.</l>
+               </sp>
+               <stage>[Vanse DOÑA ELVIRA y DOÑA INÉS.]</stage>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="522" rend="indent">Paso, no con tanta prisa.</l>
+                  <l n="523">	Eufrasia, detén a Inés.</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="524">	No la puedo asir de risa,</l>
+                  <l n="525">	porque va con tales pies,						</l>
+                  <l n="526">	que no huella lo que pisa.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="527" rend="indent">Ea pues, ve, llámalas.</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="528">	¿Qué siguro les darás?</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="529">	Di que a todo el daño salgo.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="530">	...Y que juro como hidalgo					</l>
+                  <l n="531">	de no hablar sobre ello más.</l>
+               </sp>
+               <stage>[Vase EUFRASIA. Quedan MARCILLA y SIGURA.]</stage>
+            </div>
+            <div type="scene">
+               <head>Scena II</head>
+               <castList>
+                  <castItem><role>MARCILLA</role></castItem>
+                  <castItem><role>SIGURA</role></castItem>
+                  <castItem><role>MARIDO DE SIGURA</role></castItem>
+               </castList>
+               
+                  <stage>[MARCILLA y SIGURA.]</stage>
+               
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="532" rend="indent">¿Es, ingrata Sigura,</l>
+                  <l n="533">	el casamiento próspero que aguardo?</l>
+                  <l n="534">	Callar será cordura,</l>
+                  <l n="535">	pues de ira y desdén ardo,						</l>
+                  <l n="536">	y de envidia me hielo y acobardo.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="537" rend="indent">No es bien que si hablas, hable,</l>
+                  <l n="538">	sigún mi gran pasión y tu gran ira,</l>
+                  <l n="539">	pero la fe inviolable</l>
+                  <l n="540">	ni a mis pasiones mira,						</l>
+                  <l n="541">	ni a lo que tú condenas por mentira.</l>
+                  <l n="542" rend="indent">Ella, pues lo que dije</l>
+                  <l n="543">	lo reservé al salirme de la boca,</l>
+                  <l n="544">	y en mis entrañas fije,</l>
+                  <l n="545">	descubrirá cuán poca						</l>
+                  <l n="546">	razón tienes o a quién de los dos toca.</l>
+                  <l n="547" rend="indent">De mí sé que los años</l>
+                  <l n="548">	que prometí aguardarte esperé, y días,</l>
+                  <l n="549">	venciendo con engaños</l>
+                  <l n="550">	las quejas y porfías							</l>
+                  <l n="551">	de mis cansados padres y mis tías.</l>
+                  <l n="552" rend="indent">De ti la fe se queja,</l>
+                  <l n="553">	pues por faltar el día que ofreciste,</l>
+                  <l n="554">	tu descuido me deja</l>
+                  <l n="555">	tan afligida y triste,						</l>
+                  <l n="556">	que apenas al dolor mi alma resiste.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="557" rend="indent">No es pusible, ni creo,</l>
+                  <l n="558">	que quien pasado el término en dos horas</l>
+                  <l n="559">	se casó, como veo,</l>
+                  <l n="560">	no quiera lo que adoras,						</l>
+                  <l n="561">	y llore tibiamente lo que lloras.</l>
+                  <l n="562" rend="indent">Porque a no darte gusto</l>
+                  <l n="563">	esto, con lo que agora te acomodas,</l>
+                  <l n="564">	pasado el tiempo justo</l>
+                  <l n="565">	 y condiciones todas,						</l>
+                  <l n="566">	dilataras siquiera un mes las bodas,</l>
+                  <l n="567" rend="indent">y lo que dilataras</l>
+                  <l n="568">	dejara mi descuido averiguado,</l>
+                  <l n="569">	y tus disculpas claras.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="570">	Hame sido forzado,						</l>
+                  <l n="571">	con probarlo hasta aquí, tomar estado,</l>
+                  <l n="572" rend="indent">porque mis bodas supe</l>
+                  <l n="573">	cuando ya el estorballas fuera tarde.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="574">	Como el temor ocupe</l>
+                  <l n="575">	un ánimo cobarde,							</l>
+                  <l n="576">	¿esperáis de él que fe o palabra guarde?</l>
+                  <l n="577" rend="indent">Que una tilde no tuerza</l>
+                  <l n="578">	de lo que prometí, es caso ordinario,</l>
+                  <l n="579">	pero do no me fuerza</l>
+                  <l n="580">	lo que ofrecí, al contrario,						</l>
+                  <l n="581">	a mucho obliga un hecho voluntario.</l>
+                  <l n="582" rend="indent">Y así lo que aguardaste,</l>
+                  <l n="583">	aunque te deje en parte disculpada,</l>
+                  <l n="584">	no es disculpa que baste:</l>
+                  <l n="585">	pues tu fe acelerada,						</l>
+                  <l n="586">	fuera la obligación, no puso nada.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="587" rend="indent">Espántome que digas</l>
+                  <l n="588">	que por lo voluntario más mereces</l>
+                  <l n="589">	que por lo que te obligas,</l>
+                  <l n="590">	pero hablemos a veces,						</l>
+                  <l n="591">	y verás a lo mucho que te ofreces.</l>
+                  <l n="592" rend="indent">Libertad ancha y larga</l>
+                  <l n="593">	tiene el que ni lo debe ni promete,</l>
+                  <l n="594">	mas quien de algo se encarga,</l>
+                  <l n="595">	por un año o por siete,						</l>
+                  <l n="596">	¿quién duda que otros tantos se sujete?</l>
+                  <l n="597" rend="indent">Y si este se deshonra</l>
+                  <l n="598">	por no satisfacer la menor cosa,</l>
+                  <l n="599">	¿qué fama gana, y honra,</l>
+                  <l n="600">	si en lo que ofrecer osa						</l>
+                  <l n="601">	tan justo va que no desmiente en cosa?</l>
+                  <l n="602" rend="indent">Y pues el tiempo mido</l>
+                  <l n="603">	con lo que prometí, y de ello no salgo,</l>
+                  <l part="I">	no me pidas más.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="F" n="604">	     Pido,</l>
+                  <l n="605">	tras la obligación, algo						</l>
+                  <l n="606">	que un pecho nos descubra más hidalgo.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="607" rend="indent">Digo que me resuelvo</l>
+                  <l n="608">	en que, sigún del tiempo y fe mal usas,</l>
+                  <l n="609">	si contra ti revuelvo,</l>
+                  <l n="610">	no podrás con escusas						</l>
+                  <l n="611">	librarte de lo mesmo que me acusas.</l>
+                  <l n="612" rend="indent">Dime, tras los tesoros</l>
+                  <l n="613">	que ganaste en dos años por tu brazo</l>
+                  <l n="614">	en África a los moros,</l>
+                  <l n="615">	¿qué estorbo o embarazo						</l>
+                  <l n="616">	tuviste para no llegar al plazo?</l>
+                  <l n="617" rend="indent">No fue sino que en verte</l>
+                  <l n="618">	mozo, ilustre, galán, próspero y rico,</l>
+                  <l n="619">	tuviste a mala suerte,</l>
+                  <l n="620">	sigún mi estado es chico,						</l>
+                  <l n="621">	perder de tu fortuna y ser tantico.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="622" rend="indent">¿Qué fortuna o quimeras?</l>
+                  <l n="623">	Ser tu padre, a la fe, tan avariento</l>
+                  <l n="624">	que si un millón le dieras</l>
+                  <l n="625">	quedara descontento,						</l>
+                  <l n="626">	me entretuviera hasta ganarle un cuento.</l>
+                  <l n="627" rend="indent">Los tesoros de Mida,</l>
+                  <l n="628">	aquel deseo tan temerario y loco</l>
+                  <l n="629">	que le quitó la vida,</l>
+                  <l n="630">	convertir lo que toco						</l>
+                  <l n="631">	en oro, imaginara que era poco.</l>
+                  <l n="632" rend="indent">Pero partí, con todo,</l>
+                  <l n="633">	y antes mucho, del término, llegara,</l>
+                  <l n="634">	a no soplar de modo</l>
+                  <l n="635">	un viento que, a la clara,						</l>
+                  <l n="636">	pronosticó lo que me das en cara.</l>
+                  <l n="637" rend="indent">Si al fuego, a la ruina,</l>
+                  <l n="638">	a fortuna deshecha nadie basta</l>
+                  <l n="639">	contrastar, imagina,</l>
+                  <l n="640">	y no respondas hasta 						</l>
+                  <l n="641">	ver quién lo que esperaba acertar gasta.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="642" rend="indent">Fuérate respondiendo,</l>
+                  <l n="643">	mas tras que mi marido asomar veo,</l>
+                  <l n="644">	por la grita y estruendo</l>
+                  <l n="645">	que siento en casa, creo						</l>
+                  <l n="646">	que el conde a mantener viene el torneo.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="647" rend="indent">Cuán cierta es nuestra guerra, </l>
+                  <l n="648">	pues nos retiran pífanos y cajas,</l>
+                  <l n="649">	y cuán cierto quién yerra,</l>
+                  <l n="650">	pues las manos encajas						</l>
+                  <l n="651">	y de vergüenza al fin los ojos bajas.</l>
+                  <l part="I" rend="indent">Voyme.</l>
+               </sp>
+               <stage>[Vase MARCILLA. Sale el MARIDO DE SIGURA.]</stage>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l part="F" n="652">	  ¿Fuese Marcilla?</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="653">	Sintió la caja. Creo que tornea,</l>
+                  <l n="654">	y así partió en sentilla.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="655">	Veamos la librea							</l>
+                  <l n="656">	del conde, quién le sirve y padrinea.</l>
+            
+               </sp>
+               <stage>[Vanse.]</stage>
+            </div>
+            <div type="scene">
+               <head>Scena III</head>
+               <castList>
+                  <castItem><role>MARCILLA</role></castItem>
+                  <castItem><role>PADRE DE MARCILLA</role></castItem>
+                  <castItem><role>LAÍN</role></castItem>
+                  <castItem><role>MUÑOZ</role></castItem>
+                  <castItem><role>PERAFÁN</role></castItem>
+                  <castItem><role>DON GONZALO</role></castItem>
+               </castList>
+               <stage>[Salen MARCILLA y LAÍN.]</stage>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="657" rend="indent"> 		¿Que se entró por ver al conde?</l>
+                  <l n="658">	¿Y con su querido Apolo?</l>
+                  <l n="659">	¿Esto vio Marcilla? ¡Violo!</l>
+                  <l n="660">	Irme quiero, pero ¿dónde,						</l>
+                  <l n="661">	sino a do pueda estar solo?</l>
+                  <l n="662" rend="indent">Corre... -¿a quién digo?- ...Laín,</l>
+                  <l n="663">	baja una silla al jardín.</l>
+               </sp>
+               <sp who="#lain">
+                  <speaker>LAÍN</speaker>
+                  <l n="664">	Y la mesa, ¿bajarela?</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="665">	Mesa, libros y vihuela.						</l>
+               </sp>
+               <sp who="#lain">
+                  <speaker>LAÍN</speaker>
+                  <l n="666">	Mesa y libros, ¿a qué fin?</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="667" rend="indent">Para atajar los asaltos</l>
+                  <l n="668">	que a mi triste corazón</l>
+                  <l n="669">	le da la imaginación,</l>
+                  <l n="670">	con mil pensamientos altos					</l>
+                  <l n="671">	y otros mil que no lo son.</l>
+            
+                  <l n="672" rend="indent">
+                     <stage>[Vase LAÍN.]</stage>¡Cuán bien lo haré si la ocupo</l>
+                  <l n="673">	en que olvide lo que supo!,</l>
+                  <l n="674">	aunque sea muy gran locura</l>
+                  <l n="675">	darle a entender que Sigura 					</l>
+                  <l n="676">	no cupiese en lo que cupo.</l>
+                  <l n="677" rend="indent">Pero, ¿en qué la emplearemos?</l>
+                  <l n="678">	¿En música? No: provoca,</l>
+                  <l n="679">	solo con abrir la boca,</l>
+                  <l n="680">	a decir y hacer estremos,						</l>
+                  <l n="681">	si en lo que imaginas toca.</l>
+                  <l n="682" rend="indent">¿Ocuparémosla en galas?</l>
+                  <l n="683">	Sí, que faltando las alas</l>
+                  <l n="684">	de parecer bien a quien</l>
+                  <l n="685">	pareciste un tiempo bien,						</l>
+                  <l n="686">	entretiénesla y regalas.</l>
+                  <l n="687" rend="indent">¿En armas? No, que la injuria</l>
+                  <l n="688">	siendo, como lo es, tan fresca,</l>
+                  <l n="689">	si eslabón soy, será yesca,</l>
+                  <l n="690">	provocándome a la furia						</l>
+                  <l n="691">	de que usé en la soldadesca.</l>
+                  <l n="692" rend="indent">Pues vale algo lo que escribo,</l>
+                  <l n="693">	darele un peso excesivo,</l>
+                  <l n="694">	y será traducir versos;</l>
+                  <l n="695">	que entre conceptos diversos,					</l>
+                  <l n="696">	uno apenas queda vivo.</l>
+                  <l n="697" rend="indent">Ea, pues, favor y auxilio,</l>
+                  <l n="698">	para emprendello de espacio</l>
+                  <l n="699">	quiero traducir de Horacio, 	</l>
+                  <l n="700">	aunque mejor es Virgilio,						</l>
+                  <l n="701">	y Ovidio más de palacio.</l>
+               </sp>
+               <stage>[Sale LAÍN.]</stage>
+               <sp who="#lain">
+                  <speaker>LAÍN</speaker>
+                  <l part="I" rend="indent">Todo está ya a punto.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="F" n="702">Dame,</l>
+                  <l n="703">	para que en parte derrame</l>
+                  <l n="704">	un pensamiento, ese libro.</l>
+               </sp>
+               <sp who="#lain">
+                  <speaker>LAÍN</speaker>
+                  <l n="705">	Si una vez de aquí me libro,					</l>
+                  <l n="706">	no haya miedo, aunque me llame.</l>
+                  <l n="707" rend="indent">Vinieran a Teruel otros, </l>
+                  <l n="708">	sigún las fiestas son grandes,</l>
+                  <l n="709">	si viene a mano, de Flandes,</l>
+                  <l n="710">	y ¿perdémoslas nosotros?						</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="I">	Ábrele.</l>
+               </sp>
+               <sp who="#lain">
+                  <speaker>LAÍN</speaker>
+                  <l part="F" n="711">   Como lo mandes.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="712" rend="indent">¡Cuán a espacio lo desata!</l>
+                  <l n="713">	¡Arrebátale, arrebata!,</l>
+                  <l n="714">	y como en libro de suertes,</l>
+                  <l n="715">	di lo primero que aciertes.						</l>
+               </sp>
+               <sp who="#lain">
+                  <speaker>LAÍN</speaker>
+                  <l n="716">	De Píramo y Tisbe trata.</l>
+                  <p>Notitiam primosque gradus vicinia fecit,</p>
+                  <p>tempore crevit amor, iure quoque tedae coissent,</p>
+                  <p>sed vetuere patres, quod non potuere vetare.</p>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>[MARCILLA]</speaker>
+                  <l n="717" rend="indent">¿Hay dos tan conformes casos</l>
+                  <l n="718">	como estos dos? ¿Haylos? No.</l>
+                  <l n="719">	Di: La vecindad causó
+            </l>
+                  <l n="720">
+               la primer noticia y pasos;
+            </l>
+                  <l n="721">
+               con el tiempo amor creció...
+            </l>
+                  <l n="722" rend="indent">Solo hay ser mi ángel casada,</l>
+                  <l n="723">	y que fuera abominada</l>
+                  <l n="724">	por Tisbe esa ingratitud.</l>
+                  <l n="725">	Hora muéstrame el laúd,						</l>
+                  <l n="726">	que este ejercicio me enfada.</l>
+                  <stage>[Canta.]</stage>
+                  <l n="727" rend="indent">
+                     <stage>Soneto</stage>César, después que la cabeza mira</l>
+                  <l n="728">	que el rey de Egipto le mandó en presente</l>
+                  <l n="729">	para encubrir dolor tan evidente,</l>
+                  <l n="730">	según escrito está, llora y suspira;					</l>
+                  <l n="731" rend="indent">y Aníbal, cuando ya se le retira</l>
+                  <l n="732">	su fortuna y la falta de ella siente,</l>
+                  <l n="733">	riese entre afligida y triste gente,</l>
+                  <l n="734">	solo por encubrilles su gran ira.</l>
+                  <l n="735" rend="indent">Sucede, pues, que cada cual procura				</l>
+                  <l n="736">	una pasión con un cierto desvío</l>
+                  <l n="737">	de la vista encubrir, clara o escura;</l>
+                  <l n="738" rend="indent">así que si esta vez yo canto o río,</l>
+                  <l n="739">	hágolo por ser esta más sigura</l>
+                  <l n="740">	manera de encubrir el dolor mío.					</l>
+            
+                  <l n="741" rend="indent">¡Que cuanto más huyo, toco</l>
+                  <l n="742">	mi llaga, donde, si acudo,</l>
+                  <l n="743">	hago el dolor más agudo!</l>
+                  <l n="744">	Laín, desvíate un poco.</l>
+                  <l part="I">	Vete.</l>
+               </sp>
+               <sp who="#lain">
+                  <speaker>LAÍN</speaker>
+                  <l part="F" n="745">  Despedirme pudo.						</l>
+               </sp>
+               <stage>[Vase.]</stage>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="746" rend="indent">Entre mil remedios que hallo,</l>
+                  <l n="747">	si es desbocado un caballo,</l>
+                  <l n="748">	es alargarle la rienda.</l>
+                  <l n="749">	La imaginación me entienda,</l>
+                  <l n="750">	que en ella quiero proballo;					</l>
+                  <l n="751" rend="indent">que sigún con furia corre,</l>
+                  <l n="752">	si la rienda aflojo y pico,</l>
+                  <l n="753">	viendo que, si va tantico,</l>
+                  <l n="754">	dará de ojos en la torre</l>
+                  <l n="755">	que por su mal edifico,	 	</l>
+                  <l n="756" rend="indent">quizá se refrenará, </l>
+                  <l n="757">	vista la esquina en que da.</l>
+                  <l n="758">	Y si de ella no se arriedra,</l>
+                  <l n="759">	en dando en la primer piedra</l>
+                  <l n="760">	con mi vida acabará.		</l>
+                  <l n="761" rend="indent">Ea, ya está en la carrera,</l>
+                  <l n="762">	descubra el pecho robusto</l>
+                  <l n="763">	que, pues lo prometo, es justo</l>
+                  <l n="764">	seguirla, aunque yo no quiera,</l>
+                  <l n="765">	por donde le diere gusto.		</l>
+                  <l n="766" rend="indent">Corra, ¿de qué se demuda?</l>
+                  <l n="767">	Imagínela desnuda,</l>
+                  <l n="768">	y visto el rostro y la palma,</l>
+                  <l n="769">	dígame si en lo del alma</l>
+                  <l n="770">	algo que no deba duda.	</l>
+                  <l n="771" rend="indent">Si las dos famosas lumbres</l>
+                  <l n="772">	se estremaron en la hechura</l>
+                  <l n="773">	de mi angélica Sigura,</l>
+                  <l n="774">	Júpiter en las costumbres</l>
+                  <l n="775">	y Venus en la hermosura,	</l>
+                  <l n="776" rend="indent">y, si como fuera mía</l>
+                  <l n="777">	a venir antes un día,</l>
+                  <l n="778">	la perdí porque no vine,</l>
+                  <l n="779">	mi cortedad imagine,</l>
+                  <l n="780">	y acabarme ha, si porfía.	</l>
+               </sp>
+               <stage>[Sale PERAFÁN.]</stage>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l n="781" rend="indent">¿Qué haces aquí, señor, solo?</l>
+                  <l n="782">	Ven, que te aguarda la cena.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="783">	¡Qué terrible enfado y pena!</l>
+                  <l part="I">	¿Quién te envía aquí?</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l part="F" n="784">                Mandolo</l>
+                  <l n="785">	quien te la dará muy buena.	</l>
+                  <l n="786" rend="indent">Griego y lágrima de parras,</l>
+                  <l n="787">	Turia reservado en jarras;</l>
+                  <l n="788">	lo demás bueno y a punto,</l>
+                  <l n="789">	tu linaje ilustre junto,</l>
+                  <l n="790">	yo y Laín con dos guitarras.	</l>
+                  <l n="791" rend="indent">Pero ¿qué digo? Tu padre</l>
+                  <l part="I">	viene aquí.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="F" n="792">       Desvía la silla,</l>
+                  <l n="793">	y apercibe una letrilla</l>
+                  <l n="794">	que con mi soledad cuadre.</l>
+               </sp>
+               <stage>[Salen el PADRE DE MARCILLA, MUÑOZ y DON GONZALO.]</stage>
+               <sp who="#padre">
+                  <speaker>PADRE</speaker>
+                  <l n="795">	¿Qué haces solo aquí, Marcilla?	</l>
+                  <l n="796" rend="indent">¿Viene todo el mundo a verte</l>
+                  <l n="797">	y has hecho del jardín, fuerte?</l>
+                  <l n="798">	Sal y recibe a tus primos.</l>
+               </sp>
+               <sp who="#munyoz">
+                  <speaker>MUÑOZ</speaker>
+                  <l n="799">	Contigo a cenar venimos.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="800">	Téngolo a muy buena suerte.	</l>
+               </sp>
+               <sp who="#gonzalo">
+                  <speaker>DON GONZALO</speaker>
+                  <l n="801" rend="indent">Por lo que imagino, creo</l>
+                  <l n="802">	que has de tornear mañana,</l>
+                  <l n="803">	por dar el precio a doña Ana.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="804">	Darele, si en el torneo</l>
+                  <l n="805">	quien menos lo piensa gana.	</l>
+                  <l n="806" rend="indent">Solo por serviros salgo,</l>
+                  <l n="807">	que por lo que en ello valgo,</l>
+                  <l n="808">	bien me pudiera escusar.</l>
+               </sp>
+               <sp who="#padre">
+                  <speaker>PADRE</speaker>
+                  <l n="809">	Entrémonos a cenar,</l>
+                  <l n="810">	y vosotros cantad algo.	</l>
+               </sp>
+               <stage>[Vanse.]</stage>
+            </div>				
+            </div>
+         <div type="act">
+            <head>Auto III</head>
+            <div type="scene">
+               <head>Scena I</head>
+				
+               <castList>
+                  <castItem><role>MARCILLA</role></castItem>
+                  <castItem><role>DON GONZALO</role></castItem>
+                  <castItem><role>HEREDIA</role></castItem>
+                  <castItem><role>MUÑOZ</role></castItem>
+                  <castItem><role>PERAFÁN</role></castItem>
+               </castList>
+               <stage>[Salen MARCILLA, HEREDIA, PERAFÁN, DON GONZALO y MUÑOZ.]</stage>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="I" rend="indent">¿Hase bebido fresco, Heredia?</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l part="F" n="811">Fresco.</l>
+                  <l n="812">	A serlo más, pues todo estremo es malo,</l>
+                  <l n="813">	fuerale mal a quien vence un tudesco</l>
+                  <l n="814">	como yo, que entre griegos me señalo.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="815">	Ea, pues a lo grave o lo burlesco,	</l>
+                  <l n="816">	siquiera porque te oiga don Gonzalo,</l>
+                  <l n="817">	si alegra el vino y tan de veras brindas,</l>
+                  <l n="818">	cántanos dos letrillas, pero lindas.</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l n="819" rend="indent">Pláceme, pero nadie burle o fisbe.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="I">	Fisgue dirás.</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l part="M">Pues fisgue dije.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="F" n="820">Acaba.	</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l n="821">	Diré cómo a Leandro esperó Tisbe.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="822">	Sé que Píramo fue a quien esperaba.</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l n="823">	Aunque de Masinisa y Sofonisbe...</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="I">	Di Sofonisba.</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l part="F" n="824">	            ...el tono y letra es brava.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="825">	Dínosla, con que sola una vez temples,	</l>
+                  <l n="826">	y ninguna te escuches y contemples.</l>
+               </sp>
+               <stage>[Canta PERAFÁN.]</stage>
+               <stage>Soneto</stage>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l n="827" rend="indent">Si porque Sofonisba te lo manda</l>
+                  <l n="828">	contra Scipión revuelves, Masinisa,</l>
+                  <l n="829">	siguiendo las banderas y divisa</l>
+                  <l n="830">	de Aníbal, que apretando al cónsul anda,	</l>
+                  <l n="831" rend="indent">¿por qué, di, si Cartago se desmanda</l>
+                  <l n="832">	contra Scipión después, le das tal prisa,</l>
+                  <l n="833">	que apenas Sofonisba el suelo pisa</l>
+                  <l n="834">	sigura, cuando Roma la demanda?</l>
+                  <l n="835" rend="indent">Prometióme esa dama casamiento,	</l>
+                  <l n="836">	y porque la dio a Siface Cartago,</l>
+                  <l n="837">	me le muestro tan áspero y sangriento,</l>
+                  <l n="838" rend="indent">y si lo que me escribe Scipión hago,</l>
+                  <l n="839">	la falta de ella y mi desabrimiento,</l>
+                  <l n="840">	ni merece, ni pide menor pago.	</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="I" rend="indent">  		Basta. ¿Qué haremos?</l>
+               </sp>
+               <sp who="#gonzalo">
+                  <speaker>DON GONZALO</speaker>
+                  <l part="F" n="841">                  Vámonos, si mandas, 		</l>
+                  <l n="842">	de máscara y con música a las bodas.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="I">¿Con qué invención?</l>
+               </sp>
+               <sp who="#gonzalo">
+                  <speaker>DON GONZALO</speaker>
+                  <l part="F" n="843">Si por ver manos andas, </l>
+                  <l n="844">	la de gitana es la mejor de todas.</l>
+               </sp>
+               <sp who="#munyoz">
+                  <speaker>MUÑOZ</speaker>
+                  <l n="845">	Lo más llano es echarnos sendas bandas,	</l>
+                  <l n="846">	y en medio el pecho un hábito de Rodas.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l n="847">	Mas lo de Barcelona es más ligero:</l>
+                  <l n="848">	ropa de levantar, manto y sombrero.</l>
+                  <l n="849" rend="indent">Digo que es bueno. Traigan cuatro mantos.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="850">	Tres bastará que traigan y tres ropas.	</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l part="I">	¿No somos cuatro?</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="F" n="851">                          Sí, pero no tantos,</l>
+                  <l part="I">	pues yo no voy.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l part="F" n="852">	              Sepamos y ¿en qué topas?</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="853">	Iguala de ese manto ambos los cantos,</l>
+                  <l n="854">	tus hopalandas tiende o landashopas,</l>
+                  <l n="855">	y porque agora no me pidas nada, 	</l>
+                  <l n="856">	pues pedir lo que no hay para qué, enfada.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l n="857" rend="indent">Tu descontento veo, pero callo </l>
+                  <l part="I">	por no cansarte.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="F" n="858">          Heredia mío, perdona,</l>
+                  <l n="859">	que aunque solo [en tu] brazo fuerzas hallo,</l>
+                  <l n="860">	para ir do voy no he menester persona.	</l>
+                  <l n="861">	Procura como yo disimulallo,</l>
+                  <l n="862">	y en tanto, pues a fuer de Barcelona</l>
+                  <l n="863">	disfrazados estáis, partíos delante,</l>
+                  <l n="864">	que tras vosotros voy con un montante.</l>
+               </sp>
+               <stage>[Vanse HEREDIA, PERAFÁN, DON GONZALO y MUÑOZ. Queda MARCILLA.]</stage>
+            </div>
+            <div type="scene">
+               <head>Scena II</head>
+               <castList>
+                  <castItem>
+                     <role>MARCILLA</role>
+                  </castItem>
+               </castList>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="865" rend="indent">Muchas cosas llevadas con prudencia	</l>
+                  <l n="866">	muy mejor se guiaran si con furia</l>
+                  <l n="867">	lo último emprendieran de potencia,</l>
+                  <l n="868">	como Pelayo lo mostró en Asturia;</l>
+                  <l n="869">	que dañe una pequeña resistencia,</l>
+                  <l n="870">	siendo grande la pérdida y la injuria,	</l>
+                  <l n="871">	danos muy clara prueba y testimonio,</l>
+                  <l n="872">	sobre el arnés de Aquiles, Telamonio.</l>
+                  <l n="873" rend="indent">¿De qué sirvió lo que allanar pudiera,</l>
+                  <l n="874">	llevarlo por retóricas y votos,</l>
+                  <l n="875">	sino para ir después como una fiera	</l>
+                  <l n="876">	por tremedales, páramos y sotos?</l>
+                  <l n="877">	Si la famosa espada revolviera,</l>
+                  <l n="878">	que a los griegos dejó mil veces rotos,</l>
+                  <l n="879">	y aplicara sus fuerzas varoniles,</l>
+                  <l n="880">	¿perdiera el arnés trágico de Aquiles?	</l>
+                  <l n="881" rend="indent">Si con prudencia y flojedad lo llevo,</l>
+                  <l n="882">	hoy perderé mi dulce y cara prenda,</l>
+                  <l n="883">	y quizá no habrá alguno, si me atrevo,</l>
+                  <l n="884">	que me resista o que me la defienda.</l>
+                  <l n="885">	Pero si como hidalgo hacer no debo	</l>
+                  <l n="886">	cosa que al honor de ella y de él ofenda,</l>
+                  <l n="887">	¿he de perder, por complacerme, el nombre</l>
+                  <l n="888">	que me hace ser entre los hombres hombre?</l>
+                  <l n="889" rend="indent">Si a la razón tantico me sujeto,</l>
+                  <l n="890">	claro está que no haré cosa que valga,	</l>
+                  <l n="891">	pues si la he de perder por ser discreto,</l>
+                  <l n="892">	¿serelo? No. Lo que saliere, salga.</l>
+                  <l n="893">	Embisto por cumplir lo que prometo</l>
+                  <l n="894">	con mi bajel, que entre la arena y alga</l>
+                  <l n="895">	se queda, y porque tardo un hora sola,	</l>
+                  <l n="896">	¿acusa mi tardanza? Deseola.</l>
+                  <l n="897" rend="indent">Tan deseada fue como aquel día</l>
+                  <l n="898">	que dio a Semíramis Nino el gobierno,</l>
+                  <l n="899">	la cual para matalle le pedía,</l>
+                  <l n="900">	debajo de lenguaje humilde y tierno.	</l>
+                  <l n="901">	Pues esta en ver que dármela podía,</l>
+                  <l n="902">	so color de a su padre darle yerno,</l>
+                  <l n="903">	que es el metal con que lo pule y dora,</l>
+                  <l n="904">	me destruyó por no esperarme un hora.</l>
+                  <l n="905" rend="indent">¿Que no he de perseguir a quien me trata	</l>
+                  <l n="906">	con tanta ingratitud? Que la persiga.</l>
+                  <l n="907">	¡Bueno es que viva una mujer ingrata</l>
+                  <l n="908">	por miedo que de mí y de ella se diga!</l>
+                  <l n="909">	La injuria lengua y manos me desata,</l>
+                  <l n="910">	mas la razón, que a refrenar me obliga,	</l>
+                  <l n="911">	con tan vivas razones la disculpa</l>
+                  <l n="912">	que carga sobre mí toda la culpa.</l>
+                  <l n="913" rend="indent">Quiero ir do está, y no porque halle masa</l>
+                  <l n="914">	de ofender o dañarla en un cabello,</l>
+                  <l n="915">	mas, quizá, porque viendo lo que pasa	</l>
+                  <l n="916">	desataré del duro yugo el cuello.</l>
+                  <l n="917">	Muy bien sé los rincones de la casa.</l>
+                  <l n="918">	Ayúdame también para emprendello</l>
+                  <l n="919">	ver que la baraúnda y tabaola</l>
+                  <l n="920">	juntamente la ocupa y deja sola.	</l>
+                  <l n="921" rend="indent">También es hora cómoda, pues veo</l>
+                  <l n="922">	que se van poco a poco las visitas.</l>
+                  <l n="923">	¡Ah, Dios, ya puedes ver con quien peleo,</l>
+                  <l n="924">	pues el furioso viento y mar limitas,</l>
+                  <l n="925">	do sin aguja corro con el treo!	</l>
+                  <l n="926">	¿Qué gracias pienso darte hoy? Infinitas.</l>
+                  <l n="927">	Desde aquí te las doy, Señor, si acierto</l>
+                  <l n="928">	echar en breve la áncora en el puerto.</l>
+                  <l n="929" rend="indent">¡Qué ocasión tan gentil se me presenta!</l>
+                  <l n="930">	Que entre esta gente que anda, sube y baja,	</l>
+                  <l n="931">	pues no puede tenerse especial cuenta,</l>
+                  <l n="932">	quien no quiere encajarse, no se encaja:</l>
+                  <l n="933">	quiero, pues, aunque el hábito desmienta,</l>
+                  <l n="934">	entremeterme entre la gente baja.</l>
+                  <l n="935">	De los demás, pues sale doña Elvira,	</l>
+                  <l n="936">	ninguno, envuelto en verla, en otro mira.</l>
+            
+               </sp>
+               <stage>[Vase.]</stage>
+            </div>
+            <div type="scene">
+               <head>Scena III</head>
+               <castList>
+                  <castItem><role>DOÑA ELVIRA</role></castItem>
+                  <castItem><role>MARCILLA</role></castItem>
+                  <castItem><role>DOÑA INÉS</role></castItem>
+                  <castItem><role>PAJE</role></castItem>
+                  <castItem><role>DON JUAN</role></castItem>
+               </castList>
+               <stage>[Salen DOÑA ELVIRA, INÉS, DON JUAN y un PAJE.]</stage>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l n="937" rend="indent">Siendo Eufrasia nuestra amiga,</l>
+                  <l n="938">	mal nos han tratado, Inés.</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="939">	Lo bueno y de notar es </l>
+                  <l n="940">	que, tras lo que nos castiga,	</l>
+                  <l n="941">	se le deslizan los pies.</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l part="I" rend="indent">¿Y es ello?</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l part="F" n="942">	             Fiestas y bodas.</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l n="943">	De ese mal morimos todas.</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="944">	¡Ah dichoso punto y hora,</l>
+                  <l n="945">	si a lo que dices agora,	</l>
+                  <l n="946">	con quien debes te acomodas!</l>
+                  <l part="I" rend="indent">Paje, ¿qué hora dio?</l>
+               </sp>
+               <sp who="#paje">
+                  <speaker>PAJE</speaker>
+                  <l part="F" n="947">	                   Las doce.</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l n="948">	¿Parécete que es muy tarde?</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="949">	Para quien de amores arde,</l>
+                  <l n="950">	hasta que la ocasión goce,	</l>
+                  <l n="951">	seralo mientras aguarde.</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l n="952" rend="indent">¿Aguárdasla, por ventura?</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="953">	Callarlo sería cordura,</l>
+                  <l n="954">	si por dicha la esperase.</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l part="I">	¿Y si paso punto?</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l part="F" n="955">             Pase,	</l>
+                  <l n="956">	pues quien sabes me asigura.</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l n="957" rend="indent">Asigúrate ¿de qué?</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="958">	De lo que promete y creo.</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l n="959">	¿Y si te engaña el deseo?</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="960">	Pasa de crédito y fe 	</l>
+                  <l n="961">	lo que por mis ojos veo.</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="962" rend="indent">Poco a poco te descose.</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l part="I">	Y aun estoy por hablar.</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l part="F" n="963">                  Ose.</l>
+               </sp>
+               <sp who="#ines">
+                  <speaker>DOÑA INÉS</speaker>
+                  <l n="964">	¿No le consentirás que hable?</l>
+               </sp>
+               <sp who="#elvira">
+                  <speaker>DOÑA ELVIRA</speaker>
+                  <l n="965">	Serale más saludable 	</l>
+                  <l part="I">	el callar.</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l part="F" n="966">	        Basta, acabóse.</l>
+               </sp>
+               <stage>[Vanse. Sale MARCILLA.]</stage>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l n="967" rend="indent">Pues dentro de la casa otri no queda,</l>
+                  <l n="968">	ver mi mal quiero ver de qué me vale;</l>
+                  <l n="969">	que al hombre que lo sienta y verlo pueda,</l>
+                  <l n="970">	si no le da por libre, acabarale.	</l>
+                  <l n="971">	Todo este cuarto de la casa rueda,</l>
+                  <l n="972">	y al aposento de los novios sale.</l>
+                  <l n="973">	Helos do vienen. ¡Sus!, voy a esconderme</l>
+                  <l n="974">	tras su cama, a la parte que ella duerme.</l>
+                  <l n="975" rend="indent">Pero después que duerma su marido,	</l>
+                  <l n="976">	si por caso me alargo a darle un beso,</l>
+                  <l n="977">	¿serame fácilmente concedido?</l>
+                  <l n="978">	¿Cómo fácil? Negocio es de gran peso,</l>
+                  <l n="979">	que aunque muestra ser poco lo que pido,</l>
+                  <l n="980">	mucho nos da quien osa dar un beso;	</l>
+                  <l n="981">	aunque al besar se puede mostrar clara,</l>
+                  <l n="982">	claramente que el beso en beso para.</l>
+               </sp>
+               <stage>[Vase.]</stage>
+            </div>
+            <div type="scene">
+               <head>Scena IV</head>
+               <castList>
+                  <castItem>
+                     <role>SIGURA</role>
+                  </castItem>
+                  <castItem>
+                     <role>MARIDO</role>
+                  </castItem>
+               </castList>
+               <stage>[Salen SIGURA y su MARIDO.]</stage>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="983" rend="indent">Y así ocupada del miedo,</l>
+                  <l n="984">	como no me certifico</l>
+                  <l n="985">	de ello, no te lo suplico,	</l>
+                  <l n="986">	hasta atinar con el dedo</l>
+                  <l n="987">	o rastreallo tantico.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="988" rend="indent">Empacho y temor despide,</l>
+                  <l n="989">	y luego tantea y mide</l>
+                  <l n="990">	todo lo que valgo y puedo;	</l>
+                  <l n="991">	y desterrado ese miedo,</l>
+                  <l n="992">	y vistas mis fuerzas, pide.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="993" rend="indent">Honesto es lo que te pido,</l>
+                  <l n="994">	y que puedes a placer</l>
+                  <l n="995">	cumplillo. ¿Quiéreslo ver?	</l>
+                  <l n="996">	Una mujer lo hará. Dido</l>
+                  <l n="997">	lo acabó con ser mujer.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="998" rend="indent">¿Tras que me dé muerte vas?</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="999">	Muy fuera del blanco das.</l>
+                  <l n="1000">	Pido que como fue casta,	</l>
+                  <l n="1001">	a serlo te esfuerces hasta...</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l part="I">	¿Hasta?</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l part="F" n="1002">     Mañana no más.</l>
+                  <l n="1003" rend="indent">Mira el nombre de Scipión</l>
+                  <l n="1004">	cuán bien dentro España suena</l>
+                  <l n="1005">	por lo que hizo en Cartagena,	</l>
+                  <l n="1006">	que hay mil otros que lo son </l>
+                  <l n="1007">	y este es bueno a boca llena.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1008" rend="indent">Que a gloria se le atribuya</l>
+                  <l n="1009">	de que, pudiendo ver, huya</l>
+                  <l n="1010">	de una dama, ¡bien! ¿Qué hiciera,	</l>
+                  <l n="1011">	si su rostro y beldad viera</l>
+                  <l n="1012">	como yo, que veo la tuya?</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="1013" rend="indent">¿Qué? Lo que Alejandre hizo,</l>
+                  <l n="1014">	vista la mujer de Darío.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1015">	Tras presumir lo contrario,	</l>
+                  <l n="1016">	del griego me escandalizo,</l>
+                  <l n="1017">	casto, pero temerario.</l>
+                  <l n="1018" rend="indent">Mas ¿para qué el tiempo gasto?</l>
+                  <l n="1019">	Que Alejandre fuese casto,</l>
+                  <l n="1020">	fue con quien serlo debía,	</l>
+                  <l n="1021">	mas siendo tú prenda mía,</l>
+                  <l n="1022">	ni quiero serlo, ni basto.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="1023" rend="indent">Recoge un poco la rienda,</l>
+                  <l n="1024">	que si este don me concedes,</l>
+                  <l n="1025">	yo haré que mañana quedes...	</l>
+                  <l n="1026">	Y cuando te lo defienda,</l>
+                  <l n="1027">	entonces tú mesmo puedes...</l>
+                  <l n="1028" rend="indent">Hágolo, porque es decoro</l>
+                  <l n="1029">	-como aderezo y mejoro</l>
+                  <l n="1030">	el cuerpo con oro y seda-	</l>
+                  <l n="1031">	perficionarle, pues queda</l>
+                  <l n="1032">	virgen más limpio que el oro;</l>
+                  <l n="1033" rend="indent">y así, aunque del matrimonio</l>
+                  <l n="1034">	sea el fin lícito y justo,</l>
+                  <l n="1035">	dame el dilatarle gusto.	</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1036">	Quisiera ser lo que Antonio,</l>
+                  <l n="1037">	pero no soy tan robusto.</l>
+                  <l n="1038" rend="indent">Porque tus ojos y frente,</l>
+                  <l n="1039">	rasgados y transparente,</l>
+                  <l n="1040">	la proporción, el matiz	</l>
+                  <l n="1041">	de tus labrios y nariz</l>
+                  <l n="1042">	provócanme estrañamente.</l>
+                  <l n="1043" rend="indent">Y pues me las entregaste,</l>
+                  <l n="1044">	visto que son prendas mías,</l>
+                  <l n="1045">	¿qué entrañas habrá tan frías,	</l>
+                  <l n="1046">	o qué espíritu que baste,</l>
+                  <l n="1047">	a sufrir lo que desvías?</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="1048" rend="indent">¿Y si lo voté por hoy?</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1049">	¿Qué vale, si no te doy</l>
+                  <l n="1050">	licencia? ¿No ves que el voto	</l>
+                  <l n="1051">	por mi interés queda roto,</l>
+                  <l n="1052">	si eres mía y tuyo soy?</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="1053" rend="indent">Bien, pero estoy mal dispuesta.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1054">	Mala estás, como yo malo.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="1055">	Y más de lo que señalo.	</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1056">	Es enfermedad compuesta</l>
+                  <l n="1057">	de melindre y de regalo.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="1058" rend="indent">A la fe, señor, causola</l>
+                  <l n="1059">	el estruendo y tabaola,</l>
+                  <l n="1060">	el calor y la estrechura.	</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1061">	Muestra. Para calentura</l>
+                  <l n="1062">	le falta una cosa sola,</l>
+                  <l n="1063" rend="indent">y es excesivo calor.</l>
+                  <l n="1064">	En sequedad no reparo,</l>
+                  <l n="1065">	que averiguado está y claro	</l>
+                  <l n="1066">	que no puede haber humor</l>
+                  <l n="1067">	dentro un pecho tan avaro.</l>
+                  <l n="1068" rend="indent">Y quien a tal punto llega</l>
+                  <l n="1069">	de avaricia, que me niega</l>
+                  <l n="1070">	lo que me entregó a la clara,	</l>
+                  <l n="1071">	no como quiera es avara, </l>
+                  <l n="1072">	pero, en su género, ciega.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="1073" rend="indent">¿Y tú presumes de largo,</l>
+                  <l n="1074">	y al primer don que te pido</l>
+                  <l n="1075">	te muestras tan encogido?	</l>
+                  <l n="1076">	Ve, que tras no serte en cargo,</l>
+                  <l n="1077">	siento habértele pedido.</l>
+                  <l n="1078" rend="indent">Si en invierno te pidiera</l>
+                  <l n="1079">	la sazón de primavera,</l>
+                  <l n="1080">	y en la primavera el fruto	</l>
+                  <l n="1081">	que da el tiempo más enjuto...</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1082">	Fuérame cosa ligera.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="1083" rend="indent">Son palabras embaidoras,</l>
+                  <l n="1084">	con que en efeto lo doras.</l>
+                  <l n="1085">	¿A lo imposible te obligas,	</l>
+                  <l n="1086">	y de esperar te fatigas</l>
+                  <l n="1087">	lo que habrás en breves horas?</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l part="I" rend="indent">Señora...</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l part="F" n="1088">	           No me repliques,</l>
+                  <l n="1089">	haz lo que imaginas luego,</l>
+                  <l n="1090">	que pues tu lengua es de fuego,	</l>
+                  <l n="1091">	hará que le multipliques</l>
+                  <l n="1092">	si la salida le niego.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1093" rend="indent">¿Búrlaste, o hablas de veras?</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l part="I">	¿Burlar?</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l part="F" n="1094">	       Pues si perseveras,</l>
+                  <l n="1095">	¿qué fuerza tengo o poder	</l>
+                  <l n="1096">	para acabar o emprender</l>
+                  <l n="1097">	otro de lo que tú quieras?</l>
+                  <l n="1098" rend="indent">Necedad será emprendello</l>
+                  <l n="1099">	contra tu voluntad, pues,</l>
+                  <l n="1100">	no digo con dos o tres,	</l>
+                  <l n="1101">	pero con solo un cabello</l>
+                  <l n="1102">	me ataras manos y pies.</l>
+                  <l n="1103" rend="indent">Y entrémonos, que de sueño</l>
+                  <l n="1104">	más pesado estoy que un leño.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="1105">	Sí, pero ¿con qué siguro?	</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1106">	Basta. A pena de perjuro</l>
+                  <l n="1107">	mi palabra y fe te empeño.</l>
+            
+               </sp>
+               <stage>[Vanse.]</stage>
+            </div>
+            <div type="scene">
+               <head>Scena V</head>
+               <castList>
+                  <castItem>
+                     <role>EUFRASIA</role>
+                  </castItem>
+                  <castItem>
+                     <role>MARCILLA</role>
+                  </castItem>
+               </castList>
+               <stage>[Sale EUFRASIA.]</stage>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="1108" rend="indent">Digo que van flojamente</l>
+                  <l n="1109">	a la batalla amorosa,</l>
+                  <l n="1110">	pues ni ella espera, ni él osa.	</l>
+                  <l n="1111">	Quizá a estar como otro a diente,</l>
+                  <l n="1112">	fuera diferente cosa.</l>
+                  <l n="1113" rend="indent">¡Ah!, con qué desasosiego</l>
+                  <l n="1114">	corre un apetito ciego</l>
+                  <l n="1115">	tras mil cosas, que en haberlas,	</l>
+                  <l n="1116">	si eran orientales perlas,</l>
+                  <l n="1117"> 	a no serlo vienen luego.</l>
+                  <l n="1118" rend="indent">Si do esperamos regalo</l>
+                  <l n="1119">	sucede luego un desdén,</l>
+                  <l n="1120">	cuando por caso me den	</l>
+                  <l n="1121">	mis padres a don Gonzalo</l>
+                  <l n="1122">	¿parecerémonos bien?</l>
+                  <l n="1123" rend="indent">Sí, pues por lo que en él veo</l>
+                  <l n="1124">	diferente de otros, creo</l>
+                  <l n="1125">	que en el postrer punto y hora,	</l>
+                  <l n="1126">	como en otros empeora,</l>
+                  <l n="1127">	terná más fuerza el deseo.</l>
+                  <l n="1128" rend="indent">Pero entre tanto, acechemos:</l>
+                  <l n="1129">	maldad es, yo lo confieso,</l>
+                  <l n="1130">	aunque por venirme avieso	</l>
+                  <l n="1131">	solo siento que hace estremos</l>
+                  <l n="1132">	el novio, por darle un beso.</l>
+                  <l n="1133" rend="indent">Triste novio, pero guay</l>
+                  <l n="1134">	de ella, que en él fuerzas hay,</l>
+                  <l n="1135">	por más que resista y parle,	</l>
+                  <l n="1136">	para dársele y tomarle,</l>
+                  <l part="I">	si se le quiere dar.</l>
+               </sp>
+               <sp who="#marcilla">
+                  <speaker>MARCILLA</speaker>
+                  <l part="F" n="1137">
+                     <stage>[Dentro.]</stage>              ¡Ay!           
+            </l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="1138" rend="indent">¡Qué suspiro tan profundo!</l>
+                  <l n="1139">	Si con su guadaña y hoz</l>
+                  <l n="1140">	Atropos lo más feroz	</l>
+                  <l n="1141">	desarraigara del mundo,</l>
+                  <l n="1142">	¿formara el aire tal voz?</l>
+                  <l n="1143" rend="indent">El cabello se me eriza,</l>
+                  <l n="1144">	y de color de ceniza</l>
+                  <l n="1145">	estoy, y estará quien mira,	</l>
+                  <l n="1146">	que quien de esta arte suspira,</l>
+                  <l n="1147">	si ya no es muerto, agoniza.</l>
+                  <l n="1148" rend="indent">¿Qué espero o en qué reparo?</l>
+                  <l n="1149">	Que si esto a saberlo asoma,</l>
+                  <l n="1150">	y en estos pasos me toma,	</l>
+                  <l n="1151">	hará de mí el viejo avaro</l>
+                  <l n="1152">	lo que hizo Nerón de Roma.</l>
+                  <l n="1153" rend="indent">Ir, pues, quiero a mi aposento,</l>
+                  <l n="1154">	y de acechar me arrepiento.</l>
+                  <l n="1155">	Mas de temor y congoja,	</l>
+                  <l n="1156">	tan rendida estoy y floja,</l>
+                  <l n="1157">	que me faltan pies y aliento.</l>
+            
+               </sp>
+               <stage>[Vase.]</stage>
+            </div>				
+            </div>
+         <div type="act">
+            <head>Auto IV</head>
+				        <div type="scene">
+               <head>Scena I</head>
+				
+				           <castList>
+				              <castItem>
+				                 <role>MARIDO</role>
+				              </castItem>
+				              <castItem>
+				                 <role>SIGURA</role>
+				              </castItem>
+				           </castList>
+               <stage>[Salen SIGURA y su MARIDO.]</stage>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1158" rend="indent">A no pretender que eres</l>
+                  <l n="1159">	tan diferente en obras y costumbres</l>
+                  <l n="1160">	de las otras mujeres</l>
+                  <l n="1161">		que puedes darnos lumbre,</l>
+                  <l n="1162">	diérame este negocio pesadumbre;</l>
+                  <l n="1163" rend="indent">pero quien de ver echa</l>
+                  <l n="1164">	tu vida, que jamás desmintió en cosa,</l>
+                  <l n="1165">	cualquier sombra o sospecha	</l>
+                  <l n="1166">	que tenga escandalosa</l>
+                  <l n="1167">	despide, y despidiéndola, reposa.</l>
+                  <l n="1168" rend="indent">Aunque quiero, con todo,</l>
+                  <l n="1169">	ya que la muerte se divulgue y sepa,</l>
+                  <l n="1170">	que no se entienda el modo;	</l>
+                  <l n="1171">	pues corta el vulgo y trepa,</l>
+                  <l n="1172">	y hace que, donde no hay malicia, quepa.</l>
+                  <l n="1173" rend="indent">No dirá lo que pasa</l>
+                  <l n="1174">	quien viere que Marcilla te ha querido,</l>
+                  <l n="1175">	y que muere en mi casa:	</l>
+                  <l n="1176">	por eso abre el oído,</l>
+                  <l n="1177">	y no muevas, sacándole, ruido.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="1178" rend="indent">Señor, como lo mandes.</l>
+                  <l n="1179">	Mira bien que la noche es breve y corta,</l>
+                  <l n="1180">	y en estos casos grandes	</l>
+                  <l n="1181">	la diligencia importa.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1182">	Verdad es, mas sosiégate y reporta.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="1183" rend="indent">Todo está libre y quedo.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1184">	Ea, saquémosle. Pero yo solo,</l>
+                  <l n="1185">	como lo ves, no puedo.	</l>
+                  <l n="1186">	Sostén, mientras le arbolo.</l>
+                  <l n="1187">	Pero que tú le tengas, ¿mereciolo?</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="1188" rend="indent">No apuntes, señor, eso.</l>
+                  <l n="1189">	Basta que, porque a ti y a mí nos cuadre,</l>
+                  <l n="1190">	nos partamos el peso.	</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1191">	Aquí duerme su padre.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="1192">	¡Pues sus!, recójale su antigua madre.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1193" rend="indent">Ya que se queda agora</l>
+                  <l n="1194">	do entenderán en darle sepultura,</l>
+                  <l n="1195">	volvámonos, señora,	</l>
+                  <l n="1196">	que amanece, y procura</l>
+                  <l n="1197">	cubrir lo que la noche encubre oscura.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="1198" rend="indent">Paso, no hables palabra,</l>
+                  <l n="1199">	que las ventanas de su padre siento.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1200">	Pues antes que las abra,	</l>
+                  <l n="1201">	vámonos. Prisa y tiento.</l>
+                  <l n="1202">	Recoge de una vez huelgo y aliento.</l>
+               </sp>
+               <stage>[Vanse.]</stage>
+            </div>
+            <div type="scene">
+               <head>Scena II</head>
+               <castList>
+                  <castItem>
+                     <role>PADRE DE MARCILLA</role>
+                  </castItem>
+                  <castItem>
+                     <role>MUÑOZ</role>
+                  </castItem>
+                  <castItem>
+                     <role>PERAFÁN</role>
+                  </castItem>
+                  <castItem>
+                     <role>DON GONZALO</role>
+                  </castItem>
+                  <castItem>
+                     <role>HEREDIA</role>
+                  </castItem>
+               </castList>
+               <stage>[Salen el PADRE DE MARCILLA y PERAFÁN.]</stage>
+               <sp who="#padre">
+                  <speaker>PADRE</speaker>
+                  <l part="I" rend="indent">¿Que solo se partió, Perafán?   		</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l part="F" n="1203">                        Solo.</l>
+               </sp>
+               <sp who="#padre">
+                  <speaker>PADRE</speaker>
+                  <l n="1204">	¡Jesús! Espántome que no haya vuelto.</l>
+                  <l part="I">	¿Y a Heredia le encubrió el por qué?</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l part="F" n="1205">                            Encubriólo	</l>
+                  <l n="1206">	por ir sin él do fue más libre y suelto.</l>
+                  <l part="I">Pero, señor...</l>
+               </sp>
+               <sp who="#padre">
+                  <speaker>PADRE</speaker>
+                  <l part="M">¿Qué dices?</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l part="M">Helo.</l>
+               </sp>
+               <sp who="#padre">
+                  <speaker>PADRE</speaker>
+                  <l part="F" n="1207">¿Dólo?</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l n="1208">	¿No lo ves con su propio manto envuelto?</l>
+               </sp>
+               <sp who="#padre">
+                  <speaker>PADRE</speaker>
+                  <l n="1209">	Corre, ve, Perafán, que tras ti bajo.</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l part="I">	¡Señor, señor!</l>
+               </sp>
+               <sp who="#padre">
+                  <speaker>PADRE</speaker>
+                  <l part="F" n="1210">          Quedito, habla más bajo.	</l>
+               </sp>
+               <sp who="#perafan">
+                  <speaker>PERAFÁN</speaker>
+                  <l n="1211" rend="indent">Pero salga mi voz amarga y rompa</l>
+                  <l n="1212">	las entrañas durísimas de piedra,</l>
+                  <l n="1213">	pues la muerte trocó en luto su pompa,</l>
+                  <l n="1214">	y en fúnebre ciprés la verde hiedra.</l>
+                  <l n="1215">	¿Que puede ser que ataje y que interrompa	</l>
+                  <l n="1216">	el curso, cuando más florece y medra</l>
+                  <l n="1217">	un mozo, en lo más dulce de la vida,</l>
+                  <l n="1218">	al parecer sin golpe y sin herida?</l>
+                  <l n="1219" rend="indent">Empresas de ella son, pero tiranas,</l>
+                  <l n="1220">	pues contra toda ley el brazo tiende,	</l>
+                  <l n="1221">	siendo su natural presa las canas,</l>
+                  <l n="1222">	donde naturaleza más se ofende.</l>
+                  <l n="1223">	Muerte, si por mostrarte justa allanas</l>
+                  <l n="1224">	cualquier edad y condición, entiende</l>
+                  <l n="1225">	que aunque al pobre le iguales con el rico,	</l>
+                  <l n="1226">	yerras en acortar la edad tantico.</l>
+                  <l n="1227" rend="indent">Todo lo que debajo el cielo nace</l>
+                  <l n="1228">	sujeto es a morir, pero no dudo</l>
+                  <l n="1229">	de que a naturaleza le desplace</l>
+                  <l n="1230">	ver que no llegue al término que pudo;	</l>
+                  <l n="1231">	y así, como el discurso entero trace,</l>
+                  <l n="1232">	y quiera que al nacer nazca desnudo,</l>
+                  <l n="1233">	puesto que al rico iguale con el pobre,</l>
+                  <l n="1234">	no quiere que del tiempo falte o sobre.</l>
+                  <l n="1235" rend="indent">Asaltas una edad, muerte enemiga,	</l>
+                  <l n="1236">	que hará ventaja a todas las edades.</l>
+                  <l n="1237">	De las bocas del Nilo nos lo diga</l>
+                  <l n="1238">	hasta el famoso término de Gades</l>
+                  <l n="1239">	la morisma, con quien has hecho liga;</l>
+                  <l n="1240">	y no te escandalices ni te enfades,	</l>
+                  <l n="1241">	que así como de término careces,</l>
+                  <l n="1242">	al bárbaro sin fe le favoreces.</l>
+                  <l n="1243" rend="indent">Pero consuélame en parte y alivia</l>
+                  <l n="1244">	que esa fe que le muestras y te muestra,</l>
+                  <l n="1245">	si es que puede haber fe remisa y tibia,	</l>
+                  <l n="1246">	como es, siendo entre bárbaros, la vuestra,</l>
+                  <l n="1247">	no borrarán en Mauritania y Libia</l>
+                  <l n="1248">	lo que hizo su famoso brazo y diestra:</l>
+                  <l n="1249">	pues lo que tú resuelves en ceniza,</l>
+                  <l n="1250">	la fama lo reviva y eterniza.	</l>
+               </sp>
+               <stage>[Salen HEREDIA, MUÑOZ y DON GONZALO.]</stage>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l part="I" rend="indent">¿Qué daño es el que oigo?</l>
+               </sp>
+               <sp who="#padre">
+                  <speaker>PADRE</speaker>
+                  <l part="F" n="1251">Irreparable.</l>
+                  <l n="1252">	¿Echas de ver tu buen amigo, Heredia?</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l part="I">	¡Jesús! ¿Quién le mató?</l>
+               </sp>
+               <sp who="#padre">
+                  <speaker>PADRE</speaker>
+                  <l part="F" n="1253">	                    ¡Haz que nos hable!</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l n="1254">	¡Si por milagro Dios no lo remedia!</l>
+                  <l n="1255">	Pero ¿que un hombre tan sagaz y afable,	</l>
+                  <l n="1256">	que dio de la menor cosa la media,</l>
+                  <l n="1257">	le maten, y que muera de tal suerte</l>
+                  <l n="1258">	que no se alcance rastro de su muerte?</l>
+                  <l n="1259" rend="indent">¿Quién duda? Por envidia le habrán muerto;</l>
+                  <l n="1260">	pero por esta espada que me ciño,	</l>
+                  <l n="1261">	de no ceñirla, visto el hecho cierto,</l>
+                  <l n="1262">	si en sangre del contrario no la tiño;</l>
+                  <l n="1263">	y cuando no, echaré un bando abierto,</l>
+                  <l n="1264">	que al mozo le comprenda, viejo y niño,</l>
+                  <l n="1265">	porque en tan graves casos los estremos	</l>
+                  <l n="1266">	han de seguirse, y no lo que solemos.</l>
+               </sp>
+               <sp who="#gonzalo">
+                  <speaker>DON GONZALO</speaker>
+                  <l n="1267" rend="indent">Lo mesmo te ofrecemos, señor tío;</l>
+                  <l n="1268">	dispón y mándanos a la venganza.</l>
+               </sp>
+               <sp who="#padre">
+                  <speaker>PADRE</speaker>
+                  <l n="1269">	Aunque de vuestros ánimos confío,</l>
+                  <l n="1270">	y veo hasta dó llega vuestra lanza,	</l>
+                  <l n="1271">	no tengo tan poquito aliento y brío,</l>
+                  <l n="1272">	aunque los años y vejez me alcanza,</l>
+                  <l n="1273">	que quiera de las armas descargarme,</l>
+                  <l n="1274">	y, a los que me pretenden valer, arme.</l>
+                  <l n="1275" rend="indent">Entrese agora el cuerpo, que en la calle	</l>
+                  <l n="1276">	sin reverencia y cerimonia yace,</l>
+                  <l n="1277">	y Heredia díganos, para enterralle,</l>
+                  <l n="1278">	lo que Italia en tal caso ordena y hace.</l>
+                  <l n="1279">	Después, o se publique o que se calle,</l>
+                  <l n="1280">	lo que más nos conviene y satisface	</l>
+                  <l n="1281">	acerca la venganza, si nos sobra</l>
+                  <l n="1282">	del día un punto, se porná por obra.</l>
+               </sp>
+               <sp who="#munyoz">
+                  <speaker>MUÑOZ</speaker>
+                  <l n="1283" rend="indent">Pero llevémosle luego a San Pedro,</l>
+                  <l n="1284">	que yo, cuando la sangre y furor arde,</l>
+                  <l n="1285">	hiélome, si al querer cerrar me arriedro,	</l>
+                  <l n="1286">	y si me voy tras ella, Dios nos guarde;</l>
+                  <l n="1287">	digo que como niño me desmedro,</l>
+                  <l n="1288">	cuando lo que le dan, se lo dan tarde.</l>
+                  <l n="1289">	Si por hacer las honras del difunto</l>
+                  <l n="1290">	dilatas lo que importa un solo punto...	</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l n="1291" rend="indent">Éntrese en casa el cuerpo todavía,</l>
+                  <l n="1292">	que aunque Muñoz acierta en lo que dice,</l>
+                  <l n="1293">	y a mí por el amor que me tenía</l>
+                  <l n="1294">	y liga que en Italia con él hice,</l>
+                  <l n="1295">	me obligue a no perder parte del día,	</l>
+                  <l n="1296">	porque no suene mal y escandalice,</l>
+                  <l n="1297">	armado, pues lo tuvo por costumbre,</l>
+                  <l n="1298">	acompáñenle clérigos y lumbre.</l>
+               </sp>
+               <stage>[Vanse.]</stage>
+            </div>
+            <div type="scene">
+               <head>Scena III</head>
+               <castList>
+                  <castItem>
+                     <role>MARIDO</role>
+                  </castItem>
+                  <castItem>
+                     <role>[LA IMAGINACIÓN]</role>
+                  </castItem>
+                  <castItem>
+                     <role>SIGURA</role>
+                  </castItem>
+               </castList>
+               <stage>[Salen SIGURA y el MARIDO.]</stage>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1299" rend="indent">Con el cuerpo se retira</l>
+                  <l n="1300">	quien, si lo que ha de ver echa,	</l>
+                  <l n="1301">	me tomará cuenta estrecha;</l>
+                  <l n="1302">	porque estándome a la mira,</l>
+                  <l n="1303">	¿qué puedo engendrar? Sospecha.</l>
+                  <l n="1304" rend="indent">Antes que el silencio parle,</l>
+                  <l n="1305">	el pésame voy a darle.	</l>
+                  <l n="1306">	Tú en este medio reposa,</l>
+                  <l n="1307">	y no imagines de él cosa</l>
+                  <l n="1308">	que te provoque a mentarle.</l>
+               </sp>
+               <stage>[Vase el MARIDO.]</stage>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l n="1309" rend="indent">Ya no más, pues no hay remedio,</l>
+                  <l n="1310">	¿sirve de algo la esperanza?	</l>
+                  <l n="1311">	No, mi fortuna me alcanza,</l>
+                  <l n="1312">	y lo que está de por medio</l>
+                  <l n="1313">	me gana lanza por lanza;</l>
+                  <l n="1314" rend="indent">que aunque en la silla me tuerza,</l>
+                  <l n="1315">	sigún se apaña y esfuerza, 	</l>
+                  <l n="1316">	doblarme tan poco vale,</l>
+                  <l n="1317">	que las veces que entra y sale</l>
+                  <l n="1318">	me quita el vigor y fuerza.</l>
+                  <l n="1319" rend="indent">¿Rendirme en la escaramuza?</l>
+                  <l n="1320">	Nadie rendir se le debe,	</l>
+                  <l n="1321">	pues el que no se le atreve,</l>
+                  <l n="1322">	cuando las manos le cruza,</l>
+                  <l n="1323">	a mayor rigor la mueve.</l>
+                  <l n="1324" rend="indent">No, no desesperación.</l>
+                  <l n="1325">	Ríndase Porcia y Catón,	</l>
+                  <l n="1326">	que yo fuerzas tengo, y puedo,</l>
+                  <l n="1327">	no dando lugar al miedo,</l>
+                  <l n="1328">	ser más de lo que ellos son.</l>
+                  <l n="1329" rend="indent"> A más que una vida amarga,</l>
+                  <l n="1330">	como la que siento, danos	</l>
+                  <l n="1331">	indicios claros y llanos</l>
+                  <l n="1332">	de no poder ser tan larga</l>
+                  <l n="1333">	que haya menester las manos;</l>
+                  <l n="1334" rend="indent">y pues no me da lugar</l>
+                  <l n="1335">	para haberlas de emplear,	</l>
+                  <l n="1336">	lo que a ser la que soy debo,</l>
+                  <l n="1337">	gusto en ver que la que llevo,</l>
+                  <l n="1338">	si es vida, me ha de acabar;</l>
+                  <l n="1339" rend="indent">y alíviame ver que a toda </l>
+                  <l n="1340">	España y Europa acierte	</l>
+                  <l n="1341">	la desgracia de esta muerte,</l>
+                  <l n="1342">	pues que la desacomoda</l>
+                  <l n="1343">	de lo que le cupo en suerte;</l>
+                  <l n="1344" rend="indent">que aunque en los sucesos buenos</l>
+                  <l n="1345">	no miramos los ajenos,	</l>
+                  <l n="1346">	cualquiera pasión y mal,</l>
+                  <l n="1347">	si es común y general,</l>
+                  <l n="1348">	viene a parecernos menos.</l>
+                  <l n="1349" rend="indent">Llore, pues, conmigo, llore</l>
+                  <l n="1350">	España, o díganos cómo	</l>
+                  <l n="1351">	halle hombre de tan gran tomo</l>
+                  <l n="1352">	que, como doraba, dore</l>
+                  <l n="1353">	esta edad grave de plomo.</l>
+                  <l n="1354" rend="indent">¡Ay, Marcilla, y a qué estremo</l>
+                  <l n="1355">	llego! Piénsalo, Marcilla,	</l>
+                  <l n="1356">	que a mostrármele amarilla,</l>
+                  <l n="1357">	visto el hado que le temo,</l>
+                  <l n="1358">	volárame de la silla!</l>
+                  <l n="1359" rend="indent">En lo que debo restribo,</l>
+                  <l n="1360">	y tanto aliento recibo	</l>
+                  <l n="1361">	con tu singular ejemplo,</l>
+                  <l n="1362">	que junto su furia templo</l>
+                  <l n="1363">	y a la muerte me apercibo.</l>
+                  <l n="1364" rend="indent">Sal de esta escura prisión,</l>
+                  <l n="1365">	alma. Di, ¿quién te lo veda?,	</l>
+                  <l n="1366">	que si me dices que pueda,</l>
+                  <l n="1367">	lo que está en el corazón,</l>
+                  <l n="1368">	por darte más pena queda.</l>
+                  <l n="1369" rend="indent">Pero ¿qué voces son estas</l>
+                  <l n="1370">	tan amargas y funestas?	</l>
+                  <l n="1371">	¿Son las de su enterramiento?</l>
+                  <l n="1372">	Para acabarme el tormento,</l>
+                  <l n="1373">	¡sus! las mesas ya están puestas.</l>
+                  <l n="1374" rend="indent">¡Y que mueres por un beso,</l>
+                  <l n="1375">	cosa tan ligera, y quien	</l>
+                  <l n="1376">	no te le da lo haga bien,</l>
+                  <l n="1377">	paréceme grande exceso</l>
+                  <l n="1378">	de ingratitud y desdén!</l>
+                  <l n="1379" rend="indent">La resistencia y contraste,</l>
+                  <l n="1380">	si es porque no altere y gaste	</l>
+                  <l n="1381">	su limpieza y su renombre,</l>
+                  <l n="1382">	turó mientras eras hombre.</l>
+                  <l n="1383">	Mas, pues ya no lo eres, baste.</l>
+                  <l n="1384" rend="indent">A dártele me resuelvo.</l>
+                  <l n="1385">	No el mesmo, que no ha lugar,	</l>
+                  <l n="1386">	y así el que te pienso dar</l>
+                  <l n="1387">	es tal que a dártele vuelvo</l>
+                  <l n="1388">	en la iglesia, ante el altar.</l>
+                  <l n="1389" rend="indent">Pero ¿qué digo? Entre tanto,</l>
+                  <l n="1390">	¿quién me ha traído aquí el manto?	</l>
+               </sp>
+               <stage>[Sale LA IMAGINACIÓN.]</stage>
+               <sp who="#imaginacion">
+                  <speaker>IMAGINACIÓN</speaker>
+                  <l part="I">Yo, Sigura.</l>
+               </sp>
+               <sp who="#sigura">
+                  <speaker>SIGURA</speaker>
+                  <l part="F" n="1391">       Veo una sombra,</l>
+                  <l n="1392">	pero una luz, que me nombra,</l>
+                  <l n="1393">	y no me altero ni espanto.</l>
+                  <l n="1394" rend="indent">Sin duda es visión de paz.</l>
+                  <l n="1395">	Si eres a dicha Marcilla,	</l>
+                  <l n="1396">	responde una palabrilla.</l>
+                  <l n="1397">	Hiciéraslo, a ser capaz</l>
+                  <l n="1398">	la que tarde se te humilla.</l>
+                  <l n="1399" rend="indent">Si hablar no te viene a pelo,</l>
+                  <l n="1400">	lo que pienso hacer, ¿harélo?	</l>
+                  <l n="1401">	Desviáraslo a ser malo,</l>
+                  <l n="1402">	Pero, pues siento un regalo</l>
+                  <l n="1403">	dentro del alma, emprenderelo.</l>
+            
+               </sp>
+               <stage>[Vanse.]</stage>
+            </div>
+            <div type="scene">
+               <head>Scena IV</head>
+               <castList>
+                  <castItem>
+                     <role>EUFRASIA</role>
+                  </castItem>
+               </castList>
+               <stage>[Sale EUFRASIA.]</stage>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l n="1404" rend="indent">Ni acierto a ponerme broche</l>
+                  <l n="1405">	ni a componerme el cabello,	</l>
+                  <l n="1406">	revolviendo a lo de anoche.</l>
+                  <l n="1407">	Pero, ¿quién pasa por ello,</l>
+                  <l n="1408">	que se componga y abroche?</l>
+                  <l n="1409" rend="indent">Dicen que una pena afloja</l>
+                  <l n="1410">	ver la alba dorada y roja.	</l>
+                  <l n="1411">	No sé mi basca y desmayos</l>
+                  <l n="1412">	es tal que el sol con sus rayos</l>
+                  <l n="1413">	acrecienta mi congoja.</l>
+                  <l n="1414" rend="indent">¡Que esté el aposento abierto</l>
+                  <l n="1415">	de los novios, y ellos fuera,	</l>
+                  <l n="1416">	paréceme desconcierto!</l>
+                  <l n="1417">	Yo, a lo menos, si lo fuera,</l>
+                  <l n="1418">	estorbáralo, por cierto.</l>
+                  <l n="1419" rend="indent">¡Jesús! ¿Quién madruga, si ama,</l>
+                  <l n="1420">	teniendo al lado una dama	</l>
+                  <l n="1421">	tan discreta, hermosa y niña,</l>
+                  <l n="1422">	si no es quien tan mal se aliña,</l>
+                  <l n="1423">	como lo muestra la cama?</l>
+                  <l n="1424" rend="indent">Apostaré que ha dejado,</l>
+                  <l n="1425">	si se ha visto hoy al espejo,	</l>
+                  <l n="1426">	su descontento y enfado.</l>
+                  <l n="1427">	Pero pues hallo aparejo,</l>
+                  <l n="1428">	quiero aliñarme el trenzado,</l>
+                  <l n="1429" rend="indent">que si una vez se embaraza, </l>
+                  <l n="1430">	apenas se desenlaza	</l>
+                  <l n="1431">	sin romperse algunas hebras.</l>
+                  <l n="1432">	Tente, espejo, que te quiebras.</l>
+               </sp>
+               <sp who=" #espejo">
+                  <speaker>ESPEJO</speaker>
+                  <l part="I">Tris.</l>
+               </sp>
+               <sp who="#eufrasia">
+                  <speaker>EUFRASIA</speaker>
+                  <l part="F" n="1433">Rompiose noramaza.</l>
+                  <l n="1434" rend="indent">Soldad, pues, si presumís,</l>
+                  <l n="1435">	mil piezas, que tantas hay.	</l>
+                  <l n="1436">	¡Ah, mis…! ¡Basta decir «mis»!</l>
+                  <l n="1437">	Digo que si anoche el «ay»</l>
+                  <l n="1438">	me alteró, me altera el «tris». </l>
+                  <l n="1439" rend="indent">Ya de este punto Sigura</l>
+                  <l n="1440">	no verá más su figura,	</l>
+                  <l n="1441">	porque si el espejo roto</l>
+                  <l n="1442">	llegó a su término coto</l>
+                  <l n="1443">	la dueña de él, por ventura,</l>
+                  <l n="1444" rend="indent">que ha de ser tanto el enojo,</l>
+                  <l n="1445">	por quien niña se le dio,	</l>
+                  <l n="1446">	que quisiera haberme yo</l>
+                  <l n="1447">	más presto rompido un ojo</l>
+                  <l n="1448">	que ser la que le rompió.</l>
+                  <l n="1449" rend="indent">¡Mas diréis que Teruel se hunda</l>
+                  <l n="1450">	a voces y baraúnda!	</l>
+                  <l n="1451">	Quiérome asomar y ver,</l>
+                  <l n="1452">	de los galanes de ayer,</l>
+                  <l n="1453">	quién y sobre qué la funda.</l>
+            
+               </sp>
+               <stage>[Vase.]</stage>
+            </div>
+            <div type="scene">
+               <head>Scena V</head>
+               <castList>
+                  <castItem>
+                     <role>DON JUAN</role>
+                  </castItem>
+                  <castItem>
+                     <role>HEREDIA</role>
+                  </castItem>
+                  <castItem>
+                     <role>MARIDO DE SIGURA</role>
+                  </castItem>
+                  <castItem>
+                     <role>GOBERNADOR DE TERUEL</role>
+                  </castItem>
+                  <castItem>
+                     <role>MUÑOZ</role>
+                  </castItem>
+                  <castItem>
+                     <role>[LA FAMA]</role>
+                  </castItem>
+                  <castItem>
+                     <role>CONDE</role>
+                  </castItem>
+               </castList>
+               <stage>[Salen DON JUAN, SIGURA, el MARIDO DE SIGURA, MUÑOZ, HEREDIA, CONDE, GOBERNADOR DE TERUEL.]</stage>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="1454" rend="indent">¿Es tu mujer la que le ha dado el beso?</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1455">	Sí. ¿Qué es lo que pretendes hacer, primo?	</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="1456">	Si esta injuria no sientes, yo la peso,</l>
+                  <l n="1457">	que, más que a todo el mundo, tu honra estimo.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1458">	Puesto que de coraje pierdo el seso,</l>
+                  <l n="1459">	con la razón la cólera reprimo.</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="1460">	¿La razón me dirás que se atraviesa	</l>
+                  <l n="1461">	entre el beso y el hombre que la besa?</l>
+                  <l n="1462" rend="indent">Cobardía la llama, y no cordura,</l>
+                  <l part="I">	sufrir una...</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l part="F" n="1463">        Quedito, no des voces.</l>
+                  <l n="1464">	Mira Muñoz, que es deudo de Sigura.</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="1465">	¡Dáseme por Marcillas y Muñoces!	</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1466">	Quien mucho habla a mucho se aventura.</l>
+                  <l n="1467">	Detente, así tus caras prendas goces.</l>
+                  <l n="1468">	Verás que ni Marcilla me hizo tuerto,</l>
+                  <l n="1469">	ni Sigura besando un hombre muerto.</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="1470" rend="indent">Vete, que de mi casa degeneras,	</l>
+                  <l n="1471">	hombre que no mereces solo el nombre.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1472">	Yo lo soy, refrenándome de veras,</l>
+                  <l n="1473">	tú, con enojo, dejas de ser hombre.</l>
+               </sp>
+               <sp who="#juan">
+                  <speaker>DON JUAN</speaker>
+                  <l n="1474">	¡Por el sagrado hábito y veneras,</l>
+                  <l n="1475">	que cuando tú me nombres o te nombre,	</l>
+                  <l n="1476">	de hoy más, mi deudo...! Basta, yo me parto.</l>
+               </sp>
+               <stage>[Vase DON JUAN.]</stage>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1477">	Vete, que a todo el mundo tienes harto.</l>
+               </sp>
+               <sp who="#munyoz">
+                  <speaker>MUÑOZ</speaker>
+                  <l part="I" rend="indent">¿Qué habla don Juan?</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l part="F" n="1478">                  Lo que un furioso y loco.</l>
+               </sp>
+               <sp who="#munyoz">
+                  <speaker>MUÑOZ</speaker>
+                  <l n="1479">	Pues si con su locura y furor rabia,</l>
+                  <l n="1480">	modérese en mis cosas, que no toco	</l>
+                  <l part="I">	las suyas.</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l part="F" n="1481">     Un furioso a nadie agravia.</l>
+                  <l n="1482">	Mas para ver que, si habla, importa poco,</l>
+                  <l n="1483">	de una dama sagaz, discreta, sabia,</l>
+                  <l n="1484">	honesta sobre todo y recogida,</l>
+                  <l n="1485">	oye el discurso y tela de su vida.	</l>
+                  <l n="1486" rend="indent">Pasada ya la siesta, anoche fuime</l>
+                  <l n="1487">	a la cama y Sigura, antes que entrase,</l>
+                  <l n="1488">	viendo cuán mal en ella se reprime</l>
+                  <l n="1489">	quien la ocasión por los cabellos ase,</l>
+                  <l n="1490">	forzome -mas ¿qué digo?, persuadime,	</l>
+                  <l n="1491">	que no hubo quien mi espíritu forzase-</l>
+                  <l n="1492">	a morir de hambre, viendo al ojo el fruto,</l>
+                  <l n="1493">	y tener dentro la agua el labrio enjuto.</l>
+                  <l n="1494" rend="indent">Digo que me rogó que hasta hoy quisiese</l>
+                  <l n="1495">	dilatar lo que luego haber pudiera.	</l>
+                  <l n="1496">	Rogomelo y salió con su interese,</l>
+                  <l n="1497">	que era quedar, como lo queda, entera.</l>
+                  <l n="1498">	Si merece castigo y que le pese</l>
+                  <l n="1499">	quien lo siguro da por lo que espera</l>
+                  <l n="1500">	merézcole, y no hay dolor más recio	</l>
+                  <l n="1501">	que perder, lo que tiene hombre, por necio.</l>
+                  <l n="1502" rend="indent">Para ver que por tal quedase, baste</l>
+                  <l n="1503">	saber que la perdí por complacerla.</l>
+                  <l n="1504">	Diome un enojo este áspero contraste,</l>
+                  <l n="1505">	y un sueño luego en qué soñé perderla.	</l>
+                  <l n="1506">	Pareciome de un fino y rico engaste</l>
+                  <l n="1507">	caérseme entre manos una perla,</l>
+                  <l n="1508">	y ver donde cayó escrita una M,</l>
+                  <l n="1509">	y así con la congoja recordeme.</l>
+                  <l n="1510" rend="indent">Vi a Sigura en la cama sin aliento,	</l>
+                  <l n="1511">	y a Marcilla sin alma vi en el suelo.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l part="I">	¿Cómo así, dínoslo?</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l part="F" n="1512">	                 Como lo cuento.</l>
+               </sp>
+               <sp who="#conde">
+                  <speaker>CONDE</speaker>
+                  <l part="I">	¡Pues Marcilla! ¿A qué fin?</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l part="F" n="1513">	                       Oye, y direlo.</l>
+                  <l n="1514">	Siete años antes de este casamiento,</l>
+                  <l n="1515">	siendo Sigura niña y él mozuelo,	</l>
+                  <l n="1516">	se quisieron casar, pero estorbolo</l>
+                  <l n="1517">	mi suegro. Fue la causa interés solo.</l>
+                  <l n="1518" rend="indent">Viendo lo que uno pierde por ser pobre,</l>
+                  <l n="1519">	al rey de Túnez le hizo tantos daños,</l>
+                  <l n="1520">	que para que lo que ha perdido cobre,	</l>
+                  <l n="1521">	se habrá de unir con príncipes estraños.</l>
+                  <l n="1522">	Todo este tiempo, sin que falte o sobre</l>
+                  <l n="1523">	punto, que fue por número siete años,</l>
+                  <l n="1524">	Sigura le juró que esperaría</l>
+                  <l n="1525">	su venida, y perdiola por un día.	</l>
+                  <l n="1526" rend="indent">Visto que por faltar un día de plazo,</l>
+                  <l n="1527">	viniendo apercebido con hacienda</l>
+                  <l n="1528">	con su valor ganada y por su brazo,</l>
+                  <l n="1529">	con la cual redimir creyó su prenda,</l>
+                  <l n="1530">	halló mi nuevo estorbo y embarazo.	</l>
+                  <l n="1531">	Diole un furor que no hay quien le comprenda.</l>
+                  <l n="1532">	¿Qué mayor, si en mi cámara imaginas</l>
+                  <l n="1533">	verle, puesto detrás de las cortinas?</l>
+                  <l n="1534" rend="indent">Allí estuvo y, en viéndome dormido,</l>
+                  <l n="1535">	a Sigura le dijo muy quedito:	</l>
+                  <l n="1536">	«Por lo que te serví un beso te pido</l>
+                  <l n="1537">	y ese tiempo imagínale infinito».</l>
+                  <l n="1538">	Respondiole: «Si soy de mi marido	</l>
+                  <l n="1539">	y te le doy, lo que es suyo le quito.</l>
+                  <l n="1540">	Modérate con lo que fuere justo,	</l>
+                  <l n="1541">	y el premio no le pidas a tu gusto».</l>
+                  <l n="1542" rend="indent">Replicóle: «Sigura, que me muero.</l>
+                  <l n="1543">	Dame un beso». Y negándole Sigura,</l>
+                  <l n="1544">	un gran suspiro dio, que fue el postrero</l>
+                  <l n="1545">	de su desabrimiento y desventura. 	</l>
+                  <l n="1546">	Soñando lo que ya dije primero,</l>
+                  <l n="1547">	desperté acaso en esta coyuntura,</l>
+                  <l n="1548">	que Sigura, que fue parte y testigo,</l>
+                  <l n="1549">	me quería contar lo que te digo.</l>
+                  <l n="1550" rend="indent">Siéndome, pues, la cosa descubierta,	</l>
+                  <l n="1551">	después de consultarlo una gran pieza,</l>
+                  <l n="1552">	le dejamos delante de su puerta,</l>
+                  <l n="1553">	reclinada a una piedra la cabeza.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l n="1554">	¡Ah, fortuna cruel, traidora, incierta!</l>
+               </sp>
+               <sp who="#marido">
+                  <speaker>MARIDO</speaker>
+                  <l n="1555">	Oye, que la tragedia agora empieza.	</l>
+               </sp>
+               <sp who="#conde">
+                  <speaker>CONDE</speaker>
+                  <l n="1556">	¿Dirasnos que murió dándole el beso,</l>
+                  <l n="1557">	que se llevó Marcilla en la alma impreso?</l>
+                  <l n="1558" rend="indent">No, más cuando en tu cámara contemplo</l>
+                  <l n="1559">	cuán moderado fue en pedir Marcilla, </l>
+                  <l n="1560">	y a Sigura después miro en el templo,	</l>
+                  <l n="1561">	que para dar lo que pidió se humilla,</l>
+                  <l n="1562">	veo que ha de serviros por ejemplo</l>
+                  <l n="1563">	de castidad y fe pura y sencilla</l>
+                  <l n="1564">	lo que después de tantos años pide,</l>
+                  <l n="1565">	y la razón que a darle se lo impide.	</l>
+                  <l n="1566" rend="indent">Pide el beso con ansias de la muerte,</l>
+                  <l n="1567">	pero con lo que debe se refrena;</l>
+                  <l n="1568">	ella, en negarle, muestra de la suerte</l>
+                  <l n="1569">	que resiste a quien ama la que es buena.</l>
+                  <l n="1570">	Pensar después que en dársele no acierte	</l>
+                  <l n="1571">	en la iglesia, de lumbres y hombres llena,</l>
+                  <l n="1572">	es burla, porque no es beso lascivo</l>
+                  <l n="1573">	lo que pudiera, a ser Marcilla vivo.</l>
+                  <l n="1574" rend="indent">Beso fue piadoso, pero calle</l>
+                  <l n="1575">	quien no se alarga a más de lo que basto,	</l>
+                  <l n="1576">	pero con todo piense y medios halle</l>
+                  <l n="1577">	con los cuales alabe amor tan casto.</l>
+               </sp>
+               <sp who="#gobernador">
+                  <speaker>GOBERNADOR</speaker>
+                  <l n="1578">	De mármol un sepulcro, pues, se entalle</l>
+                  <l n="1579">	a entrambos, de común dinero y gasto.</l>
+               </sp>
+               <sp who="#heredia">
+                  <speaker>HEREDIA</speaker>
+                  <l n="1580">	Estraño caso. ¿Quién imaginara	</l>
+                  <l n="1581">	que los junte quien todo lo separa?</l>
+               </sp>
+               <stage>[Sale LA FAMA.]</stage>
+               <sp who="#fama">
+                  <speaker>LA FAMA</speaker>
+                  <l n="1582" rend="indent">Aunque la Parca triunfa el postrer día,</l>
+                  <l n="1583">	quien algo en vida fue, muerto seralo</l>
+                  <l n="1584">	si su valor en público señalo,</l>
+                  <l n="1585">	o descubro la falta que tenía;	</l>
+                  <l n="1586" rend="indent">y así, el que aspiró a la monarquía,</l>
+                  <l n="1587">	por el contrario, el vil Sardanapalo,</l>
+                  <l n="1588">	por bueno el uno, el otro por ser malo,</l>
+                  <l n="1589">	aunque murieron, viven todavía.</l>
+                  <l n="1590" rend="indent">Marcilla, pues, lo mesmo es hoy que ha sido,	</l>
+                  <l n="1591">	y Sigura tras él, como la nombre</l>
+                  <l n="1592">	y me prestéis atentos el oído;</l>
+                  <l n="1593" rend="indent">pero lo que jamás hice con hombre</l>
+                  <l n="1594">	hago, si lo advertís, con su marido,</l>
+                  <l n="1595">	pues siendo la que soy callo su nombre.</l>
+               </sp>
+            </div>
+            <trailer>FIN</trailer>
+         </div>
+      </body>
+   </text>
+
+</TEI>

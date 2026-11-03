@@ -1,0 +1,1 @@
+Los de CANON 60 no los tenemos todos con el marcado XML-TEI que solemos hacer, en le sentido de que, por ejemplo, los parlamentos no están codificados con el identificador del interlocutor o personaje que los dice, pero si te interesan las acotaciones miraré si están codificadas con <stage></stage>.
